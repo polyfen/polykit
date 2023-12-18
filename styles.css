@@ -1,0 +1,312 @@
+/*///////////// RESET START /////////////*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline {
+  display: inline;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*///////////// RESET END /////////////*/
+/*///////////// LAYOUT START /////////////*/
+
+.container {
+  width: calc(100% - 30px);
+  max-width: 790px;
+  margin: 0 auto;
+  padding: auto 15px;
+}
+
+.container-1080 {
+  width: calc(100% - 30px);
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+hr {
+  margin:80px auto;
+  opacity: 0.1;
+  max-width: 700px;
+}
+
+/*///////////// LAYOUT END /////////////*/
+/*///////////// TYPOGRAPHY START /////////////*/
+
+* {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: left;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.caption {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 13.33px;
+  margin-bottom: 0.5rem;
+}
+
+h1, h2, h3, h4, h5, button, a.button, a small, small, p, p a, li, p strong, p span, li strong {
+  text-rendering: geometricPrecision;
+  font-kerning: normal !important;
+}
+
+h1, h2, h3, h4, h5, button, a.button, a small, small {
+  -moz-font-feature-settings: "kern","liga","calt";
+  -ms-font-feature-settings: "kern","liga","calt";
+  -webkit-font-feature-settings: "kern","liga","calt";
+  font-feature-settings: "kern","liga","calt";
+}
+
+p, p a, li, p strong, p span, li strong, th, td {
+  -moz-font-feature-settings: "kern","liga","clig","calt";
+  -ms-font-feature-settings: "kern","liga","clig","calt";
+  -webkit-font-feature-settings: "kern","liga","clig","calt";
+  font-feature-settings: "kern","liga","clig","calt";
+}
+
+a small {
+  border-bottom: 3px dotted #7537f8;
+  padding-bottom: 5px;
+  opacity: 0.5;
+}
+
+p a {
+  border-bottom: 3px dotted #7537f8;
+  padding-bottom: 5px;
+}
+
+a:hover small, p a:hover {
+  border-bottom: 3px solid #7537f8;
+  opacity: 1;
+}
+
+ul.hanging-list, ol.hanging-list {
+  padding-left: 25px;
+}
+
+/* XS breakpoint */
+.title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+  font-size: 42px;
+  line-height: 45px;
+  font-weight: 800;
+}
+
+.heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+  font-size: 32px;
+  line-height: 37.4px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.heading-2, h6.heading-2 {
+  font-size: 26px;
+  line-height: 32.5px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
+  font-size: 23px;
+  line-height: 29px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+p, p a, li, p strong, p span, li strong, th, td {
+  font-size: 22px;
+  letter-spacing: 0.1px;
+  line-height: 1.3;
+  font-weight: 400;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+/* S breakpoint */
+@media (min-width:375px) {
+  .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+    font-size: 49px;
+    line-height: 52px;
+  }
+}
+
+/* M breakpoint */
+@media (min-width:580px) {
+}
+
+/* L breakpoint */
+@media (min-width:750px) {
+  .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+    font-size: 70.5px;
+    line-height: 76.8px;
+  }
+
+  .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  .heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.heading-2, h6.heading-2 {
+    font-size: 35px;
+    line-height: 39.9px;
+  }
+
+  .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+  p, p a, li, p strong, p span, li strong, th, td {
+    font-size: 22px;
+    letter-spacing: .15px;
+    line-height: 1.39;
+  }
+}
+
+/* XL breakpoint */
+@media (min-width:992px) {
+  .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+    font-size: 80px;
+    line-height: 87.2px;
+  }
+
+  .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+    font-size: 52px;
+    line-height: 57.7px;
+  }
+
+  .heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.heading-2, h6.heading-2 {
+    font-size: 40px;
+    line-height: 45.6px;
+  }
+
+  .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
+    font-size: 34.5px;
+    line-height: 38px;
+  }
+}
+
+/* XXL breakpoint */
+@media (min-width:1200px) {
+  .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+    font-size: 124px;
+    line-height: 143px;
+  }
+
+  p,p a,li,p strong,p span,li strong, th, td {
+    font-size: 25px;
+    letter-spacing: 0.15px;
+    line-height: 1.39;
+  }
+}
+
+/*///////////// TYPOGRAPHY END /////////////*/
+
+/*///////////// BUTTONS START /////////////*/
+
+button {
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+/*///////////// BUTTONS END /////////////*/
+
+/*///////////// HEADER START /////////////*/
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+}
+
+/*///////////// HEADER END /////////////*/
+
+/*///////////// FOOTER START /////////////*/
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+/*///////////// FOOTER END /////////////*/
+
+/*///////////// TABLES START /////////////*/
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px;
+}
+
+/*///////////// TABLES END /////////////*/
+
+/*///////////// COLORS START /////////////*/
+
+body.light-mode {
+  background: #F9F9F9;
+}
+
+body.dark-mode {
+  background: #222222;
+}
+
+body.dark-mode * {
+  color: #F9F9F9;
+}
+
+body.light-mode a, body.light-mode a:visited {
+  color: #00000088;
+}
+
+body.dark-mode a, body.dark-mode a:visited {
+  color: #FFFFFF88;
+}
+
+body.light-mode a:hover {
+  color: #000000;
+}
+
+body.dark-mode a:hover {
+  color: #FFFFFF;
+}
+
+/*///////////// COLORS END /////////////*/
