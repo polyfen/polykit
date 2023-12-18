@@ -1,0 +1,322 @@
+/*
+
+  ____       _       _    _ _   
+ |  _ \ ___ | |_   _| | _(_) |_ 
+ | |_) / _ \| | | | | |/ / | __|
+ |  __/ (_) | | |_| |   <| | |_ 
+ |_|   \___/|_|\__, |_|\_\_|\__|
+               |___/                                           
+
+    version: 01
+
+    url: polykit.xyz
+
+*/
+/*///////////// BASE/_RESET start /////////////*/
+/* Based on this article https://andy-bell.co.uk/a-modern-css-reset/ */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+/*///////////// BASE/_RESET end /////////////*/
+/*///////////// BASE/_GRID start /////////////*/
+html {
+  font-size: 16px; /* 1rem = 16px */
+}
+
+/*///////////// BASE/_GRID end /////////////*/
+/*///////////// BASE/_BASE start /////////////*/
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline {
+  display: inline;
+}
+
+::-moz-selection {
+  background: #FFA502;
+  color: #FFFFFF;
+}
+
+::selection {
+  background: #FFA502;
+  color: #FFFFFF;
+}
+
+/*///////////// BASE/_BASE end /////////////*/
+a {
+  text-decoration: none;
+}
+
+body.light-mode {
+  background: #F9FAFB;
+}
+
+body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode h4, body.light-mode h5, body.light-mode h6 {
+  color: #1F2933;
+}
+
+body.light-mode p, body.light-mode li, body.light-mode pre code {
+  color: rgba(31, 41, 51, 0.85);
+}
+
+body.light-mode hr {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode a {
+  color: rgba(31, 41, 51, 0.85);
+  border-bottom: 2px solid rgba(255, 166, 0, 0.509);
+}
+
+body.light-mode a:hover {
+  color: #000000;
+  border-color: #FFA502;
+}
+
+body.light-mode pre {
+  background: rgba(31, 41, 51, 0.85);
+}
+
+body.light-mode pre code {
+  color: #FFFFFF;
+}
+
+body.light-mode p code {
+  background: rgba(31, 41, 51, 0.85);
+  color: #FFFFFF;
+}
+
+/*///////////// BASE/_CONTAINERS start /////////////*/
+.container {
+  width: calc(100% - 30px);
+  max-width: 790px;
+  margin: 0 auto;
+  padding: auto 15px;
+}
+
+/*///////////// BASE/_CONTAINERS end /////////////*/
+/*///////////// BASE/_TYPOGRAPHY start /////////////*/
+* {
+  font-kerning: normal;
+  text-wrap: balance;
+}
+
+/* font families */
+* {
+  font-family: "Figtree", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+p, p a, li, p strong, p span, li strong, th, td {
+  font-family: "Lora", serif;
+}
+
+pre, code, pre code, pre code span {
+  font-family: "Anonymous Pro", monospace;
+}
+
+/* text alignment */
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: left;
+}
+
+/* text variations */
+.uppercase {
+  text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* text ligatures */
+h1, h2, h3, h4, h5, button, a.button, a small, small {
+  font-variant-ligatures: discretionary-ligatures;
+  -moz-font-feature-settings: "kern", "liga", "calt";
+  -ms-font-feature-settings: "kern", "liga", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "calt";
+  font-feature-settings: "kern", "liga", "calt";
+}
+
+p, p a, li, p strong, p span, li strong {
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+}
+
+/* text styles */
+.title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+  font-size: 3rem;
+  line-height: 3.25rem;
+  font-weight: 800;
+  margin-top: 1rem;
+  padding-top: 2rem;
+}
+
+/*
+.title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
+    font-size: 2.25rem;
+    line-height: 2.375rem;
+    font-weight: 800;
+    margin-top: 1rem;
+    padding-top: 2rem;
+}
+*/
+.heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+  font-size: 2rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+  margin-top: 1rem;
+  padding-top: 2rem;
+}
+
+.heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.heading-2, h6.heading-2 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 400;
+  margin-bottom: 2.25rem;
+  margin-top: 1rem;
+  padding-top: 2rem;
+}
+
+/*
+.heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
+    font-size: 23px;
+    line-height: 29px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding-top: 2rem;
+}
+*/
+p, p a, li, p strong, p span, li strong, th, td {
+  font-size: 1.375rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+
+p {
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+pre, code, pre code {
+  font-size: 1rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+
+small, h1.caption, h2.caption, h3.caption, h4.caption, h5.caption, h6.caption {
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+}
+
+/*///////////// BASE/_TYPOGRAPHY end /////////////*/
+hr {
+  margin: 4rem 0;
+}
+
+button, a.button {
+  background: #FFA502;
+  color: #FFFFFF !important;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+pre {
+  padding: 2rem 1rem;
+  border-radius: 4px;
+}
+
+p code {
+  padding: 0.25rem 0.5rem;
+  border-radius: 2px;
+}

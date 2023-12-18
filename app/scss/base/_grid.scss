@@ -1,0 +1,10 @@
+/*///////////// BASE/_GRID start /////////////*/
+
+$grid-unit-size: 8px;
+$font-size: $grid-unit-size * 2;
+
+html {
+    font-size: $font-size; /* 1rem = 16px */
+}
+
+/*///////////// BASE/_GRID end /////////////*/

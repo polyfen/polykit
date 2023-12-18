@@ -1,0 +1,25 @@
+/*///////////// BASE/_BASE start /////////////*/
+
+.d-none {
+    display: none;
+  }
+  
+.d-block {
+    display: block;
+}
+
+.d-inline {
+    display: inline;
+}
+
+::-moz-selection {
+    background: $primary-color;
+    color: $white;
+}
+
+::selection {
+    background: $primary-color;
+    color: $white;
+}
+
+/*///////////// BASE/_BASE end /////////////*/

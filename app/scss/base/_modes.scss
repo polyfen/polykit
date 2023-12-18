@@ -1,0 +1,41 @@
+$light-mode-background: $ivory;
+$light-mode-text: $ebony-85;
+
+body.light-mode {
+    background: $light-mode-background;;
+}
+
+body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode h4, body.light-mode h5, body.light-mode h6 {
+    color: $ebony;
+}
+
+body.light-mode p, body.light-mode li, body.light-mode pre code {
+    color: $light-mode-text;
+}
+
+body.light-mode hr {
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode a {
+    color: $ebony-85;
+    border-bottom: 2px solid rgba(255, 166, 0, 0.509);
+}
+
+body.light-mode a:hover {
+    color: $black;
+    border-color: $primary-color;
+}
+
+body.light-mode pre {
+    background: $ebony-85;
+}
+
+body.light-mode pre code {
+    color: $white;
+}
+
+body.light-mode p code {
+    background: $ebony-85;
+    color: $white;
+}
