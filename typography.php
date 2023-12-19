@@ -63,7 +63,11 @@
         </header>
         <main class="container">
                 <small class="caption">.title-1</small>
-                <h1 class="title-1">Polykit</h1>
+                <div class="type-demo">
+                    <div class="type-demo-margin"></div>
+                    <div class="type-demo-padding"></div>
+                </div>
+                <h1 class="title-1" style="margin-top:0;padding-top:0;">Polykit</h1>
 
                 <small class="caption">.heading-1</small>
                 <h2 class="heading-1">An Open-source Design System</h2>
