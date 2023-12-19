@@ -62,15 +62,15 @@
             <img src="imgs/polykit-logo.svg" height="50px" width="auto">
         </header>
         <main class="container">
-                <h1 class="title-1">An Open-source Design System</h1>
+                <h1 class="title-1">Polykit</h1>
                 <h2 class="heading-1">An Open-source Design System</h2>
-                <h3 class="heading-2">An Open-source Design System</h3>
-                <h4 class="heading-3">An Open-source Design System</h4>
-                <h5 class="heading-4">An Open-source Design System</h5>
+                <h3 class="heading-2">Seamless UX-Code Handoff</h3>
+                <h4 class="heading-3">Beautiful Typography</h4>
+                <h5 class="heading-4">Customizable</h5>
 
                 <p class="">Made with a focus on beautiful typography and seamless integration between ux design and code.</p>
 
-                <small>An Open-Source Design System</small>
+                <small>Built by <a href="https://thepolyfengroup.com">The Polyfen Group</a></small>
         
                 <hr>
         </main>
