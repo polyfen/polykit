@@ -70,8 +70,13 @@
                 <div class="type-demo-margin type-demo-margin-bottom"></div>
             </section>
 
+            <section class="heading-1-demo">
                 <small class="caption">.heading-1</small>
+                <div class="type-demo-margin type-demo-margin-top"></div>
+                <div class="type-demo-padding type-demo-padding-top"></div>
                 <h2 class="heading-1">An Open-source Design System</h2>
+                <div class="type-demo-margin type-demo-margin-bottom"></div>
+            </section>
 
                 <small class="caption">.heading-2</small>
                 <h3 class="heading-2">Seamless UX-Code Handoff</h3>
