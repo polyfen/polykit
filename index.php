@@ -37,17 +37,17 @@
         <!-- End Google Tag Manager -->
         
         <!-- PAGE-SPECIFIC META start -->
-        <meta property="og:title" content="Poly Nucleus | Design System"/>
-        <meta property="og:url" content="https://polynucleus.com"/>
+        <meta property="og:title" content="Poly Kit | Design System"/>
+        <meta property="og:url" content="https://polykit.xyz/"/>
         <meta name="keywords" content="Design, system, design system, free, open source, polyfen" />
         <meta name="description" property="og:description" content="Open-source design system... in early development. Very — early — development." />
         <meta property="og:image" content=""/>
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="Poly Nucleus" />
+        <meta name="twitter:site" content="Poly Kit" />
         <meta name="twitter:creator" content="@PolyfenGroup">
-        <meta name="twitter:title" content="Poly Nucleus | Design System" />
+        <meta name="twitter:title" content="Poly Kit | Design System" />
         <meta name="twitter:description" content="Open-source design system... in early development. Very — early — development." />
         <meta name="twitter:image" content="" />
         <meta name="robots" content="index, follow">
@@ -70,7 +70,7 @@
 
                 <p class="align-center">Made with a focus on beautiful typography and seamless integration between ux design and code.</p>
                 
-                <a class="button" href="https://github.com/thepolygroup/polynucleus">Github Repo</a>
+                <a class="button" href="https://github.com/polyfen/polykit">Github Repo</a>
                 <a class="button" href="">Figma Library</a>
             </section>
             <hr>
