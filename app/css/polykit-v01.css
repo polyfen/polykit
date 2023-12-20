@@ -135,7 +135,7 @@ body.light-mode a {
 
 body.light-mode a:hover {
   color: #000000;
-  border-color: #FFA502;
+  border-color: #1F8DF0;
 }
 
 body.light-mode pre {
@@ -205,12 +205,12 @@ pre, code, pre code, pre code span {
 
 /* text highlight */
 ::-moz-selection {
-  background: #FFA502;
+  background: #1F8DF0;
   color: #FFFFFF;
 }
 
 ::selection {
-  background: #FFA502;
+  background: #1F8DF0;
   color: #FFFFFF;
 }
 
@@ -311,7 +311,7 @@ a {
 }
 
 button, a.button {
-  background: #FFA502;
+  background: #1F8DF0;
   color: #FFFFFF !important;
   padding: 0.5rem 1.5rem;
   border-radius: 4px;
