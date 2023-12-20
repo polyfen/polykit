@@ -5,8 +5,12 @@
 
 .type-demo-padding {
     width: 100%;
-    background: magenta;
+    background: cyan;
+    border-top: 1px solid rgb(4, 214, 214);
 }
+
+
+/* TITLE-1 */
 
 .title-1-demo .type-demo-margin-top {
     height: 1rem;
@@ -20,6 +24,8 @@
     height: 2rem;
 }
 
+/* HEADING-1 */
+
 .heading-1-demo .type-demo-margin-top {
     height: 1rem;
 }
@@ -29,5 +35,76 @@
 }
 
 .heading-1-demo .type-demo-margin-bottom {
+    height: 2.5rem;
+}
+
+/* HEADING-2 */
+
+.heading-2-demo .type-demo-margin-top {
+    height: 1rem;
+}
+
+.heading-2-demo .type-demo-padding-top {
     height: 2rem;
+}
+
+.heading-2-demo .type-demo-margin-bottom {
+    height: 2.5rem;
+}
+
+
+/* HEADING-3 */
+
+.heading-3-demo .type-demo-margin-top {
+    height: 1rem;
+}
+
+.heading-3-demo .type-demo-padding-top {
+    height: 2rem;
+}
+
+.heading-3-demo .type-demo-margin-bottom {
+    height: 2rem;
+}
+
+/* HEADING-4 */
+
+.heading-4-demo .type-demo-margin-top {
+    height: 1rem;
+}
+
+.heading-4-demo .type-demo-padding-top {
+    height: 2rem;
+}
+
+.heading-4-demo .type-demo-margin-bottom {
+    height: 2rem;
+}
+
+/* P */
+
+.p-demo .type-demo-margin-top {
+    height: 2rem;
+}
+
+.p-demo .type-demo-padding-top {
+    height: 0rem;
+}
+
+.p-demo .type-demo-margin-bottom {
+    height: 2rem;
+}
+
+/* SMALL */
+
+.small-demo .type-demo-margin-top {
+    height: 0rem;
+}
+
+.small-demo .type-demo-padding-top {
+    height: 0rem;
+}
+
+.small-demo .type-demo-margin-bottom {
+    height: 0rem;
 }
