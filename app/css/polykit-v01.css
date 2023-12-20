@@ -279,7 +279,7 @@ h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.headi
 
 p, p a, li, p strong, p span, li strong, th, td {
   font-size: 1.25rem;
-  line-height: 1.8rem;
+  line-height: 2rem;
   font-weight: 400;
 }
 
@@ -426,4 +426,8 @@ p code {
 
 .small-demo .type-demo-margin-bottom {
   height: 0rem;
+}
+
+main.demo {
+  padding-top: 4rem;
 }

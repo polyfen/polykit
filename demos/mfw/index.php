@@ -14,12 +14,13 @@
 </head>
 
 <body class="light-mode">
-    <div class="container">
-    <header>
+    
+    <main class="container demo">
+        
         <h1>This is a motherfucking website.</h1>
         <aside>And it's fucking perfect.</aside>
-    </header>
         
+    
         <h2>Seriously, what the fuck else do you want?</h2>
         
         <p>You probably build websites and think your shit is special. You think your 13 megabyte parallax-ative home page is going to get you some fucking Awwward banner you can glue to the top corner of your site. You think your 40-pound jQuery file and 83 polyfills give IE7 a boner because it finally has box-shadow. Wrong, motherfucker. Let me describe your perfect-ass website:</p>
@@ -71,6 +72,6 @@
     <h2>Epilogue</h2>
     <p>From the philosophies expressed (poorly) above, <a href="http://txti.es">txti</a> was created. You should try it today to make your own motherfucking websites.</p>
     
-    </div>
+    </main>
 </body>
 </html>

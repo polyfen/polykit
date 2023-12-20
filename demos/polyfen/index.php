@@ -16,7 +16,7 @@
 
 <body class="light-mode">
 
-    <main class="container">
+    <main class="container demo">
         <section class="align-center">
             <h1 class="title-1">Unleash your business full potential</h1>
             <p>We are a fully-remote creative & development agency helping emerging businesses revamp their brand, web, and apps since 2018.</p>
