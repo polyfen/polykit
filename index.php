@@ -168,7 +168,7 @@ readme.md
 
                     <section class="heading-2-demo">
                         <small class="caption">.heading-2</small>
-                        <h3 class="heading-2" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Seamless UX-Code Handoff</h3>
+                        <h3 class="heading-2" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Seamless UX-Code Integration</h3>
                         <div class="type-demo-margin type-demo-margin-bottom"></div>
                     </section>
 
