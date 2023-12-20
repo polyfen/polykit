@@ -71,40 +71,41 @@ Our design system follows the rationale proposed by Brad Frost in a blog post ca
 
 ```
 
-› /.github
-› /app
-    |<span class="hljs-type">_______</span> › /css
-                |<span class="hljs-type">_______</span> › polykit-v01.css
-    |<span class="hljs-type">_______</span> › /scss
-                |<span class="hljs-type">_______</span> › /<span class="hljs-built_in">01-subatomics</span>
-                            |<span class="hljs-type">_______</span> › _colors.scss
-                            |<span class="hljs-type">_______</span> › _general.scss
-                            |<span class="hljs-type">_______</span> › _grid.scss
-                            |<span class="hljs-type">_______</span> › _modes.scss
-                            |<span class="hljs-type">_______</span> › _reset.scss
-                            |<span class="hljs-type">_______</span> › _type.scss
-                |<span class="hljs-type">_______</span> › /02-atoms
-                            |<span class="hljs-type">_______</span> › _buttons.scss
-                            |<span class="hljs-type">_______</span> › _code.scss
-                            |<span class="hljs-type">_______</span> › _containers.scss
-                            |<span class="hljs-type">_______</span> › _links.scss
-                            |<span class="hljs-type">_______</span> › _separators.scss
-                            |<span class="hljs-type">_______</span> › _typography.scss
-                |<span class="hljs-type">_______</span> › /03-molecules
-                |<span class="hljs-type">_______</span> › /04-organisms
-                |<span class="hljs-type">_______</span> › /05-templates
-                |<span class="hljs-type">_______</span> › /06-pages
-                            |<span class="hljs-type">_______</span> › _site.scss
-                |<span class="hljs-type">_______</span> › polykit-v01.scss
-› /demo
-    |<span class="hljs-type">_______</span> › /polyfen
-    |<span class="hljs-type">_______</span> › /mfw
-› /imgs
-› /node_modules
-› /theme
-› gulpfile.js
-› index.php
-› readme.md
+/.github
+/app
+    |_______ › /css
+                |_______ › polykit-v01.css
+    |_______ › /scss
+                |_______ › /01-subatomics
+                            |_______ › _colors.scss
+                            |_______ › _general.scss
+                            |_______ › _grid.scss
+                            |_______ › _modes.scss
+                            |_______ › _reset.scss
+                            |_______ › _type.scss
+                |_______ › /02-atoms
+                            |_______ › _buttons.scss
+                            |_______ › _code.scss
+                            |_______ › _containers.scss
+                            |_______ › _links.scss
+                            |_______ › _separators.scss
+                            |_______ › _typography.scss
+                |_______ › /03-molecules
+                |_______ › /04-organisms
+                |_______ › /05-templates
+                |_______ › /06-pages
+                            |_______ › _site.scss
+                |_______ › polykit-v01.scss
+/demo
+    |_______ › /polyfen
+    |_______ › /mfw
+/imgs
+/node_modules
+/theme
+gulpfile.js
+index.php
+readme.md
+
 
 
 ```
