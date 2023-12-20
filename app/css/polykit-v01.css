@@ -318,10 +318,15 @@ button, a.button {
   text-decoration: none;
   letter-spacing: 0.5px;
   font-weight: 600 !important;
+  box-shadow: 0 0 2px #1F8DF0;
 }
 
 a.button {
   border-bottom: none;
+}
+
+button:hover, a.button:hover {
+  box-shadow: 0 0 10px #1F8DF0;
 }
 
 hr {
