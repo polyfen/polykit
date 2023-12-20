@@ -3,6 +3,5 @@
 
     <p class="align-center">Made with a focus on beautiful typography and seamless integration between ux design and code.</p>
     
-    <a class="button" href="https://github.com/polyfen/polykit">Github Repo</a>
-    <a class="button" href="">Figma Library</a>
+    <a class="button" href="https://github.com/polyfen/polykit" target="_blank">Github Repo</a>
 </section>
