@@ -74,6 +74,9 @@
             <?php include 'includes/_intro.php'; ?>
             <hr>
 
+            <?php include 'includes/_install-css.php'; ?>
+            <hr>
+
             <?php include 'includes/_ui-grid.php'; ?>
             <hr>
 

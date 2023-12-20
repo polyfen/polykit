@@ -1,5 +1,6 @@
-<h2 id="folders-amp-files-structure">Folders &amp; Files Structure</h2>
-                <pre><code>
+<section>
+    <h2 class="heading-1">4. Folders &amp; Files Structure</h2>
+    <pre><code>
 /.github
 /app
     |_______ › /css
@@ -34,4 +35,5 @@
 gulpfile.js
 index.php
 readme.md
-                </code></pre>
+    </code></pre>
+</section>
