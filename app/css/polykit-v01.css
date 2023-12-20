@@ -316,8 +316,8 @@ button, a.button {
   padding: 0.5rem 1.5rem;
   border-radius: 80px;
   text-decoration: none;
-  text-transform: uppercase;
   letter-spacing: 0.5px;
+  font-weight: 600 !important;
 }
 
 a.button {
