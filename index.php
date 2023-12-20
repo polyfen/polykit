@@ -112,7 +112,7 @@
                 <hr>
                 <h2 id="folders-amp-files-structure">Folders &amp; Files Structure</h2>
                 <pre><code>
-                /.github
+/.github
 /app
     |_______ › /css
                 |_______ › polykit-v01.css
