@@ -68,15 +68,11 @@
                 <div class="type-demo-margin type-demo-margin-bottom"></div>
             </section>
 
-            <hr>
-
             <section class="heading-1-demo">
                 <small class="caption">.heading-1</small>
                 <h2 class="heading-1" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">An Open-source Design System for Web Development</h2>
                 <div class="type-demo-margin type-demo-margin-bottom"></div>
             </section>
-
-            <hr>
 
             <section class="heading-2-demo">
                 <small class="caption">.heading-2</small>
@@ -84,15 +80,11 @@
                 <div class="type-demo-margin type-demo-margin-bottom"></div>
             </section>
 
-            <hr>
-
             <section class="heading-3-demo">
                 <small class="caption">.heading-3</small>
                 <h4 class="heading-3" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Beautiful Typography</h4>
                 <div class="type-demo-margin type-demo-margin-bottom"></div>
             </section>
-
-            <hr>
 
             <section class="heading-4-demo">
                 <small class="caption">.heading-4</small>
@@ -100,23 +92,11 @@
                 <div class="type-demo-margin type-demo-margin-bottom"></div>
             </section>
 
-            <hr>
-
-            <section class="heading-5-demo">
-                <small class="caption">.heading-5</small>
-                <h6 class="heading-5" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Easy to Customize</h6>
-                <div class="type-demo-margin type-demo-margin-bottom"></div>
-            </section>
-
-            <hr>
-
             <section class="p-demo">
                 <small class="caption">&lt;p&gt;</small>
                 <p class="" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Made with a focus on beautiful typography and seamless integration between ux design and code.</p>
                 <div class="type-demo-margin type-demo-margin-bottom"></div>
             </section>
-
-            <hr>
 
             <section class="small-demo">
                 <small class="caption">&lt;small&gt;</small>
