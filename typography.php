@@ -64,9 +64,8 @@
         <main class="container">
             <section class="title-1-demo">
                 <small class="caption">.title-1</small>
-                <div class="type-demo-margin type-demo-margin-top"></div>
                 <div class="type-demo-padding type-demo-padding-top"></div>
-                <h1 class="title-1" style="margin-top:0;padding-top:0;margin-bottom:0;">Polykit Design System</h1>
+                <h1 class="title-1" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Polykit Design System</h1>
                 <div class="type-demo-margin type-demo-margin-bottom"></div>
             </section>
 
@@ -76,7 +75,7 @@
                 <small class="caption">.heading-1</small>
                 <div class="type-demo-margin type-demo-margin-top"></div>
                 <div class="type-demo-padding type-demo-padding-top"></div>
-                <h2 class="heading-1" style="margin-top:0;padding-top:0;margin-bottom:0;">An Open-source Design System for Web Development</h2>
+                <h2 class="heading-1" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">An Open-source Design System for Web Development</h2>
                 <div class="type-demo-margin type-demo-margin-bottom"></div>
             </section>
 
@@ -86,7 +85,7 @@
                 <small class="caption">.heading-2</small>
                 <div class="type-demo-margin type-demo-margin-top"></div>
                 <div class="type-demo-padding type-demo-padding-top"></div>
-                <h3 class="heading-2" style="margin-top:0;padding-top:0;margin-bottom:0;">Seamless UX-Code Handoff</h3>
+                <h3 class="heading-2" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Seamless UX-Code Handoff</h3>
                 <div class="type-demo-margin type-demo-margin-bottom"></div>
             </section>
 
@@ -96,7 +95,7 @@
                 <small class="caption">.heading-3</small>
                 <div class="type-demo-margin type-demo-margin-top"></div>
                 <div class="type-demo-padding type-demo-padding-top"></div>
-                <h4 class="heading-3" style="margin-top:0;padding-top:0;margin-bottom:0;">Beautiful Typography</h4>
+                <h4 class="heading-3" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Beautiful Typography</h4>
                 <div class="type-demo-margin type-demo-margin-bottom"></div>
             </section>
 
@@ -106,7 +105,7 @@
                 <small class="caption">.heading-4</small>
                 <div class="type-demo-margin type-demo-margin-top"></div>
                 <div class="type-demo-padding type-demo-padding-top"></div>
-                <h5 class="heading-4" style="margin-top:0;padding-top:0;margin-bottom:0;">Customizable</h5>
+                <h5 class="heading-4" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Customizable</h5>
                 <div class="type-demo-margin type-demo-margin-bottom"></div>
             </section>
 
@@ -116,7 +115,7 @@
                 <small class="caption">.heading-5</small>
                 <div class="type-demo-margin type-demo-margin-top"></div>
                 <div class="type-demo-padding type-demo-padding-top"></div>
-                <h6 class="heading-5" style="margin-top:0;padding-top:0;margin-bottom:0;">Customizable</h6>
+                <h6 class="heading-5" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Customizable</h6>
                 <div class="type-demo-margin type-demo-margin-bottom"></div>
             </section>
 
@@ -126,7 +125,7 @@
                 <small class="caption">&lt;p&gt;</small>
                 <div class="type-demo-margin type-demo-margin-top"></div>
                 <div class="type-demo-padding type-demo-padding-top"></div>
-                <p class="" style="margin-top:0;padding-top:0;margin-bottom:0;">Made with a focus on beautiful typography and seamless integration between ux design and code.</p>
+                <p class="" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Made with a focus on beautiful typography and seamless integration between ux design and code.</p>
                 <div class="type-demo-margin type-demo-margin-bottom"></div>
             </section>
 
@@ -136,7 +135,7 @@
                 <small class="caption">&lt;small&gt;</small>
                 <div class="type-demo-margin type-demo-margin-top"></div>
                 <div class="type-demo-padding type-demo-padding-top"></div>
-                <small style="margin-top:0;padding-top:0;margin-bottom:0;">Built by <a href="https://thepolyfengroup.com">The Polyfen Group</a></small>
+                <small style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Built by <a href="https://thepolyfengroup.com">The Polyfen Group</a></small>
                 <div class="type-demo-margin type-demo-margin-bottom"></div>
             </section>
         

@@ -231,10 +231,11 @@ p, p a, li, p strong, p span, li strong {
 .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
   font-size: 2.5rem;
   line-height: 2.75rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
   font-weight: 800;
-  margin-top: 1rem;
-  padding-top: 2rem;
-  margin-bottom: 2rem;
 }
 
 /*
@@ -246,34 +247,46 @@ p, p a, li, p strong, p span, li strong {
     padding-top: 2rem;
 }
 */
-.heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
   font-size: 2rem;
   line-height: 2.25rem;
-  font-weight: 700;
-  margin-bottom: 2.5rem;
-  margin-top: 1rem;
-  padding-top: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+  font-weight: 800;
 }
 
-.heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.heading-2, h6.heading-2 {
+h2, .heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.heading-2, h6.heading-2 {
   font-size: 1.6rem;
   line-height: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
   font-weight: 700;
-  margin-bottom: 2.25rem;
-  margin-top: 1rem;
-  padding-top: 2rem;
 }
 
-/*
-.heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
-    font-size: 23px;
-    line-height: 29px;
-    font-weight: 400;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-    padding-top: 2rem;
+h3, .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
+  font-size: 1.375rem;
+  line-height: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 2rem;
+  padding-bottom: 1.75rem;
+  font-weight: 700;
 }
-*/
+
+h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.heading-4, h6.heading-4 {
+  font-size: 1.25rem;
+  line-height: 1.375rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+}
+
 p, p a, li, p strong, p span, li strong, th, td {
   font-size: 1.375rem;
   line-height: 1.8rem;
@@ -281,8 +294,10 @@ p, p a, li, p strong, p span, li strong, th, td {
 }
 
 p {
-  margin-bottom: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 pre, code, pre code {
@@ -294,6 +309,8 @@ pre, code, pre code {
 small, h1.caption, h2.caption, h3.caption, h4.caption, h5.caption, h6.caption {
   font-size: 0.75rem;
   line-height: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: 400;
 }
 
@@ -330,29 +347,28 @@ p code {
 .type-demo-padding {
   width: 100%;
   background: cyan;
-  border-top: 1px solid rgb(4, 214, 214);
 }
 
 /* TITLE-1 */
 .title-1-demo .type-demo-margin-top {
-  height: 1rem;
+  height: 0rem;
 }
 
 .title-1-demo .type-demo-padding-top {
-  height: 2rem;
+  height: 3rem;
 }
 
 .title-1-demo .type-demo-margin-bottom {
-  height: 2rem;
+  height: 2.5rem;
 }
 
 /* HEADING-1 */
 .heading-1-demo .type-demo-margin-top {
-  height: 1rem;
+  height: 0rem;
 }
 
 .heading-1-demo .type-demo-padding-top {
-  height: 2rem;
+  height: 3rem;
 }
 
 .heading-1-demo .type-demo-margin-bottom {
@@ -361,20 +377,20 @@ p code {
 
 /* HEADING-2 */
 .heading-2-demo .type-demo-margin-top {
-  height: 1rem;
+  height: 0rem;
 }
 
 .heading-2-demo .type-demo-padding-top {
-  height: 2rem;
+  height: 2.5rem;
 }
 
 .heading-2-demo .type-demo-margin-bottom {
-  height: 2.5rem;
+  height: 2rem;
 }
 
 /* HEADING-3 */
 .heading-3-demo .type-demo-margin-top {
-  height: 1rem;
+  height: 0rem;
 }
 
 .heading-3-demo .type-demo-padding-top {
@@ -387,7 +403,7 @@ p code {
 
 /* HEADING-4 */
 .heading-4-demo .type-demo-margin-top {
-  height: 1rem;
+  height: 0rem;
 }
 
 .heading-4-demo .type-demo-padding-top {
@@ -400,7 +416,7 @@ p code {
 
 /* P */
 .p-demo .type-demo-margin-top {
-  height: 2rem;
+  height: 0rem;
 }
 
 .p-demo .type-demo-padding-top {
