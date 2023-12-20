@@ -105,7 +105,7 @@
                 <small class="caption">.heading-4</small>
                 <div class="type-demo-margin type-demo-margin-top"></div>
                 <div class="type-demo-padding type-demo-padding-top"></div>
-                <h5 class="heading-4" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Customizable</h5>
+                <h5 class="heading-4" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Easy to Customize</h5>
                 <div class="type-demo-margin type-demo-margin-bottom"></div>
             </section>
 
@@ -115,7 +115,7 @@
                 <small class="caption">.heading-5</small>
                 <div class="type-demo-margin type-demo-margin-top"></div>
                 <div class="type-demo-padding type-demo-padding-top"></div>
-                <h6 class="heading-5" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Customizable</h6>
+                <h6 class="heading-5" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Easy to Customize</h6>
                 <div class="type-demo-margin type-demo-margin-bottom"></div>
             </section>
 

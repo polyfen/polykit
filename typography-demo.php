@@ -70,7 +70,7 @@
 
             <h4 class="heading-3">Beautiful Typography</h4>
 
-            <h5 class="heading-4">Customizable</h5>
+            <h5 class="heading-4">Easy to Customize</h5>
 
             <p class="">Made with a focus on beautiful typography and seamless integration between ux design and code.</p>
 
