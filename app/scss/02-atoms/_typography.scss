@@ -8,11 +8,11 @@
 /* font families */
 
 * {
-    font-family: $primary-font-family, $sans-fallback-fonts;
+    font-family: $display-font-family, $sans-fallback-fonts;
 }
 
 p, p a, li, p strong, p span, li strong, th, td {
-    font-family: $secondary-font-family, $serif-fallback-fonts;
+    font-family: $body-font-family, $serif-fallback-fonts;
 }
 
 pre, code, pre code, pre code span {
@@ -42,6 +42,18 @@ pre, code, pre code, pre code span {
 
 .italic {
     font-style: italic;
+}
+
+/* text highlight */
+
+::-moz-selection {
+    background: $primary-color;
+    color: $white;
+}
+
+::selection {
+    background: $primary-color;
+    color: $white;
 }
 
 /* text ligatures */

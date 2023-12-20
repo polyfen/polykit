@@ -12,6 +12,8 @@
     url: polykit.xyz
 
 */
+/* 01-SUBATOMICS */
+/* all CSS code that is not directly aplied to single HTML elements */
 /*///////////// BASE/_RESET start /////////////*/
 /* Based on this article https://andy-bell.co.uk/a-modern-css-reset/ */
 /* Box sizing rules */
@@ -88,12 +90,6 @@ select {
   }
 }
 /*///////////// BASE/_RESET end /////////////*/
-/*///////////// BASE/_GRID start /////////////*/
-html {
-  font-size: 16px; /* 1rem = 16px */
-}
-
-/*///////////// BASE/_GRID end /////////////*/
 /*///////////// BASE/_BASE start /////////////*/
 .d-none {
   display: none;
@@ -107,21 +103,13 @@ html {
   display: inline;
 }
 
-::-moz-selection {
-  background: #FFA502;
-  color: #FFFFFF;
-}
-
-::selection {
-  background: #FFA502;
-  color: #FFFFFF;
-}
-
 /*///////////// BASE/_BASE end /////////////*/
-a {
-  text-decoration: none;
+/*///////////// BASE/_GRID start /////////////*/
+html {
+  font-size: 16px; /* 1rem = 16px */
 }
 
+/*///////////// BASE/_GRID end /////////////*/
 body.light-mode {
   background: #F9FAFB;
 }
@@ -161,6 +149,8 @@ body.light-mode p code {
   color: #FFFFFF;
 }
 
+/* 02-ATOMS */
+/* everything that has an HTML element tag */
 /*///////////// BASE/_CONTAINERS start /////////////*/
 .container {
   width: calc(100% - 30px);
@@ -209,6 +199,17 @@ pre, code, pre code, pre code span {
 
 .italic {
   font-style: italic;
+}
+
+/* text highlight */
+::-moz-selection {
+  background: #FFA502;
+  color: #FFFFFF;
+}
+
+::selection {
+  background: #FFA502;
+  color: #FFFFFF;
 }
 
 /* text ligatures */
@@ -303,8 +304,8 @@ small, h1.caption, h2.caption, h3.caption, h4.caption, h5.caption, h6.caption {
 }
 
 /*///////////// BASE/_TYPOGRAPHY end /////////////*/
-hr {
-  margin: 4rem 0;
+a {
+  text-decoration: none;
 }
 
 button, a.button {
@@ -317,6 +318,10 @@ button, a.button {
   letter-spacing: 0.5px;
 }
 
+hr {
+  margin: 4rem 0;
+}
+
 pre {
   padding: 2rem 1rem;
   border-radius: 4px;
@@ -327,6 +332,11 @@ p code {
   border-radius: 2px;
 }
 
+/* 03-MOLECULES */
+/* molecules are groups of atoms bonded together and are the smallest fundamental units of a compound. */
+/* 04-ORGANISMS */
+/* 05-TEMPLATES */
+/* 06-PAGES */
 .type-demo-margin {
   width: 100%;
   background: rgba(0, 255, 255, 0.4);
@@ -429,5 +439,5 @@ p code {
 }
 
 main.demo {
-  padding-top: 4rem;
+  padding-top: 7rem;
 }
