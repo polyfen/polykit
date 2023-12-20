@@ -117,20 +117,25 @@
     |<span class="hljs-type">_______</span> › /css
                 |<span class="hljs-type">_______</span> › polykit-v01.css
     |<span class="hljs-type">_______</span> › /scss
-                |<span class="hljs-type">_______</span> › /<span class="hljs-built_in">abstract</span>
-                            |<span class="hljs-type">_______</span> › _breakpoints.scss
+                |<span class="hljs-type">_______</span> › /<span class="hljs-built_in">01-subatomics</span>
                             |<span class="hljs-type">_______</span> › _colors.scss
-                            |<span class="hljs-type">_______</span> › _mixins.scss
-                            |<span class="hljs-type">_______</span> › _type.scss
-                |<span class="hljs-type">_______</span> › /base
-                            |<span class="hljs-type">_______</span> › _base.scss
-                            |<span class="hljs-type">_______</span> › _containers.scss
+                            |<span class="hljs-type">_______</span> › _general.scss
+                            |<span class="hljs-type">_______</span> › _grid.scss
                             |<span class="hljs-type">_______</span> › _modes.scss
                             |<span class="hljs-type">_______</span> › _reset.scss
+                            |<span class="hljs-type">_______</span> › _type.scss
+                |<span class="hljs-type">_______</span> › /02-atoms
+                            |<span class="hljs-type">_______</span> › _buttons.scss
+                            |<span class="hljs-type">_______</span> › _code.scss
+                            |<span class="hljs-type">_______</span> › _containers.scss
+                            |<span class="hljs-type">_______</span> › _links.scss
                             |<span class="hljs-type">_______</span> › _separators.scss
                             |<span class="hljs-type">_______</span> › _typography.scss
-                |<span class="hljs-type">_______</span> › /components
-                            |<span class="hljs-type">_______</span> › _buttons.scss
+                |<span class="hljs-type">_______</span> › /03-molecules
+                |<span class="hljs-type">_______</span> › /04-organisms
+                |<span class="hljs-type">_______</span> › /05-templates
+                |<span class="hljs-type">_______</span> › /06-pages
+                            |<span class="hljs-type">_______</span> › _site.scss
                 |<span class="hljs-type">_______</span> › polykit-v01.scss
 › /demo
     |<span class="hljs-type">_______</span> › /polyfen
