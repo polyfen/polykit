@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <title>Polykit | Open-Source Design System</title>
 
@@ -53,157 +54,45 @@
         
 
     </head>
+
     <body class="light-mode">
+
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5ZXG85V7"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
+
         <header>
             <img src="imgs/polykit-logo.svg" height="50px" width="auto">
         </header>
+
         <main class="container">
-            <section class="align-center">
-                <h1 class="title-1 align-center">An Open-source Design System</h1>
 
-                <p class="align-center">Made with a focus on beautiful typography and seamless integration between ux design and code.</p>
-                
-                <a class="button" href="https://github.com/polyfen/polykit">Github Repo</a>
-                <a class="button" href="">Figma Library</a>
-            </section>
+            <?php include 'includes/_cover.php'; ?>
             <hr>
-            <section>
-                <p>A collection of reusable components, guidelines, and assets that are openly accessible and can be used to create consistent and cohesive designs across different platforms and devices.</p>
-                <p>The code is:</p>
-                <ul>
-                    <li>Light-weight</li>
-                    <li>Mobile-first</li>
-                    <li>W3C compliant</li>
-                    <li>Following accessability best practices</li>
-                    <li>Following SEO best practices</li>
-                    <li>Easy to read</li>
-                    <li>Easy to pick-up</li>
-                    <li>Easy to maintain and scale</li>
-                </ul>
-                <p>The design is:</p>
-                <ul>
-                    <li>Clean</li>
-                    <li>Consistent</li>
-                    <li>Easy to customize and scale</li>
-                    <li>Following typography best practices</li>
-                </ul>
-                <p>Learn more at <a href="https://polykit.xyz">polykit.xyz</a></p>
-                <hr>
-                <h2 id="install-polykit">Install Polykit</h2>
-                <p>Add the following line of code in your <code>&lt;head&gt;</code>.</p>
-                <pre><code>
-&lt;link <span class="hljs-keyword">rel</span>=<span class="hljs-string">"stylesheet"</span> href=<span class="hljs-string">"https://polykit.xyz/app/css/polykit-v01.css"</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"text/css"</span>&gt;
-
-</code></pre>
-                <hr>
-                <h2 id="ui-grid">UI Grid</h2>
-                <p>All the dimensions of visual components —as well as the space between them— are defined around the <code>$grid-unit-size</code>.</p>
-                <p>The base value of <code>$grid-unit-size</code> is <code>8px</code>.</p>
-                <p>The preferred measurement unit for font-sizes, margins, and paddings is <strong>REM</strong>.</p>
-                <p>The base value of <code>$rem-font-size</code> —defined as <code>$grid-unit-size * 2</code>— is <code>16px</code>.</p>
-                <hr>
-                <h2 id="atomic-design">Atomic Design</h2>
-                <p>Our design system follows the rationale proposed by Brad Frost in a blog post called <a href="https://bradfrost.com/blog/post/atomic-web-design/">&quot;Atomic Web Design&quot;</a>.</p>
-                <img src="imgs/site/atomic-design.png" alt="Atomic Design" width="100%">
-                <hr>
-                <h2 id="folders-amp-files-structure">Folders &amp; Files Structure</h2>
-                <pre><code>
-/.github
-/app
-    |_______ › /css
-                |_______ › polykit-v01.css
-    |_______ › /scss
-                |_______ › /01-subatomics
-                            |_______ › _colors.scss
-                            |_______ › _general.scss
-                            |_______ › _grid.scss
-                            |_______ › _modes.scss
-                            |_______ › _reset.scss
-                            |_______ › _type.scss
-                |_______ › /02-atoms
-                            |_______ › _buttons.scss
-                            |_______ › _code.scss
-                            |_______ › _containers.scss
-                            |_______ › _links.scss
-                            |_______ › _separators.scss
-                            |_______ › _typography.scss
-                |_______ › /03-molecules
-                |_______ › /04-organisms
-                |_______ › /05-templates
-                |_______ › /06-pages
-                            |_______ › _site.scss
-                |_______ › polykit-v01.scss
-/demo
-    |_______ › /polyfen
-    |_______ › /mfw
-/imgs
-/node_modules
-/theme
-gulpfile.js
-index.php
-readme.md
-                </code></pre><hr>
-                <h2 id="development-dependencies">Typography</h2>
-
-                <h3 id="font-family">Font Families</h3>
-
-                <h3 id="font-family">Font Styles</h3>
-
-                <section class="typography-demo">
-                    <section class="title-1-demo">
-                        <small class="caption">.title-1</small>
-                        <h1 class="title-1" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Polykit Design System</h1>
-                        <div class="type-demo-margin type-demo-margin-bottom"></div>
-                    </section>
-
-                    <section class="heading-1-demo">
-                        <small class="caption">.heading-1</small>
-                        <h2 class="heading-1" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">An Open-source Design System for Web Development</h2>
-                        <div class="type-demo-margin type-demo-margin-bottom"></div>
-                    </section>
-
-                    <section class="heading-2-demo">
-                        <small class="caption">.heading-2</small>
-                        <h3 class="heading-2" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Seamless UX-Code Integration</h3>
-                        <div class="type-demo-margin type-demo-margin-bottom"></div>
-                    </section>
-
-                    <section class="heading-3-demo">
-                        <small class="caption">.heading-3</small>
-                        <h4 class="heading-3" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Beautiful Typography</h4>
-                        <div class="type-demo-margin type-demo-margin-bottom"></div>
-                    </section>
-
-                    <section class="heading-4-demo">
-                        <small class="caption">.heading-4</small>
-                        <h5 class="heading-4" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Easy to Customize</h5>
-                        <div class="type-demo-margin type-demo-margin-bottom"></div>
-                    </section>
-
-                    <section class="p-demo">
-                        <small class="caption">&lt;p&gt;</small>
-                        <p class="" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Made with a focus on beautiful typography and seamless integration between ux design and code.</p>
-                        <div class="type-demo-margin type-demo-margin-bottom"></div>
-                    </section>
-
-                    <section class="small-demo">
-                        <small class="caption">&lt;small&gt;</small>
-                        <small style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Built by <a href="https://thepolyfengroup.com">The Polyfen Group</a></small>
-                        <div class="type-demo-margin type-demo-margin-bottom"></div>
-                    </section>
-                </section>
-                
-            </section>
+            
+            <?php include 'includes/_intro.php'; ?>
             <hr>
+
+            <?php include 'includes/_ui-grid.php'; ?>
+            <hr>
+
+            <?php include 'includes/_atomic-design.php'; ?>
+            <hr>
+
+            <?php include 'includes/_folders-and-files.php'; ?>
+            <hr>
+
+            <?php include 'includes/_typography.php'; ?>
+            <hr>
+
         </main>
+
         <footer>
             <a href="https://thepolyfengroup.com" target="_blank">
                 <img src="imgs/the-polyfen-group-logo.svg" width="80px" height="auto" style="margin: 2rem auto;">
             </a>
         </footer>
+        
     </body>
 </html>
