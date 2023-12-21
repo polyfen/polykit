@@ -1,24 +1,48 @@
 $light-mode-background: $off-white;
 $light-mode-text: $off-black;
 
+$dark-mode-background: $slate-950;
+$dark-mode-text: $slate-050;
+
 body.light-mode {
     background: $light-mode-background;;
+}
+
+body.dark-mode {
+    background: $dark-mode-background;
 }
 
 body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode h4, body.light-mode h5, body.light-mode h6 {
     color: $black;
 }
 
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
+    color: $white;
+}
+
 body.light-mode p, body.light-mode li, body.light-mode pre code {
     color: $light-mode-text;
+}
+
+body.dark-mode p, body.dark-mode li, body.dark-mode pre code {
+    color: $dark-mode-text;
 }
 
 body.light-mode hr {
     border-color: rgba(0, 0, 0, 0.1);
 }
 
+body.dark-mode hr {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
 body.light-mode a {
     color: $light-mode-text;
+    border-bottom: 2px solid rgba(255, 166, 0, 0.509);
+}
+
+body.light-mode a {
+    color: $dark-mode-text;
     border-bottom: 2px solid rgba(255, 166, 0, 0.509);
 }
 
@@ -27,15 +51,25 @@ body.light-mode a:hover {
     border-color: $primary-color;
 }
 
-body.light-mode pre {
+body.dark-mode a:hover {
+    color: $white;
+    border-color: $primary-color;
+}
+
+body.light-mode pre, body.dark-mode pre {
     background: $light-mode-text;
 }
 
-body.light-mode pre code {
+body.light-mode pre code, body.dark-mode pre code {
     color: $white;
 }
 
 body.light-mode p code {
     background: $light-mode-text;
     color: $white;
+}
+
+body.dark-mode p code {
+    background: $slate-050;
+    color: $black;
 }
