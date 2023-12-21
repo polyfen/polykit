@@ -55,7 +55,7 @@
 
     </head>
 
-    <body class="light-mode">
+    <body class="dark-mode">
 
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5ZXG85V7"
