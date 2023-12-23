@@ -35,18 +35,18 @@
         <!-- End Google Tag Manager -->
         
         <!-- PAGE-SPECIFIC META start -->
-        <meta property="og:title" content="Poly Kit | Design System"/>
+        <meta property="og:title" content="Polykit | Design System"/>
         <meta property="og:url" content="https://polykit.xyz/"/>
         <meta name="keywords" content="Design, system, design system, free, open source, polyfen" />
-        <meta name="description" property="og:description" content="Open-source design system... in early development. Very — early — development." />
+        <meta name="description" property="og:description" content="Open-source design system for User Interfaces with CSS code for developers and Figma library for designers." />
         <meta property="og:image" content=""/>
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="Poly Kit" />
+        <meta name="twitter:site" content="Polykit" />
         <meta name="twitter:creator" content="@PolyfenGroup">
-        <meta name="twitter:title" content="Poly Kit | Design System" />
-        <meta name="twitter:description" content="Open-source design system... in early development. Very — early — development." />
+        <meta name="twitter:title" content="Polykit | Design System" />
+        <meta name="twitter:description" content="Open-source design system for User Interfaces with CSS code for developers and Figma library for designers." />
         <meta name="twitter:image" content="" />
         <meta name="robots" content="index, follow">
         <!-- PAGE-SPECIFIC META end -->
