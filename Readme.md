@@ -42,7 +42,7 @@ Learn more at [polykit.xyz](https://polykit.xyz)
 Add the following line of code in your `<head>`.
 
 ```
-<link rel="stylesheet" href="https://polykit.xyz/app/css/polykit-v01.css" type="text/css">
+<link rel="stylesheet" href="https://polykit.xyz/app/css/polykit-v0-1.css" type="text/css">
 ```
 
 ---
@@ -74,7 +74,7 @@ Our design system follows the rationale proposed by Brad Frost in a blog post ca
 /.github
 /app
     |_______ › /css
-                |_______ › polykit-v01.css
+                |_______ › polykit-v0-1.css
     |_______ › /scss
                 |_______ › /01-subatomics
                             |_______ › _colors.scss

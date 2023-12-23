@@ -8,11 +8,19 @@
 /* font families */
 
 * {
+    font-family: $captions-font-family, $sans-fallback-fonts;
+}
+
+h1, h2, h3, h4, h5, h6 {
     font-family: $display-font-family, $sans-fallback-fonts;
 }
 
 p, p a, li, p strong, p span, li strong, th, td {
-    font-family: $body-font-family, $serif-fallback-fonts;
+    font-family: $body-text-font-family, $serif-fallback-fonts;
+}
+
+button, a.button {
+    font-family: $captions-font-family, $sans-fallback-fonts;
 }
 
 pre, code, pre code, pre code span {

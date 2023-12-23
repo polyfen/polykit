@@ -10,7 +10,7 @@
     <title>Motherfucking Website</title>
 
     <!-- POLY NUCLEUS styles -->
-    <link rel="stylesheet" href="../../app/css/polykit-v01.css" type="text/css">
+    <link rel="stylesheet" href="../../app/css/polykit-v0-1.css" type="text/css">
 </head>
 
 <body class="light-mode">

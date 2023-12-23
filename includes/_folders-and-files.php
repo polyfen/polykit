@@ -4,7 +4,7 @@
 /.github
 /app
     |_______ › /css
-                |_______ › polykit-v01.css
+                |_______ › polykit-v0-1.css
     |_______ › /scss
                 |_______ › /01-subatomics
                             |_______ › _colors.scss
