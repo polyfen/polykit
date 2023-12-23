@@ -56,6 +56,14 @@ body.dark-mode a:hover {
     border-color: $primary-color;
 }
 
+body.light-mode small {
+    color: $black;
+}
+
+body.dark-mode small {
+    color: $white;
+}
+
 body.light-mode pre, body.dark-mode pre {
     background: $light-mode-text;
 }

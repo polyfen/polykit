@@ -164,6 +164,14 @@ body.dark-mode a:hover {
   border-color: #1F8DF0;
 }
 
+body.light-mode small {
+  color: #000000;
+}
+
+body.dark-mode small {
+  color: #FFFFFF;
+}
+
 body.light-mode pre, body.dark-mode pre {
   background: #1C1C1C;
 }
@@ -385,6 +393,15 @@ p code {
 /* 04-ORGANISMS */
 /* 05-TEMPLATES */
 /* 06-PAGES */
+body.site header {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
 .type-demo-margin {
   width: 100%;
   background: rgba(0, 255, 255, 0.4);

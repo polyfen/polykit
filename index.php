@@ -55,7 +55,7 @@
 
     </head>
 
-    <body class="dark-mode">
+    <body class="dark-mode site">
 
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5ZXG85V7"
@@ -64,6 +64,7 @@
 
         <header>
             <img src="imgs/polykit-logo.svg" height="50px" width="auto">
+            <small>v 0.1</small>
         </header>
 
         <main class="container">
