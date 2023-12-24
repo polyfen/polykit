@@ -75,20 +75,40 @@
             <?php include 'includes/_intro.php'; ?>
             <hr>
 
-            <?php include 'includes/_install-css.php'; ?>
-            <hr>
-
-            <?php include 'includes/_ui-grid.php'; ?>
-            <hr>
-
             <?php include 'includes/_atomic-design.php'; ?>
             <hr>
 
-            <?php include 'includes/_folders-and-files.php'; ?>
+            <section>
+
+            <h2 class="heading-1">Getting Started</h2>
+
+                <section>
+                <h3 class="heading-2">For Developers</h3>
+
+                <?php include 'includes/_install-css.php'; ?>
+                <hr>
+
+                <?php include 'includes/_folders-and-files.php'; ?>
+
+                </section>
+            </section>
+
             <hr>
 
-            <?php include 'includes/_typography.php'; ?>
-            <hr>
+            <section>
+                <h2 class="heading-1">Components</h2>
+            
+                <section>
+                    <h3>Subatomics</h3>
+                
+                    <?php include 'includes/_ui-grid.php'; ?>
+                    <hr>                
+
+                    <?php include 'includes/_typography.php'; ?>
+                    <hr>
+
+                </section>
+            </section>
 
         </main>
 

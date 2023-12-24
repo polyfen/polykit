@@ -1,5 +1,5 @@
 <section>
-    <h2 class="heading-1">5. Typography</h2>
+    <h4 class="heading-3">Typography</h4>
 
     <h3 class="heading-2">5.1. Font Families</h3>
 
