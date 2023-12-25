@@ -7,6 +7,7 @@
                 |_______ › polykit-v0-1.css
     |_______ › /scss
                 |_______ › /01-subatomics
+                            |_______ › _branding.scss
                             |_______ › _colors.scss
                             |_______ › _general.scss
                             |_______ › _grid.scss
@@ -17,10 +18,12 @@
                             |_______ › _buttons.scss
                             |_______ › _code.scss
                             |_______ › _containers.scss
-                            |_______ › _links.scss
+                            |_______ › _lists.scss
+                            |_______ › _nav.scss
                             |_______ › _separators.scss
                             |_______ › _typography.scss
                 |_______ › /03-molecules
+                            |_______ › _header.scss
                 |_______ › /04-organisms
                 |_______ › /05-templates
                 |_______ › /06-pages
