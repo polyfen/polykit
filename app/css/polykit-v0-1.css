@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 
   ____       _       _    _ _   
@@ -362,6 +363,19 @@ small, h1.caption, h2.caption, h3.caption, h4.caption, h5.caption, h6.caption {
 }
 
 /*///////////// BASE/_TYPOGRAPHY end /////////////*/
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content: "•"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: hsl(208, 90%, 50%); /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
 button, a.button {
   background: hsl(208, 90%, 50%);
   color: #FFFFFF !important;
