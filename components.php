@@ -52,6 +52,13 @@
 
         <main class="container">
 
+        <h1 class="title-1">UI Components</h1>
+
+        <?php include 'includes/content/components/_ui-grid.php'; ?>
+        <hr>
+            
+        <?php include 'includes/content/components/_typography.php'; ?>
+        <hr>
             
         </main>
 
