@@ -19,5 +19,4 @@
         <li>Easy to customize and scale</li>
         <li>Following typography best practices</li>
     </ul>
-    <p>Learn more at <a href="https://polykit.xyz">polykit.xyz</a></p>
 </section>
