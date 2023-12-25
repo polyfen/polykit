@@ -146,12 +146,12 @@ body.dark-mode hr {
 
 body.light-mode a {
   color: #1C1C1C;
-  border-bottom: 2px solid rgba(255, 166, 0, 0.509);
+  border-bottom: 2px solid #1F8DF0;
 }
 
-body.light-mode a {
+body.dark-mode a {
   color: #ECF0F3;
-  border-bottom: 2px solid rgba(255, 166, 0, 0.509);
+  border-bottom: 2px solid #1F8DF0;
 }
 
 body.light-mode a:hover {

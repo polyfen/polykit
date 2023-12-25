@@ -62,56 +62,18 @@
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
 
-        <header>
-            <img src="imgs/polykit-logo.svg" height="50px" width="auto">
-            <div>
-                <small>v 0.1</small>
-                <a href="https://trello.com/b/QXjZGW58/polykit-product-roadmap" target="_blank"><small>Roadmap</small></a>
-            </div>
-        </header>
+        <?php include 'includes/_header.php'; ?>
 
         <main class="container">
 
-            <?php include 'includes/_cover.php'; ?>
+            <?php include 'includes/content/home/_cover.php'; ?>
             <hr>
             
-            <?php include 'includes/_intro.php'; ?>
+            <?php include 'includes/content/home/_intro.php'; ?>
             <hr>
 
-            <?php include 'includes/_atomic-design.php'; ?>
+            <?php include 'includes/content/home/_atomic-design.php'; ?>
             <hr>
-
-            <section>
-
-            <h2 class="heading-1">Getting Started</h2>
-
-                <section>
-                <h3 class="heading-2">For Developers</h3>
-
-                <?php include 'includes/_install-css.php'; ?>
-                <hr>
-
-                <?php include 'includes/_folders-and-files.php'; ?>
-
-                </section>
-            </section>
-
-            <hr>
-
-            <section>
-                <h2 class="heading-1">Components</h2>
-            
-                <section>
-                    <h3>Subatomics</h3>
-                
-                    <?php include 'includes/_ui-grid.php'; ?>
-                    <hr>                
-
-                    <?php include 'includes/_typography.php'; ?>
-                    <hr>
-
-                </section>
-            </section>
 
         </main>
 
