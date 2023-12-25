@@ -1,5 +1,7 @@
 <header>
-    <img src="imgs/polykit-logo.svg" height="50px" width="auto">
+    <a href="/">
+        <img src="imgs/polykit-logo.svg" height="50px" width="auto">
+    </a>
     <div>
         <small>v 0.1</small>
         <a href="https://trello.com/b/QXjZGW58/polykit-product-roadmap" target="_blank"><small>Roadmap</small></a>
