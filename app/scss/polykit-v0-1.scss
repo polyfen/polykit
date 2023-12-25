@@ -31,10 +31,12 @@
 @import '02-atoms/_typography.scss';
 @import '02-atoms/_buttons.scss';
 @import '02-atoms/_separators.scss';
+@import '02-atoms/_nav.scss';
 @import '02-atoms/_code.scss';
 
 /* 03-MOLECULES */
 /* molecules are groups of atoms bonded together and are the smallest fundamental units of a compound. */
+@import '03-molecules/_header.scss';
 
 /* 04-ORGANISMS */
 

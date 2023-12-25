@@ -391,6 +391,17 @@ hr {
   margin: 4rem 0;
 }
 
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+nav a:hover {
+  border-bottom: 2px solid hsl(208, 90%, 50%);
+}
+
 pre {
   padding: 2rem 1rem;
   border-radius: 4px;
@@ -403,6 +414,11 @@ p code {
 
 /* 03-MOLECULES */
 /* molecules are groups of atoms bonded together and are the smallest fundamental units of a compound. */
+header div {
+  position: absolute;
+  left: calc(50vw - 40px);
+}
+
 /* 04-ORGANISMS */
 /* 05-TEMPLATES */
 /* 06-PAGES */

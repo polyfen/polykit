@@ -1,0 +1,10 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid $primary-color;
+}
