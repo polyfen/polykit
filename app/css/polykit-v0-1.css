@@ -401,6 +401,15 @@ p code {
 /* 04-ORGANISMS */
 /* 05-TEMPLATES */
 /* 06-PAGES */
+html {
+  background: #060819;
+}
+
+body.site {
+  background: url("../../imgs/site/grid-pattern.png") no-repeat top center fixed;
+  background-size: unset;
+}
+
 body.site h2 strong {
   background: hsl(208, 90%, 50%);
   padding: 0 0.25rem;
