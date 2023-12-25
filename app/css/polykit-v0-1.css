@@ -401,6 +401,10 @@ button:hover, a.button:hover {
   box-shadow: 0 0 10px hsl(208, 90%, 50%);
 }
 
+button i.icon:before {
+  margin-right: 2.5rem;
+}
+
 hr {
   margin: 4rem 0;
 }
