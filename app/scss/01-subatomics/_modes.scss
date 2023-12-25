@@ -38,12 +38,12 @@ body.dark-mode hr {
 
 body.light-mode a {
     color: $light-mode-text;
-    border-bottom: 2px solid $primary-color;
+    border-bottom: 2px solid $primary-color-50pct;
 }
 
 body.dark-mode a {
     color: $dark-mode-text;
-    border-bottom: 2px solid $primary-color;
+    border-bottom: 2px solid $primary-color-50pct;
 }
 
 body.light-mode a:hover {
