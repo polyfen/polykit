@@ -81,6 +81,20 @@ p, p a, li, p strong, p span, li strong {
     font-feature-settings: "kern","liga","clig","calt";
 }
 
+/* links */
+
+a {
+    text-decoration: none;
+}
+
+p a, li a, small a, a small {
+    border-bottom: 2px solid $primary-color-50pct;
+}
+
+p a:hover, li a:hover, small a:hover, a:hover small {
+    border-bottom: 2px solid $primary-color;
+}
+
 /* text styles */
 
 .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
