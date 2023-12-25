@@ -146,22 +146,18 @@ body.dark-mode hr {
 
 body.light-mode a {
   color: #1C1C1C;
-  border-bottom: 2px solid hsla(208, 90%, 50%, 0.5);
 }
 
 body.dark-mode a {
   color: #ECF0F3;
-  border-bottom: 2px solid hsla(208, 90%, 50%, 0.5);
 }
 
 body.light-mode a:hover {
   color: #000000;
-  border-color: hsl(208, 90%, 50%);
 }
 
 body.dark-mode a:hover {
   color: #FFFFFF;
-  border-color: hsl(208, 90%, 50%);
 }
 
 body.light-mode small {
@@ -277,6 +273,19 @@ p, p a, li, p strong, p span, li strong {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
+/* links */
+a {
+  text-decoration: none;
+}
+
+p a, li a, small a, a small {
+  border-bottom: 2px solid hsla(208, 90%, 50%, 0.5);
+}
+
+p a:hover, li a:hover, small a:hover, a:hover small {
+  border-bottom: 2px solid hsl(208, 90%, 50%);
+}
+
 /* text styles */
 .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
   font-size: 2.5rem;
@@ -353,10 +362,6 @@ small, h1.caption, h2.caption, h3.caption, h4.caption, h5.caption, h6.caption {
 }
 
 /*///////////// BASE/_TYPOGRAPHY end /////////////*/
-a {
-  text-decoration: none;
-}
-
 button, a.button {
   background: hsl(208, 90%, 50%);
   color: #FFFFFF !important;
