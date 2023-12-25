@@ -1,5 +1,5 @@
 <section>
-    <h4 class="heading-3">Folders &amp; Files Structure</h4>
+    <h3 class="heading-2">2. Folders &amp; Files Structure</h2>
     <pre><code>
 /.github
 /app

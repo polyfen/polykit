@@ -52,6 +52,15 @@
 
         <main class="container">
 
+        <h1 class="title-1">Getting Started</h1>
+
+        <h2 class="heading-1">For Developers</h2>
+
+        <?php include 'includes/content/getting-started/_install-css.php'; ?>
+        <hr>
+
+        <?php include 'includes/content/getting-started/_folders-and-files.php'; ?>
+        <hr>
             
         </main>
 
