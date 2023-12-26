@@ -1,18 +1,21 @@
 <section>
-    <h4 class="heading-3">Typography</h4>
+    <h3 class="heading-1">Typography</h3>
 
-    <h3 class="heading-2">5.1. Font Families</h3>
+    <!--
 
-    <h4 class="heading-3">5.1.1. Display Fonts</h4>
+    <h4 class="heading-2">Font Families</h4>
 
+    <h5 class="heading-3">Display Fonts</h5>
 
-    <h4 class="heading-3">5.1.2. Body Fonts</h4>
+    <h5 class="heading-3">Body Text Fonts</h5>
 
+    <h5 class="heading-3">Caption Fonts</h5>
 
-    <h4 class="heading-3">5.1.3. Mono Fonts</h4>
+    <h5 class="heading-3">Mono Fonts</h5>
 
+    -->
 
-    <h3 class="heading-2">5.2. Font Styles</h3>
+    <h4 class="heading-2">Font Styles</h4>
 
     <section class="typography-demo">
         <section class="title-1-demo">

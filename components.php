@@ -41,7 +41,7 @@
 
     </head>
 
-    <body class="dark-mode site">
+    <body class="dark-mode site components">
 
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5ZXG85V7"
@@ -53,6 +53,8 @@
         <main class="container">
 
         <h1 class="title-1">UI Components</h1>
+
+        <h2 class="heading-1">Subatomics</h2>
 
         <?php include 'includes/content/components/_ui-grid.php'; ?>
         <hr>

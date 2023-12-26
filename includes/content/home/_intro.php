@@ -1,6 +1,5 @@
 <section>
     <h2 class="heading-1 align-center">We ship CSS and Figma updates <strong>together</strong></h2>
-    <p>A collection of reusable components, guidelines, and assets that are openly accessible and can be used to create consistent and cohesive designs across different platforms and devices.</p>
     <p>The code is:</p>
     <ul>
         <li>Light-weight</li>

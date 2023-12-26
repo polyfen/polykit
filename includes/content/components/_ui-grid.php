@@ -1,5 +1,5 @@
 <section>
-    <h4 class="heading-3">UI Grid</h4>
+    <h3 class="heading-1">UI Grid</h3>
     <p>All the dimensions of visual components —as well as the space between them— are defined around the <code>$grid-unit-size</code>.</p>
     <p>The base value of <code>$grid-unit-size</code> is <code>8px</code>.</p>
     <p>The preferred measurement unit for font-sizes, margins, and paddings is <strong>REM</strong>.</p>
