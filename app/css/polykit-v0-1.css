@@ -391,6 +391,7 @@ button, a.button {
   justify-content: center;
   align-items: center;
   margin: 1rem auto;
+  cursor: pointer;
 }
 
 a.button {

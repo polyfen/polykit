@@ -83,14 +83,19 @@
 
         <main class="container">
 
-        <h1 class="title-1">UI Components</h1>
+        <h1 class="caption">UI Components</h1>
 
-        <h2 class="heading-1">Subatomics</h2>
+        <h2 class="title-1">Subatomics</h2>
 
         <?php include 'includes/content/components/_ui-grid.php'; ?>
         <hr>
             
         <?php include 'includes/content/components/_typography.php'; ?>
+        <hr>
+
+        <h2 class="title-1">Atoms</h2>
+
+        <?php include 'includes/content/components/_buttons.php'; ?>
         <hr>
             
         </main>
