@@ -111,30 +111,64 @@ html {
 }
 
 /*///////////// BASE/_GRID end /////////////*/
-/* Light-value */
-/* Hues */
+/* --------------------------------------------------------- */
+/*
+   _____      _                
+  / ____|    | |               
+ | |     ___ | | ___  _ __ ___ 
+ | |    / _ \| |/ _ \| '__/ __|
+ | |___| (_) | | (_) | |  \__ \
+  \_____\___/|_|\___/|_|  |___/
+
+*/
+/* --------------------------------------------------------- */
+/* LIGHTNESS */
+/* Black */
+/* #000000 */
+/* #1C1C1C */
+/* Gray */
+/* #7B7B7C */
+/* #4C4C4C */
+/* White */
+/* #FFFFFF */
+/* #F9FAFB */
+/* Slate */
+/* #ECF0F3 */
+/* #D5D9DD */
+/* #BEC2C7 */
+/* #A7AAB2 */
+/* #90939C */
+/* #797C86 */
+/* #626570 */
+/* #4B4E5A */
+/* #343645 */
+/* #1D1F2F */
+/* #060819 */
+/* --------------------------------------------------------- */
+/* HUES */
+/* --------------------------------------------------------- */
 body.light-mode {
-  background: #ECF0F3;
+  background: hsl(206, 23%, 94%);
 }
 
 body.dark-mode {
-  background: #060819;
+  background: hsl(234, 61%, 6%);
 }
 
 body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode h4, body.light-mode h5, body.light-mode h6 {
-  color: #000000;
+  color: hsl(0, 0%, 0%);
 }
 
 body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
-  color: #FFFFFF;
+  color: hsl(0, 0%, 100%);
 }
 
 body.light-mode p, body.light-mode li, body.light-mode pre code {
-  color: #1C1C1C;
+  color: hsl(0, 0%, 11%);
 }
 
 body.dark-mode p, body.dark-mode li, body.dark-mode pre code {
-  color: #ECF0F3;
+  color: hsl(206, 23%, 94%);
 }
 
 body.light-mode hr {
@@ -146,45 +180,45 @@ body.dark-mode hr {
 }
 
 body.light-mode a {
-  color: #1C1C1C;
+  color: hsl(0, 0%, 11%);
 }
 
 body.dark-mode a {
-  color: #ECF0F3;
+  color: hsl(206, 23%, 94%);
 }
 
 body.light-mode a:hover {
-  color: #000000;
+  color: hsl(0, 0%, 0%);
 }
 
 body.dark-mode a:hover {
-  color: #FFFFFF;
+  color: hsl(0, 0%, 100%);
 }
 
 body.light-mode small {
-  color: #000000;
+  color: hsl(0, 0%, 0%);
 }
 
 body.dark-mode small {
-  color: #FFFFFF;
+  color: hsl(0, 0%, 100%);
 }
 
 body.light-mode pre, body.dark-mode pre {
-  background: #1C1C1C;
+  background: hsl(0, 0%, 11%);
 }
 
 body.light-mode pre code, body.dark-mode pre code {
-  color: #FFFFFF;
+  color: hsl(0, 0%, 100%);
 }
 
 body.light-mode p code {
-  background: #1C1C1C;
-  color: #FFFFFF;
+  background: hsl(0, 0%, 11%);
+  color: hsl(0, 0%, 100%);
 }
 
 body.dark-mode p code {
-  background: #ECF0F3;
-  color: #000000;
+  background: hsl(206, 23%, 94%);
+  color: hsl(0, 0%, 0%);
 }
 
 /* 02-ATOMS */
@@ -250,12 +284,12 @@ pre, code, pre code, pre code span {
 /* text highlight */
 ::-moz-selection {
   background: hsl(208, 90%, 50%);
-  color: #FFFFFF;
+  color: hsl(0, 0%, 100%);
 }
 
 ::selection {
   background: hsl(208, 90%, 50%);
-  color: #FFFFFF;
+  color: hsl(0, 0%, 100%);
 }
 
 /* text ligatures */
@@ -378,7 +412,7 @@ ul li::before {
 
 button, a.button {
   background: hsl(208, 90%, 50%);
-  color: #FFFFFF !important;
+  color: hsl(0, 0%, 100%) !important;
   padding: 0.75rem 1.5rem;
   border-radius: 80px;
   text-decoration: none;
@@ -461,7 +495,7 @@ header div {
 /* 05-TEMPLATES */
 /* 06-PAGES */
 html {
-  background: #060819;
+  background: hsl(234, 61%, 6%);
 }
 
 body.site {
