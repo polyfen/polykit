@@ -142,3 +142,14 @@ main.demo {
         display: none;
     }
 }
+
+body.site div.two-col {
+    display: flex;
+    gap: 40px;
+}
+
+@media (max-width: 768px) {
+    body.site div.two-col {
+        flex-direction: column;
+    }
+}
