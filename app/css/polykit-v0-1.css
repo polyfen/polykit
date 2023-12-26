@@ -396,6 +396,10 @@ small, h1.caption, h2.caption, h3.caption, h4.caption, h5.caption, h6.caption {
   font-weight: 400;
 }
 
+small {
+  display: block;
+}
+
 /*///////////// BASE/_TYPOGRAPHY end /////////////*/
 ul {
   list-style: none; /* Remove default bullets */
