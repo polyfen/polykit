@@ -1,17 +1,17 @@
 <section>
-    <h3 class="heading-1">Button</h3>
+    <h3 class="heading-1">Buttons</h3>
     <div>
         <button>Download Now</button>
     </div>
     <pre><code>button, a.button {
-    background: hsl(208, 90%, 50%);
-    color: #FFFFFF !important;
+    background: $primary-color;
+    color: $white;
     padding: 0.75rem 1.5rem;
-    border-radius: 80px;
+    border-radius: 10rem;
     text-decoration: none;
     letter-spacing: 0.5px;
-    font-weight: 600 !important;
-    box-shadow: 0 0 2px hsl(208, 90%, 50%);
+    font-weight: 600;
+    box-shadow: 0 0 2px $primary-color;
     display: flex;
     width: 240px;
     max-width: 100%;
