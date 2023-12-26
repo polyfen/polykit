@@ -20,25 +20,25 @@
     <section class="typography-demo">
         <section class="title-1-demo">
             <small class="caption">.title-1</small>
-            <h1 class="title-1" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Polykit Design System</h1>
+            <h5 class="title-1" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Polykit Design System</h5>
             <div class="type-demo-margin type-demo-margin-bottom"></div>
         </section>
 
         <section class="heading-1-demo">
             <small class="caption">.heading-1</small>
-            <h2 class="heading-1" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">An Open-source Design System for Web Development</h2>
+            <h5 class="heading-1" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">An Open-source Design System for Web Development</h5>
             <div class="type-demo-margin type-demo-margin-bottom"></div>
         </section>
 
         <section class="heading-2-demo">
             <small class="caption">.heading-2</small>
-            <h3 class="heading-2" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Seamless UX-Code Integration</h3>
+            <h5 class="heading-2" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Seamless UX-Code Integration</h5>
             <div class="type-demo-margin type-demo-margin-bottom"></div>
         </section>
 
         <section class="heading-3-demo">
             <small class="caption">.heading-3</small>
-            <h4 class="heading-3" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Beautiful Typography</h4>
+            <h5 class="heading-3" style="margin-top:0;padding-top:0;margin-bottom:0;padding-bottom:0;">Beautiful Typography</h5>
             <div class="type-demo-margin type-demo-margin-bottom"></div>
         </section>
 
