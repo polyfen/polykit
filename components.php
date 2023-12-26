@@ -87,7 +87,7 @@
 
         <h2 class="title-1">Subatomics</h2>
 
-        <?php include 'includes/content/components/_ui-grid.php'; ?>
+        <?php include 'includes/content/components/_grid.php'; ?>
         <hr>
             
         <?php include 'includes/content/components/_typography.php'; ?>
