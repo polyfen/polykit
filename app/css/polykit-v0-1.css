@@ -434,8 +434,6 @@ nav a:hover {
 
 aside {
   float: left;
-  padding-right: 3rem;
-  border-right: 2px solid rgba(236, 240, 243, 0.1411764706);
 }
 
 aside ul li::before {
