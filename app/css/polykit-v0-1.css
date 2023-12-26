@@ -176,7 +176,7 @@ body.light-mode hr {
 }
 
 body.dark-mode hr {
-  border-color: rgba(255, 255, 255, 0.2);
+  border-color: hsl(233, 24%, 15%);
 }
 
 body.light-mode a {
@@ -446,6 +446,7 @@ button i.icon {
 
 hr {
   margin: 4rem 0;
+  border-width: 2px;
 }
 
 pre {
