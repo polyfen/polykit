@@ -1,0 +1,31 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid $primary-color;
+}
+
+aside {
+    float: left;
+    padding-right: 3rem;
+    border-right: 2px solid #ecf0f324;
+}
+
+aside ul li::before {
+    display: none;
+}
+
+aside ul li a {
+    border-bottom: none;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+
+aside ul ul {
+    opacity: 0.6;
+    padding-left: 1.25rem;
+}

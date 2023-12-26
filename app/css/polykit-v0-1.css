@@ -409,17 +409,6 @@ hr {
   margin: 4rem 0;
 }
 
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 24px;
-}
-
-nav a:hover {
-  border-bottom: 2px solid hsl(208, 90%, 50%);
-}
-
 pre {
   padding: 2rem 1rem;
   border-radius: 4px;
@@ -432,12 +421,44 @@ p code {
 
 /* 03-MOLECULES */
 /* molecules are groups of atoms bonded together and are the smallest fundamental units of a compound. */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+nav a:hover {
+  border-bottom: 2px solid hsl(208, 90%, 50%);
+}
+
+aside {
+  float: left;
+  padding-right: 3rem;
+  border-right: 2px solid rgba(236, 240, 243, 0.1411764706);
+}
+
+aside ul li::before {
+  display: none;
+}
+
+aside ul li a {
+  border-bottom: none;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+aside ul ul {
+  opacity: 0.6;
+  padding-left: 1.25rem;
+}
+
+/* 04-ORGANISMS */
 header div {
   position: absolute;
   left: calc(50vw - 40px);
 }
 
-/* 04-ORGANISMS */
 /* 05-TEMPLATES */
 /* 06-PAGES */
 html {
@@ -566,4 +587,11 @@ body.site header {
 
 main.demo {
   padding-top: 7rem;
+}
+
+/* Temporary fix for responsive styles */
+@media (max-width: 768px) {
+  body.site nav, body.site aside {
+    display: none;
+  }
 }

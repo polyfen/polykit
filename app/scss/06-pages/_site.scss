@@ -134,3 +134,11 @@ body.site header {
 main.demo {
     padding-top: 7rem;
 }
+
+/* Temporary fix for responsive styles */
+
+@media (max-width: 768px) {
+    body.site nav, body.site aside {
+        display: none;
+    }
+}
