@@ -54,16 +54,16 @@
             <ul>
                 <li><a href="#">Subatomics</a></li>
                 <ul>
-                    <li><a href="#">Grid</a></li>
                     <li><a href="#">Branding</a></li>
-                    <li><a href="#">Type</a></li>
+                    <li><a href="#">Grid</a></li>
+                    <li><a href="#">Typography</a></li>
                     <li><a href="#">Colors</a></li>
                     <li><a href="#">Modes</a></li>
                 </ul>
                 <li><a href="#">Atoms</a></li>
                 <ul>
                     <li><a href="#">Containers</a></li>
-                    <li><a href="#">Typography</a></li>
+                    <li><a href="#">Text</a></li>
                     <li><a href="#">Icons</a></li>
                     <li><a href="#">Lists</a></li>
                     <li><a href="#">Buttons</a></li>
