@@ -645,6 +645,7 @@ body.site div.two-col {
 }
 body.site aside {
   padding-left: 2rem;
+  position: fixed;
 }
 
 body.site aside ul {
