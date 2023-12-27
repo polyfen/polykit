@@ -472,25 +472,6 @@ nav a:hover {
   border-bottom: 2px solid hsl(208, 90%, 50%);
 }
 
-aside {
-  float: left;
-}
-
-aside ul li::before {
-  display: none;
-}
-
-aside ul li a {
-  border-bottom: none;
-  font-size: 1rem;
-  line-height: 1.25rem;
-}
-
-aside ul ul {
-  opacity: 0.6;
-  padding-left: 1.25rem;
-}
-
 /* 04-ORGANISMS */
 header div {
   position: absolute;
@@ -654,4 +635,23 @@ body.site aside ul {
 
 body.site aside ul ul {
   padding-left: 1.5rem;
+}
+
+body.site aside {
+  float: left;
+}
+
+body.site aside ul li::before {
+  display: none;
+}
+
+body.site aside ul li a {
+  border-bottom: none;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+body.site aside ul ul {
+  opacity: 0.6;
+  padding-left: 1.25rem;
 }
