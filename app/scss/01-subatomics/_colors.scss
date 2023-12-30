@@ -110,6 +110,9 @@
     $blue-30pct: hsla($blue-h, $blue-s, $blue-l, 0.3);
     $blue-20pct: hsla($blue-h, $blue-s, $blue-l, 0.2);
     $blue-10pct: hsla($blue-h, $blue-s, $blue-l, 0.1);
+    $blue-gradient-start: hsl($blue-h + 20, $blue-s, $blue-l);
+    $blue-gradient-end: hsl($blue-h - 20, $blue-s, $blue-l);
+    
 
 
     

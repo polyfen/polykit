@@ -150,5 +150,31 @@
                 </div>
             </div>
         </div>
+        <div class="color-swatches-container">  
+            <div>
+                <div class="color-swatch blue-gradient"></div>
+                <div>
+                    $blue-gradient<br>
+                    #E6F0FF<br>
+                    hsl(214, 100%, 95%)
+                </div>
+            </div>
+            <div>
+                <div class="color-swatch blue-gradient-start"></div>
+                <div>
+                    $blue-gradient-start<br>
+                    #E6F0FF<br>
+                    hsl(214, 100%, 95%)
+                </div>
+            </div>
+            <div>
+                <div class="color-swatch blue-gradient-end"></div>
+                <div>
+                    $blue-gradient-end<br>
+                    #E6F0FF<br>
+                    hsl(214, 100%, 95%)
+                </div>
+            </div>
+        </div>
     </div>
 </section>
