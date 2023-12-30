@@ -656,12 +656,12 @@ body.site header {
 
 .type-demo-margin {
   width: 100%;
-  background: rgba(0, 255, 255, 0.4);
+  background: hsla(208, 100%, 53%, 0.1);
 }
 
 .type-demo-padding {
   width: 100%;
-  background: rgba(0, 255, 255, 0.4);
+  background: hsla(208, 100%, 53%, 0.1);
 }
 
 /* TITLE-1 */
