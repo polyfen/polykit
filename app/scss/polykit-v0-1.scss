@@ -1,43 +1,41 @@
-
+/* --------------------------------------------------------- */
 /*
 
-  ____       _       _    _ _   
- |  _ \ ___ | |_   _| | _(_) |_ 
- | |_) / _ \| | | | | |/ / | __|
- |  __/ (_) | | |_| |   <| | |_ 
- |_|   \___/|_|\__, |_|\_\_|\__|
-               |___/                                           
+.______     ______    __      ____    ____  __  ___  __  .___________.
+|   _  \   /  __  \  |  |     \   \  /   / |  |/  / |  | |           |
+|  |_)  | |  |  |  | |  |      \   \/   /  |  '  /  |  | `---|  |----`
+|   ___/  |  |  |  | |  |       \_    _/   |    <   |  |     |  |     
+|  |      |  `--'  | |  `----.    |  |     |  .  \  |  |     |  |     
+| _|       \______/  |_______|    |__|     |__|\__\ |__|     |__|     
+                                                                                                               
                                                          
     version: 0.1
-
     url: polykit.xyz
 
 */
+/* --------------------------------------------------------- */
 
 /* 01-SUBATOMICS */
-/* all CSS code that is not directly aplied to single HTML elements */
 @import '01-subatomics/_reset.scss';
 @import '01-subatomics/_general.scss';
 @import '01-subatomics/_grid.scss';
 @import '01-subatomics/_branding.scss';
-@import '01-subatomics/_type.scss';
+@import '01-subatomics/_typography.scss';
 @import '01-subatomics/_colors.scss';
 @import '01-subatomics/_modes.scss';
 ;
 
 /* 02-ATOMS */
-/* everything that has an HTML element tag */
 @import '02-atoms/_containers.scss';
-@import '02-atoms/_typography.scss';
+@import '02-atoms/_text-styles.scss';
 @import '02-atoms/_icons.scss';
 @import '02-atoms/_lists.scss';
 @import '02-atoms/_buttons.scss';
 @import '02-atoms/_inputs.scss';
 @import '02-atoms/_separators.scss';
-@import '02-atoms/_code.scss';
+@import '02-atoms/_codeblocks.scss';
 
 /* 03-MOLECULES */
-/* molecules are groups of atoms bonded together and are the smallest fundamental units of a compound. */
 @import '03-molecules/_nav.scss';
 
 /* 04-ORGANISMS */
@@ -50,3 +48,4 @@
 
 
 
+/* --------------------------------------------------------- */
