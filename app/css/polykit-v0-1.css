@@ -545,6 +545,7 @@ button, a.button {
   align-items: center;
   margin: 1rem auto;
   cursor: pointer;
+  border: none;
 }
 
 a.button {
