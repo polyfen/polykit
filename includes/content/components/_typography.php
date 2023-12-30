@@ -1,6 +1,8 @@
 <section>
     <h3 class="heading-1">Typography</h3>
 
+    <p>Font scale: <a href="https://docs.google.com/spreadsheets/d/1Asjiz2j95ch42ozf0yOZLZrDBgtdL0dTlrd0F2TLEiI/edit?usp=sharing" target="_blank">SHEET_PLKT_Font-Scale</a></p>
+
     <!--
 
     <h4 class="heading-2">Font Families</h4>
@@ -60,8 +62,4 @@
             <div class="type-demo-margin type-demo-margin-bottom"></div>
         </section>
     </section>
-
-    <hr class="secondary-separator">
-
-    <p>Font scale: <a href="https://docs.google.com/spreadsheets/d/1Asjiz2j95ch42ozf0yOZLZrDBgtdL0dTlrd0F2TLEiI/edit?usp=sharing" target="_blank">SHEET_PLKT_Font-Scale</a></p>
 </section>
