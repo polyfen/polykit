@@ -160,6 +160,8 @@ html {
 
 */
 /* --------------------------------------------------------- */
+/*///////////// SUBATOMICS/BRANDING start /////////////*/
+/*///////////// SUBATOMICS/BRANDING end /////////////*/
 /* --------------------------------------------------------- */
 /* --------------------------------------------------------- */
 /* 
@@ -172,6 +174,9 @@ html {
 
 */
 /* --------------------------------------------------------- */
+/*///////////// SUBATOMICS/TYPOGRAPHY start /////////////*/
+/*///////////// SUBATOMICS/TYPOGRAPHY end /////////////*/
+/* --------------------------------------------------------- */
 /* --------------------------------------------------------- */
 /*
    _____ ____  _      ____  _____   _____ 
@@ -183,6 +188,7 @@ html {
 
 */
 /* --------------------------------------------------------- */
+/*///////////// SUBATOMICS/COLORS start /////////////*/
 /* LIGHTNESS */
 /* Black */
 /* #000000 */
@@ -207,6 +213,9 @@ html {
 /* #060819 */
 /* --------------------------------------------------------- */
 /* HUES */
+/* Blue */
+/* #108EFF */
+/*///////////// SUBATOMICS/COLOR end /////////////*/
 /* --------------------------------------------------------- */
 /* --------------------------------------------------------- */
 /* 
@@ -219,27 +228,28 @@ html {
 
 */
 /* --------------------------------------------------------- */
-body.light-mode {
+/*///////////// SUBATOMICS/MODES start /////////////*/
+html :has(body.light-mode), body.light-mode {
   background: hsl(206, 23%, 94%);
 }
 
-body.dark-mode {
+html :has(body.dark-mode), body.dark-mode {
   background: hsl(234, 61%, 6%);
 }
 
-body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode h4, body.light-mode h5, body.light-mode h6 {
+html :has(body.light-mode), body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode h4, body.light-mode h5, body.light-mode h6 {
   color: hsl(0, 0%, 0%);
 }
 
-body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
+html :has(body.dark-mode), body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
   color: hsl(0, 0%, 100%);
 }
 
-body.light-mode p, body.light-mode li, body.light-mode pre code {
+body.light-mode p, body.light-mode li, body.light-mode pre code, body.light-mode div {
   color: hsl(0, 0%, 11%);
 }
 
-body.dark-mode p, body.dark-mode li, body.dark-mode pre code {
+body.dark-mode p, body.dark-mode li, body.dark-mode pre code, body.dark-mode div {
   color: hsl(206, 23%, 94%);
 }
 
@@ -293,13 +303,14 @@ body.dark-mode p code {
   color: hsl(0, 0%, 0%);
 }
 
+/*///////////// SUBATOMICS/MODES end /////////////*/
 /* 02-ATOMS */
 /* --------------------------------------------------------- */
 /* 
 
 */
 /* --------------------------------------------------------- */
-/*///////////// BASE/_CONTAINERS start /////////////*/
+/*///////////// ATOMS/CONTAINERS start /////////////*/
 .container {
   width: calc(100% - 30px);
   max-width: 790px;
@@ -307,7 +318,8 @@ body.dark-mode p code {
   padding: auto 15px;
 }
 
-/*///////////// BASE/_CONTAINERS end /////////////*/
+/*///////////// ATOMS/CONTAINERS end /////////////*/
+/* --------------------------------------------------------- */
 /* --------------------------------------------------------- */
 /* 
 
@@ -506,10 +518,17 @@ ul li::before {
 }
 
 /* --------------------------------------------------------- */
-/* 
-
+/* --------------------------------------------------------- */
+/*
+  ____  _    _ _______ _______ ____  _   _  _____ 
+ |  _ \| |  | |__   __|__   __/ __ \| \ | |/ ____|
+ | |_) | |  | |  | |     | | | |  | |  \| | (___  
+ |  _ <| |  | |  | |     | | | |  | | . ` |\___ \ 
+ | |_) | |__| |  | |     | | | |__| | |\  |____) |
+ |____/ \____/   |_|     |_|  \____/|_| \_|_____/                                                  
 */
 /* --------------------------------------------------------- */
+/*///////////// ATOMS/BUTTONS start /////////////*/
 button, a.button {
   background: hsl(208, 90%, 50%);
   color: hsl(0, 0%, 100%) !important;
@@ -540,6 +559,8 @@ button i.icon {
   margin-right: 2.5rem;
 }
 
+/*///////////// ATOMS/BUTTONS end /////////////*/
+/* --------------------------------------------------------- */
 /* --------------------------------------------------------- */
 /* 
 
@@ -570,6 +591,7 @@ p code {
   border-radius: 2px;
 }
 
+/* --------------------------------------------------------- */
 /* 03-MOLECULES */
 /* --------------------------------------------------------- */
 /* 
@@ -587,6 +609,7 @@ nav a:hover {
   border-bottom: 2px solid hsl(208, 90%, 50%);
 }
 
+/* --------------------------------------------------------- */
 /* 04-ORGANISMS */
 /* --------------------------------------------------------- */
 /* 
@@ -598,6 +621,7 @@ header div {
   left: calc(50vw - 40px);
 }
 
+/* --------------------------------------------------------- */
 /* 05-TEMPLATES */
 /* 06-PAGES */
 /* --------------------------------------------------------- */
@@ -781,4 +805,101 @@ body.site aside ul ul {
   padding-left: 1.25rem;
 }
 
+body.site div.color-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+body.site div.color-swatches-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+body.site div.color-swatches-container div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+body.site div.color-swatch {
+  height: 80px;
+  width: 80px;
+  display: block;
+}
+
+div.color-swatch.blue-100 {
+  background: hsl(208, 100%, 93%);
+}
+
+div.color-swatch.blue-200 {
+  background: hsl(208, 100%, 83%);
+}
+
+div.color-swatch.blue-300 {
+  background: hsl(208, 100%, 73%);
+}
+
+div.color-swatch.blue-400 {
+  background: hsl(208, 100%, 63%);
+}
+
+div.color-swatch.blue-500 {
+  background: hsl(208, 100%, 53%);
+}
+
+div.color-swatch.blue-600 {
+  background: hsl(208, 100%, 43%);
+}
+
+div.color-swatch.blue-700 {
+  background: hsl(208, 100%, 33%);
+}
+
+div.color-swatch.blue-800 {
+  background: hsl(208, 100%, 23%);
+}
+
+div.color-swatch.blue-900 {
+  background: hsl(208, 100%, 13%);
+}
+
+div.color-swatch.blue-90pct {
+  background: hsla(208, 100%, 53%, 0.9);
+}
+
+div.color-swatch.blue-80pct {
+  background: hsla(208, 100%, 53%, 0.8);
+}
+
+div.color-swatch.blue-70pct {
+  background: hsla(208, 100%, 53%, 0.7);
+}
+
+div.color-swatch.blue-60pct {
+  background: hsla(208, 100%, 53%, 0.6);
+}
+
+div.color-swatch.blue-50pct {
+  background: hsla(208, 100%, 53%, 0.5);
+}
+
+div.color-swatch.blue-40pct {
+  background: hsla(208, 100%, 53%, 0.4);
+}
+
+div.color-swatch.blue-30pct {
+  background: hsla(208, 100%, 53%, 0.3);
+}
+
+div.color-swatch.blue-20pct {
+  background: hsla(208, 100%, 53%, 0.2);
+}
+
+div.color-swatch.blue-10pct {
+  background: hsla(208, 100%, 53%, 0.1);
+}
+
+/* --------------------------------------------------------- */
 /* --------------------------------------------------------- */

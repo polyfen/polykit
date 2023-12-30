@@ -194,4 +194,103 @@ body.site aside ul ul {
     padding-left: 1.25rem;
 }
 
+body.site div.color-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+body.site div.color-swatches-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+body.site div.color-swatches-container div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+body.site div.color-swatch {
+    height: 80px;
+    width: 80px;
+    display: block;
+}
+
+
+div.color-swatch.blue-100 {
+    background: $blue-100;
+}
+
+div.color-swatch.blue-200 {
+    background: $blue-200;
+}
+
+div.color-swatch.blue-300 {
+    background: $blue-300;
+}
+
+div.color-swatch.blue-400 {
+    background: $blue-400;
+}
+
+div.color-swatch.blue-500 {
+    background: $blue-500;
+}
+
+div.color-swatch.blue-600 {
+    background: $blue-600;
+}
+
+div.color-swatch.blue-700 {
+    background: $blue-700;
+}
+
+div.color-swatch.blue-800 {
+    background: $blue-800;
+}
+
+div.color-swatch.blue-900 {
+    background: $blue-900;
+}
+
+div.color-swatch.blue-90pct {
+    background: $blue-90pct;
+}
+
+div.color-swatch.blue-80pct {
+    background: $blue-80pct;
+}
+
+div.color-swatch.blue-70pct {
+    background: $blue-70pct;
+}
+
+div.color-swatch.blue-60pct {
+    background: $blue-60pct;
+}
+
+div.color-swatch.blue-50pct {
+    background: $blue-50pct;
+}
+
+div.color-swatch.blue-40pct {
+    background: $blue-40pct;
+}
+
+div.color-swatch.blue-30pct {
+    background: $blue-30pct;
+}
+
+div.color-swatch.blue-20pct {
+    background: $blue-20pct;
+}
+
+div.color-swatch.blue-10pct {
+    background: $blue-10pct;
+}
+
+
+
 /* --------------------------------------------------------- */

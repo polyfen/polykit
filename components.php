@@ -94,6 +94,9 @@
             <?php include 'includes/content/components/_typography.php'; ?>
             <hr>
 
+            <?php include 'includes/content/components/_colors.php'; ?>
+            <hr>
+
             <h2 class="title-1">Atoms</h2>
 
             <?php include 'includes/content/components/_buttons.php'; ?>

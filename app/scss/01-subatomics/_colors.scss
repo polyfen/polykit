@@ -83,9 +83,34 @@
     $teal: #02BCAA;
     $butterscotch: #FFA502;
     $coral: #F75D78;
-    $blue: #1F8DF0;
     $gold: #CFA36D;
     $wine: #331E33;
+
+    /* Blue */
+    /* #108EFF */
+    $blue-h: 208;
+    $blue-s: 100%;
+    $blue-l: 53%;
+    $blue: hsl($blue-h, $blue-s, $blue-l); 
+    $blue-100: hsl($blue-h, $blue-s, $blue-l + 40);
+    $blue-200: hsl($blue-h, $blue-s, $blue-l + 30);
+    $blue-300: hsl($blue-h, $blue-s, $blue-l + 20);
+    $blue-400: hsl($blue-h, $blue-s, $blue-l + 10);
+    $blue-500: $blue;
+    $blue-600: hsl($blue-h, $blue-s, $blue-l - 10);
+    $blue-700: hsl($blue-h, $blue-s, $blue-l - 20);
+    $blue-800: hsl($blue-h, $blue-s, $blue-l - 30);
+    $blue-900: hsl($blue-h, $blue-s, $blue-l - 40);
+    $blue-90pct: hsla($blue-h, $blue-s, $blue-l, 0.9);
+    $blue-80pct: hsla($blue-h, $blue-s, $blue-l, 0.8);
+    $blue-70pct: hsla($blue-h, $blue-s, $blue-l, 0.7);
+    $blue-60pct: hsla($blue-h, $blue-s, $blue-l, 0.6);
+    $blue-50pct: hsla($blue-h, $blue-s, $blue-l, 0.5);
+    $blue-40pct: hsla($blue-h, $blue-s, $blue-l, 0.4);
+    $blue-30pct: hsla($blue-h, $blue-s, $blue-l, 0.3);
+    $blue-20pct: hsla($blue-h, $blue-s, $blue-l, 0.2);
+    $blue-10pct: hsla($blue-h, $blue-s, $blue-l, 0.1);
+
 
     
 /*///////////// SUBATOMICS/COLOR end /////////////*/

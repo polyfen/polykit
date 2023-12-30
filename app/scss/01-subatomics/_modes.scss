@@ -19,27 +19,27 @@ $light-mode-text: $off-black;
 $dark-mode-background: $slate-950;
 $dark-mode-text: $slate-050;
 
-body.light-mode {
-    background: $light-mode-background;;
+html :has(body.light-mode), body.light-mode {
+    background: $light-mode-background;
 }
 
-body.dark-mode {
+html :has(body.dark-mode), body.dark-mode {
     background: $dark-mode-background;
 }
 
-body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode h4, body.light-mode h5, body.light-mode h6 {
+html :has(body.light-mode), body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode h4, body.light-mode h5, body.light-mode h6 {
     color: $black;
 }
 
-body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
+html :has(body.dark-mode), body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
     color: $white;
 }
 
-body.light-mode p, body.light-mode li, body.light-mode pre code {
+body.light-mode p, body.light-mode li, body.light-mode pre code, body.light-mode div {
     color: $light-mode-text;
 }
 
-body.dark-mode p, body.dark-mode li, body.dark-mode pre code {
+body.dark-mode p, body.dark-mode li, body.dark-mode pre code, body.dark-mode div {
     color: $dark-mode-text;
 }
 
