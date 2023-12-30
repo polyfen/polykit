@@ -641,7 +641,7 @@ body.site {
 }
 
 body.site h2 strong {
-  background: hsl(208, 90%, 50%);
+  background-image: linear-gradient(45deg, hsl(228, 100%, 53%), hsl(188, 100%, 53%));
   padding: 0 0.25rem;
 }
 
