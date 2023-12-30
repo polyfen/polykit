@@ -112,6 +112,7 @@
     $blue-10pct: hsla($blue-h, $blue-s, $blue-l, 0.1);
     $blue-gradient-start: hsl($blue-h + 20, $blue-s, $blue-l);
     $blue-gradient-end: hsl($blue-h - 20, $blue-s, $blue-l);
+    $blue-gradient: linear-gradient(45deg, $blue-gradient-start, $blue-gradient-end);
     
 
 
