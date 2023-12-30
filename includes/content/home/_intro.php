@@ -20,8 +20,8 @@
             <ul>
                 <li>Clean</li>
                 <li>Consistent</li>
+                <li>Typography best practices</li>
                 <li>Easy to customize and scale</li>
-                <li>Following typography best practices</li>
             </ul>
         </div>
     </div>
