@@ -7,8 +7,9 @@
                 <li>Light-weight</li>
                 <li>Mobile-first</li>
                 <li>W3C compliant</li>
-                <li>Following accessability best practices</li>
-                <li>Following SEO best practices</li>
+                <li>HSL color system</li>
+                <li>Accessability best practices</li>
+                <li>SEO best practices</li>
                 <li>Easy to read</li>
                 <li>Easy to pick-up</li>
                 <li>Easy to maintain and scale</li>
