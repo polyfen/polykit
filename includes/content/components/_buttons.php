@@ -1,6 +1,6 @@
 <section>
     <h3 class="heading-1">Buttons</h3>
-    <div>
+    <div class="components-demo">
         <button>Download Now</button>
     </div>
     <pre><code>button, a.button {
