@@ -81,7 +81,7 @@
 
     $indigo: hsl(259, 93%, 59%);
     $teal: #02BCAA;
-    $butterscotch: #FFA502;
+    $butterscotch: hsl(39, 100%, 50%);
     $coral: #F75D78;
     $gold: #CFA36D;
     $wine: #331E33;
@@ -141,6 +141,34 @@
     $indigo-gradient-start: hsl($indigo-h + 20, $indigo-s, $indigo-l);
     $indigo-gradient-end: hsl($indigo-h - 20, $indigo-s, $indigo-l);
     $indigo-gradient: linear-gradient(45deg, $indigo-gradient-start, $indigo-gradient-end);
+    
+    /* Butterscotch */
+    /* #FFA502 */
+    $butterscotch-h: 39;
+    $butterscotch-s: 100%;
+    $butterscotch-l: 50%;
+    $butterscotch: hsl($butterscotch-h, $butterscotch-s, $butterscotch-l);
+    $butterscotch-100: hsl($butterscotch-h, $butterscotch-s, $butterscotch-l + 40);
+    $butterscotch-200: hsl($butterscotch-h, $butterscotch-s, $butterscotch-l + 30);
+    $butterscotch-300: hsl($butterscotch-h, $butterscotch-s, $butterscotch-l + 20);
+    $butterscotch-400: hsl($butterscotch-h, $butterscotch-s, $butterscotch-l + 10);
+    $butterscotch-500: $butterscotch;
+    $butterscotch-600: hsl($butterscotch-h, $butterscotch-s, $butterscotch-l - 10);
+    $butterscotch-700: hsl($butterscotch-h, $butterscotch-s, $butterscotch-l - 20);
+    $butterscotch-800: hsl($butterscotch-h, $butterscotch-s, $butterscotch-l - 30);
+    $butterscotch-900: hsl($butterscotch-h, $butterscotch-s, $butterscotch-l - 40);
+    $butterscotch-90pct: hsla($butterscotch-h, $butterscotch-s, $butterscotch-l, 0.9);
+    $butterscotch-80pct: hsla($butterscotch-h, $butterscotch-s, $butterscotch-l, 0.8);
+    $butterscotch-70pct: hsla($butterscotch-h, $butterscotch-s, $butterscotch-l, 0.7);
+    $butterscotch-60pct: hsla($butterscotch-h, $butterscotch-s, $butterscotch-l, 0.6);
+    $butterscotch-50pct: hsla($butterscotch-h, $butterscotch-s, $butterscotch-l, 0.5);
+    $butterscotch-40pct: hsla($butterscotch-h, $butterscotch-s, $butterscotch-l, 0.4);
+    $butterscotch-30pct: hsla($butterscotch-h, $butterscotch-s, $butterscotch-l, 0.3);
+    $butterscotch-20pct: hsla($butterscotch-h, $butterscotch-s, $butterscotch-l, 0.2);
+    $butterscotch-10pct: hsla($butterscotch-h, $butterscotch-s, $butterscotch-l, 0.1);
+    $butterscotch-gradient-start: hsl($butterscotch-h + 20, $butterscotch-s, $butterscotch-l);
+    $butterscotch-gradient-end: hsl($butterscotch-h - 20, $butterscotch-s, $butterscotch-l);
+    $butterscotch-gradient: linear-gradient(45deg, $butterscotch-gradient-start, $butterscotch-gradient-end); 
     
 
 

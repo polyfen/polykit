@@ -342,7 +342,203 @@
                         hsl(214, 100%, 95%)
                     </div>
                 </div>
-                <!-- ... (similar changes for gradient shades) ... -->
+                <div>
+                    <div class="color-swatch indigo-gradient-start"></div>
+                    <div>
+                        $indigo-gradient-start<br>
+                        #E6F0FF<br>
+                        hsl(214, 100%, 95%)
+                    </div>
+                </div>
+                <div>
+                    <div class="color-swatch indigo-gradient-end"></div>
+                    <div>
+                        $indigo-gradient<br>
+                        #E6F0FF<br>
+                        hsl(214, 100%, 95%)
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="secondary-separator">
+    <section><!-- BUTTERSCOTCH -->
+        <h4 class="heading-2">Butterscotch</h4>
+        <div class="color-wrapper">
+            <div class="color-swatches-container">  
+                <div>
+                    <div class="color-swatch butterscotch-100"></div>
+                    <div>
+                        $butterscotch-100<br>
+                        #E6F0FF<br>
+                        hsl(214, 100%, 95%)
+                    </div>
+                </div>
+                <div>
+                    <div class="color-swatch butterscotch-200"></div>
+                    <div>
+                        $butterscotch-200<br>
+                        #<br>
+                        hsl(#, #%, #%)
+                    </div>
+                </div>
+                <div>
+                    <div class="color-swatch butterscotch-300"></div>
+                    <div>
+                        $butterscotch-300<br>
+                        #<br>
+                        hsl(#, #%, #%)
+                    </div>
+                </div>
+                <div>
+                    <div class="color-swatch butterscotch-400"></div>
+                    <div>
+                        $butterscotch-400<br>
+                        #<br>
+                        hsl(#, #%, #%)
+                    </div>
+                </div>
+                <div>
+                    <div class="color-swatch butterscotch-500"></div>
+                    <div>
+                        $butterscotch-500<br>
+                        #<br>
+                        hsl(#, #%, #%)
+                    </div>
+                </div>
+                <div>
+                    <div class="color-swatch butterscotch-600"></div>
+                    <div>
+                        $butterscotch-600<br>
+                        #<br>
+                        hsl(#, #%, #%)
+                    </div>
+                </div>
+                <div>
+                    <div class="color-swatch butterscotch-700"></div>
+                    <div>
+                        $butterscotch-700<br>
+                        #<br>
+                        hsl(#, #%, #%)
+                    </div>
+                </div>
+                <div>
+                    <div class="color-swatch butterscotch-800"></div>
+                    <div>
+                        $butterscotch-800<br>
+                        #<br>
+                        hsl(#, #%, #%)
+                    </div>
+                </div>
+                <div>
+                    <div class="color-swatch butterscotch-900"></div>
+                    <div>
+                        $butterscotch-900<br>
+                        #<br>
+                        hsl(#, #%, #%)
+                    </div>
+                </div>
+            </div>
+            <div class="color-swatches-container">  
+                <div>
+                    <div class="color-swatch butterscotch-90pct"></div>
+                    <div>
+                        $butterscotch-90pct<br>
+                        #E6F0FF5A<br>
+                        hsl(214, 100%, 95%, 0.9)
+                    </div>
+                </div>
+                <div>
+                    <div class="color-swatch butterscotch-80pct"></div>
+                    <div>
+                        $butterscotch-80pct<br>
+                        #E6F0FFCC<br>
+                        hsl(214, 100%, 95%, 0.8)
+                    </div>
+                </div>
+                <div>
+                    <div class="color-swatch butterscotch-70pct"></div>
+                    <div>
+                        $butterscotch-70pct<br>
+                        #E6F0FFB3<br>
+                        hsl(214, 100%, 95%, 0.7)
+                    </div>
+                </div>
+                <div>
+                    <div class="color-swatch butterscotch-60pct"></div>
+                    <div>
+                        $butterscotch-60pct<br>
+                        #E6F0FF99<br>
+                        hsl(214, 100%, 95%, 0.6)
+                    </div>
+                </div>
+                <div>
+                    <div class="color-swatch butterscotch-50pct"></div>
+                    <div>
+                        $butterscotch-50pct<br>
+                        #E6F0FF80<br>
+                        hsl(214, 100%, 95%, 0.5)
+                    </div>
+                </div>
+                <div>
+                    <div class="color-swatch butterscotch-40pct"></div>
+                    <div>
+                        $butterscotch-40pct<br>
+                        #E6F0FF66<br>
+                        hsl(214, 100%, 95%, 0.4)
+                    </div>
+                </div>
+                <div>
+                    <div class="color-swatch butterscotch-30pct"></div>
+                    <div>
+                        $butterscotch-30pct<br>
+                        #E6F0FF4D<br>
+                        hsl(214, 100%, 95%, 0.3)
+                    </div>
+                </div>
+                <div>
+                    <div class="color-swatch butterscotch-20pct"></div>
+                    <div>
+                        $butterscotch-20pct<br>
+                        #E6F0FF33<br>
+                        hsl(214, 100%, 95%, 0.2)
+                    </div>
+                </div>
+                <div>
+                    <div class="color-swatch butterscotch-10pct"></div>
+                    <div>
+                        $butterscotch-10pct<br>
+                        #E6F0FF1A<br>
+                        hsl(214, 100%, 95%, 0.1)
+                    </div>
+                </div>
+            </div>
+            <div class="color-swatches-container">  
+                <div>
+                    <div class="color-swatch butterscotch-gradient"></div>
+                    <div>
+                        $butterscotch-gradient<br>
+                        #E6F0FF<br>
+                        hsl(214, 100%, 95%)
+                    </div>
+                </div>
+                <div>
+                    <div class="color-swatch butterscotch-gradient-start"></div>
+                    <div>
+                        $butterscotch-gradient-start<br>
+                        #E6F0FF<br>
+                        hsl(214, 100%, 95%)
+                    </div>
+                </div>
+                <div>
+                    <div class="color-swatch butterscotch-gradient-end"></div>
+                    <div>
+                        $butterscotch-gradient-end<br>
+                        #E6F0FF<br>
+                        hsl(214, 100%, 95%)
+                    </div>
+                </div>
             </div>
         </div>
     </section>
