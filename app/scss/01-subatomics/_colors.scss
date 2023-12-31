@@ -79,7 +79,7 @@
 
 /* HUES */
 
-    $indigo: #7537F8;
+    $indigo: hsl(259, 93%, 59%);
     $teal: #02BCAA;
     $butterscotch: #FFA502;
     $coral: #F75D78;
@@ -113,6 +113,34 @@
     $blue-gradient-start: hsl($blue-h + 20, $blue-s, $blue-l);
     $blue-gradient-end: hsl($blue-h - 20, $blue-s, $blue-l);
     $blue-gradient: linear-gradient(45deg, $blue-gradient-start, $blue-gradient-end);
+
+    /* Indigo */
+    /* #7537F8 */
+    $indigo-h: 259;
+    $indigo-s: 100%;
+    $indigo-l: 59%;
+    $indigo: hsl($indigo-h, $indigo-s, $indigo-l); 
+    $indigo-100: hsl($indigo-h, $indigo-s, $indigo-l + 40);
+    $indigo-200: hsl($indigo-h, $indigo-s, $indigo-l + 30);
+    $indigo-300: hsl($indigo-h, $indigo-s, $indigo-l + 20);
+    $indigo-400: hsl($indigo-h, $indigo-s, $indigo-l + 10);
+    $indigo-500: $indigo;
+    $indigo-600: hsl($indigo-h, $indigo-s, $indigo-l - 10);
+    $indigo-700: hsl($indigo-h, $indigo-s, $indigo-l - 20);
+    $indigo-800: hsl($indigo-h, $indigo-s, $indigo-l - 30);
+    $indigo-900: hsl($indigo-h, $indigo-s, $indigo-l - 40);
+    $indigo-90pct: hsla($indigo-h, $indigo-s, $indigo-l, 0.9);
+    $indigo-80pct: hsla($indigo-h, $indigo-s, $indigo-l, 0.8);
+    $indigo-70pct: hsla($indigo-h, $indigo-s, $indigo-l, 0.7);
+    $indigo-60pct: hsla($indigo-h, $indigo-s, $indigo-l, 0.6);
+    $indigo-50pct: hsla($indigo-h, $indigo-s, $indigo-l, 0.5);
+    $indigo-40pct: hsla($indigo-h, $indigo-s, $indigo-l, 0.4);
+    $indigo-30pct: hsla($indigo-h, $indigo-s, $indigo-l, 0.3);
+    $indigo-20pct: hsla($indigo-h, $indigo-s, $indigo-l, 0.2);
+    $indigo-10pct: hsla($indigo-h, $indigo-s, $indigo-l, 0.1);
+    $indigo-gradient-start: hsl($indigo-h + 20, $indigo-s, $indigo-l);
+    $indigo-gradient-end: hsl($indigo-h - 20, $indigo-s, $indigo-l);
+    $indigo-gradient: linear-gradient(45deg, $indigo-gradient-start, $indigo-gradient-end);
     
 
 

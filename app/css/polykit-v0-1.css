@@ -215,6 +215,8 @@ html {
 /* HUES */
 /* Blue */
 /* #108EFF */
+/* Indigo */
+/* #7537F8 */
 /*///////////// SUBATOMICS/COLOR end /////////////*/
 /* --------------------------------------------------------- */
 /* --------------------------------------------------------- */
@@ -918,6 +920,90 @@ div.color-swatch.blue-gradient-end {
 
 div.color-swatch.blue-gradient {
   background-image: linear-gradient(45deg, hsl(228, 100%, 53%), hsl(188, 100%, 53%));
+}
+
+div.color-swatch.indigo-100 {
+  background: hsl(259, 100%, 99%);
+}
+
+div.color-swatch.indigo-200 {
+  background: hsl(259, 100%, 89%);
+}
+
+div.color-swatch.indigo-300 {
+  background: hsl(259, 100%, 79%);
+}
+
+div.color-swatch.indigo-400 {
+  background: hsl(259, 100%, 69%);
+}
+
+div.color-swatch.indigo-500 {
+  background: hsl(259, 100%, 59%);
+}
+
+div.color-swatch.indigo-600 {
+  background: hsl(259, 100%, 49%);
+}
+
+div.color-swatch.indigo-700 {
+  background: hsl(259, 100%, 39%);
+}
+
+div.color-swatch.indigo-800 {
+  background: hsl(259, 100%, 29%);
+}
+
+div.color-swatch.indigo-900 {
+  background: hsl(259, 100%, 19%);
+}
+
+div.color-swatch.indigo-90pct {
+  background: hsla(259, 100%, 59%, 0.9);
+}
+
+div.color-swatch.indigo-80pct {
+  background: hsla(259, 100%, 59%, 0.8);
+}
+
+div.color-swatch.indigo-70pct {
+  background: hsla(259, 100%, 59%, 0.7);
+}
+
+div.color-swatch.indigo-60pct {
+  background: hsla(259, 100%, 59%, 0.6);
+}
+
+div.color-swatch.indigo-50pct {
+  background: hsla(259, 100%, 59%, 0.5);
+}
+
+div.color-swatch.indigo-40pct {
+  background: hsla(259, 100%, 59%, 0.4);
+}
+
+div.color-swatch.indigo-30pct {
+  background: hsla(259, 100%, 59%, 0.3);
+}
+
+div.color-swatch.indigo-20pct {
+  background: hsla(259, 100%, 59%, 0.2);
+}
+
+div.color-swatch.indigo-10pct {
+  background: hsla(259, 100%, 59%, 0.1);
+}
+
+div.color-swatch.indigo-gradient-start {
+  background: hsl(279, 100%, 59%);
+}
+
+div.color-swatch.indigo-gradient-end {
+  background: hsl(239, 100%, 59%);
+}
+
+div.color-swatch.indigo-gradient {
+  background-image: linear-gradient(45deg, hsl(279, 100%, 59%), hsl(239, 100%, 59%));
 }
 
 div.components-demo {
