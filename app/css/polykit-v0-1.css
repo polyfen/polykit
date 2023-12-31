@@ -299,8 +299,8 @@ body.light-mode p code {
 }
 
 body.dark-mode p code {
-  background: hsl(206, 23%, 94%);
-  color: hsl(0, 0%, 0%);
+  background: hsl(0, 0%, 11%);
+  color: #FFA502;
 }
 
 /*///////////// SUBATOMICS/MODES end /////////////*/
