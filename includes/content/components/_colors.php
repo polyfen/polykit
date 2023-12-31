@@ -1,6 +1,7 @@
 <section>
     <h3 class="heading-1">Colors</h3>
     <p>For maximum control and precision of the color schemes all colors are defined with the HSL color system in the code.</p>
+    <p>Color scheme breakdown: <a href="https://docs.google.com/spreadsheets/d/1YGeGpMlbvtdP7KPhpq7TlN81uxokArXkFVkcrT6nVgk/edit?usp=sharing" target="_blank">SHEET_PLKT_Color-Scheme</a></p>
     <section><!-- BLUE -->
         <h4 class="heading-2">Blue</h4>
         <div class="color-wrapper">
