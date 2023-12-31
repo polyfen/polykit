@@ -59,7 +59,7 @@
         <?php include 'includes/content/getting-started/_install-css.php'; ?>
         <hr>
 
-        <?php include 'includes/content/getting-started/_folders-and-files.php'; ?>
+        <?php include 'includes/content/getting-started/_customizing-scss.php'; ?>
         <hr>
             
         </main>
