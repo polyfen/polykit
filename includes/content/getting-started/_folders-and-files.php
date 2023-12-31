@@ -1,5 +1,6 @@
 <section>
-    <h3 class="heading-2">Folders &amp; Files Structure</h2>
+    <h3 class="heading-2">Customizing the SCSS</h3>
+    <h4 class="heading-3">Folders &amp; Files Structure</h4>
     <pre><code>
 /.github
 /app
@@ -13,7 +14,7 @@
                             |_______ › _grid.scss
                             |_______ › _modes.scss
                             |_______ › _reset.scss
-                            |_______ › _type.scss
+                            |_______ › _typography.scss
                 |_______ › /02-atoms
                             |_______ › _buttons.scss
                             |_______ › _code.scss
@@ -21,10 +22,11 @@
                             |_______ › _lists.scss
                             |_______ › _nav.scss
                             |_______ › _separators.scss
-                            |_______ › _typography.scss
+                            |_______ › _text-styles.scss
                 |_______ › /03-molecules
-                            |_______ › _header.scss
+                            |_______ › _nav.scss
                 |_______ › /04-organisms
+                            |_______ › _header.scss
                 |_______ › /05-templates
                 |_______ › /06-pages
                             |_______ › _site.scss
