@@ -485,6 +485,16 @@ div.mailchimp-form-container {
     margin: 0 auto;
     background-color: $slate-800;
     border-radius: 4px;
+    padding: 1rem;
+}
+
+div.mailchimp-form-container div.mc-field-group {
+    margin: 1rem auto;
+}
+
+div.mailchimp-form-container div.mc-field-group label, div.mailchimp-form-container div.mc-field-group input {
+    width: 240px;
+    margin: 0 auto;
 }
 
 /* --------------------------------------------------------- */
