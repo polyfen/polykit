@@ -82,6 +82,12 @@
             <?php include 'includes/content/home/_atomic-design.php'; ?>
             <hr>
 
+            <?php include 'includes/content/home/_wordpress-themes.php'; ?>
+            <hr>
+
+            <?php include 'includes/_email-subscription.php'; ?>
+            <hr>
+
         </main>
 
         <?php include 'includes/_footer.php'; ?>
