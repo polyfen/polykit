@@ -71,22 +71,23 @@
 
         <?php include 'includes/_header.php'; ?>
 
-        <main class="container">
+        <main>
 
             <?php include 'includes/content/home/_cover.php'; ?>
-            <hr>
             
-            <?php include 'includes/content/home/_intro.php'; ?>
-            <hr>
+            <div style="background: #060819;padding:4rem 0;margin:4rem 0;">
+                <div class="container">
+                <?php include 'includes/content/home/_intro.php'; ?>
+                <hr>
 
-            <?php include 'includes/content/home/_atomic-design.php'; ?>
-            <hr>
+                <?php include 'includes/content/home/_atomic-design.php'; ?>
+                <hr>
 
-            <?php include 'includes/content/home/_wordpress-themes.php'; ?>
-            <hr>
+                <?php include 'includes/content/home/_wordpress-themes.php'; ?>
+                </div>
+            </div>
 
             <?php include 'includes/_email-subscription.php'; ?>
-            <hr>
 
         </main>
 
