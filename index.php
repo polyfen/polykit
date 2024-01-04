@@ -75,7 +75,7 @@
 
             <?php include 'includes/content/home/_cover.php'; ?>
             
-            <div style="background: #060819;padding:4rem 0;margin:4rem 0;">
+            <div style="background: #070a1e;padding:4rem 0;margin:4rem 0;">
                 <div class="container">
                 <?php include 'includes/content/home/_intro.php'; ?>
                 <hr>

@@ -262,7 +262,7 @@ body.light-mode hr {
 }
 
 body.dark-mode hr {
-  border-color: hsl(233, 14%, 24%);
+  border-color: hsla(233, 14%, 24%, 0.42);
 }
 
 body.light-mode a {
@@ -585,7 +585,8 @@ label, input {
 /* --------------------------------------------------------- */
 hr {
   margin: 4rem 0;
-  border-width: 2px;
+  border-width: 4px;
+  border-style: solid;
 }
 
 hr.secondary-separator {
