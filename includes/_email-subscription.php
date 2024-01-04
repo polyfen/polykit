@@ -1,6 +1,6 @@
 <section>
     <h2 class="heading-1 align-center">Join our Mailing List</h2>
-    <p class="align-center">Support us by hearing our latest messages about design and development.</p>
+    <p class="align-center" style="max-width:400px;margin:0 auto;">Support us by hearing our latest messages about design and development.</p>
     <div class="mailchimp-form-container">
         <!-- Mailchimp Embed Code start-->
         <div id="mc_embed_shell">
