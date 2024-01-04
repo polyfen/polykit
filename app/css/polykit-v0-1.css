@@ -557,7 +557,7 @@ a.button {
   border-bottom: none;
 }
 
-button:hover, a.button:hover {
+button:hover, a.button:hover, input.button:hover {
   box-shadow: 0 0 10px hsl(208, 90%, 50%);
 }
 
