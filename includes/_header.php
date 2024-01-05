@@ -4,7 +4,7 @@
     </a>
     <nav>
         <a href="/">Home</a>
-        <a href="getting-started.php">Getting Started</a>
-        <a href="components.php">Components</a>
+        <a href="/getting-started.php">Getting Started</a>
+        <a href="/components.php">Components</a>
     </nav>
 </header>

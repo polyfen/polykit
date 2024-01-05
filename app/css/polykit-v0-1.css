@@ -626,6 +626,10 @@ nav a:hover {
   border-bottom: 2px solid hsl(208, 90%, 50%);
 }
 
+.current-page {
+  opacity: 0.4;
+}
+
 /* --------------------------------------------------------- */
 /* 04-ORGANISMS */
 .hellobar {
