@@ -1,0 +1,17 @@
+.hellobar {
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 8px;
+    background: $blue-500;
+}
+
+.hellobar .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}

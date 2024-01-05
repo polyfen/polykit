@@ -628,6 +628,24 @@ nav a:hover {
 
 /* --------------------------------------------------------- */
 /* 04-ORGANISMS */
+.hellobar {
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+  padding: 8px;
+  background: hsl(208, 100%, 53%);
+}
+
+.hellobar .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
 /* --------------------------------------------------------- */
 /* 
 
@@ -635,7 +653,7 @@ nav a:hover {
 /* --------------------------------------------------------- */
 header div {
   position: absolute;
-  left: calc(50vw - 40px);
+  left: calc(50vw - 80px);
 }
 
 /* --------------------------------------------------------- */

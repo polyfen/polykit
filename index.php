@@ -69,6 +69,8 @@
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
 
+        <?php include 'includes/_hellobar.php'; ?>
+
         <?php include 'includes/_header.php'; ?>
 
         <main>
