@@ -496,7 +496,7 @@ div.mailchimp-form-container div.mc-field-group label, div.mailchimp-form-contai
     margin: 0 auto;
 }
 
-html, body {
+html :has(body.site) , body.site {
     background: #0e112a;
 }
 
