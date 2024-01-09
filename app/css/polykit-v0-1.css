@@ -615,8 +615,8 @@ p code {
 
 */
 /* --------------------------------------------------------- */
-nav ul {
-  list-style: none;
+nav ul li:before {
+  display: none;
 }
 
 nav {
