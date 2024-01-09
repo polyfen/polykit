@@ -430,7 +430,7 @@ p a:hover, li a:hover, small a:hover, a:hover small {
 @media screen and (min-width: 1380px) {
   .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
     font-size: 7.75rem;
-    line-height: auto;
+    line-height: 8.5rem;
   }
 }
 /*
