@@ -258,7 +258,7 @@ body.dark-mode p, body.dark-mode li, body.dark-mode pre code, body.dark-mode div
 }
 
 body.light-mode hr {
-  border-color: rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0.04);
 }
 
 body.dark-mode hr {
