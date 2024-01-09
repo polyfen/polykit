@@ -667,10 +667,6 @@ nav a:hover {
 
 */
 /* --------------------------------------------------------- */
-html {
-  background: hsl(234, 61%, 6%);
-}
-
 body.site {
   background: url("../../imgs/site/grid-pattern.png") no-repeat top center fixed;
   background-size: unset;
