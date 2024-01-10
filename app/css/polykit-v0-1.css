@@ -380,12 +380,12 @@ pre, code, pre code, pre code span {
 
 /* text highlight */
 ::-moz-selection {
-  background: hsl(259, 100%, 59%);
+  background: hsl(208, 100%, 53%);
   color: hsl(0, 0%, 100%);
 }
 
 ::selection {
-  background: hsl(259, 100%, 59%);
+  background: hsl(208, 100%, 53%);
   color: hsl(0, 0%, 100%);
 }
 
@@ -411,11 +411,11 @@ a {
 }
 
 p a, li a, small a, a small {
-  border-bottom: 2px solid hsla(259, 100%, 100%, 0.5);
+  border-bottom: 2px solid hsla(208, 100%, 100%, 0.5);
 }
 
 p a:hover, li a:hover, small a:hover, a:hover small {
-  border-bottom: 2px solid hsl(259, 100%, 59%);
+  border-bottom: 2px solid hsl(208, 100%, 53%);
 }
 
 /* text styles */
@@ -521,7 +521,7 @@ ul {
 
 ul li::before {
   content: "•"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: hsl(259, 100%, 59%); /* Change the color */
+  color: hsl(208, 100%, 53%); /* Change the color */
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
@@ -549,7 +549,7 @@ button, a.button, input.button {
   text-decoration: none;
   letter-spacing: 0.5px;
   font-weight: 600 !important;
-  box-shadow: 0 0 2px hsl(259, 100%, 59%);
+  box-shadow: 0 0 2px hsl(208, 100%, 53%);
   display: flex;
   width: 240px;
   max-width: 100%;
@@ -565,7 +565,7 @@ a.button {
 }
 
 button:hover, a.button:hover, input.button:hover {
-  box-shadow: 0 0 10px hsl(259, 100%, 59%);
+  box-shadow: 0 0 10px hsl(208, 100%, 53%);
 }
 
 button i.icon {
@@ -634,7 +634,7 @@ nav {
 }
 
 nav a:hover {
-  border-bottom: 2px solid hsl(259, 100%, 59%);
+  border-bottom: 2px solid hsl(208, 100%, 53%);
 }
 
 .current-page {
