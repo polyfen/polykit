@@ -451,6 +451,12 @@ h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.headi
   font-weight: 800;
 }
 
+@media screen and (min-width: 1200px) {
+  h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+    font-size: 3.5rem;
+    line-height: 3.75rem;
+  }
+}
 h2, .heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.heading-2, h6.heading-2 {
   font-size: 1.6rem;
   line-height: 2rem;
