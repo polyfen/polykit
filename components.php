@@ -88,9 +88,9 @@
         <main class="container">
 
             
-            <h1 class="title-1 uppercase" style="border-left:4px solid hsla(208, 90%, 50%, 1);padding-left:1rem;display:inline-block;letter-spacing:2px;">Components</h1>
+            <h1 class="heading-1 uppercase" style="border-left:4px solid hsla(208, 90%, 50%, 1);padding-left:1rem;display:inline-block;letter-spacing:1px;">Components</h1>
 
-            <h2 class="title-1">Subatomics</h2>
+            <h2 class="heading-1">Subatomics</h2>
 
             <?php include 'includes/content/components/_grid.php'; ?>
             <hr>
@@ -101,7 +101,7 @@
             <?php include 'includes/content/components/_colors.php'; ?>
             <hr>
 
-            <h2 class="title-1">Atoms</h2>
+            <h2 class="heading-1">Atoms</h2>
 
             <?php include 'includes/content/components/_buttons.php'; ?>
             <hr>

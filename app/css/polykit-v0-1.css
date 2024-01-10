@@ -465,6 +465,12 @@ h2, .heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.headi
   font-weight: 700;
 }
 
+@media screen and (min-width: 1200px) {
+  h2, .heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.heading-2, h6.heading-2 {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+  }
+}
 h3, .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
   font-size: 1.375rem;
   line-height: 1.5rem;
@@ -473,6 +479,12 @@ h3, .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.headi
   font-weight: 700;
 }
 
+@media screen and (min-width: 1200px) {
+  h3, .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+  }
+}
 h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.heading-4, h6.heading-4 {
   font-size: 1.25rem;
   line-height: 1.375rem;
@@ -481,6 +493,12 @@ h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.headi
   font-weight: 700;
 }
 
+@media screen and (min-width: 1200px) {
+  h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.heading-4, h6.heading-4 {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+}
 p, p a, li, p strong, p span, li strong, th, td {
   font-size: 1.25rem;
   line-height: 2rem;
