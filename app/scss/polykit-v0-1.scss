@@ -19,10 +19,10 @@
 @import '01-subatomics/_reset.scss';
 @import '01-subatomics/_general.scss';
 @import '01-subatomics/_grid.scss';
-@import '01-subatomics/_branding.scss';
 @import '01-subatomics/_typography.scss';
 @import '01-subatomics/_colors.scss';
 @import '01-subatomics/_modes.scss';
+@import '01-subatomics/_branding.scss';
 ;
 
 /* 02-ATOMS */
@@ -43,9 +43,10 @@
 @import '04-organisms/_header.scss';
 
 /* 05-TEMPLATES */
+@import '05-templates/_site.scss';
+@import '05-templates/_polyfen.scss';
 
 /* 06-PAGES */
-@import '06-pages/_site.scss';
 
 /* PLAYGROUND */
 @import '_playground.scss';

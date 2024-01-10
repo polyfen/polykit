@@ -14,7 +14,7 @@
 
 </head>
 
-<body class="light-mode">
+<body class="light-mode polyfen">
 
     <main class="container demo">
         <section class="align-center">

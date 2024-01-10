@@ -12,9 +12,13 @@
 
 /*///////////// SUBATOMICS/BRANDING start /////////////*/
 
-$primary-color: hsl(208, 90%, 50%);
+$accent-color-h: $blue-h;
+$accent-color-s: $blue-s;
+$accent-color-l: $blue-l;
 
-$primary-color-50pct: hsla(208, 90%, 50%, 0.5);
+$accent-color: hsl($accent-color-h, $accent-color-s, $accent-color-l);
+
+$accent-color-50pct: hsl($accent-color-h, $accent-color-h, $accent-color-h, 0.5);
 
 /*///////////// SUBATOMICS/BRANDING end /////////////*/
 /* --------------------------------------------------------- */

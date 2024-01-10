@@ -151,20 +151,6 @@ html {
 /* --------------------------------------------------------- */
 /* --------------------------------------------------------- */
 /* 
-  ____  _____            _   _ _____ _____ _   _  _____ 
- |  _ \|  __ \     /\   | \ | |  __ \_   _| \ | |/ ____|
- | |_) | |__) |   /  \  |  \| | |  | || | |  \| | |  __ 
- |  _ <|  _  /   / /\ \ | . ` | |  | || | | . ` | | |_ |
- | |_) | | \ \  / ____ \| |\  | |__| || |_| |\  | |__| |
- |____/|_|  \_\/_/    \_\_| \_|_____/_____|_| \_|\_____|
-
-*/
-/* --------------------------------------------------------- */
-/*///////////// SUBATOMICS/BRANDING start /////////////*/
-/*///////////// SUBATOMICS/BRANDING end /////////////*/
-/* --------------------------------------------------------- */
-/* --------------------------------------------------------- */
-/* 
   _________     _______   ____   _____ _____            _____  _    ___     __
  |__   __\ \   / /  __ \ / __ \ / ____|  __ \     /\   |  __ \| |  | \ \   / /
     | |   \ \_/ /| |__) | |  | | |  __| |__) |   /  \  | |__) | |__| |\ \_/ / 
@@ -308,6 +294,20 @@ body.dark-mode p code {
 }
 
 /*///////////// SUBATOMICS/MODES end /////////////*/
+/* --------------------------------------------------------- */
+/* 
+  ____  _____            _   _ _____ _____ _   _  _____ 
+ |  _ \|  __ \     /\   | \ | |  __ \_   _| \ | |/ ____|
+ | |_) | |__) |   /  \  |  \| | |  | || | |  \| | |  __ 
+ |  _ <|  _  /   / /\ \ | . ` | |  | || | | . ` | | |_ |
+ | |_) | | \ \  / ____ \| |\  | |__| || |_| |\  | |__| |
+ |____/|_|  \_\/_/    \_\_| \_|_____/_____|_| \_|\_____|
+
+*/
+/* --------------------------------------------------------- */
+/*///////////// SUBATOMICS/BRANDING start /////////////*/
+/*///////////// SUBATOMICS/BRANDING end /////////////*/
+/* --------------------------------------------------------- */
 /* 02-ATOMS */
 /* --------------------------------------------------------- */
 /* 
@@ -380,12 +380,12 @@ pre, code, pre code, pre code span {
 
 /* text highlight */
 ::-moz-selection {
-  background: hsl(208, 90%, 50%);
+  background: hsl(259, 100%, 59%);
   color: hsl(0, 0%, 100%);
 }
 
 ::selection {
-  background: hsl(208, 90%, 50%);
+  background: hsl(259, 100%, 59%);
   color: hsl(0, 0%, 100%);
 }
 
@@ -411,11 +411,11 @@ a {
 }
 
 p a, li a, small a, a small {
-  border-bottom: 2px solid hsla(208, 90%, 50%, 0.5);
+  border-bottom: 2px solid hsla(259, 100%, 100%, 0.5);
 }
 
 p a:hover, li a:hover, small a:hover, a:hover small {
-  border-bottom: 2px solid hsl(208, 90%, 50%);
+  border-bottom: 2px solid hsl(259, 100%, 59%);
 }
 
 /* text styles */
@@ -521,7 +521,7 @@ ul {
 
 ul li::before {
   content: "•"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: hsl(208, 90%, 50%); /* Change the color */
+  color: hsl(259, 100%, 59%); /* Change the color */
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
@@ -541,7 +541,7 @@ ul li::before {
 /* --------------------------------------------------------- */
 /*///////////// ATOMS/BUTTONS start /////////////*/
 button, a.button, input.button {
-  /* background: $primary-color; */
+  /* background: $accent-color; */
   background-image: linear-gradient(45deg, hsl(228, 100%, 53%), hsl(188, 100%, 53%));
   color: hsl(0, 0%, 100%) !important;
   padding: 0.75rem 1.5rem;
@@ -549,7 +549,7 @@ button, a.button, input.button {
   text-decoration: none;
   letter-spacing: 0.5px;
   font-weight: 600 !important;
-  box-shadow: 0 0 2px hsl(208, 90%, 50%);
+  box-shadow: 0 0 2px hsl(259, 100%, 59%);
   display: flex;
   width: 240px;
   max-width: 100%;
@@ -565,7 +565,7 @@ a.button {
 }
 
 button:hover, a.button:hover, input.button:hover {
-  box-shadow: 0 0 10px hsl(208, 90%, 50%);
+  box-shadow: 0 0 10px hsl(259, 100%, 59%);
 }
 
 button i.icon {
@@ -634,7 +634,7 @@ nav {
 }
 
 nav a:hover {
-  border-bottom: 2px solid hsl(208, 90%, 50%);
+  border-bottom: 2px solid hsl(259, 100%, 59%);
 }
 
 .current-page {
@@ -668,7 +668,6 @@ nav a:hover {
 /* --------------------------------------------------------- */
 /* --------------------------------------------------------- */
 /* 05-TEMPLATES */
-/* 06-PAGES */
 /* --------------------------------------------------------- */
 /* 
 
@@ -1156,5 +1155,6 @@ body.site header div {
   left: calc(50vw - 80px);
 }
 
+/* 06-PAGES */
 /* PLAYGROUND */
 /* --------------------------------------------------------- */

@@ -4,14 +4,14 @@
         <button>Download Now</button>
     </div>
     <pre><code>button, a.button {
-    background: $primary-color;
+    background: $accent-color;
     color: $white;
     padding: 0.75rem 1.5rem;
     border-radius: 10rem;
     text-decoration: none;
     letter-spacing: 0.5px;
     font-weight: 600;
-    box-shadow: 0 0 2px $primary-color;
+    box-shadow: 0 0 2px $accent-color;
     display: flex;
     width: 240px;
     max-width: 100%;

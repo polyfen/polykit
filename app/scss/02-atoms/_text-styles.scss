@@ -60,12 +60,12 @@ pre, code, pre code, pre code span {
 /* text highlight */
 
 ::-moz-selection {
-    background: $primary-color;
+    background: $accent-color;
     color: $white;
 }
 
 ::selection {
-    background: $primary-color;
+    background: $accent-color;
     color: $white;
 }
 
@@ -93,11 +93,11 @@ a {
 }
 
 p a, li a, small a, a small {
-    border-bottom: 2px solid $primary-color-50pct;
+    border-bottom: 2px solid $accent-color-50pct;
 }
 
 p a:hover, li a:hover, small a:hover, a:hover small {
-    border-bottom: 2px solid $primary-color;
+    border-bottom: 2px solid $accent-color;
 }
 
 /* text styles */

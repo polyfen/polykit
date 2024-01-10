@@ -12,7 +12,7 @@
 /*///////////// ATOMS/BUTTONS start /////////////*/
 
 button, a.button, input.button {
-    /* background: $primary-color; */
+    /* background: $accent-color; */
     background-image: $blue-gradient;
     color: $white !important;
     padding: 0.75rem 1.5rem;
@@ -20,7 +20,7 @@ button, a.button, input.button {
     text-decoration: none;
     letter-spacing: 0.5px;
     font-weight: 600 !important;
-    box-shadow: 0 0 2px $primary-color;
+    box-shadow: 0 0 2px $accent-color;
     display: flex;
     width: 240px;
     max-width: 100%;
@@ -36,7 +36,7 @@ a.button {
 }
 
 button:hover, a.button:hover, input.button:hover {
-    box-shadow: 0 0 10px $primary-color;
+    box-shadow: 0 0 10px $accent-color;
 }
 
 button i.icon {
