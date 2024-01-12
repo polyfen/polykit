@@ -697,11 +697,6 @@ nav a:hover {
 
 */
 /* --------------------------------------------------------- */
-body.site {
-  background: url("../../imgs/site/grid-pattern.png") no-repeat top center fixed;
-  background-size: unset;
-}
-
 body.site h2 strong {
   background-image: linear-gradient(45deg, hsl(228, 100%, 53%), hsl(188, 100%, 53%));
   padding: 0 0.25rem;
@@ -1183,6 +1178,11 @@ body.site.home h1 {
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
+}
+
+body.site {
+  background: url("../../imgs/site/grid-pattern.png") no-repeat top center fixed, #0e112a;
+  background-size: unset;
 }
 
 /* 06-PAGES */
