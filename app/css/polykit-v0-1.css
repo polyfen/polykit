@@ -1179,6 +1179,12 @@ body.site header div {
   left: calc(50vw - 80px);
 }
 
+body.site.home h1 {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* 06-PAGES */
 /* PLAYGROUND */
 /* --------------------------------------------------------- */
