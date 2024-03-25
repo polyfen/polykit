@@ -90,7 +90,6 @@ body nav {
     right: 0px;
     transition: right .3s ease-in-out;
     z-index: 350;
-    overflow-y: auto;
 }
 
 .hamburger {
@@ -146,6 +145,7 @@ body main {
 
 nav ul {
     list-style: none;
+    overflow-y: auto;
 }
 
 nav ul ul {
