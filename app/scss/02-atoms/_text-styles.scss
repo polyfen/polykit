@@ -93,7 +93,7 @@ a {
 }
 
 p a, li a, small a, a small {
-    border-bottom: 2px solid $accent-color-50pct;
+    border-bottom: 2px dotted $accent-color-50pct;
 }
 
 p a:hover, li a:hover, small a:hover, a:hover small {

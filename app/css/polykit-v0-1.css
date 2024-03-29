@@ -411,7 +411,7 @@ a {
 }
 
 p a, li a, small a, a small {
-  border-bottom: 2px solid hsla(208, 100%, 100%, 0.5);
+  border-bottom: 2px dotted hsla(208, 100%, 100%, 0.5);
 }
 
 p a:hover, li a:hover, small a:hover, a:hover small {
