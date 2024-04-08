@@ -7,8 +7,8 @@
 
 * {
     font-kerning: normal;
-    text-wrap: balance;
 }
+
 
 /* font families */
 
@@ -18,6 +18,11 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $display-font-family, $sans-fallback-fonts;
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: pretty;
 }
 
 p, p a, li, p strong, p span, li strong, th, td {
