@@ -7,13 +7,59 @@
 /*///////////// ATOMS/CONTAINERS start /////////////*/
 
 
-.container {
+[class*="container-"] {
     width: calc(100% - 30px);
-    max-width: 790px;
-    margin: 0 auto;
-    padding: auto 15px;
+    margin: 0 auto ;
+    padding-inline: 15px;
 }
+
+.container-1080 {
+    max-width: 1080px;
+  }
   
+  .container-900 {
+    max-width: 900px;
+  }
+  
+  .container-800 {
+    max-width: 800px;
+  }
+  
+  .container-750 {
+    max-width: 750px;
+  }
+  
+  .container-700 {
+    max-width: 700px;
+  }
+  
+  .container-600 {
+    max-width: 600px;
+  }
+  
+  .container-500 {
+    max-width: 500px;
+  }
+  
+  .container-400 {
+    max-width: 400px;
+  }
+  
+  .container-350 {
+    max-width: 350px;
+  }
+  
+  .container-300 {
+    max-width: 300px;
+  }
+  
+  .container-250 {
+    max-width: 250px;
+  }
+  
+  .container-200 {
+    max-width: 200px;
+  }
 
 /*///////////// ATOMS/CONTAINERS end /////////////*/
 
