@@ -12,6 +12,11 @@
     margin: 0 auto ;
 }
 
+.container {
+  width: calc(100% - 30px);
+  max-width: 790px;
+  margin: 0 auto;
+}
 .container-1080 {
     max-width: 1080px;
   }
