@@ -371,7 +371,7 @@ p {
   text-wrap: pretty;
 }
 
-p, p a, li, p strong, p span, li strong, th, td {
+p, p a, li, li a, p strong, p span, li strong, th, td {
   font-family: "Lora", serif;
 }
 
