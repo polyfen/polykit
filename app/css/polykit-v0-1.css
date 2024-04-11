@@ -686,7 +686,8 @@ nav {
 }
 
 nav a:hover {
-  border-bottom: 2px solid hsl(208, 100%, 53%);
+  text-decoration: underline hsl(208, 100%, 53%) solid 2px;
+  text-underline-offset: 5px;
 }
 
 .current-page {

@@ -16,7 +16,8 @@ nav {
 }
 
 nav a:hover {
-    border-bottom: 2px solid $accent-color;
+    text-decoration: underline $accent-color solid 2px;
+    text-underline-offset: 5px;
 }
 
 .current-page {
