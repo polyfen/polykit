@@ -12,14 +12,12 @@
 /*///////////// ATOMS/BUTTONS start /////////////*/
 
 button, a.button, input.button {
-    /* background: $accent-color; */
     background-image: $accent-gradient;
-    color: $white !important;
+    color: $white;
     padding: 0.75rem 1.5rem;
     border-radius: 80px;
     text-decoration: none;
     letter-spacing: 0.5px;
-    font-weight: 600 !important;
     box-shadow: 0 0 2px $accent-color;
     display: flex;
     width: 240px;
