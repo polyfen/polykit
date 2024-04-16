@@ -649,7 +649,7 @@ button, a.button, input.button {
   background-image: linear-gradient(45deg, hsl(228, 100%, 53%), hsl(188, 100%, 53%));
   color: hsl(0, 0%, 100%);
   padding: 0.75rem 1.5rem;
-  border-radius: 80px;
+  border-radius: 4px;
   text-decoration: none;
   letter-spacing: 0.5px;
   box-shadow: 0 0 2px hsl(208, 100%, 53%);
