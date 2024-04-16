@@ -134,6 +134,9 @@ button, a.button, input.button {
     h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.heading-4, h6.heading-4 {
         font-size: 1.75rem;
     }
+    p, p a, li, p strong, p span, li strong, th, td {
+        font-size: 1.5rem;
+    }
 }
 
 @media (min-width:1200px) {
