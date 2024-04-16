@@ -358,18 +358,13 @@ body.dark-mode p code {
   font-size: inherit;
 }
 
-/* font families */
+/* FONT FAMILIES */
 * {
   font-family: "Figtree", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Figtree", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  text-wrap: balance;
-}
-
-p {
-  text-wrap: pretty;
 }
 
 p, p a, li, li a, p strong, p span, li strong, th, td {
@@ -384,40 +379,23 @@ pre, code, pre code, pre code span {
   font-family: "Anonymous Pro", monospace;
 }
 
-/* text alignment */
-.align-center {
-  text-align: center;
+/* TEXT WRAP */
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
 }
 
-.align-left {
-  text-align: left;
+p {
+  text-wrap: pretty;
 }
 
-.align-right {
-  text-align: left;
+/* LIGATURES */
+* {
+  -moz-font-feature-settings: "kern";
+  -ms-font-feature-settings: "kern";
+  -webkit-font-feature-settings: "kern";
+  font-feature-settings: "kern";
 }
 
-/* text variations */
-.uppercase {
-  text-transform: uppercase;
-}
-
-.italic {
-  font-style: italic;
-}
-
-/* text highlight */
-::-moz-selection {
-  background: hsl(208, 100%, 53%);
-  color: hsl(0, 0%, 100%);
-}
-
-::selection {
-  background: hsl(208, 100%, 53%);
-  color: hsl(0, 0%, 100%);
-}
-
-/* text ligatures */
 h1, h2, h3, h4, h5, button, a.button, a small, small {
   font-variant-ligatures: discretionary-ligatures;
   -moz-font-feature-settings: "kern", "liga", "calt";
@@ -433,7 +411,154 @@ p, p a, li, p strong, p span, li strong {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
-/* links */
+/* FONT-SIZES, LINE-HEIGHT, LETTER-SPACING */
+.title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+  font-size: 2.5rem;
+  line-height: 110%;
+  letter-spacing: -0.25px;
+}
+
+h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+  font-size: 2rem;
+  line-height: 110%;
+  letter-spacing: -0.25px;
+}
+
+h2, .heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.heading-2, h6.heading-2 {
+  font-size: 1.75rem;
+  line-height: 110%;
+  letter-spacing: -0.25px;
+}
+
+h3, .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
+  font-size: 1.5rem;
+  line-height: 110%;
+  letter-spacing: -0.25px;
+}
+
+h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.heading-4, h6.heading-4 {
+  font-size: 1.375rem;
+  line-height: 110%;
+}
+
+p, p a, li, p strong, p span, li strong, th, td {
+  font-size: 1.2rem;
+  line-height: 150%;
+}
+
+pre, code, pre code {
+  font-size: 1.2rem;
+  line-height: 133%;
+}
+
+small, h1.caption, h2.caption, h3.caption, h4.caption, h5.caption, h6.caption {
+  font-size: 1rem;
+  line-height: 110%;
+}
+
+button, a.button, input.button {
+  font-size: 1rem;
+}
+
+@media (min-width: 720px) {
+  .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+    font-size: 3.25rem;
+  }
+  h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+    font-size: 2.75rem;
+  }
+  h2, .heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.heading-2, h6.heading-2 {
+    font-size: 2.5rem;
+  }
+  h3, .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
+    font-size: 2.2rem;
+  }
+  h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.heading-4, h6.heading-4 {
+    font-size: 1.75rem;
+  }
+}
+@media (min-width: 1200px) {
+  .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+    font-size: 5.25rem;
+    letter-spacing: -0.4px;
+  }
+  h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+    font-size: 3.25rem;
+    letter-spacing: -0.4px;
+  }
+}
+@media (min-width: 1380px) {
+  .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+    font-size: 7.75rem;
+  }
+}
+/* FONT-WEIGHTS */
+.title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+  font-weight: 800;
+}
+
+h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+  font-weight: 800;
+}
+
+h2, .heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.heading-2, h6.heading-2 {
+  font-weight: 700;
+}
+
+h3, .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
+  font-weight: 500;
+}
+
+h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.heading-4, h6.heading-4 {
+  font-weight: 500;
+}
+
+p, p a, li, p strong, p span, li strong, th, td {
+  font-weight: 400;
+}
+
+pre, code, pre code {
+  font-weight: 400;
+}
+
+small, h1.caption, h2.caption, h3.caption, h4.caption, h5.caption, h6.caption {
+  font-weight: 500;
+}
+
+button, a.button, input.button {
+  font-weight: 500;
+}
+
+/* MARGINS */
+.title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+  margin-bottom: 2.5rem;
+}
+
+h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+  margin-bottom: 2.5rem;
+}
+
+h2, .heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.heading-2, h6.heading-2 {
+  margin-bottom: 2rem;
+}
+
+h3, .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
+  margin-bottom: 1.75rem;
+}
+
+h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.heading-4, h6.heading-4 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+small, h1.caption, h2.caption, h3.caption, h4.caption, h5.caption, h6.caption {
+  margin-bottom: 0;
+}
+
+/* LINKS */
 a {
   text-decoration: none;
 }
@@ -449,112 +574,36 @@ p a:hover, li a:hover, small a:hover, a:hover small {
   opacity: 1;
 }
 
-/**/
-/**/
-/* text styles */
-.title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
-  font-size: 2.5rem;
-  line-height: 110%;
-  margin-top: 0;
-  margin-bottom: 2.5rem;
-  font-weight: 800;
+/* HIGHLIGHTED TEXT */
+::-moz-selection {
+  background: hsl(208, 100%, 53%);
+  color: hsl(0, 0%, 100%);
 }
 
-@media screen and (min-width: 1380px) {
-  .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
-    font-size: 7.75rem;
-    letter-spacing: -0.04px;
-  }
-}
-/*
-.title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
-    font-size: 2.25rem;
-    line-height: 2.375rem;
-    font-weight: 800;
-    margin-top: 1rem;
-    padding-top: 2rem;
-}
-*/
-h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
-  font-size: 2rem;
-  line-height: 110%;
-  margin-top: 0;
-  margin-bottom: 2.5rem;
-  font-weight: 800;
+::selection {
+  background: hsl(208, 100%, 53%);
+  color: hsl(0, 0%, 100%);
 }
 
-@media screen and (min-width: 1200px) {
-  h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
-    font-size: 3.5rem;
-  }
-}
-h2, .heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.heading-2, h6.heading-2 {
-  font-size: 1.75rem;
-  line-height: 110%;
-  margin-top: 0;
-  margin-bottom: 2rem;
-  font-weight: 700;
+/* UTILITY CLASSES */
+.align-center {
+  text-align: center;
 }
 
-@media screen and (min-width: 1200px) {
-  h2, .heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.heading-2, h6.heading-2 {
-    font-size: 2.5rem;
-  }
-}
-h3, .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
-  font-size: 1.5rem;
-  line-height: 110%;
-  margin-top: 0;
-  margin-bottom: 1.75rem;
-  font-weight: 700;
+.align-left {
+  text-align: left;
 }
 
-@media screen and (min-width: 1200px) {
-  h3, .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
-    font-size: 2.2rem;
-  }
-}
-h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.heading-4, h6.heading-4 {
-  font-size: 1.375rem;
-  line-height: 110%;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-weight: 700;
+.align-right {
+  text-align: left;
 }
 
-@media screen and (min-width: 1200px) {
-  h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.heading-4, h6.heading-4 {
-    font-size: 1.75rem;
-  }
-}
-p, p a, li, p strong, p span, li strong, th, td {
-  font-size: 1.5rem;
-  line-height: 150%;
-  font-weight: 400;
+.uppercase {
+  text-transform: uppercase;
 }
 
-p {
-  margin-top: 0;
-  margin-bottom: 2rem;
-}
-
-pre, code, pre code {
-  font-size: 1.2rem;
-  line-height: 133%;
-  font-weight: 400;
-}
-
-small, h1.caption, h2.caption, h3.caption, h4.caption, h5.caption, h6.caption {
-  font-size: 1rem;
-  line-height: 110%;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-weight: 500;
-}
-
-button, a.button, input.button {
-  font-size: 1rem;
-  font-weight: 500;
+.italic {
+  font-style: italic;
 }
 
 /*///////////// BASE/_TYPOGRAPHY end /////////////*/
