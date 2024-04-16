@@ -509,11 +509,11 @@ h2, .heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.headi
 }
 
 h3, .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.heading-4, h6.heading-4 {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 p, p a, li, p strong, p span, li strong, th, td {
@@ -529,7 +529,7 @@ small, h1.caption, h2.caption, h3.caption, h4.caption, h5.caption, h6.caption {
 }
 
 button, a.button, input.button {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* MARGINS */
