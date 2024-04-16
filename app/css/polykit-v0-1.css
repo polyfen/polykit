@@ -633,6 +633,14 @@ ul li::before {
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
+.hanging-list {
+  padding-left: 24px;
+}
+
+.arrow-bullets li::before {
+  content: "➞";
+}
+
 /* --------------------------------------------------------- */
 /* --------------------------------------------------------- */
 /*
