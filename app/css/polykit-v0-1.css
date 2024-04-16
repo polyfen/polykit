@@ -706,10 +706,10 @@ nav :where(a:hover) {
 /* --------------------------------------------------------- */
 /* 04-ORGANISMS */
 .hellobar {
-  margin-top: -8px;
+  margin-top: 0;
   margin-left: -8px;
   margin-right: -8px;
-  padding: 8px;
+  padding: 12px 15px 14px;
   background: #033c6e;
   border-bottom: 8px solid #1f8df0;
 }
