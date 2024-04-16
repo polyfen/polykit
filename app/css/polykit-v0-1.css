@@ -528,7 +528,7 @@ h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.headi
 }
 p, p a, li, p strong, p span, li strong, th, td {
   font-size: 1.5rem;
-  line-height: 150%;
+  line-height: 133%;
   font-weight: 400;
 }
 
