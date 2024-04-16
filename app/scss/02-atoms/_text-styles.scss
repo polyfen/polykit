@@ -7,7 +7,7 @@
 
 * {
     font-kerning: normal;
-    font-size: 1rem;
+    font-size: inherit;
 }
 
 
@@ -225,6 +225,10 @@ small, h1.caption, h2.caption, h3.caption, h4.caption, h5.caption, h6.caption {
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;
+}
+
+button, a.button, input.button {
+    font-size: 1rem;
 }
 
 
