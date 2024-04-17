@@ -689,7 +689,7 @@ button, a.button, input.button {
   border-radius: 900px;
   text-decoration: none;
   letter-spacing: 0.5px;
-  box-shadow: 0 0 2px hsl(208, 100%, 53%);
+  box-shadow: 0 0 10px hsla(208, 100%, 100%, 0.5);
   display: flex;
   width: 240px;
   max-width: 100%;
@@ -705,7 +705,7 @@ a.button {
 }
 
 button:hover, a.button:hover, input.button:hover {
-  box-shadow: 0 0 10px hsl(208, 100%, 53%);
+  box-shadow: 0 0 10px 4px hsl(208, 100%, 53%);
 }
 
 button i.icon {

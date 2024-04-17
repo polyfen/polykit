@@ -18,7 +18,7 @@ button, a.button, input.button {
     border-radius: 900px;
     text-decoration: none;
     letter-spacing: 0.5px;
-    box-shadow: 0 0 2px $accent-color;
+    box-shadow: 0 0 10px $accent-color-50pct;
     display: flex;
     width: 240px;
     max-width: 100%;
@@ -34,7 +34,7 @@ a.button {
 }
 
 button:hover, a.button:hover, input.button:hover {
-    box-shadow: 0 0 10px $accent-color;
+    box-shadow: 0 0 10px 4px $accent-color;
 }
 
 button i.icon {
