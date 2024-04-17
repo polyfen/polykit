@@ -101,18 +101,18 @@ picture {
 }
 
 .margin-auto {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .margin-right-auto {
-  margin-left: 0;
-  margin-right: auto;
+  margin-left: 0 !important;
+  margin-right: auto !important;
 }
 
 .margin-left-auto {
-  margin-right: 0;
-  margin-left: auto;
+  margin-right: 0 !important;
+  margin-left: auto !important;
 }
 
 /*///////////// SUBATOMICS/GENERAL end /////////////*/
