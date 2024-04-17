@@ -14,7 +14,7 @@
 button, a.button, input.button {
     background-image: $accent-gradient;
     color: $white;
-    padding: 0.8rem 1.5rem;
+    padding: 0.8rem 1.4rem;
     border-radius: 4px;
     text-decoration: none;
     letter-spacing: 0.5px;
@@ -44,7 +44,7 @@ button i.icon {
 button.large-button, a.large-button, input.large-button  {
     padding: 0.8rem 1.75rem;
     text-transform: uppercase;
-    letter-spacing: 0.75px;
+    letter-spacing: 1px;
 }
 
 /*///////////// ATOMS/BUTTONS end /////////////*/
