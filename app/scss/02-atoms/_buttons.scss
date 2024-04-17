@@ -50,6 +50,13 @@ button.large-button, a.large-button, input.large-button  {
 button.secondary-button, a.secondary-button, input.secondary-button {
     background-image: none !important;
     background-color: $slate-950-40pct;
+    border: 3px solid $accent-color;
+}
+
+button.secondary-button:hover, a.button.secondary-button:hover, input.button.secondary-button:hover {
+    background-image: none !important;
+    box-shadow: 0 0 10px $accent-color;
+    background-color: $accent-color;
 }
 
 /*///////////// ATOMS/BUTTONS end /////////////*/

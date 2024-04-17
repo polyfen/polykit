@@ -711,6 +711,13 @@ button.large-button, a.large-button, input.large-button {
 button.secondary-button, a.secondary-button, input.secondary-button {
   background-image: none !important;
   background-color: hsla(234, 61%, 6%, 0.4);
+  border: 3px solid hsl(208, 100%, 53%);
+}
+
+button.secondary-button:hover, a.button.secondary-button:hover, input.button.secondary-button:hover {
+  background-image: none !important;
+  box-shadow: 0 0 10px hsl(208, 100%, 53%);
+  background-color: hsl(208, 100%, 53%);
 }
 
 /*///////////// ATOMS/BUTTONS end /////////////*/
