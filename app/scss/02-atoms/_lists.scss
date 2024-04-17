@@ -29,4 +29,8 @@ ul li::before {
     margin-bottom: 1.2rem;
 }
 
+ul.no-bullets li:before {
+    display: none;
+}
+
 /* --------------------------------------------------------- */
