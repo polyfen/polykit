@@ -692,6 +692,12 @@ button i.icon {
   margin-right: 2.5rem;
 }
 
+.large-button {
+  padding: 0.8rem 1.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+}
+
 /*///////////// ATOMS/BUTTONS end /////////////*/
 /* --------------------------------------------------------- */
 /* --------------------------------------------------------- */
