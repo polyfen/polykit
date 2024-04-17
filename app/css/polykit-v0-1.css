@@ -467,6 +467,8 @@ button, a.button, input.button {
 
 small.mini, a.mini {
   font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 @media (min-width: 720px) {
