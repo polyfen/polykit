@@ -27,6 +27,9 @@ button, a.button, input.button {
     margin: 1rem auto;
     cursor: pointer;
     border: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 a.button {
