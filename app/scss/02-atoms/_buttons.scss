@@ -47,6 +47,10 @@ button.large-button, a.large-button, input.large-button  {
     letter-spacing: 1px;
 }
 
+button.secondary-button, a.secondary-button, input.secondary-button {
+    background: $slate-950-40pct;
+}
+
 /*///////////// ATOMS/BUTTONS end /////////////*/
 
 /* --------------------------------------------------------- */

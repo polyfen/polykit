@@ -702,6 +702,10 @@ button.large-button, a.large-button, input.large-button {
   letter-spacing: 1px;
 }
 
+button.secondary-button, a.secondary-button, input.secondary-button {
+  background: hsla(234, 61%, 6%, 0.4);
+}
+
 /*///////////// ATOMS/BUTTONS end /////////////*/
 /* --------------------------------------------------------- */
 /* --------------------------------------------------------- */
