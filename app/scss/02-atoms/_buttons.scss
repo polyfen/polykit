@@ -26,10 +26,6 @@ button, a.button, input.button {
     align-items: center;
     margin: 1rem auto;
     cursor: pointer;
-    border: none;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
 }
 
 a.button {
@@ -37,7 +33,7 @@ a.button {
 }
 
 button:hover, a.button:hover, input.button:hover {
-    box-shadow: 0 0 10px 4px $accent-color;
+    box-shadow: 0 0 10px 4px $accent-color, inset 0 0 0 1px $slate-950;
 }
 
 button i.icon {
