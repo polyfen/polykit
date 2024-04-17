@@ -48,7 +48,7 @@ button.large-button, a.large-button, input.large-button  {
 }
 
 button.secondary-button, a.secondary-button, input.secondary-button {
-    background-image: none;
+    background-image: none !important;
     background-color: $slate-950-40pct;
 }
 
