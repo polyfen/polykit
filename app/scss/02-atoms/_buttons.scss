@@ -48,7 +48,8 @@ button.large-button, a.large-button, input.large-button  {
 }
 
 button.secondary-button, a.secondary-button, input.secondary-button {
-    background: $slate-950-40pct;
+    background-image: none;
+    background-color: $slate-950-40pct;
 }
 
 /*///////////// ATOMS/BUTTONS end /////////////*/
