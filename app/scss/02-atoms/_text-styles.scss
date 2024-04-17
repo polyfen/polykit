@@ -25,7 +25,7 @@ p, p a, li, li a, p strong, p span, li strong, th, td {
     font-family: $body-text-font-family, $serif-fallback-fonts;
 }
 
-button, a.button, small {
+button, a.button, small, .mini {
     font-family: $captions-font-family, $sans-fallback-fonts;
 }
 
@@ -116,6 +116,10 @@ small, h1.caption, h2.caption, h3.caption, h4.caption, h5.caption, h6.caption {
 
 button, a.button, input.button {
     font-size: 1rem;
+}
+
+small.mini, a.mini {
+    font-size: 0.75rem;
 }
 
 @media (min-width:720px) {
