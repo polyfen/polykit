@@ -711,7 +711,7 @@ a.button {
 }
 
 button:hover, a.button:hover, input.button:hover {
-  box-shadow: 0 0 10px 4px hsl(208, 100%, 53%), inset 0 0 0 1px hsl(234, 61%, 6%);
+  box-shadow: 0 0 10px 2px hsl(208, 100%, 53%), inset 0 0 0 4px hsl(234, 61%, 6%);
 }
 
 button i.icon {
