@@ -691,11 +691,11 @@ ul.no-bullets li:before {
 button, a.button, input.button {
   background-image: linear-gradient(45deg, hsl(228, 100%, 53%), hsl(188, 100%, 53%));
   color: hsl(0, 0%, 100%);
-  padding: 0.8rem 1.4rem;
+  padding: 1rem 1.4rem;
   border-radius: 900px;
   text-decoration: none;
   letter-spacing: 0.5px;
-  box-shadow: 0 0 10px hsla(208, 100%, 100%, 0.5);
+  box-shadow: 0 0 4px hsl(208, 100%, 53%), inset 0 0 0 4px hsla(234, 61%, 6%, 0.6);
   display: flex;
   width: 240px;
   max-width: 100%;
@@ -711,7 +711,7 @@ a.button {
 }
 
 button:hover, a.button:hover, input.button:hover {
-  box-shadow: 0 0 10px 2px hsl(208, 100%, 53%), inset 0 0 0 4px hsl(234, 61%, 6%);
+  box-shadow: 0 0 4px 4px hsl(208, 100%, 53%), inset 0 0 0 4px hsl(234, 61%, 6%);
 }
 
 button i.icon {
@@ -719,7 +719,7 @@ button i.icon {
 }
 
 button.large-button, a.large-button, input.large-button {
-  padding: 1.2rem 1rem;
+  padding: 1.25rem 1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   width: 260px;
