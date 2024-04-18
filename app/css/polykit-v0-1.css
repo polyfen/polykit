@@ -475,6 +475,12 @@ button, a.button, input.button {
   font-size: 1rem;
 }
 
+button.small-button, a.small-button, input.small-button {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 small.mini, a.mini, .mini {
   font-size: 0.75rem;
   text-transform: uppercase;
@@ -717,6 +723,13 @@ button.large-button, a.large-button, input.large-button {
   text-transform: uppercase;
   letter-spacing: 1px;
   width: 260px;
+}
+
+button.small-button, a.small-button, input.small-button {
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 180px;
 }
 
 button.secondary-button, a.secondary-button, input.secondary-button {

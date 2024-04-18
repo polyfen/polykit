@@ -118,6 +118,12 @@ button, a.button, input.button {
     font-size: 1rem;
 }
 
+button.small-button, a.small-button, input.small-button {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 small.mini, a.mini, .mini {
     font-size: 0.75rem;
     text-transform: uppercase;
