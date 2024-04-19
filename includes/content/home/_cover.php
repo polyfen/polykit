@@ -1,5 +1,5 @@
 <section class="align-center">
-    <h1 class="title-1 align-center">Open-source Design System</h1>
+    <h1 class="title-1 align-center">Open-Source Design System</h1>
 
     <p class="align-center" style="max-width:440px; margin: 1rem auto 2rem;">Made with a focus on beautiful typography and seamless integration between design and code.</p>
     
