@@ -2,7 +2,7 @@
     <h2 class="heading-1 align-center">We ship CSS and Figma updates <strong>together</strong></h2>
     <div class="two-col">
         <div>
-            <ul>
+            <ul class="hanging-list arrow-bullets">
                 <li>Light-weight</li>
                 <li>Mobile-first</li>
                 <li>W3C compliant</li>
@@ -13,7 +13,7 @@
             </ul>
         </div>
         <div>
-            <ul>
+            <ul class="hanging-list arrow-bullets">
                 <li>Easy to pick-up</li>
                 <li>Easy to maintain and scale</li>
                 <li>Clean</li>
