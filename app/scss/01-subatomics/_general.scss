@@ -14,15 +14,15 @@
 /*///////////// SUBATOMICS/GENERAL start /////////////*/
 
 .d-none {
-    display: none;
+    display: none !important;
   }
   
 .d-block {
-    display: block;
+    display: block !important;
 }
 
 .d-inline {
-    display: inline;
+    display: inline !important;
 }
 
 .margin-auto {
