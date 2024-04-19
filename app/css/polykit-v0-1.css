@@ -465,6 +465,11 @@ h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.headi
   line-height: 110%;
 }
 
+h5, .heading-5, h1.heading-5, h2.heading-5, h3.heading-5, h4.heading-5, h5.heading-5, h6.heading-5 {
+  font-size: 1.2rem;
+  line-height: 110%;
+}
+
 p, p a, li, p strong, p span, li strong, th, td {
   font-size: 1.2rem;
   line-height: 150%;
@@ -512,6 +517,9 @@ small.mini, a.mini, .mini {
   h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.heading-4, h6.heading-4 {
     font-size: 1.75rem;
   }
+  h5, .heading-5, h1.heading-5, h2.heading-5, h3.heading-5, h4.heading-5, h5.heading-5, h6.heading-5 {
+    font-size: 1.5rem;
+  }
 }
 @media (min-width: 1200px) {
   .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
@@ -549,6 +557,10 @@ h3, .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.headi
 }
 
 h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.heading-4, h6.heading-4 {
+  font-weight: 600;
+}
+
+h5, .heading-5, h1.heading-5, h2.heading-5, h3.heading-5, h4.heading-5, h5.heading-5, h6.heading-5 {
   font-weight: 600;
 }
 
