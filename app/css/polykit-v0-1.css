@@ -759,9 +759,10 @@ label, input {
 /*///////////// ATOMS/INPUTS end /////////////*/
 /* --------------------------------------------------------- */
 hr {
-  margin: 6rem 15px;
+  margin-block: 6rem;
   border-width: 1px;
   border-style: solid;
+  width: calc(100% - 2rem);
   max-width: 640px;
   margin-left: auto;
   margin-right: auto;
