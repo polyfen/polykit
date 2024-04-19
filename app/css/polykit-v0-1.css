@@ -466,7 +466,7 @@ h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.headi
 }
 
 h5, .heading-5, h1.heading-5, h2.heading-5, h3.heading-5, h4.heading-5, h5.heading-5, h6.heading-5 {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   line-height: 110%;
 }
 
@@ -518,7 +518,7 @@ small.mini, a.mini, .mini {
     font-size: 1.75rem;
   }
   h5, .heading-5, h1.heading-5, h2.heading-5, h3.heading-5, h4.heading-5, h5.heading-5, h6.heading-5 {
-    font-size: 1.5rem;
+    font-size: 1.55rem;
   }
 }
 @media (min-width: 1200px) {
