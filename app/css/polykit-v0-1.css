@@ -231,11 +231,11 @@ html :has(body.dark-mode), body.dark-mode h1, body.dark-mode h2, body.dark-mode 
 }
 
 body.light-mode p, body.light-mode li, body.light-mode pre code, body.light-mode div {
-  color: hsl(0, 0%, 11%);
+  color: hsla(0, 0%, 0%, 0.8);
 }
 
 body.dark-mode p, body.dark-mode li, body.dark-mode pre code, body.dark-mode div {
-  color: hsl(206, 23%, 94%);
+  color: hsla(0, 0%, 100%, 0.8);
 }
 
 body.light-mode hr {
@@ -247,11 +247,11 @@ body.dark-mode hr {
 }
 
 body.light-mode a {
-  color: hsl(0, 0%, 11%);
+  color: hsla(0, 0%, 0%, 0.8);
 }
 
 body.dark-mode a {
-  color: hsl(206, 23%, 94%);
+  color: hsla(0, 0%, 100%, 0.8);
 }
 
 body.light-mode a:hover {
@@ -271,7 +271,7 @@ body.dark-mode small {
 }
 
 body.light-mode pre, body.dark-mode pre {
-  background: hsl(0, 0%, 11%);
+  background: hsla(0, 0%, 0%, 0.8);
 }
 
 body.light-mode pre code, body.dark-mode pre code {
@@ -279,7 +279,7 @@ body.light-mode pre code, body.dark-mode pre code {
 }
 
 body.light-mode p code {
-  background: hsl(0, 0%, 11%);
+  background: hsla(0, 0%, 0%, 0.8);
   color: hsl(0, 0%, 100%);
 }
 

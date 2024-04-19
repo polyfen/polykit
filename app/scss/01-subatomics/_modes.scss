@@ -14,10 +14,10 @@
 
 
 $light-mode-background: $slate-050;
-$light-mode-text: $off-black;
+$light-mode-text: $black-80pct;
 
 $dark-mode-background: $slate-950;
-$dark-mode-text: $slate-050;
+$dark-mode-text: $white-80pct;
 
 html :has(body.light-mode), body.light-mode {
     background: $light-mode-background;
