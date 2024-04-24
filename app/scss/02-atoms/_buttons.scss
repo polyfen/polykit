@@ -28,6 +28,7 @@ button, a.button, input.button {
     cursor: pointer;
     border: none;
     text-decoration: none;
+    transition: 0s;
 }
 
 a.button {
@@ -37,6 +38,7 @@ a.button {
 button:hover, a.button:hover, input.button:hover {
     box-shadow: 0 0 4px 4px $accent-color, inset 0 0 0 4px $slate-950;
     text-decoration: none;
+    transition: 0s;
 }
 
 button i.icon {

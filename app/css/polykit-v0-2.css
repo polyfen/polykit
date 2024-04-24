@@ -730,6 +730,7 @@ button, a.button, input.button {
   cursor: pointer;
   border: none;
   text-decoration: none;
+  transition: 0s;
 }
 
 a.button {
@@ -739,6 +740,7 @@ a.button {
 button:hover, a.button:hover, input.button:hover {
   box-shadow: 0 0 4px 4px hsl(208, 100%, 53%), inset 0 0 0 4px hsl(234, 61%, 6%);
   text-decoration: none;
+  transition: 0s;
 }
 
 button i.icon {
