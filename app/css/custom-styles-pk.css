@@ -130,6 +130,7 @@ a.current-page {
 
     .nav-links.open-nav {
         display: grid !important;
+        position: fixed;
     }
 
     body:has(.nav-links.open-nav) {
@@ -181,4 +182,12 @@ body.site header div {
     left: unset;
 }
 
+body.site header {
+    align-items: center;
+  }
 
+@media (max-width: 768px) {
+    body.site nav, body.site aside {
+      display: flex;
+    }
+  }
