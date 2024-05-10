@@ -1,3 +1,4 @@
+
 header {
     position: relative;
     align-items: center;
@@ -21,7 +22,25 @@ img#logo {
 
 .hellobar {
     border-bottom: unset;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
 }
+
+.hellobar .container{
+    gap: 0px;
+    row-gap: 8px;
+    column-gap: 35px;
+}
+
+@media (max-width: 768px) {
+        .hellobar {
+            height: 80px;
+        }
+    }
 
 nav button{
     all: unset;
@@ -92,7 +111,7 @@ a.current-page {
         padding: 7px 8px;
         border-radius: 12px;
         right: 15px;
-        top: 90px;
+        top: 125px;
     }
 
     body.landing-page .nav-buttons {
@@ -150,6 +169,12 @@ a.current-page {
         backdrop-filter: unset;
         border: none;
     }
+
+    .nav-links.open-nav+#nav-buttons {
+        background: none;
+        backdrop-filter: unset;
+        border: none;
+    }
 }
 
 
@@ -181,10 +206,6 @@ body.site header div {
     position: relative;
     left: unset;
 }
-
-body.site header {
-    align-items: center;
-  }
 
 @media (max-width: 768px) {
     body.site nav, body.site aside {

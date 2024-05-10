@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (body.classList.contains("landing-page")) {
                 buttons.style.top = '18px';
             } else {
-                buttons.style.top = '90px';
+                buttons.style.top = '120px';
             }
         }
     });
