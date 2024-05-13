@@ -1,5 +1,5 @@
 <section>
-    <h3 class="heading-2">Buttons</h3>
+    <h3 class="heading-2" id="section_buttons">Buttons</h3>
     <div class="components-demo">
         <button>Download Now</button>
     </div>
