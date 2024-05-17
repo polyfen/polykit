@@ -27,6 +27,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="app/css/polykit-v0-1.css" type="text/css">
+        <link rel="stylesheet" href="app/css/custom-styles-pk.css" type="text/css">
 
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -54,59 +55,61 @@
 
         <?php include 'includes/_header.php'; ?>
 
-        <aside>
-            <ul>
-                <li><a href="#">Subatomics</a></li>
-                <ul>
-                    <li><a href="#">Branding</a></li>
-                    <li><a href="#">Grid</a></li>
-                    <li><a href="#">Typography</a></li>
-                    <li><a href="#">Colors</a></li>
-                    <li><a href="#">Modes</a></li>
+        <div class="sub-sites-container">
+            <aside>
+                <ul>Polykit Components
+                    <li><a href="#">Subatomics</a></li>
+                    <ul>
+                        <li><a href="#">Branding</a></li>
+                        <li><a href="#">Grid</a></li>
+                        <li><a href="#">Typography</a></li>
+                        <li><a href="#">Colors</a></li>
+                        <li><a href="#">Modes</a></li>
+                    </ul>
+                    <li><a href="#">Atoms</a></li>
+                    <ul>
+                        <li><a href="#">Containers</a></li>
+                        <li><a href="#">Text</a></li>
+                        <li><a href="#">Icons</a></li>
+                        <li><a href="#">Lists</a></li>
+                        <li><a href="#">Buttons</a></li>
+                        <li><a href="#">Separators</a></li>
+                        <li><a href="#">Codeblocks</a></li>
+                    </ul>
+                    <li><a href="#">Molecules</a></li>
+                    <ul>
+                        <li><a href="#">Nav</a></li>
+                    </ul>
+                    <li><a href="#">Organisms</a></li>
+                    <ul>
+                        <li><a href="#">Header</a></li>
+                    </ul>
                 </ul>
-                <li><a href="#">Atoms</a></li>
-                <ul>
-                    <li><a href="#">Containers</a></li>
-                    <li><a href="#">Text</a></li>
-                    <li><a href="#">Icons</a></li>
-                    <li><a href="#">Lists</a></li>
-                    <li><a href="#">Buttons</a></li>
-                    <li><a href="#">Separators</a></li>
-                    <li><a href="#">Codeblocks</a></li>
-                </ul>
-                <li><a href="#">Molecules</a></li>
-                <ul>
-                    <li><a href="#">Nav</a></li>
-                </ul>
-                <li><a href="#">Organisms</a></li>
-                <ul>
-                    <li><a href="#">Header</a></li>
-                </ul>
-            </ul>
-        </aside>
+            </aside>
 
-        <main class="container">
+            <main class="container">
 
-            
-            <h1 class="heading-1 uppercase" style="border-left:4px solid hsla(208, 90%, 50%, 1);padding-left:1rem;display:inline-block;letter-spacing:1px;">Components</h1>
-
-            <h2 class="heading-1">Subatomics</h2>
-
-            <?php include 'includes/content/components/_grid.php'; ?>
-            <hr>
                 
-            <?php include 'includes/content/components/_typography.php'; ?>
-            <hr>
+                <h1 class="heading-1 uppercase" style="border-left:4px solid hsla(208, 90%, 50%, 1);padding-left:1rem;display:inline-block;letter-spacing:1px;">Components</h1>
 
-            <?php include 'includes/content/components/_colors.php'; ?>
-            <hr>
+                <h2 class="heading-1">Subatomics</h2>
 
-            <h2 class="heading-1">Atoms</h2>
+                <?php include 'includes/content/components/_grid.php'; ?>
+                <hr>
+                    
+                <?php include 'includes/content/components/_typography.php'; ?>
+                <hr>
 
-            <?php include 'includes/content/components/_buttons.php'; ?>
-            <hr>
-            
-        </main>
+                <?php include 'includes/content/components/_colors.php'; ?>
+                <hr>
+
+                <h2 class="heading-1">Atoms</h2>
+
+                <?php include 'includes/content/components/_buttons.php'; ?>
+                <hr>
+                
+            </main>
+        </div>
 
         <?php include 'includes/_footer.php'; ?>
         
