@@ -39,8 +39,8 @@
         <!-- PAGE-SPECIFIC META start -->
         <!-- PAGE-SPECIFIC META end -->
 
-        
-
+        <!-- CSS extraoficial -->
+        <link rel="stylesheet" href="/app/css/extra.css" type="text/css">
     </head>
 
     <body class="dark-mode site components">
@@ -70,7 +70,7 @@
                     <li><a href="#">Text</a></li>
                     <li><a href="#">Icons</a></li>
                     <li><a href="#">Lists</a></li>
-                    <li><a href="#">Buttons</a></li>
+                    <li><a href="#buttons">Buttons</a></li>
                     <li><a href="#">Separators</a></li>
                     <li><a href="#">Codeblocks</a></li>
                 </ul>

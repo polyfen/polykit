@@ -1,8 +1,24 @@
 <section>
-    <h3 class="heading-2">Buttons</h3>
+    <h3 id="buttons" class="heading-2">Buttons</h3>
+    <h4 class="heading-3">Primary-button</h4>
     <div class="components-demo">
+        <button class="large-button">Download Now</button>
         <button>Download Now</button>
+        <button class="small-button">Download Now</button>
     </div>
+    <h4 class="heading-3">secundary-button</h4>
+    <div class="components-demo">
+        <button class="secondary-button large-button">Download Now</button>
+        <button class="secondary-button">Download Now</button>
+        <button class="secondary-button small-button">Download Now</button>
+    </div>
+    <h4 class="heading-3">animated-button</h4>
+    <div class="components-demo">
+        <button class="animated-button large-button">Download Now</button>
+        <button class="animated-button">Download Now</button>
+        <button class="animated-button small-button">Download Now</button>
+    </div>
+    <br>
     <pre><code>button, a.button {
     background: $accent-color;
     color: $white;
