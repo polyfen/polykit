@@ -9,3 +9,5 @@ document.addEventListener("DOMContentLoaded", function() {
     })
 });
 </script>
+
+<script defer src="app/js/navbar.js"></script>

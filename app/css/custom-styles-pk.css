@@ -1,0 +1,214 @@
+
+header {
+    position: relative;
+    align-items: center;
+    z-index: 5;
+    border-top: 12px solid #1f8df0;
+}
+
+img#logo {
+    height: 50px;
+}
+
+@media (min-width: 769px) {
+    .nav-links {
+        position: relative;
+        z-index: 4;
+        display: flex;
+        gap: 15px;
+        border-radius: 200px;
+    }
+}
+
+.hellobar {
+    border-bottom: unset;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.hellobar .container{
+    gap: 0px;
+    row-gap: 8px;
+    column-gap: 35px;
+}
+
+@media (max-width: 768px) {
+        .hellobar {
+            height: 80px;
+        }
+    }
+
+nav button{
+    all: unset;
+}
+
+
+
+/*  _   _    ___     _____ ____    _  _____ ___ ___  _   _  */
+/* | \ | |  / \ \   / /_ _/ ___|  / \|_   _|_ _/ _ \| \ | | */
+/* |  \| | / _ \ \ / / | | |  _  / _ \ | |  | | | | |  \| | */
+/* | |\  |/ ___ \ V /  | | |_| |/ ___ \| |  | | |_| | |\  | */
+/* |_| \_/_/   \_\_/  |___\____/_/   \_\_| |___\___/|_| \_| */
+/* The navigation bar ------------------------------------- */
+
+.nav-links.position-fixed,
+.nav-buttons, #nav-buttons {
+    position: fixed;
+    background: #070924a8;;
+    backdrop-filter: blur(10px);
+    z-index: 5;
+    border: 1px solid #377bf850;
+}
+
+.nav-links a,
+.nav-links a:hover {
+    text-decoration: none;
+}
+
+
+a.current-page {
+    opacity: .4;
+}
+
+.current-page:hover {
+    color: hsl(206, 23%, 94%) !important;
+
+}
+
+.nav-links a:not(.current-page) {
+    opacity: .8;
+}
+
+.nav-links a:not(.current-page):hover {
+    opacity: 1;
+}
+
+/* hello-nav mediaqueries */
+/* mobile */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        position: fixed;
+        backdrop-filter: blur(10px);
+        top: 0;
+        right: 0px;
+        padding-top: 100px;
+        padding-bottom: 100vh;
+        width: 100%;
+        z-index: 4;
+        display: none;
+        text-align: left;
+        font-family: 'BiotifBold', helvetica, arial, sans-serif;
+        font-weight: 700;
+        background-color: #000000b8;
+    }
+
+    .nav-buttons {
+        padding: 7px 8px;
+        border-radius: 12px;
+        right: 15px;
+        top: 125px;
+    }
+
+    body.landing-page .nav-buttons {
+        top: 18px;
+    }
+
+    .nav-links.open-nav+.nav-buttons {
+        top: 18px !important;
+    }
+
+    .hamburger svg {
+        fill: #1d272c;
+    }
+
+    .nav-hamburger {
+        display: flex;
+    }
+
+    .nav-links a {
+        padding-left: 20px;
+        font-size: 8vw;
+        padding: 14px 16px;
+        color: #12123a;
+    }
+
+    .nav-links a:not(.current-page) {
+        opacity: 1;
+    }
+
+
+    .nav-close {
+        z-index: 4;
+        display: none;
+    }
+
+    .nav-links.open-nav {
+        display: grid !important;
+        position: fixed;
+    }
+
+    body:has(.nav-links.open-nav) {
+        overflow: hidden;
+    }
+
+    .nav-links.open-nav+.nav-buttons :is(.nav-hamburger) {
+        display: none;
+    }
+
+    .nav-links.open-nav+.nav-buttons :is(.nav-close) {
+        display: block;
+    }
+
+    .nav-links.open-nav+.nav-buttons {
+        background: none;
+        backdrop-filter: unset;
+        border: none;
+    }
+
+    .nav-links.open-nav+#nav-buttons {
+        background: none;
+        backdrop-filter: unset;
+        border: none;
+    }
+}
+
+
+/* hello-nav desktop */
+@media (min-width: 769px) {
+    .nav-buttons {
+        display: none;
+    }
+
+    .nav-links {
+        position: relative;
+        z-index: 4;
+        display: flex;
+        gap: 15px;
+        border-radius: 200px;
+    }
+
+    .nav-links.position-fixed {
+        top: 20px;
+        right: 15px;
+        padding: 15px 28px;
+    }
+}
+
+/* END of navigation bar ----------------- */
+
+
+body.site header div {
+    position: relative;
+    left: unset;
+}
+
+@media (max-width: 768px) {
+    body.site nav, body.site aside {
+      display: flex;
+    }
+  }
