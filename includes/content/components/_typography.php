@@ -1,5 +1,5 @@
 <section>
-    <h3 class="heading-2">Typography</h3>
+    <h3 class="heading-2" id="section_typography">Typography</h3>
 
     <p>Font scale: <a href="https://docs.google.com/spreadsheets/d/1Asjiz2j95ch42ozf0yOZLZrDBgtdL0dTlrd0F2TLEiI/edit?usp=sharing" target="_blank">SHEET_PLKT_Font-Scale</a></p>
 
