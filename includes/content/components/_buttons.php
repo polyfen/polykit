@@ -1,16 +1,16 @@
 <section>
     <h3 id="buttons" class="heading-2">Buttons</h3>
-    <h4 class="heading-3">Primary-button</h4>
+    <h4 class="heading-3">Hierarchy</h4>
     <div class="components-demo">
-        <button class="large-button">Download Now</button>
-        <button>Download Now</button>
-        <button class="small-button">Download Now</button>
-    </div>
-    <h4 class="heading-3">secundary-button</h4>
-    <div class="components-demo">
-        <button class="secondary-button large-button">Download Now</button>
+        <button class="">Download Now</button>
         <button class="secondary-button">Download Now</button>
-        <button class="secondary-button small-button">Download Now</button>
+        <button class="">Download Now</button>
+    </div>
+    <h4 class="heading-3">Size</h4>
+    <div class="components-demo">
+        <button class="small-button">Download Now</button>
+        <button class="button">Download Now</button>
+        <button class="large-button">Download Now</button>
     </div>
     <h4 class="heading-3">animated-button</h4>
     <div class="components-demo">
