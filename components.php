@@ -45,7 +45,7 @@
 
     </head>
 
-    <body class="dark-mode site components">
+    <body class="dark-mode site components" >
 
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5ZXG85V7"
@@ -58,31 +58,31 @@
 
         <aside>
             <ul>
-                <li><a href="#">Subatomics</a></li>
+                <li><a href="#section_subatomics">Subatomics</a></li>
                 <ul>
-                    <li><a href="#">Branding</a></li>
-                    <li><a href="#">Grid</a></li>
-                    <li><a href="#">Typography</a></li>
-                    <li><a href="#">Colors</a></li>
-                    <li><a href="#">Modes</a></li>
+                <li><a href="#section_branding">Branding</a></li>
+                    <li><a href="#section_grid">Grid</a></li>
+                    <li><a href="#section_typography">Typography</a></li>
+                    <li><a href="#section_colors">Colors</a></li>
+                    <li><a href="#section_modes">Modes</a></li>
                 </ul>
-                <li><a href="#">Atoms</a></li>
+                <li><a href="#section_atoms">Atoms</a></li>
                 <ul>
-                    <li><a href="#">Containers</a></li>
-                    <li><a href="#">Text</a></li>
-                    <li><a href="#">Icons</a></li>
-                    <li><a href="#">Lists</a></li>
-                    <li><a href="#">Buttons</a></li>
-                    <li><a href="#">Separators</a></li>
-                    <li><a href="#">Codeblocks</a></li>
+                    <li><a href="#section_containers">Containers</a></li>
+                    <li><a href="#section_text">Text</a></li>
+                    <li><a href="#section_icons">Icons</a></li>
+                    <li><a href="#section_lists">Lists</a></li>
+                    <li><a href="#section_buttons">Buttons</a></li>
+                    <li><a href="#section_separators">Separators</a></li>
+                    <li><a href="#section_codeblocks">Codeblocks</a></li>
                 </ul>
-                <li><a href="#">Molecules</a></li>
+                    <li><a href="#section_molecules">Molecules</a></li>
                 <ul>
-                    <li><a href="#">Nav</a></li>
+                    <li><a href="#section_nav">Nav</a></li>
                 </ul>
-                <li><a href="#">Organisms</a></li>
+                <li><a href="#section_organisms">Organisms</a></li>
                 <ul>
-                    <li><a href="#">Header</a></li>
+                    <li><a href="#section_header">Header</a></li>
                 </ul>
             </ul>
         </aside>
@@ -92,7 +92,9 @@
             
             <h1 class="heading-1 uppercase" style="border-left:4px solid hsla(208, 90%, 50%, 1);padding-left:1rem;display:inline-block;letter-spacing:1px;">Components</h1>
 
-            <h2 class="heading-1">Subatomics</h2>
+            <h2 class="heading-1" id="section_subatomics">Subatomics</h2>
+
+            <?php include 'includes/content/components/_branding.php'; ?>
 
             <?php include 'includes/content/components/_grid.php'; ?>
             <hr>
@@ -103,10 +105,32 @@
             <?php include 'includes/content/components/_colors.php'; ?>
             <hr>
 
-            <h2 class="heading-1">Atoms</h2>
+            <?php include 'includes/content/components/_modes.php'; ?>
+
+            <h2 class="heading-1" id="section_atoms">Atoms</h2>
+
+            <?php include 'includes/content/components/_containers.php'; ?>
+            
+            <?php include 'includes/content/components/_text.php'; ?>
+
+            <?php include 'includes/content/components/_icons.php'; ?>
+
+            <?php include 'includes/content/components/_lists.php'; ?>
 
             <?php include 'includes/content/components/_buttons.php'; ?>
             <hr>
+
+            <?php include 'includes/content/components/_separators.php'; ?>
+
+            <?php include 'includes/content/components/_codeblocks.php'; ?>
+
+            <h2 class="heading-1" id="section_molecules">Molecules</h2>
+
+            <?php include 'includes/content/components/_nav.php'; ?>
+
+            <h2 class="heading-1" id="section_organisms">Organisms</h2>
+
+            <?php include 'includes/content/components/_header.php'; ?>
             
         </main>
 
