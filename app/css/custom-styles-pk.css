@@ -1,3 +1,6 @@
+pre{
+    overflow-x: auto;
+}
 .sub-sites-container {
     display: grid;
 }
