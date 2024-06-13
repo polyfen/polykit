@@ -12,7 +12,7 @@
         <button class="button">Download Now</button>
         <button class="large-button">Download Now</button>
     </div>
-    <h4 class="heading-3">animated-button</h4>
+    <h4 class="heading-3">cta-button</h4>
     <div class="components-demo">
         <button class="animated-button large-button">Download Now</button>
         <button class="animated-button">Download Now</button>

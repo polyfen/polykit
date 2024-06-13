@@ -7,7 +7,7 @@ body.site aside {
 }
 
 .animated-button {
-    background-image: linear-gradient(45deg,#722FFF,#4b00ae,#d12b94, #722FFF, #4b00ae);
+    background-image: linear-gradient(45deg,$blue-gradient-start ,$blue-gradient-end);
     background-size: 200% 200%;
     animation: gradient 7s infinite;
 }
@@ -15,3 +15,13 @@ body.site aside {
 .components-demo {
     margin-bottom: 2rem;
 }
+<<<<<<< Updated upstream
+=======
+
+@media (max-width: 1100px) {
+    .components aside {
+        display: none !important;
+    }
+}
+
+>>>>>>> Stashed changes

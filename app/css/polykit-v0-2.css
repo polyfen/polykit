@@ -619,7 +619,7 @@ a {
 }
 
 p a, li a, small a, a small {
-  text-decoration: underline hsla(208, 100%, 100%, 0.5) dotted 2px;
+  text-decoration: underline hsla(208, 100%, 53%, 0.5) dotted 2px;
   text-underline-offset: 5px;
 }
 
@@ -713,8 +713,8 @@ ul.no-bullets li:before {
 */
 /* --------------------------------------------------------- */
 /*///////////// ATOMS/BUTTONS start /////////////*/
-button, a.button, input.button {
-  background-image: linear-gradient(45deg, hsl(228, 100%, 53%), hsl(188, 100%, 53%));
+button, .button {
+  background-color: hsl(208, 100%, 53%);
   color: hsl(0, 0%, 100%);
   padding: 1rem 1.4rem;
   border-radius: 900px;
@@ -747,21 +747,21 @@ button i.icon {
   margin-right: 2.5rem;
 }
 
-button.large-button, a.large-button, input.large-button {
+.large-button {
   padding: 1.25rem 1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   width: 260px;
 }
 
-button.small-button, a.small-button, input.small-button {
+.small-button {
   padding: 0.5rem 1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   width: 180px;
 }
 
-button.secondary-button, a.secondary-button, input.secondary-button {
+.secondary-button {
   background-image: none !important;
   background-color: hsla(234, 61%, 6%, 0.7);
   border: 3px solid hsl(208, 100%, 53%);
@@ -1393,7 +1393,7 @@ body.site aside {
 }
 
 .animated-button {
-  background-image: linear-gradient(45deg, #722FFF, #4b00ae, #d12b94, #722FFF, #4b00ae);
+  background-image: linear-gradient(45deg, hsl(228, 100%, 53%), hsl(188, 100%, 53%));
   background-size: 200% 200%;
   animation: gradient 7s infinite;
 }
@@ -1402,4 +1402,9 @@ body.site aside {
   margin-bottom: 2rem;
 }
 
+@media (max-width: 1100px) {
+  .components aside {
+    display: none !important;
+  }
+}
 /* --------------------------------------------------------- */

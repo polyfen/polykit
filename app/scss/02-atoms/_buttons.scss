@@ -11,14 +11,14 @@
 
 /*///////////// ATOMS/BUTTONS start /////////////*/
 
-button, a.button, input.button {
-    background-image: $accent-gradient;
-    color: $white;
+button, .button {
+    background-color: $accent-color;
+    color: hsl(0, 0%, 100%);
     padding: 1rem 1.4rem;
     border-radius: 900px;
     text-decoration: none;
     letter-spacing: 0.5px;
-    box-shadow: 0 0 4px $accent-color, inset 0 0 0 4px $slate-950-60pct;
+    box-shadow: 0 0 4px hsl(208, 100%, 53%), inset 0 0 0 4px hsla(234, 61%, 6%, 0.6);
     display: flex;
     width: 240px;
     max-width: 100%;
@@ -29,7 +29,7 @@ button, a.button, input.button {
     border: none;
     text-decoration: none;
     transition: 0s;
-}
+    }
 
 a.button {
     border-bottom: none;
@@ -45,21 +45,21 @@ button i.icon {
     margin-right: 2.5rem;
 }
 
-button.large-button, a.large-button, input.large-button  {
+.large-button  {
     padding: 1.25rem 1rem;
     text-transform: uppercase;
     letter-spacing: 1px;
     width: 260px;
 }
 
-button.small-button, a.small-button, input.small-button  {
+.small-button  {
     padding: 0.5rem 1rem;
     text-transform: uppercase;
     letter-spacing: 1px;
     width: 180px;
 }
 
-button.secondary-button, a.secondary-button, input.secondary-button {
+.secondary-button {
     background-image: none !important;
     background-color: $slate-950-70pct;
     border: 3px solid $accent-color;
