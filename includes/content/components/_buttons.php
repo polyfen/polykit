@@ -2,21 +2,42 @@
     <h3 id="buttons" class="heading-2">Buttons</h3>
     <h4 class="heading-3">Hierarchy</h4>
     <div class="components-demo">
-        <button class="">Download Now</button>
-        <button class="secondary-button">Download Now</button>
-        <button class="">Download Now</button>
+        <div>
+            <small>regular-button</small>
+            <small>secondary-button</small>
+            <small>cta-button</small>
+        </div>
+        <div>
+            <button class="">Download Now</button>
+            <button class="button">Download Now</button>
+            <button class="">Download Now</button>
+        </div>
     </div>
     <h4 class="heading-3">Size</h4>
     <div class="components-demo">
-        <button class="small-button">Download Now</button>
-        <button class="button">Download Now</button>
-        <button class="large-button">Download Now</button>
+        <div>
+            <small>small-button</small>
+            <small>regular-button</small>
+            <small>large-button</small>
+        </div>
+        <div>
+            <button class="small-button">Download Now</button>
+            <button class="button">Download Now</button>
+            <button class="large-button">Download Now</button>
+        </div>
     </div>
-    <h4 class="heading-3">cta-button</h4>
+    <h4 class="heading-3">Icons</h4>
     <div class="components-demo">
-        <button class="animated-button large-button">Download Now</button>
-        <button class="animated-button">Download Now</button>
-        <button class="animated-button small-button">Download Now</button>
+        <div>
+            <small>left-icon</small>
+            <small>right-icon</small>
+            <small>right-left-icon</small>
+        </div>
+        <div>
+            <button class="" data-button-icon="phone">Download Now</button>
+            <button class="" data-button-arrow>Download Now</button>
+            <button class="" data-button-arrow-up>Download Now</button>
+        </div>
     </div>
     <br>
     <pre><code>button, a.button {
