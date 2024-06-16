@@ -90,7 +90,7 @@
             </ul>
         </aside>
 
-        <main class="container">
+        <main class="container-900">
 
             
             <h1 class="heading-1 uppercase" style="border-left:4px solid hsla(208, 90%, 50%, 1);padding-left:1rem;display:inline-block;letter-spacing:1px;">Components</h1>

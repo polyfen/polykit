@@ -9,8 +9,8 @@
         </div>
         <div>
             <button class="">Download Now</button>
-            <button class="button">Download Now</button>
-            <button class="">Download Now</button>
+            <button class="secondary-button">Download Now</button>
+            <button class="cta-button animated-button">Download Now</button>
         </div>
     </div>
     <h4 class="heading-3">Size</h4>
@@ -22,7 +22,7 @@
         </div>
         <div>
             <button class="small-button">Download Now</button>
-            <button class="button">Download Now</button>
+            <button class="">Download Now</button>
             <button class="large-button">Download Now</button>
         </div>
     </div>
