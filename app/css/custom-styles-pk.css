@@ -246,6 +246,23 @@ a.current-page {
 
 /* END of navigation bar ----------------- */
 
+/* BUTTONs to add to their own section */
+button, a.button {
+    box-shadow: unset
+}
+.secondary-button {
+    background-color: hsl(259, 100%, 19%); /*indigo900*/
+    box-shadow: 0 0 4px hsl(208, 100%, 53%), inset 0 0 0 4px hsla(234, 61%, 6%, 0.6);
+}
+
+.cta-button {
+    box-shadow: 0 0 4px hsl(208, 100%, 53%), inset 0 0 0 4px hsla(234, 61%, 6%, 0.6);
+}
+
+.small-button {
+    height: 35px;
+
+}
 
 body.site header div {
     position: relative;
@@ -265,12 +282,14 @@ body.site header div {
   display: grid;
   grid-template-rows: auto 1fr;
   align-items: end;
+
   }
 
   .components-demo div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+    align-items: center;
   }
  
   /* data-button-icon */
@@ -365,4 +384,26 @@ body.site header div {
     100% {
         transform: translatey(-5px);
     }
+}
+
+/* PRE */
+.tab-container {
+    margin-bottom: 1rem;
+}
+.tabs {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+.tabs button {
+    margin: 0;
+    width: 90px;
+    border-radius: 8px;
+}
+
+.tab-panel {
+    display: none;
+}
+.tab-panel.active {
+    display: block;
 }
