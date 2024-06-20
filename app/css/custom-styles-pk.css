@@ -1,6 +1,7 @@
-pre{
+pre {
     overflow-x: auto;
 }
+
 .sub-sites-container {
     display: grid;
 }
@@ -26,9 +27,9 @@ pre{
         width: clamp(350px, 760px, 61vw);
     }
 
-    body.site aside{
+    body.site aside {
         display: flex;
-        position:sticky;
+        position: sticky;
         flex-direction: column;
         padding: 20px;
         width: 250px;
@@ -36,13 +37,13 @@ pre{
         top: 0px;
         right: unset;
     }
-    
+
 }
 
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 header {
     position: relative;
@@ -75,19 +76,19 @@ img#logo {
     height: 50px;
 }
 
-.hellobar .container{
+.hellobar .container {
     gap: 0px;
     row-gap: 8px;
     column-gap: 35px;
 }
 
 @media (max-width: 768px) {
-        .hellobar {
-            height: 80px;
-        }
+    .hellobar {
+        height: 80px;
     }
+}
 
-nav button{
+nav button {
     all: unset;
 }
 
@@ -101,9 +102,11 @@ nav button{
 /* The navigation bar ------------------------------------- */
 
 .nav-links.position-fixed,
-.nav-buttons, #nav-buttons {
+.nav-buttons,
+#nav-buttons {
     position: fixed;
-    background: #070924a8;;
+    background: #070924a8;
+    ;
     backdrop-filter: blur(10px);
     z-index: 5;
     border: 1px solid #377bf850;
@@ -246,12 +249,29 @@ a.current-page {
 
 /* END of navigation bar ----------------- */
 
+body.site header div {
+    position: relative;
+    left: unset;
+}
+
+@media (max-width: 768px) {
+    body.site nav {
+        display: flex;
+    }
+}
+
+
+/* PLAYGROUND */
+
 /* BUTTONs to add to their own section */
-button, a.button {
+button,
+a.button {
     box-shadow: unset
 }
+
 .secondary-button {
-    background-color: hsl(259, 100%, 19%); /*indigo900*/
+    background-color: hsl(259, 100%, 19%);
+    /*indigo900*/
     box-shadow: 0 0 4px hsl(208, 100%, 53%), inset 0 0 0 4px hsla(234, 61%, 6%, 0.6);
 }
 
@@ -261,40 +281,26 @@ button, a.button {
 
 .small-button {
     height: 35px;
+}
+
+
+div.components-demo {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    align-items: end;
 
 }
 
-body.site header div {
-    position: relative;
-    left: unset;
-}
-
-@media (max-width: 768px) {
-    body.site nav {
-      display: flex;
-    }
-  }
-
-
-  /* PLAYGROUND */
-
-  div.components-demo {
-  display: grid;
-  grid-template-rows: auto 1fr;
-  align-items: end;
-
-  }
-
-  .components-demo div {
+.components-demo div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-  }
- 
-  /* data-button-icon */
+}
+
+/* data-button-icon */
 /* LEFT */
-  [data-button-icon]::before {
+[data-button-icon]::before {
     content: '';
     display: inline-block;
     width: 30px;
@@ -307,9 +313,10 @@ body.site header div {
 
 [data-button-icon="phone"]::before {
     background-image: url(../../imgs/icons/phone-call.svg);
-    filter:none;
+    filter: none;
     margin-block: -8px;
 }
+
 /* RIGHT */
 
 [data-button-arrow]::after {
@@ -341,9 +348,11 @@ body.site header div {
     0% {
         transform: translateX(0);
     }
+
     70% {
         transform: translateX(10px);
     }
+
     100% {
         transform: translateX(10px);
     }
@@ -378,9 +387,11 @@ body.site header div {
     0% {
         transform: translatey(0px);
     }
+
     70% {
         transform: translatey(-5px);
     }
+
     100% {
         transform: translatey(-5px);
     }
@@ -390,11 +401,13 @@ body.site header div {
 .tab-container {
     margin-bottom: 1rem;
 }
+
 .tabs {
     display: flex;
     margin-bottom: 10px;
     gap: 10px;
 }
+
 .tabs button {
     margin: 0;
     width: 90px;
@@ -404,6 +417,7 @@ body.site header div {
 .tab-panel {
     display: none;
 }
+
 .tab-panel.active {
     display: block;
 }
