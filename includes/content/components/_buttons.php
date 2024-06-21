@@ -72,7 +72,7 @@
     </div>
     <section class="tab-container">
         <div class="tabs">
-            <button class="tab-button small-button" data-tab="html">HTML</button>
+            <button class="tab-button small-button active" data-tab="html">HTML</button>
             <button class="tab-button small-button" data-tab="css">CSS</button>
         </div>
         <pre class="tab-panel html-content active"><code>&lt;button class="button small-button"&gt;Download Now&lt;/button&gt;
@@ -113,7 +113,7 @@ large-button {
     </div>
     <section class="tab-container">
         <div class="tabs">
-            <button class="tab-button small-button" data-tab="html">HTML</button>
+            <button class="tab-button small-button active" data-tab="html">HTML</button>
             <button class="tab-button small-button" data-tab="css">CSS</button>
         </div>
         <pre class="tab-panel html-content active"><code>&lt;button data-button-icon="phone"&gt;Download Now&lt;/button&gt;
