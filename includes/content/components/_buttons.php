@@ -90,7 +90,7 @@
     text-transform: uppercase;
 }
 
-/* Is the default size for all buttons  */
+/* .regular-button has the default styles of button elements */
 
 large-button {
     width: 260px;
