@@ -12,37 +12,49 @@
 /*///////////// ATOMS/BUTTONS start /////////////*/
 
 button, .button {
-    background-color: $accent-color;
-    color: hsl(0, 0%, 100%);
-    padding: 1rem 1.4rem;
-    border-radius: 900px;
-    text-decoration: none;
-    letter-spacing: 0.5px;
-    box-shadow: 0 0 4px hsl(208, 100%, 53%), inset 0 0 0 4px hsla(234, 61%, 6%, 0.6);
     display: flex;
-    width: 240px;
-    max-width: 100%;
     justify-content: center;
     align-items: center;
+    width: 240px;
+    max-width: 100%;
     margin: 1rem auto;
-    cursor: pointer;
+    padding: 1rem 1.4rem;
     border: none;
+    border-radius: 900px;
+    background-color: $accent-color;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 0.5px;
     text-decoration: none;
+    cursor: pointer;
     transition: 0s;
     }
+
+.secondary-button {
+    border: 3px solid $accent-color;
+    background-color: $accent-color-900;
+    background-image: none !important;
+}
+
+.cta-button {
+    box-shadow: 0 0 4px $accent-color, inset 0 0 0 4px hsla(234, 61%, 6%, 0.6);
+    animation: gradient 7s infinite;
+    background-image: linear-gradient(45deg, $accent-color-gradient-start, $accent-color-gradient-end);
+    background-size: 200% 200%;
+}
 
 a.button {
     border-bottom: none;
 }
 
-button:hover, a.button:hover, input.button:hover {
-    box-shadow: 0 0 4px 4px $accent-color, inset 0 0 0 4px $slate-950;
-    text-decoration: none;
-    transition: 0s;
-}
-
 button i.icon {
     margin-right: 2.5rem;
+}
+
+/* size */
+
+.small-button  {
+    height: 32px;
+    width: 180px;
 }
 
 .large-button  {
@@ -52,23 +64,116 @@ button i.icon {
     width: 260px;
 }
 
-.small-button  {
-    padding: 0.5rem 1rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    width: 180px;
-}
+/* :hover */
 
-.secondary-button {
-    background-image: none !important;
-    background-color: $slate-950-70pct;
-    border: 3px solid $accent-color;
+button:hover, a.button:hover, input.button:hover {
+    box-shadow: 0 0 4px 4px $accent-color, inset 0 0 0 4px $slate-950;
+    text-decoration: none;
+    transition: 0s;
 }
 
 button.secondary-button:hover, a.button.secondary-button:hover, input.button.secondary-button:hover {
     background-image: none !important;
     box-shadow: 0 0 10px $accent-color;
     background-color: $accent-color;
+}
+
+/* data-button-icon */
+
+/* LEFT */
+[data-button-icon]::before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+[data-button-icon="phone"]::before {
+    background-image: url(../../imgs/icons/phone-call.svg);
+    filter: none;
+    margin-block: -8px;
+}
+
+/* RIGHT */
+[data-button-arrow]::after {
+    content: '';
+    background-image: url(/imgs/icons/arrow-right-fill.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    opacity: .8;
+}
+
+[data-button-arrow]::after {
+    height: 10px;
+    width: 18px;
+    margin-left: 6px;
+}
+
+.small-button[data-button-arrow]::after {
+    height: 8px;
+    width: 13px;
+    margin-left: 4px;
+}
+
+[data-button-arrow]:hover::after {
+    animation: moveArrow 1s ease-out infinite;
+    opacity: 1;
+}
+
+@keyframes moveArrow {
+    0% {
+        transform: translateX(0);
+    }
+
+    70% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(10px);
+    }
+}
+
+/* data-button-arrow-up */
+[data-button-arrow-up]::before,
+[data-button-arrow-up]::after {
+    content: url(/imgs/icons/arrow-up-fill.svg);
+    display: inline-block;
+    opacity: .8;
+    animation: moveArrow-up 1s ease-out infinite;
+    height: 16px;
+    width: 9px;
+}
+
+[data-button-arrow-up]::before {
+    margin-right: 10px;
+}
+
+[data-button-arrow-up]::after {
+    margin-left: 10px;
+}
+
+[data-button-arrow-up]:hover::before,
+[data-button-arrow-up]:hover::after {
+    opacity: 1;
+}
+
+@keyframes moveArrow-up {
+    0% {
+        transform: translatey(0px);
+    }
+
+    70% {
+        transform: translatey(-5px);
+    }
+
+    100% {
+        transform: translatey(-5px);
+    }
 }
 
 /*///////////// ATOMS/BUTTONS end /////////////*/

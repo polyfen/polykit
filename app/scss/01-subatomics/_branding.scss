@@ -17,9 +17,11 @@ $accent-color-s: $blue-s;
 $accent-color-l: $blue-l;
 
 $accent-color: hsl($accent-color-h, $accent-color-s, $accent-color-l);
-
+$accent-color-800: hsl($accent-color-h, $accent-color-s, $accent-color-l - 30);
+$accent-color-900: hsl($accent-color-h, $accent-color-s, $accent-color-l - 40);
 $accent-color-50pct: hsl($accent-color-h, $accent-color-s, $accent-color-l, 0.5);
-
+$accent-color-gradient-start: $blue-gradient-start;
+$accent-color-gradient-end: $blue-gradient-end;
 $accent-gradient: $blue-gradient;
 
 /*///////////// SUBATOMICS/BRANDING end /////////////*/

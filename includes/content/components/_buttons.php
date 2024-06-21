@@ -10,46 +10,49 @@
         <div>
             <button class="">Download Now</button>
             <button class="secondary-button">Download Now</button>
-            <button class="cta-button animated-button">Download Now</button>
+            <button class="cta-button">Download Now</button>
         </div>
     </div>
     <section class="tab-container">
         <div class="tabs">
-            <button class="tab-button small-button" data-tab="html">HTML</button>
+            <button class="tab-button small-button active" data-tab="html">HTML</button>
             <button class="tab-button small-button" data-tab="css">CSS</button>
         </div>
-        <pre class="tab-panel html-content active"><code>&lt;button class="button"&gt;&lt;/button&gt;
-&lt;button class="button secondary-button"&gt;&lt;/button&gt;
-&lt;button class="buton cta-button&gt;&lt;/button&gt;</code></pre>
-        <pre class="tab-panel css-content"><code>.button {
-    background: $accent-color;
-    color: $white;
-    padding: 0.75rem 1.5rem;
-    border-radius: 10rem;
-    text-decoration: none;
-    letter-spacing: 0.5px;
-    font-weight: 600;
-    box-shadow: 0 0 2px $accent-color;
+        <pre class="tab-panel html-content active"><code>&lt;button&gt;Download Now&lt;/button&gt;
+&lt;button class="secondary-button"&gt;Download Now&lt;/button&gt;
+&lt;button class="cta-button&gt;Download Now&lt;/button&gt;</code></pre>
+        <pre class="tab-panel css-content"><code>button, .button {
     display: flex;
-    width: 240px;
-    max-width: 100%;
     justify-content: center;
     align-items: center;
+    width: 240px;
+    max-width: 100%;
     margin: 1rem auto;
+    padding: 1rem 1.4rem;
+    border: none;
+    border-radius: 900px;
+    background-color: $accent-color;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 0.5px;
+    text-decoration: none;
     cursor: pointer;
+    transition: 0s;
 }
 .secondary-button {
-    background-color: $indigo900;
-    box-shadow: 0 0 4px hsl(208, 100%, 53%),
-    inset 0 0 0 4px hsla(234, 61%, 6%, 0.6);
+    border: 3px solid $accent-color;
+    background-color: $accent-color-900;
+    background-image: none !important;
 }
 
 .cta-button {
-    background-image: linear-gradient(45deg,
-        hsl(228, 100%, 53%),
-        hsl(188, 100%, 53%));
-    background-size: 200% 200%;
+    box-shadow: 0 0 4px $accent-color,
+                inset 0 0 0 4px hsla(234, 61%, 6%, 0.6);
     animation: gradient 7s infinite;
+    background-image: linear-gradient(
+                      45deg,
+                      $accent-color-gradient-start,
+                      $accent-color-gradient-end);
+    background-size: 200% 200%;
 }
 </code></pre>
     </section>
@@ -72,28 +75,26 @@
             <button class="tab-button small-button" data-tab="html">HTML</button>
             <button class="tab-button small-button" data-tab="css">CSS</button>
         </div>
-        <pre class="tab-panel html-content active"><code>&lt;button class="button small-button"&gt;&lt;/button&gt;
-&lt;button class="button"&gt;&lt;/button&gt;
-&lt;button class="button large-button"&gt;&lt;/button&gt;</code></pre>
+        <pre class="tab-panel html-content active"><code>&lt;button class="button small-button"&gt;Download Now&lt;/button&gt;
+&lt;button class="button"&gt;Download Now&lt;/button&gt;
+&lt;button class="button large-button"&gt;Download Now&lt;/button&gt;</code></pre>
         <pre class="tab-panel css-content"><code>.small-button {
     height: 35px;
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    padding: 0.5rem 1rem;
     width: 180px;
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
-(regularbutton)
+/* Is the default size for all buttons  */
 
 large-button {
-    padding: 1.25rem 1rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
     width: 260px;
+    padding: 1.25rem 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
-
-
 </code></pre>
     </section>
 
@@ -115,9 +116,9 @@ large-button {
             <button class="tab-button small-button" data-tab="html">HTML</button>
             <button class="tab-button small-button" data-tab="css">CSS</button>
         </div>
-        <pre class="tab-panel html-content active"><code>&lt;button data-button-icon="phone"&gt;&lt;/button&gt;
-&lt;button data-button-arrow&gt;&lt;/button&gt;
-&lt;button data-button-arrow-up&gt;&lt;/button&gt;</code></pre>
+        <pre class="tab-panel html-content active"><code>&lt;button data-button-icon="phone"&gt;Download Now&lt;/button&gt;
+&lt;button data-button-arrow&gt;Download Now&lt;/button&gt;
+&lt;button data-button-arrow-up&gt;Download Now&lt;/button&gt;</code></pre>
         <pre class="tab-panel css-content"><code>[data-button-icon]::before {
     content: '';
     display: inline-block;
