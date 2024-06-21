@@ -745,10 +745,6 @@ button, .button {
   background-size: 200% 200%;
 }
 
-a.button {
-  border-bottom: none;
-}
-
 button i.icon {
   margin-right: 2.5rem;
 }
