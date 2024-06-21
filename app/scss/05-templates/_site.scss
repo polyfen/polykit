@@ -189,6 +189,7 @@ body.site div.color-wrapper {
     display: flex;
     flex-direction: row;
     gap: 16px;
+    flex-wrap: wrap;
 }
 
 body.site div.color-swatches-container {

@@ -15,6 +15,7 @@ button, .button {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50px;
     width: 240px;
     max-width: 100%;
     margin: 1rem auto;
@@ -58,6 +59,7 @@ button i.icon {
 }
 
 .large-button  {
+    height: 60px;
     padding: 1.25rem 1rem;
     text-transform: uppercase;
     letter-spacing: 1px;

@@ -9,7 +9,7 @@
  | |    | |__| | |____| |  | . \ _| |_   | |   
  |_|     \____/|______|_|  |_|\_\_____|  |_|   
 
-    version: 0.1
+    version: 0.2
     url: polykit.xyz
     author: The Polyfen Group
     author url: thepolyfengroup.com
@@ -717,6 +717,7 @@ button, .button {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 50px;
   width: 240px;
   max-width: 100%;
   margin: 1rem auto;
@@ -759,6 +760,7 @@ button i.icon {
 }
 
 .large-button {
+  height: 60px;
   padding: 1.25rem 1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -961,8 +963,6 @@ nav :where(a:hover) {
 /* 04-ORGANISMS */
 .hellobar {
   margin-top: 0;
-  margin-left: -8px;
-  margin-right: -8px;
   padding: 12px 15px 14px;
   background: #033c6e;
   border-bottom: 8px solid #1f8df0;
@@ -1161,6 +1161,7 @@ body.site div.color-wrapper {
   display: flex;
   flex-direction: row;
   gap: 16px;
+  flex-wrap: wrap;
 }
 
 body.site div.color-swatches-container {
@@ -1492,24 +1493,32 @@ body.site aside {
   margin-bottom: 2rem;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .components aside {
     display: none !important;
   }
 }
 div.components-demo {
   display: grid;
-  grid-template-rows: auto 1fr;
-  align-items: end;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  align-items: start;
 }
 
 .components-demo div {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 30px 80px;
+  grid-template-columns: auto;
   justify-items: center;
   align-items: center;
 }
 
+@media (max-width: 900px) {
+  div.components-demo {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
 /* PRE */
 .tab-container {
   margin-bottom: 1rem;

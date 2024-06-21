@@ -1,15 +1,17 @@
 <section>
-    <h3 id="buttons" class="heading-2">Buttons</h3>
+    <h3 id="section_buttons" class="heading-2">Buttons</h3>
     <h4 class="heading-3">Hierarchy</h4>
     <div class="components-demo">
         <div>
             <small>regular-button</small>
-            <small>secondary-button</small>
-            <small>cta-button</small>
+            <button class="">Download Now</button>
         </div>
         <div>
-            <button class="">Download Now</button>
+            <small>secondary-button</small>
             <button class="secondary-button">Download Now</button>
+        </div>
+        <div>
+            <small>cta-button</small>
             <button class="cta-button">Download Now</button>
         </div>
     </div>
@@ -56,17 +58,18 @@
 }
 </code></pre>
     </section>
-
     <h4 class="heading-3">Size</h4>
     <div class="components-demo">
         <div>
             <small>small-button</small>
-            <small>regular-button</small>
-            <small>large-button</small>
+            <button class="small-button">Download Now</button>
         </div>
         <div>
-            <button class="small-button">Download Now</button>
+            <small>regular-button</small>
             <button class="">Download Now</button>
+        </div>
+        <div>
+            <small>large-button</small>
             <button class="large-button">Download Now</button>
         </div>
     </div>
@@ -102,12 +105,14 @@ large-button {
     <div class="components-demo">
         <div>
             <small>left-icon</small>
-            <small>right-icon</small>
-            <small>right-left-icon</small>
+            <button class="" data-button-icon="phone">Download Now</button>
         </div>
         <div>
-            <button class="" data-button-icon="phone">Download Now</button>
+            <small>right-icon</small>
             <button class="" data-button-arrow>Download Now</button>
+        </div>
+        <div>
+            <small>right-left-icon</small>
             <button class="" data-button-arrow-up>Download Now</button>
         </div>
     </div>
@@ -116,6 +121,7 @@ large-button {
             <button class="tab-button small-button active" data-tab="html">HTML</button>
             <button class="tab-button small-button" data-tab="css">CSS</button>
         </div>
+
         <pre class="tab-panel html-content active"><code>&lt;button data-button-icon="phone"&gt;Download Now&lt;/button&gt;
 &lt;button data-button-arrow&gt;Download Now&lt;/button&gt;
 &lt;button data-button-arrow-up&gt;Download Now&lt;/button&gt;</code></pre>
