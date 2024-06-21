@@ -1,6 +1,7 @@
-pre{
+pre {
     overflow-x: auto;
 }
+
 .sub-sites-container {
     display: grid;
 }
@@ -26,9 +27,9 @@ pre{
         width: clamp(350px, 760px, 61vw);
     }
 
-    body.site aside{
+    body.site aside {
         display: flex;
-        position:sticky;
+        position: sticky;
         flex-direction: column;
         padding: 20px;
         width: 250px;
@@ -36,7 +37,6 @@ pre{
         top: 0px;
         right: unset;
     }
-    
 }
 
 
@@ -75,19 +75,19 @@ img#logo {
     height: 50px;
 }
 
-.hellobar .container{
+.hellobar .container {
     gap: 0px;
     row-gap: 8px;
     column-gap: 35px;
 }
 
 @media (max-width: 768px) {
-        .hellobar {
-            height: 80px;
-        }
+    .hellobar {
+        height: 80px;
     }
+}
 
-nav button{
+nav button {
     all: unset;
 }
 
@@ -101,9 +101,10 @@ nav button{
 /* The navigation bar ------------------------------------- */
 
 .nav-links.position-fixed,
-.nav-buttons, #nav-buttons {
+.nav-buttons,
+#nav-buttons {
     position: fixed;
-    background: #070924a8;;
+    background: #070924a8;
     backdrop-filter: blur(10px);
     z-index: 5;
     border: 1px solid #377bf850;
@@ -246,14 +247,15 @@ a.current-page {
 
 /* END of navigation bar ----------------- */
 
-
 body.site header div {
     position: relative;
     left: unset;
 }
 
 @media (max-width: 768px) {
-    body.site nav, body.site aside {
-      display: flex;
+    body.site nav {
+        display: flex;
     }
-  }
+}
+
+/* fast PLAYGROUND  */

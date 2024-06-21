@@ -8,7 +8,7 @@
  | |    | |__| | |____| |  | . \ _| |_   | |   
  |_|     \____/|______|_|  |_|\_\_____|  |_|   
                                       
-    version: 0.1
+    version: 0.2
     url: polykit.xyz
     author: The Polyfen Group
     author url: thepolyfengroup.com
@@ -23,7 +23,6 @@
 @import '01-subatomics/_colors.scss';
 @import '01-subatomics/_modes.scss';
 @import '01-subatomics/_branding.scss';
-;
 
 /* 02-ATOMS */
 @import '02-atoms/_containers.scss';

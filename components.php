@@ -28,9 +28,12 @@
         href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
-    <!-- Style Sheets CSS -->
-    <link rel="stylesheet" href="app/css/polykit-v0-1.css" type="text/css">
-    <link rel="stylesheet" href="app/css/custom-styles-pk.css" type="text/css">
+        <!-- Style Sheets CSS -->
+        <link rel="stylesheet" href="app/css/polykit-v0-2.css" type="text/css">
+        <link rel="stylesheet" href="app/css/custom-styles-pk.css" type="text/css">
+
+        <!-- js -->
+         <script defer src="/app/js/tab-panels.js"></script>
 
     <!-- Google Tag Manager -->
     <script>
@@ -50,12 +53,6 @@
     })(window, document, 'script', 'dataLayer', 'GTM-5ZXG85V7');
     </script>
     <!-- End Google Tag Manager -->
-
-    <!-- PAGE-SPECIFIC META start -->
-    <!-- PAGE-SPECIFIC META end -->
-
-        <!-- CSS extraoficial -->
-        <link rel="stylesheet" href="/app/css/extra.css" type="text/css">
     </head>
 
 
@@ -103,8 +100,7 @@
         </ul>
     </aside>
 
-    <main class="container">
-
+        <main class="container-900">
 
         <h1 class="heading-1 uppercase"
             style="border-left:4px solid hsla(208, 90%, 50%, 1);padding-left:1rem;display:inline-block;letter-spacing:1px;">
