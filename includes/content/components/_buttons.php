@@ -3,7 +3,7 @@
     <h4 class="heading-3">Hierarchy</h4>
     <div class="components-demo">
         <div>
-            <small>regular-button</small>
+            <small>primary-button</small>
             <button class="">Download Now</button>
         </div>
         <div>
