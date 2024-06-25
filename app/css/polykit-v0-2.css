@@ -272,6 +272,7 @@ body.dark-mode small {
 
 body.light-mode pre, body.dark-mode pre {
   background: hsla(0, 0%, 0%, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.231372549);
 }
 
 body.light-mode pre code, body.dark-mode pre code {
@@ -1435,6 +1436,7 @@ div.components-demo {
   display: flex;
   padding: 2rem;
   background-color: hsl(0, 0%, 0%);
+  border: 1px solid rgba(255, 255, 255, 0.231372549);
 }
 
 div.mailchimp-form-container {
@@ -1471,7 +1473,7 @@ body.site.home h1 {
 }
 
 body.site {
-  background: url("../../imgs/site/grid-pattern.png") no-repeat top center fixed, #0e112a;
+  background: url("../../imgs/site/grid-pattern.png") no-repeat top center, #0B0E28;
   background-size: unset;
 }
 
@@ -1541,6 +1543,11 @@ div.components-demo {
 
 .tab-panel.active {
   display: block;
+}
+
+.tab-button:hover {
+  box-shadow: none;
+  background-color: hsl(208, 100%, 53%);
 }
 
 /* --------------------------------------------------------- */

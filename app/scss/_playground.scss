@@ -63,3 +63,8 @@ div.components-demo {
 .tab-panel.active {
     display: block;
 }
+
+.tab-button:hover {
+    box-shadow: none;
+    background-color: $accent-color;
+}

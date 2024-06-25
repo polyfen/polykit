@@ -468,7 +468,8 @@ div.color-swatch.butterscotch-gradient {
 div.components-demo {
     display: flex;
     padding: 2rem;
-    background-color: $black; 
+    background-color: $black;
+    border: 1px solid #ffffff3b; 
 }
 
 div.mailchimp-form-container {
@@ -508,6 +509,6 @@ body.site.home h1 {
 }
 
 body.site {
-    background: url('../../imgs/site/grid-pattern.png') no-repeat top center fixed, #0e112a;
+    background: url('../../imgs/site/grid-pattern.png') no-repeat top center, #0B0E28;
     background-size: unset;
 }
