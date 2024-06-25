@@ -118,31 +118,56 @@
 
         <?php include 'includes/content/components/_colors.php'; ?>
         <hr>
+
+        <!-- hidden
         <?php include 'includes/content/components/_modes.php'; ?>
+        -->
 
         <h2 class="heading-1" id="section_atoms">Atoms</h2>
 
+        <!-- hidden
         <?php include 'includes/content/components/_containers.php'; ?>
+        -->
 
+        <!-- hidden
         <?php include 'includes/content/components/_text.php'; ?>
+        -->
 
+        <!-- hidden
         <?php include 'includes/content/components/_icons.php'; ?>
+        -->
 
+        <!-- hidden
         <?php include 'includes/content/components/_lists.php'; ?>
+        -->
 
         <?php include 'includes/content/components/_buttons.php'; ?>
+
         <hr>
+
+        <!-- hidden
         <?php include 'includes/content/components/_separators.php'; ?>
+        -->
 
+        <!-- hidden
         <?php include 'includes/content/components/_codeblocks.php'; ?>
+        -->
 
+        <!-- hidden
         <h2 class="heading-1" id="section_molecules">Molecules</h2>
+        -->
 
+        <!-- hidden
         <?php include 'includes/content/components/_nav.php'; ?>
+        -->
 
+        <!-- hidden
         <h2 class="heading-1" id="section_organisms">Organisms</h2>
+        -->
 
+        <!-- hidden
         <?php include 'includes/content/components/_header.php'; ?>
+        -->
 
     </main>
 
