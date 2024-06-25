@@ -37,7 +37,7 @@ button, .button {
 }
 
 .cta-button {
-    box-shadow: 0 0 4px $accent-color, inset 0 0 0 4px hsla(234, 61%, 6%, 0.6);
+    box-shadow: 0 0 4px $accent-color;
     animation: gradient 7s infinite;
     background-image: linear-gradient(45deg, $accent-color-gradient-start, $accent-color-gradient-end);
     background-size: 200% 200%;
@@ -65,7 +65,7 @@ button i.icon {
 /* :hover */
 
 button:hover, a.button:hover, input.button:hover {
-    box-shadow: 0 0 4px 4px $accent-color, inset 0 0 0 4px $slate-950;
+    box-shadow: 0 0 4px 4px $accent-color, inset 0 0 0 2px $slate-950;
     text-decoration: none;
     transition: 0s;
 }

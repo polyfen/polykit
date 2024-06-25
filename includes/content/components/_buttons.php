@@ -47,8 +47,7 @@
 }
 
 .cta-button {
-    box-shadow: 0 0 4px $accent-color,
-                inset 0 0 0 4px hsla(234, 61%, 6%, 0.6);
+    box-shadow: 0 0 4px $accent-color;
     animation: gradient 7s infinite;
     background-image: linear-gradient(
                       45deg,
