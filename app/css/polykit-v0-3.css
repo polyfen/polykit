@@ -666,8 +666,37 @@ p a:hover, li a:hover, small a:hover, a:hover small {
 /* --------------------------------------------------------- */
 /* 
 
+
+
 */
 /* --------------------------------------------------------- */
+[data-before] {
+  text-decoration: none;
+}
+
+[data-before]::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: 4px;
+  text-decoration: none;
+  height: 25px;
+  width: 27px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+[data-before=file-code]::before {
+  background-image: url(imgs/icons/file-code-fill.svg);
+}
+
+[data-emoji=link]::before {
+  content: "🔗";
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 8px;
+}
+
 /* --------------------------------------------------------- */
 /* 
 

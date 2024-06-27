@@ -1,5 +1,5 @@
 <section>
-    <h3 id="section_buttons" class="heading-2">Buttons</h3>
+    <h3 id="section_buttons" class="heading-2">Buttons <small><a href="/app/scss/02-atoms/_buttons.scss" target="_blank" data-before="file-code">SCSS</a></small></h3>
     <h4 class="heading-3">Hierarchy</h4>
     <div class="components-demo">
         <div>
