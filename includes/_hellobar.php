@@ -1,5 +1,5 @@
 <section class="hellobar">
-    <div class="container align-center" style="display: flex;">
+    <div class="container align-center">
         <small>v 0.2</small>
         <a href="https://log.thepolyfengroup.com/category/plkt/" target="_blank"><small>🚀 Changelog</small></a>
         <a href="https://trello.com/b/QXjZGW58/polykit-product-roadmap" target="_blank"><small>🎯 Roadmap</small></a>

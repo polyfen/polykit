@@ -29,8 +29,6 @@
         rel="stylesheet">
 
         <!-- Style Sheets CSS -->
-        <link rel="stylesheet" href="app/css/polykit-v0-2.css" type="text/css">
-        <link rel="stylesheet" href="app/css/custom-styles-pk.css" type="text/css">
 
         <!-- js -->
          <script defer src="/app/js/tab-panels.js"></script>

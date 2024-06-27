@@ -1487,6 +1487,18 @@ body.site aside {
   text-decoration: none;
 }
 
+pre {
+  overflow-x: auto;
+}
+
+.sub-sites-container {
+  display: grid;
+}
+
+aside a {
+  font-family: "Figtree", system-ui, sans-serif;
+}
+
 .components-demo {
   margin-bottom: 2rem;
 }
@@ -1539,6 +1551,7 @@ div.components-demo {
 
 .tab-panel {
   display: none;
+  max-height: 500px;
 }
 
 .tab-panel.active {

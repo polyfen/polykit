@@ -33,8 +33,6 @@
         />
 
         <!-- Style Sheets CSS -->
-        <link rel="stylesheet" href="app/css/polykit-v0-1.css" type="text/css">
-        <link rel="stylesheet" href="app/css/custom-styles-pk.css" type="text/css">
         
 
         <!-- Google Tag Manager -->

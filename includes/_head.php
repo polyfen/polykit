@@ -1,3 +1,9 @@
+<!-- Global CSS -->
+<link rel="stylesheet" href="app/css/polykit-v0-2.css" type="text/css">
+<link rel="stylesheet" href="app/css/custom-styles-pk.css" type="text/css">
+
+<!-- Scripts -->
+<script defer src="app/js/navbar.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     let currentPage = window.location.pathname;
@@ -10,4 +16,4 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
-<script defer src="app/js/navbar.js"></script>
+
