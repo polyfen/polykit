@@ -1,0 +1,1566 @@
+@charset "UTF-8";
+/* --------------------------------------------------------- */
+/*
+
+  _____   ____  _  __     ___  _______ _______ 
+ |  __ \ / __ \| | \ \   / / |/ /_   _|__   __|
+ | |__) | |  | | |  \ \_/ /| ' /  | |    | |   
+ |  ___/| |  | | |   \   / |  <   | |    | |   
+ | |    | |__| | |____| |  | . \ _| |_   | |   
+ |_|     \____/|______|_|  |_|\_\_____|  |_|   
+
+    version: 0.3
+    url: polykit.xyz
+    author: The Polyfen Group
+    author url: thepolyfengroup.com
+*/
+/* --------------------------------------------------------- */
+/* 01-SUBATOMICS */
+/* --------------------------------------------------------- */
+/* 
+  _____  ______  _____ ______ _______ 
+ |  __ \|  ____|/ ____|  ____|__   __|
+ | |__) | |__  | (___ | |__     | |   
+ |  _  /|  __|  \___ \|  __|    | |   
+ | | \ \| |____ ____) | |____   | |   
+ |_|  \_\______|_____/|______|  |_|   
+
+*/
+/* --------------------------------------------------------- */
+/*///////////// SUBATOMICS/RESET start /////////////*/
+/* Based on this article https://andy-bell.co.uk/a-modern-css-reset/ */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+li > h1,
+li > h2,
+li > h3,
+li > h4,
+li > h5,
+li > h6 {
+  display: inline;
+}
+
+/*///////////// SUBATOMICS/RESET end /////////////*/
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+/* 
+   _____ ______ _   _ ______ _____            _      
+  / ____|  ____| \ | |  ____|  __ \     /\   | |     
+ | |  __| |__  |  \| | |__  | |__) |   /  \  | |     
+ | | |_ |  __| | . ` |  __| |  _  /   / /\ \ | |     
+ | |__| | |____| |\  | |____| | \ \  / ____ \| |____ 
+  \_____|______|_| \_|______|_|  \_\/_/    \_\______|
+
+
+*/
+/* --------------------------------------------------------- */
+/*///////////// SUBATOMICS/GENERAL start /////////////*/
+.d-none {
+  display: none !important;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.d-inline {
+  display: inline !important;
+}
+
+.margin-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.margin-right-auto {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+
+.margin-left-auto {
+  margin-right: 0 !important;
+  margin-left: auto !important;
+}
+
+/*///////////// SUBATOMICS/GENERAL end /////////////*/
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+/* 
+   _____ _____  _____ _____  
+  / ____|  __ \|_   _|  __ \ 
+ | |  __| |__) | | | | |  | |
+ | | |_ |  _  /  | | | |  | |
+ | |__| | | \ \ _| |_| |__| |
+  \_____|_|  \_\_____|_____/ 
+
+*/
+/* --------------------------------------------------------- */
+/*///////////// SUBATOMICS/GRID start /////////////*/
+html {
+  font-size: 16px; /* 1rem = 16px */
+}
+
+/*///////////// SUBATOMICS/GRID end /////////////*/
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+/* 
+  _________     _______   ____   _____ _____            _____  _    ___     __
+ |__   __\ \   / /  __ \ / __ \ / ____|  __ \     /\   |  __ \| |  | \ \   / /
+    | |   \ \_/ /| |__) | |  | | |  __| |__) |   /  \  | |__) | |__| |\ \_/ / 
+    | |    \   / |  ___/| |  | | | |_ |  _  /   / /\ \ |  ___/|  __  | \   /  
+    | |     | |  | |    | |__| | |__| | | \ \  / ____ \| |    | |  | |  | |   
+    |_|     |_|  |_|     \____/ \_____|_|  \_\/_/    \_\_|    |_|  |_|  |_|   
+
+*/
+/* --------------------------------------------------------- */
+/*///////////// SUBATOMICS/TYPOGRAPHY start /////////////*/
+/*///////////// SUBATOMICS/TYPOGRAPHY end /////////////*/
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+/*
+   _____ ____  _      ____  _____   _____ 
+  / ____/ __ \| |    / __ \|  __ \ / ____|
+ | |   | |  | | |   | |  | | |__) | (___  
+ | |   | |  | | |   | |  | |  _  / \___ \ 
+ | |___| |__| | |___| |__| | | \ \ ____) |
+  \_____\____/|______\____/|_|  \_\_____/ 
+
+*/
+/* --------------------------------------------------------- */
+/*///////////// SUBATOMICS/COLORS start /////////////*/
+/* LIGHTNESS */
+/* Black */
+/* #000000 */
+/* #1C1C1C */
+/* Gray */
+/* #7B7B7C */
+/* #4C4C4C */
+/* White */
+/* #FFFFFF */
+/* #F9FAFB */
+/* Slate */
+/* #EDEFFB */
+/* #D6D8E4 */
+/* #BFC1CE */
+/* #A8AAB7 */
+/* #9193A1 */
+/* #7A7C8A */
+/* #626473 */
+/* #4B4D5D */
+/* #343646 */
+/* #1D1F30 */
+/* #060819 */
+/* --------------------------------------------------------- */
+/* HUES */
+/* Blue */
+/* #108EFF */
+/* Indigo */
+/* #7537F8 */
+/* Butterscotch */
+/* #FFA502 */
+/*///////////// SUBATOMICS/COLOR end /////////////*/
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+/* 
+  __  __  ____  _____  ______  _____ 
+ |  \/  |/ __ \|  __ \|  ____|/ ____|
+ | \  / | |  | | |  | | |__  | (___  
+ | |\/| | |  | | |  | |  __|  \___ \ 
+ | |  | | |__| | |__| | |____ ____) |
+ |_|  |_|\____/|_____/|______|_____/ 
+
+*/
+/* --------------------------------------------------------- */
+/*///////////// SUBATOMICS/MODES start /////////////*/
+html :has(body.light-mode), body.light-mode {
+  background: hsl(231, 64%, 96%);
+}
+
+html :has(body.dark-mode), body.dark-mode {
+  background: hsl(234, 61%, 6%);
+}
+
+html :has(body.light-mode), body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode h4, body.light-mode h5, body.light-mode h6 {
+  color: hsl(0, 0%, 0%);
+}
+
+html :has(body.dark-mode), body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
+  color: hsl(0, 0%, 100%);
+}
+
+body.light-mode p, body.light-mode li, body.light-mode pre code, body.light-mode div {
+  color: hsla(0, 0%, 0%, 0.8);
+}
+
+body.dark-mode p, body.dark-mode li, body.dark-mode pre code, body.dark-mode div {
+  color: hsla(0, 0%, 100%, 0.8);
+}
+
+body.light-mode hr {
+  border-color: rgba(0, 0, 0, 0.04);
+}
+
+body.dark-mode hr {
+  border-color: hsla(233, 14%, 24%, 0.42);
+}
+
+body.light-mode a {
+  color: hsla(0, 0%, 0%, 0.8);
+}
+
+body.dark-mode a {
+  color: hsla(0, 0%, 100%, 0.8);
+}
+
+body.light-mode a:hover {
+  color: hsl(0, 0%, 0%);
+}
+
+body.dark-mode a:hover {
+  color: hsl(0, 0%, 100%);
+}
+
+body.light-mode small {
+  color: hsl(0, 0%, 0%);
+}
+
+body.dark-mode small {
+  color: hsl(0, 0%, 100%);
+}
+
+body.light-mode pre, body.dark-mode pre {
+  background: hsla(0, 0%, 0%, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.231372549);
+}
+
+body.light-mode pre code, body.dark-mode pre code {
+  color: hsl(0, 0%, 100%);
+}
+
+body.light-mode p code {
+  background: hsla(0, 0%, 0%, 0.8);
+  color: hsl(0, 0%, 100%);
+}
+
+body.dark-mode p code {
+  background: hsl(0, 0%, 11%);
+  color: hsl(39, 100%, 50%);
+}
+
+/*///////////// SUBATOMICS/MODES end /////////////*/
+/* --------------------------------------------------------- */
+/* 
+  ____  _____            _   _ _____ _____ _   _  _____ 
+ |  _ \|  __ \     /\   | \ | |  __ \_   _| \ | |/ ____|
+ | |_) | |__) |   /  \  |  \| | |  | || | |  \| | |  __ 
+ |  _ <|  _  /   / /\ \ | . ` | |  | || | | . ` | | |_ |
+ | |_) | | \ \  / ____ \| |\  | |__| || |_| |\  | |__| |
+ |____/|_|  \_\/_/    \_\_| \_|_____/_____|_| \_|\_____|
+
+*/
+/* --------------------------------------------------------- */
+/*///////////// SUBATOMICS/BRANDING start /////////////*/
+/*///////////// SUBATOMICS/BRANDING end /////////////*/
+/* --------------------------------------------------------- */
+/* 02-ATOMS */
+/* --------------------------------------------------------- */
+/* 
+
+*/
+/* --------------------------------------------------------- */
+/*///////////// ATOMS/CONTAINERS start /////////////*/
+[class*=container-] {
+  width: calc(100% - 30px);
+  margin: 0 auto;
+}
+
+.container {
+  width: calc(100% - 30px);
+  max-width: 790px;
+  margin: 0 auto;
+}
+
+.container-1080 {
+  max-width: 1080px;
+}
+
+.container-900 {
+  max-width: 900px;
+}
+
+.container-800 {
+  max-width: 800px;
+}
+
+.container-750 {
+  max-width: 750px;
+}
+
+.container-700 {
+  max-width: 700px;
+}
+
+.container-600 {
+  max-width: 600px;
+}
+
+.container-500 {
+  max-width: 500px;
+}
+
+.container-400 {
+  max-width: 400px;
+}
+
+.container-350 {
+  max-width: 350px;
+}
+
+.container-300 {
+  max-width: 300px;
+}
+
+.container-250 {
+  max-width: 250px;
+}
+
+.container-200 {
+  max-width: 200px;
+}
+
+/*///////////// ATOMS/CONTAINERS end /////////////*/
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+/* 
+
+*/
+/* --------------------------------------------------------- */
+/*///////////// BASE/_TYPOGRAPHY start /////////////*/
+* {
+  font-kerning: normal;
+  font-size: inherit;
+}
+
+/* FONT FAMILIES */
+* {
+  font-family: "Figtree", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Figtree", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+p, p a, li, li a, p strong, p span, li strong, th, td {
+  font-family: "Lora", serif;
+}
+
+button, a.button, small, .mini {
+  font-family: "Figtree", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+pre, code, pre code, pre code span {
+  font-family: "Anonymous Pro", monospace;
+}
+
+/* TEXT WRAP */
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* LIGATURES */
+* {
+  -moz-font-feature-settings: "kern";
+  -ms-font-feature-settings: "kern";
+  -webkit-font-feature-settings: "kern";
+  font-feature-settings: "kern";
+}
+
+h1, h2, h3, h4, h5, button, a.button, a small, small {
+  font-variant-ligatures: discretionary-ligatures;
+  -moz-font-feature-settings: "kern", "liga", "calt";
+  -ms-font-feature-settings: "kern", "liga", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "calt";
+  font-feature-settings: "kern", "liga", "calt";
+}
+
+p, p a, li, p strong, p span, li strong {
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+}
+
+/* FONT-SIZES, LINE-HEIGHT, LETTER-SPACING */
+.title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+  font-size: 2.5rem;
+  line-height: 110%;
+  letter-spacing: -0.4px;
+}
+
+h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+  font-size: 2rem;
+  line-height: 110%;
+  letter-spacing: -0.25px;
+}
+
+h2, .heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.heading-2, h6.heading-2 {
+  font-size: 1.75rem;
+  line-height: 110%;
+  letter-spacing: -0.25px;
+}
+
+h3, .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
+  font-size: 1.5rem;
+  line-height: 110%;
+  letter-spacing: -0.25px;
+}
+
+h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.heading-4, h6.heading-4 {
+  font-size: 1.375rem;
+  line-height: 110%;
+}
+
+h5, .heading-5, h1.heading-5, h2.heading-5, h3.heading-5, h4.heading-5, h5.heading-5, h6.heading-5 {
+  font-size: 1.25rem;
+  line-height: 110%;
+}
+
+p, p a, li, p strong, p span, li strong, th, td {
+  font-size: 1.2rem;
+  line-height: 150%;
+}
+
+pre, code, pre code {
+  font-size: 1.2rem;
+  line-height: 133%;
+}
+
+small, h1.caption, h2.caption, h3.caption, h4.caption, h5.caption, h6.caption {
+  font-size: 1rem;
+  line-height: 133%;
+}
+
+button, a.button, input.button {
+  font-size: 1rem;
+}
+
+button.small-button, a.small-button, input.small-button {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+small.mini, a.mini, .mini {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@media (min-width: 720px) {
+  .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+    font-size: 3.25rem;
+  }
+  h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+    font-size: 2.75rem;
+  }
+  h2, .heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.heading-2, h6.heading-2 {
+    font-size: 2.5rem;
+  }
+  h3, .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
+    font-size: 2.2rem;
+  }
+  h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.heading-4, h6.heading-4 {
+    font-size: 1.75rem;
+  }
+  h5, .heading-5, h1.heading-5, h2.heading-5, h3.heading-5, h4.heading-5, h5.heading-5, h6.heading-5 {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 1200px) {
+  .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+    font-size: 5.25rem;
+    letter-spacing: -0.8px;
+  }
+  h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+    font-size: 3.25rem;
+    letter-spacing: -0.4px;
+  }
+  p, p a, li, p strong, p span, li strong, th, td {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 1380px) {
+  .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+    font-size: 7.75rem;
+  }
+}
+/* FONT-WEIGHTS */
+.title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+  font-weight: 800;
+}
+
+h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+  font-weight: 800;
+}
+
+h2, .heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.heading-2, h6.heading-2 {
+  font-weight: 700;
+}
+
+h3, .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
+  font-weight: 600;
+}
+
+h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.heading-4, h6.heading-4 {
+  font-weight: 600;
+}
+
+h5, .heading-5, h1.heading-5, h2.heading-5, h3.heading-5, h4.heading-5, h5.heading-5, h6.heading-5 {
+  font-weight: 600;
+}
+
+p, p a, li, p strong, p span, li strong, th, td {
+  font-weight: 400;
+}
+
+pre, code, pre code {
+  font-weight: 400;
+}
+
+small, h1.caption, h2.caption, h3.caption, h4.caption, h5.caption, h6.caption {
+  font-weight: 600;
+}
+
+button, a.button, input.button {
+  font-weight: 700;
+}
+
+/* MARGINS */
+.title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+  margin-bottom: 2.5rem;
+}
+
+h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+  margin-bottom: 2.5rem;
+}
+
+h2, .heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.heading-2, h6.heading-2 {
+  margin-bottom: 2rem;
+}
+
+h3, .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
+  margin-bottom: 1.75rem;
+}
+
+h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.heading-4, h6.heading-4 {
+  margin-bottom: 1rem;
+}
+
+h5, .heading-5, h1.heading-5, h2.heading-5, h3.heading-5, h4.heading-5, h5.heading-5, h6.heading-5 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+small, h1.caption, h2.caption, h3.caption, h4.caption, h5.caption, h6.caption {
+  margin-bottom: 0;
+}
+
+/* LINKS */
+a {
+  text-decoration: none;
+}
+
+p a, li a, small a, a small {
+  text-decoration: underline hsla(208, 100%, 53%, 0.5) dotted 2px;
+  text-underline-offset: 5px;
+}
+
+p a:hover, li a:hover, small a:hover, a:hover small {
+  text-decoration: underline hsl(208, 100%, 53%) solid 2px;
+  text-underline-offset: 5px;
+  opacity: 1;
+}
+
+/* HIGHLIGHTED TEXT */
+::-moz-selection {
+  background: hsl(208, 100%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+::selection {
+  background: hsl(208, 100%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+/* UTILITY CLASSES */
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: left;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/*///////////// BASE/_TYPOGRAPHY end /////////////*/
+/* --------------------------------------------------------- */
+/* 
+
+*/
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+/* 
+
+*/
+/* --------------------------------------------------------- */
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content: "•"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: hsl(208, 100%, 53%); /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1.2em; /* Also needed for space (tweak if needed) */
+  margin-left: -1.2em; /* Also needed for space (tweak if needed) */
+}
+
+.hanging-list {
+  padding-left: 24px;
+}
+
+.arrow-bullets li::before {
+  content: "➜";
+}
+
+.spaced-list li {
+  margin-bottom: 1.2rem;
+}
+
+ul.no-bullets li:before {
+  display: none;
+}
+
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+/*
+  ____  _    _ _______ _______ ____  _   _  _____ 
+ |  _ \| |  | |__   __|__   __/ __ \| \ | |/ ____|
+ | |_) | |  | |  | |     | | | |  | |  \| | (___  
+ |  _ <| |  | |  | |     | | | |  | | . ` |\___ \ 
+ | |_) | |__| |  | |     | | | |__| | |\  |____) |
+ |____/ \____/   |_|     |_|  \____/|_| \_|_____/                                                  
+*/
+/* --------------------------------------------------------- */
+/*///////////// ATOMS/BUTTONS start /////////////*/
+button, .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 240px;
+  max-width: 100%;
+  margin: 1rem auto;
+  padding: 1rem 1.4rem;
+  border: none;
+  border-radius: 900px;
+  background-color: hsl(208, 100%, 53%);
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0s;
+}
+
+.secondary-button {
+  border: 3px solid hsl(208, 100%, 53%);
+  background-color: hsl(208, 100%, 13%);
+  background-image: none !important;
+}
+
+.cta-button {
+  box-shadow: 0 0 4px hsl(208, 100%, 53%);
+  animation: gradient 7s infinite;
+  background-image: linear-gradient(45deg, hsl(228, 100%, 53%), hsl(188, 100%, 53%));
+  background-size: 200% 200%;
+}
+
+button i.icon {
+  margin-right: 2.5rem;
+}
+
+/* size */
+.small-button {
+  height: 32px;
+  width: 180px;
+}
+
+.large-button {
+  height: 60px;
+  padding: 1.25rem 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 260px;
+}
+
+/* :hover */
+button:hover, a.button:hover, input.button:hover {
+  box-shadow: 0 0 4px 4px hsl(208, 100%, 53%), inset 0 0 0 2px hsl(234, 61%, 6%);
+  text-decoration: none;
+  transition: 0s;
+}
+
+button.secondary-button:hover, a.button.secondary-button:hover, input.button.secondary-button:hover {
+  background-image: none !important;
+  box-shadow: 0 0 10px hsl(208, 100%, 53%);
+  background-color: hsl(208, 100%, 53%);
+}
+
+/* data-button-icon */
+/* LEFT */
+[data-button-icon]::before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+[data-button-icon=phone]::before {
+  background-image: url(../../imgs/icons/phone-call.svg);
+  filter: none;
+  margin-block: -8px;
+}
+
+/* RIGHT */
+[data-button-arrow]::after {
+  content: "";
+  background-image: url(/imgs/icons/arrow-right-fill.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  opacity: 0.8;
+}
+
+[data-button-arrow]::after {
+  height: 10px;
+  width: 18px;
+  margin-left: 6px;
+}
+
+.small-button[data-button-arrow]::after {
+  height: 8px;
+  width: 13px;
+  margin-left: 4px;
+}
+
+[data-button-arrow]:hover::after {
+  animation: moveArrow 1s ease-out infinite;
+  opacity: 1;
+}
+
+@keyframes moveArrow {
+  0% {
+    transform: translateX(0);
+  }
+  70% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(10px);
+  }
+}
+/* data-button-arrow-up */
+[data-button-arrow-up]::before,
+[data-button-arrow-up]::after {
+  content: url(/imgs/icons/arrow-up-fill.svg);
+  display: inline-block;
+  opacity: 0.8;
+  animation: moveArrow-up 1s ease-out infinite;
+  height: 16px;
+  width: 9px;
+}
+
+[data-button-arrow-up]::before {
+  margin-right: 10px;
+}
+
+[data-button-arrow-up]::after {
+  margin-left: 10px;
+}
+
+[data-button-arrow-up]:hover::before,
+[data-button-arrow-up]:hover::after {
+  opacity: 1;
+}
+
+@keyframes moveArrow-up {
+  0% {
+    transform: translatey(0px);
+  }
+  70% {
+    transform: translatey(-5px);
+  }
+  100% {
+    transform: translatey(-5px);
+  }
+}
+/*///////////// ATOMS/BUTTONS end /////////////*/
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+/*          
+
+*/
+/* --------------------------------------------------------- */
+/*///////////// ATOMS/INPUTS start /////////////*/
+label, input {
+  display: block;
+}
+
+input {
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+/*///////////// ATOMS/INPUTS end /////////////*/
+/* --------------------------------------------------------- */
+hr {
+  margin-block: 6rem;
+  border-width: 1px;
+  border-style: dashed;
+  width: calc(100% - 2rem);
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+/* 
+
+*/
+/* --------------------------------------------------------- */
+pre {
+  padding: 2rem 1rem;
+  border-radius: 4px;
+}
+
+p code {
+  padding: 0.25rem 0.5rem;
+  border-radius: 2px;
+}
+
+/* --------------------------------------------------------- */
+/* 03-MOLECULES */
+/* --------------------------------------------------------- */
+/* 
+
+*/
+/* --------------------------------------------------------- */
+nav ul li:before {
+  display: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+nav a {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+/*
+ nav a:hover {
+    text-decoration: underline $accent-color solid 2px;
+    text-underline-offset: 5px;
+} */
+nav :where(a:hover) {
+  text-decoration: underline hsl(208, 100%, 53%) solid 2px;
+  text-underline-offset: 5px;
+}
+
+.current-page {
+  opacity: 0.4;
+}
+
+.current-page:hover {
+  opacity: 0.4;
+  text-decoration: none;
+}
+
+/* --------------------------------------------------------- */
+/* 04-ORGANISMS */
+.hellobar {
+  margin-top: 0;
+  padding: 12px 15px 14px;
+  background: #033c6e;
+  border-bottom: 8px solid #1f8df0;
+}
+
+.hellobar .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* --------------------------------------------------------- */
+/* 
+
+*/
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+/* 05-TEMPLATES */
+/* --------------------------------------------------------- */
+/* 
+
+*/
+/* --------------------------------------------------------- */
+body.site h2 strong {
+  background-image: linear-gradient(45deg, hsl(228, 100%, 53%), hsl(188, 100%, 53%));
+  padding: 0 0.25rem;
+}
+
+body.site header {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.type-demo-margin {
+  width: 100%;
+  background: hsla(208, 100%, 53%, 0.1);
+}
+
+.type-demo-padding {
+  width: 100%;
+  background: hsla(208, 100%, 53%, 0.1);
+}
+
+/* TITLE-1 */
+.title-1-demo .type-demo-margin-top {
+  height: 0rem;
+}
+
+.title-1-demo .type-demo-padding-top {
+  height: 3rem;
+}
+
+.title-1-demo .type-demo-margin-bottom {
+  height: 2.5rem;
+}
+
+/* HEADING-1 */
+.heading-1-demo .type-demo-margin-top {
+  height: 0rem;
+}
+
+.heading-1-demo .type-demo-padding-top {
+  height: 3rem;
+}
+
+.heading-1-demo .type-demo-margin-bottom {
+  height: 2.5rem;
+}
+
+/* HEADING-2 */
+.heading-2-demo .type-demo-margin-top {
+  height: 0rem;
+}
+
+.heading-2-demo .type-demo-padding-top {
+  height: 2.5rem;
+}
+
+.heading-2-demo .type-demo-margin-bottom {
+  height: 2rem;
+}
+
+/* HEADING-3 */
+.heading-3-demo .type-demo-margin-top {
+  height: 0rem;
+}
+
+.heading-3-demo .type-demo-padding-top {
+  height: 2rem;
+}
+
+.heading-3-demo .type-demo-margin-bottom {
+  height: 2rem;
+}
+
+/* HEADING-4 */
+.heading-4-demo .type-demo-margin-top {
+  height: 0rem;
+}
+
+.heading-4-demo .type-demo-padding-top {
+  height: 2rem;
+}
+
+.heading-4-demo .type-demo-margin-bottom {
+  height: 2rem;
+}
+
+/* P */
+.p-demo .type-demo-margin-top {
+  height: 0rem;
+}
+
+.p-demo .type-demo-padding-top {
+  height: 0rem;
+}
+
+.p-demo .type-demo-margin-bottom {
+  height: 2rem;
+}
+
+/* SMALL */
+.small-demo .type-demo-margin-top {
+  height: 0rem;
+}
+
+.small-demo .type-demo-padding-top {
+  height: 0rem;
+}
+
+.small-demo .type-demo-margin-bottom {
+  height: 0rem;
+}
+
+main.demo {
+  padding-top: 7rem;
+}
+
+/* Temporary fix for responsive styles */
+@media (max-width: 768px) {
+  body.site nav, body.site aside {
+    display: none;
+  }
+}
+body.site div.two-col {
+  display: flex;
+  gap: 40px;
+}
+
+@media (max-width: 768px) {
+  body.site div.two-col {
+    flex-direction: column;
+  }
+}
+body.site aside {
+  padding-left: 2rem;
+  position: fixed;
+}
+
+body.site aside ul {
+  padding-left: 0;
+}
+
+body.site aside ul ul {
+  padding-left: 1.5rem;
+}
+
+body.site aside {
+  float: left;
+}
+
+body.site aside ul li::before {
+  display: none;
+}
+
+body.site aside ul li a {
+  border-bottom: none;
+  font-size: 1rem;
+  line-height: 0;
+}
+
+body.site aside ul ul {
+  opacity: 0.6;
+  padding-left: 1.25rem;
+}
+
+body.site div.color-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+body.site div.color-swatches-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+body.site div.color-swatches-container div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+body.site div.color-swatch {
+  height: 120px;
+  width: 80px;
+  display: block;
+  border-radius: 4px;
+}
+
+div.color-swatch.blue-100 {
+  background: hsl(208, 100%, 93%);
+}
+
+div.color-swatch.blue-200 {
+  background: hsl(208, 100%, 83%);
+}
+
+div.color-swatch.blue-300 {
+  background: hsl(208, 100%, 73%);
+}
+
+div.color-swatch.blue-400 {
+  background: hsl(208, 100%, 63%);
+}
+
+div.color-swatch.blue-500 {
+  background: hsl(208, 100%, 53%);
+}
+
+div.color-swatch.blue-600 {
+  background: hsl(208, 100%, 43%);
+}
+
+div.color-swatch.blue-700 {
+  background: hsl(208, 100%, 33%);
+}
+
+div.color-swatch.blue-800 {
+  background: hsl(208, 100%, 23%);
+}
+
+div.color-swatch.blue-900 {
+  background: hsl(208, 100%, 13%);
+}
+
+div.color-swatch.blue-90pct {
+  background: hsla(208, 100%, 53%, 0.9);
+}
+
+div.color-swatch.blue-80pct {
+  background: hsla(208, 100%, 53%, 0.8);
+}
+
+div.color-swatch.blue-70pct {
+  background: hsla(208, 100%, 53%, 0.7);
+}
+
+div.color-swatch.blue-60pct {
+  background: hsla(208, 100%, 53%, 0.6);
+}
+
+div.color-swatch.blue-50pct {
+  background: hsla(208, 100%, 53%, 0.5);
+}
+
+div.color-swatch.blue-40pct {
+  background: hsla(208, 100%, 53%, 0.4);
+}
+
+div.color-swatch.blue-30pct {
+  background: hsla(208, 100%, 53%, 0.3);
+}
+
+div.color-swatch.blue-20pct {
+  background: hsla(208, 100%, 53%, 0.2);
+}
+
+div.color-swatch.blue-10pct {
+  background: hsla(208, 100%, 53%, 0.1);
+}
+
+div.color-swatch.blue-gradient-start {
+  background: hsl(228, 100%, 53%);
+}
+
+div.color-swatch.blue-gradient-end {
+  background: hsl(188, 100%, 53%);
+}
+
+div.color-swatch.blue-gradient {
+  background-image: linear-gradient(45deg, hsl(228, 100%, 53%), hsl(188, 100%, 53%));
+}
+
+div.color-swatch.indigo-100 {
+  background: hsl(259, 100%, 99%);
+}
+
+div.color-swatch.indigo-200 {
+  background: hsl(259, 100%, 89%);
+}
+
+div.color-swatch.indigo-300 {
+  background: hsl(259, 100%, 79%);
+}
+
+div.color-swatch.indigo-400 {
+  background: hsl(259, 100%, 69%);
+}
+
+div.color-swatch.indigo-500 {
+  background: hsl(259, 100%, 59%);
+}
+
+div.color-swatch.indigo-600 {
+  background: hsl(259, 100%, 49%);
+}
+
+div.color-swatch.indigo-700 {
+  background: hsl(259, 100%, 39%);
+}
+
+div.color-swatch.indigo-800 {
+  background: hsl(259, 100%, 29%);
+}
+
+div.color-swatch.indigo-900 {
+  background: hsl(259, 100%, 19%);
+}
+
+div.color-swatch.indigo-90pct {
+  background: hsla(259, 100%, 59%, 0.9);
+}
+
+div.color-swatch.indigo-80pct {
+  background: hsla(259, 100%, 59%, 0.8);
+}
+
+div.color-swatch.indigo-70pct {
+  background: hsla(259, 100%, 59%, 0.7);
+}
+
+div.color-swatch.indigo-60pct {
+  background: hsla(259, 100%, 59%, 0.6);
+}
+
+div.color-swatch.indigo-50pct {
+  background: hsla(259, 100%, 59%, 0.5);
+}
+
+div.color-swatch.indigo-40pct {
+  background: hsla(259, 100%, 59%, 0.4);
+}
+
+div.color-swatch.indigo-30pct {
+  background: hsla(259, 100%, 59%, 0.3);
+}
+
+div.color-swatch.indigo-20pct {
+  background: hsla(259, 100%, 59%, 0.2);
+}
+
+div.color-swatch.indigo-10pct {
+  background: hsla(259, 100%, 59%, 0.1);
+}
+
+div.color-swatch.indigo-gradient-start {
+  background: hsl(279, 100%, 59%);
+}
+
+div.color-swatch.indigo-gradient-end {
+  background: hsl(239, 100%, 59%);
+}
+
+div.color-swatch.indigo-gradient {
+  background-image: linear-gradient(45deg, hsl(279, 100%, 59%), hsl(239, 100%, 59%));
+}
+
+div.color-swatch.butterscotch-100 {
+  background: hsl(39, 100%, 90%);
+}
+
+div.color-swatch.butterscotch-200 {
+  background: hsl(39, 100%, 80%);
+}
+
+div.color-swatch.butterscotch-300 {
+  background: hsl(39, 100%, 70%);
+}
+
+div.color-swatch.butterscotch-400 {
+  background: hsl(39, 100%, 60%);
+}
+
+div.color-swatch.butterscotch-500 {
+  background: hsl(39, 100%, 50%);
+}
+
+div.color-swatch.butterscotch-600 {
+  background: hsl(39, 100%, 40%);
+}
+
+div.color-swatch.butterscotch-700 {
+  background: hsl(39, 100%, 30%);
+}
+
+div.color-swatch.butterscotch-800 {
+  background: hsl(39, 100%, 20%);
+}
+
+div.color-swatch.butterscotch-900 {
+  background: hsl(39, 100%, 10%);
+}
+
+div.color-swatch.butterscotch-90pct {
+  background: hsla(39, 100%, 50%, 0.9);
+}
+
+div.color-swatch.butterscotch-80pct {
+  background: hsla(39, 100%, 50%, 0.8);
+}
+
+div.color-swatch.butterscotch-70pct {
+  background: hsla(39, 100%, 50%, 0.7);
+}
+
+div.color-swatch.butterscotch-60pct {
+  background: hsla(39, 100%, 50%, 0.6);
+}
+
+div.color-swatch.butterscotch-50pct {
+  background: hsla(39, 100%, 50%, 0.5);
+}
+
+div.color-swatch.butterscotch-40pct {
+  background: hsla(39, 100%, 50%, 0.4);
+}
+
+div.color-swatch.butterscotch-30pct {
+  background: hsla(39, 100%, 50%, 0.3);
+}
+
+div.color-swatch.butterscotch-20pct {
+  background: hsla(39, 100%, 50%, 0.2);
+}
+
+div.color-swatch.butterscotch-10pct {
+  background: hsla(39, 100%, 50%, 0.1);
+}
+
+div.color-swatch.butterscotch-gradient-start {
+  background: hsl(59, 100%, 50%);
+}
+
+div.color-swatch.butterscotch-gradient-end {
+  background: hsl(19, 100%, 50%);
+}
+
+div.color-swatch.butterscotch-gradient {
+  background-image: linear-gradient(45deg, hsl(59, 100%, 50%), hsl(19, 100%, 50%));
+}
+
+div.components-demo {
+  display: flex;
+  padding: 2rem;
+  background-color: hsl(0, 0%, 0%);
+  border: 1px solid rgba(255, 255, 255, 0.231372549);
+}
+
+div.mailchimp-form-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+div.mailchimp-form-container div.mc-field-group {
+  margin: 1rem auto;
+}
+
+div.mailchimp-form-container div.mc-field-group label, div.mailchimp-form-container div.mc-field-group input {
+  width: 240px;
+  margin: 0 auto;
+}
+
+html :has(body.site), body.site {
+  background: #0e112a;
+}
+
+/* --------------------------------------------------------- */
+body.site header div {
+  position: absolute;
+  left: calc(50vw - 80px);
+}
+
+body.site.home h1 {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body.site {
+  background: url("../../imgs/site/grid-pattern.png") no-repeat top center, #0B0E28;
+  background-size: unset;
+}
+
+/* 06-PAGES */
+/* PLAYGROUND */
+body.site aside {
+  padding-left: 2rem;
+  position: sticky;
+  top: 20px;
+  float: left;
+  text-decoration: none;
+}
+
+pre {
+  overflow-x: auto;
+}
+
+.sub-sites-container {
+  display: grid;
+}
+
+aside a {
+  font-family: "Figtree", system-ui, sans-serif;
+}
+
+.components-demo {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .components aside {
+    display: none !important;
+  }
+}
+div.components-demo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  align-items: start;
+}
+
+.components-demo div {
+  display: grid;
+  grid-template-rows: 30px 80px;
+  grid-template-columns: auto;
+  justify-items: center;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  div.components-demo {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+/* PRE */
+.tab-container {
+  margin-bottom: 1rem;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tabs .tab-button {
+  margin: 0;
+  width: 90px;
+  border-radius: 8px 8px 0 0;
+  background-color: hsl(208, 100%, 23%);
+}
+
+.tabs .tab-button.active {
+  background-color: hsl(208, 100%, 53%);
+}
+
+.tab-panel {
+  display: none;
+  max-height: 500px;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+.tab-button:hover {
+  box-shadow: none;
+  background-color: hsl(208, 100%, 53%);
+}
+
+/* --------------------------------------------------------- */
