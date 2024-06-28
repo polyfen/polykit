@@ -1005,6 +1005,10 @@ nav :where(a:hover) {
   gap: 8px;
 }
 
+body:has(.hellobar) {
+  border-top: none;
+}
+
 /* --------------------------------------------------------- */
 /* 
 
