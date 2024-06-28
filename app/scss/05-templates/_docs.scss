@@ -32,6 +32,29 @@ body.docs-theme {
         }
     }
 
+    aside h2 {
+        margin-top: 20px;
+    }
+
+    ul.table-of-contents {
+        padding-bottom: 80px;
+        padding-left: 0;
+        margin-top: 16px;
+    }
+
+    ul.table-of-contents li {
+        margin-bottom: 8px;
+    }
+
+    ul.table-of-contents li a {
+        font-size: 1rem;
+        font-weight: 500;
+        text-decoration: none;
+        letter-spacing: 0 !important;
+        font-family: var(--primary-caption-font);
+        text-transform: none !important;
+    }
+
     main {
         padding-top: 20px;
         margin-inline: 20px;
