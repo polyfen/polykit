@@ -993,6 +993,7 @@ nav :where(a:hover) {
   text-align: center;
   background: #033c6e;
   border-bottom: 8px solid #1f8df0;
+  color: white;
 }
 
 .hellobar .container {
