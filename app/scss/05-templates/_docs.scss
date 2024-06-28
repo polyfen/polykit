@@ -3,28 +3,8 @@ body {
     background: #ecf0f3;
 }
 
-body {
-    border-top: 12px solid #7637f9;
-}
-
 * {
-    font-family: BiotifMedium;
-}
-
-.BiotifMedium {
-    font-family: BiotifMedium;
-}
-
-.BiotifBold {
-    font-family: BiotifBold;
-}
-
-.BiotifExtraBold {
-    font-family: BiotifExtraBold;
-}
-
-* {
-    color: #4f4f58;
+    color: inherit;
 }
 
 h1,
@@ -36,23 +16,8 @@ strong {
     color: #12123a;
 }
 
-p,
-p a,
-li,
-li a,
-p strong,
-p span,
-li strong {
-    font-family: 'freight-text-pro', serif;
-}
-
-p strong,
-li strong {
-    font-family: 'FreightTextProSemibold', serif;
-}
-
 a {
-    color: #4f4f58;
+    color: inherit;
     position: relative;
     width: max-content;
 }
@@ -78,7 +43,6 @@ a:hover::before {
 
 body nav {
     position: fixed;
-    /* display: flex; */
     display: none;
     flex-direction: column;
     gap: 20px;
