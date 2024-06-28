@@ -1512,218 +1512,45 @@ body.site {
   background-size: unset;
 }
 
-html,
-body {
-  background: #ecf0f3;
-}
-
 body.docs-theme {
-  /* main div#cover div#cover-image {
-      display: flex;
-      align-items: center;
+  /*   * {
+      color: inherit;
   } */
-  /* active navbar item */
-  /* media queries */
 }
-body.docs-theme * {
-  color: inherit;
-}
-body.docs-theme h1,
-body.docs-theme h2,
-body.docs-theme h3,
-body.docs-theme h4,
-body.docs-theme h5,
-body.docs-theme strong {
-  color: #12123a;
-}
-body.docs-theme a {
-  color: inherit;
-  position: relative;
-  width: max-content;
-}
-body.docs-theme a::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  border-radius: 2px;
-  background-color: #7537f8;
-  bottom: -2px;
-  left: 0;
-  transform-origin: right;
-  transform: scaleX(0);
-  transition: transform 0.3s ease-in-out;
-}
-body.docs-theme a:hover::before {
-  transform-origin: left;
-  transform: scaleX(1);
-}
-body.docs-theme body nav {
+body.docs-theme aside {
   position: fixed;
   display: none;
   flex-direction: column;
   gap: 20px;
   padding: 20px;
-  background-color: white;
   width: 240px;
   height: 100vh;
-  border-top: 12px solid #7637f9;
-  top: 0;
+  top: 12px;
   right: 0px;
-  transition: right 0.3s ease-in-out;
-  z-index: 10;
-}
-body.docs-theme .hamburger {
-  z-index: 700;
-  position: fixed;
-  padding: 0;
-  right: 12px;
-  top: 32px;
-  background-color: #ffffff;
-  border-color: transparent;
-  border-radius: 18px;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-body.docs-theme .close {
-  z-index: 700;
-  position: fixed;
-  padding: 0;
-  right: 12px;
-  top: 32px;
-  background-color: #ffffff;
-  border-color: transparent;
-  border-radius: 18px;
-  width: 50px;
-  height: 50px;
-  align-items: center;
-  justify-content: center;
-  display: none;
-}
-body.docs-theme .open-nav {
-  display: flex;
-}
-body.docs-theme .close-nav {
-  display: none;
-}
-body.docs-theme nav h2 {
-  z-index: 11;
-}
-body.docs-theme body main {
-  padding-top: 20px;
-  margin-inline: 20px;
-}
-body.docs-theme nav ul {
-  list-style: none;
-}
-body.docs-theme nav ul ul {
-  margin-left: 20px;
-}
-body.docs-theme ul.spaced-list li {
-  margin-bottom: 1rem;
-}
-body.docs-theme ul.arrow-bullet {
-  list-style-image: url(../../imgs/arrow-right.svg);
-}
-body.docs-theme a.web-url {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-body.docs-theme img.web-icon {
-  height: 25px;
-  margin-right: 8px;
-  margin-top: -2px;
-}
-body.docs-theme a img.external-url-icon,
-body.docs-theme a img.web-icon {
-  opacity: 0.6;
-}
-body.docs-theme a:hover img.external-url-icon,
-body.docs-theme a:hover img.web-icon {
-  opacity: 1;
-}
-body.docs-theme main section.cover {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-body.docs-theme nav ul li a {
-  font-family: BiotifMedium;
-  text-transform: none !important;
-  letter-spacing: 0.2px !important;
-}
-body.docs-theme #navbar a.active {
-  color: black;
-  border-bottom: 2px solid #7537f8;
-}
-@media (max-width: 426px) {
-  body.docs-theme .plfn-logo {
-    align-self: flex-start;
-    width: 77%;
-  }
-  body.docs-theme .hamburger {
-    top: 47px;
-  }
-}
-@media (max-widh: 768px) {
-  body.docs-theme body nav {
-    padding-bottom: 100vh;
-  }
+  z-index: 350;
 }
 @media (min-width: 768px) {
-  body.docs-theme body nav {
-    position: fixed;
+  body.docs-theme aside {
+    position: sticky;
     display: flex;
     flex-direction: column;
     gap: 0;
     padding: 20px;
-    background-color: white;
-    width: 300px;
+    width: 320px;
     height: 100vh;
-    border-top: 12px solid #7637f9;
-    top: 0;
+    top: 0px;
     right: unset;
+    padding-bottom: 0;
   }
-  body.docs-theme body main {
-    width: 760px;
-    left: 400px;
-    position: absolute;
-    padding-top: 60px;
-    margin-inline: unset;
-  }
-  body.docs-theme button.hamburger {
-    display: none;
-  }
-  body.docs-theme main section.cover {
-    display: grid;
-    align-items: center;
-    grid-template-columns: auto 220px;
-    grid-template-rows: auto auto auto;
-    gap: 0px;
-  }
-  body.docs-theme section.cover img:first-of-type {
-    grid-column: 1/2;
-    grid-row: 1/2;
-  }
-  body.docs-theme section.cover img + img {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    align-self: end;
-  }
-  body.docs-theme section.cover h1 {
-    grid-column: 1/2;
-    grid-row: 2/3;
-  }
-  body.docs-theme section.cover h2 {
-    grid-column: 1/2;
-    grid-row: 3/4;
-    line-height: 30px;
-    margin-top: 20px;
-  }
+}
+body.docs-theme main {
+  padding-top: 20px;
+  margin-inline: 20px;
+}
+body.docs-theme .cover {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 /* 06-PAGES */
