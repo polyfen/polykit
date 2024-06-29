@@ -1662,7 +1662,7 @@ body.docs-theme main img {
   display: inline-block;
 }
 
-.indigo-accent {
+.polyfen-site {
   --accent-color-h: var(--indigo-h);
   --accent-color-s: var(--indigo-s);
   --accent-color-l: var(--indigo-l);
@@ -1675,7 +1675,7 @@ body.docs-theme main img {
   --accent-gradient: var(--blue-gradient);
 }
 
-.raspberry-accent {
+.sotr-site {
   --accent-color-h: var(--raspberry-h);
   --accent-color-s: var(--raspberry-s);
   --accent-color-l: var(--raspberry-l);
