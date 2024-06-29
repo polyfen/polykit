@@ -2,7 +2,7 @@
 <html lang="en">
 
     <head>
-        <title>Documentation | Polykit</title>
+        <title>Docs | Polykit</title>
 
         <?php include 'includes/_head.php'; ?>
 
@@ -70,7 +70,7 @@
                 <a href="/" class="logo">
                     <img src="imgs/polykit-logo.svg" alt="Polykit" height="40px" width="auto">
                 </a>
-                <h2 class="caption">Documentation</h2>
+                <h2 class="caption uppercase">Docs</h2>
                 <ul class="table-of-contents">
                     <li><a class="caption" href="#getting-started">Getting Started</a></li>
                     <li><a class="caption" href="#section_subatomics">Subatomics</a></li>
@@ -104,53 +104,63 @@
 
             <main>
 
-                <h1>Documentation</h1>
+                <h1 class="title-1">Docs</h1>
+
+                <hr>
+
+                <h2 class="heading-1" id="getting-started">Getting Started</h2>
+
+                <?php include 'includes/content/docs/_install-css.php'; ?>
+                <hr>
+
+                <?php include 'includes/content/docs/_customizing-scss.php'; ?>
+                <hr>
 
                 <h2 class="heading-1" id="section_subatomics">Subatomics</h2>
 
-                <?php include 'includes/content/components/_branding.php'; ?>
+                <?php include 'includes/content/docs/_branding.php'; ?>
 
-                <?php include 'includes/content/components/_grid.php'; ?>
+                <?php include 'includes/content/docs/_grid.php'; ?>
                 <hr>
 
-                <?php include 'includes/content/components/_typography.php'; ?>
+                <?php include 'includes/content/docs/_typography.php'; ?>
                 <hr>
 
-                <?php include 'includes/content/components/_colors.php'; ?>
+                <?php include 'includes/content/docs/_colors.php'; ?>
                 <hr>
 
                 <!-- hidden
-                <?php include 'includes/content/components/_modes.php'; ?>
+                <?php include 'includes/content/docs/_modes.php'; ?>
                 -->
 
                 <h2 class="heading-1" id="section_atoms">Atoms</h2>
 
                 <!-- hidden
-                <?php include 'includes/content/components/_containers.php'; ?>
+                <?php include 'includes/content/docs/_containers.php'; ?>
                 -->
 
                 <!-- hidden
-                <?php include 'includes/content/components/_text.php'; ?>
+                <?php include 'includes/content/docs/_text.php'; ?>
                 -->
 
                 <!-- hidden
-                <?php include 'includes/content/components/_icons.php'; ?>
+                <?php include 'includes/content/docs/_icons.php'; ?>
                 -->
 
                 <!-- hidden
-                <?php include 'includes/content/components/_lists.php'; ?>
+                <?php include 'includes/content/docs/_lists.php'; ?>
                 -->
 
-                <?php include 'includes/content/components/_buttons.php'; ?>
+                <?php include 'includes/content/docs/_buttons.php'; ?>
 
                 <hr>
 
                 <!-- hidden
-                <?php include 'includes/content/components/_separators.php'; ?>
+                <?php include 'includes/content/docs/_separators.php'; ?>
                 -->
 
                 <!-- hidden
-                <?php include 'includes/content/components/_codeblocks.php'; ?>
+                <?php include 'includes/content/docs/_codeblocks.php'; ?>
                 -->
 
                 <!-- hidden
@@ -158,7 +168,7 @@
                 -->
 
                 <!-- hidden
-                <?php include 'includes/content/components/_nav.php'; ?>
+                <?php include 'includes/content/docs/_nav.php'; ?>
                 -->
 
                 <!-- hidden
@@ -166,7 +176,7 @@
                 -->
 
                 <!-- hidden
-                <?php include 'includes/content/components/_header.php'; ?>
+                <?php include 'includes/content/docs/_header.php'; ?>
                 -->
 
             </main>
