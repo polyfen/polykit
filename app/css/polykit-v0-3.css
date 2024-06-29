@@ -1605,6 +1605,7 @@ body.docs-theme ul.table-of-contents {
   padding-bottom: 80px;
   padding-left: 0;
   margin-top: 16px;
+  overflow-y: auto;
 }
 body.docs-theme ul.table-of-contents li {
   line-height: 1.25;
