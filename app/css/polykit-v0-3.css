@@ -1543,7 +1543,10 @@ body.docs-theme ul.table-of-contents {
   margin-top: 16px;
 }
 body.docs-theme ul.table-of-contents li {
-  line-height: 1;
+  line-height: 1.25;
+}
+body.docs-theme ul.table-of-contents ul {
+  padding-inline-start: 16px;
 }
 body.docs-theme .table-of-contents a {
   text-decoration: none;

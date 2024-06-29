@@ -34,7 +34,11 @@ body.docs-theme {
     }
 
     ul.table-of-contents li {
-        line-height: 1;
+        line-height: 1.25;
+    }
+
+    ul.table-of-contents ul {
+        padding-inline-start: 16px;
     }
     
     .table-of-contents a {
