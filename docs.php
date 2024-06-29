@@ -67,32 +67,37 @@
 
         <div class="main-wrapper">
             <aside>
-                <ul>
-                    <li><a href="#section_subatomics">Subatomics</a></li>
+                <a href="/" class="logo">
+                    <img src="imgs/polykit-logo.svg" alt="Polykit" height="40px" width="auto">
+                </a>
+                <h2 class="caption">Documentation</h2>
+                <ul class="table-of-contents">
+                    <li><a class="caption" href="#getting-started">Getting Started</a></li>
+                    <li><a class="caption" href="#section_subatomics">Subatomics</a></li>
                     <ul>
-                        <li><a href="#section_branding">Branding</a></li>
-                        <li><a href="#section_grid">Grid</a></li>
-                        <li><a href="#section_typography">Typography</a></li>
-                        <li><a href="#section_colors">Colors</a></li>
-                        <li><a href="#section_modes">Modes</a></li>
+                        <li><a class="caption" href="#section_branding">Branding</a></li>
+                        <li><a class="caption" href="#section_grid">Grid</a></li>
+                        <li><a class="caption" href="#section_typography">Typography</a></li>
+                        <li><a class="caption" href="#section_colors">Colors</a></li>
+                        <li><a class="caption" href="#section_modes">Modes</a></li>
                     </ul>
-                    <li><a href="#section_atoms">Atoms</a></li>
+                    <li><a class="caption" href="#section_atoms">Atoms</a></li>
                     <ul>
-                        <li><a href="#section_containers">Containers</a></li>
-                        <li><a href="#section_text">Text</a></li>
-                        <li><a href="#section_icons">Icons</a></li>
-                        <li><a href="#section_lists">Lists</a></li>
-                        <li><a href="#section_buttons">Buttons</a></li>
-                        <li><a href="#section_separators">Separators</a></li>
-                        <li><a href="#section_codeblocks">Codeblocks</a></li>
+                        <li><a class="caption" href="#section_containers">Containers</a></li>
+                        <li><a class="caption" href="#section_text">Text</a></li>
+                        <li><a class="caption" href="#section_icons">Icons</a></li>
+                        <li><a class="caption" href="#section_lists">Lists</a></li>
+                        <li><a class="caption" href="#section_buttons">Buttons</a></li>
+                        <li><a class="caption" href="#section_separators">Separators</a></li>
+                        <li><a class="caption" href="#section_codeblocks">Codeblocks</a></li>
                     </ul>
-                    <li><a href="#section_molecules">Molecules</a></li>
+                    <li><a class="caption" href="#section_molecules">Molecules</a></li>
                     <ul>
-                        <li><a href="#section_nav">Nav</a></li>
+                        <li><a class="caption" href="#section_nav">Nav</a></li>
                     </ul>
-                    <li><a href="#section_organisms">Organisms</a></li>
+                    <li><a class="caption" href="#section_organisms">Organisms</a></li>
                     <ul>
-                        <li><a href="#section_header">Header</a></li>
+                        <li><a class="caption" href="#section_header">Header</a></li>
                     </ul>
                 </ul>
             </aside>

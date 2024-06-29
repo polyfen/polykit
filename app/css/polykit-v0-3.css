@@ -1571,6 +1571,12 @@ body.docs-theme ul.table-of-contents ul {
 body.docs-theme .table-of-contents a {
   text-decoration: none;
 }
+body.docs-theme main {
+  grid-area: main;
+  margin-inline: unset;
+  padding-right: 10px;
+  padding-top: 80px;
+}
 @media (min-width: 768px) {
   body.docs-theme main {
     width: clamp(350px, 760px, 61vw);
