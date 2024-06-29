@@ -472,6 +472,20 @@ body.dark-mode p code {
   --accent-gradient: var(--blue-gradient);
 }
 
+.indigo-accent {
+  --accent-color-h: var(--indigo-h);
+  --accent-color-s: var(--indigo-s);
+  --accent-color-l: var(--indigo-l);
+  --accent-color: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l));
+}
+
+.raspberry-accent {
+  --accent-color-h: var(--raspberry-h);
+  --accent-color-s: var(--raspberry-s);
+  --accent-color-l: var(--raspberry-l);
+  --accent-color: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l));
+}
+
 /*///////////// SUBATOMICS/BRANDING end /////////////*/
 /* --------------------------------------------------------- */
 /* 02-ATOMS */
@@ -1746,19 +1760,6 @@ div.components-demo {
 .tab-button:hover {
   box-shadow: none;
   background-color: var(--accent-color);
-}
-
-.indigo-accent {
-  --accent-color-h: var(--indigo-h);
-  --accent-color-s: var(--indigo-s);
-  --accent-color-l: var(--indigo-l);
-}
-
-.raspberry-accent {
-  --accent-color-h: var(--raspberry-h);
-  --accent-color-s: var(--raspberry-s);
-  --accent-color-l: var(--raspberry-l);
-  --accent-color: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l));
 }
 
 /* --------------------------------------------------------- */
