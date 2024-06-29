@@ -5,6 +5,9 @@
 /* --------------------------------------------------------- */
 
 @media (min-width: 768px) {
+    .nav-buttons {
+        display: none;
+    }
     .nav-links {
         position: absolute;
         right: 15px;
