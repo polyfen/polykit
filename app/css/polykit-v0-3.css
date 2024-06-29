@@ -160,6 +160,17 @@ html {
 */
 /* --------------------------------------------------------- */
 /*///////////// SUBATOMICS/TYPOGRAPHY start /////////////*/
+:root {
+  --sans-serif-font-family: "Figtree";
+  --serif-font-family: "Lora";
+  --mono-font-family: "Anonymous Pro";
+  --display-font-family: var(--sans-serif-font-family);
+  --body-text-font-family: var(--serif-font-family);
+  --captions-font-family: var(--sans-serif-font-family);
+  --sans-fallback-fonts: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --serif-fallback-fonts: serif;
+}
+
 /*///////////// SUBATOMICS/TYPOGRAPHY end /////////////*/
 /* --------------------------------------------------------- */
 /* --------------------------------------------------------- */
@@ -555,23 +566,23 @@ body.dark-mode p code {
 
 /* FONT FAMILIES */
 * {
-  font-family: "Figtree", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: var(--captions-font-family), var(--sans-fallback-fonts);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Figtree", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: var(--display-font-family), var(--sans-fallback-fonts);
 }
 
 p, p a, li, li a, p strong, p span, li strong, th, td {
-  font-family: "Lora", serif;
+  font-family: var(--body-text-font-family), var(--serif-fallback-fonts);
 }
 
 button, a.button, small, .mini {
-  font-family: "Figtree", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: var(--captions-font-family), var(--sans-fallback-fonts);
 }
 
 pre, code, pre code, pre code span {
-  font-family: "Anonymous Pro", monospace;
+  font-family: var(--mono-font-family), monospace;
 }
 
 /* TEXT WRAP */
@@ -1686,6 +1697,12 @@ body.docs-theme main img {
   --accent-color-gradient-start: var(--blue-gradient-start);
   --accent-color-gradient-end: var(--blue-gradient-end);
   --accent-gradient: var(--blue-gradient);
+  --sans-serif-font-family: "Work Sans";
+  --serif-font-family: "Lora";
+  --mono-font-family: "Anonymous Pro";
+  --display-font-family: var(--sans-serif-font-family);
+  --body-text-font-family: var(--sans-serif-font-family);
+  --captions-font-family: var(--sans-serif-font-family);
 }
 
 /* 06-PAGES */

@@ -14,23 +14,23 @@
 /* FONT FAMILIES */
 
 * {
-    font-family: $captions-font-family, $sans-fallback-fonts;
+    font-family: var(--captions-font-family), var(--sans-fallback-fonts);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: $display-font-family, $sans-fallback-fonts;
+    font-family: var(--display-font-family), var(--sans-fallback-fonts);
 }
 
 p, p a, li, li a, p strong, p span, li strong, th, td {
-    font-family: $body-text-font-family, $serif-fallback-fonts;
+    font-family: var(--body-text-font-family), var(--serif-fallback-fonts);
 }
 
 button, a.button, small, .mini {
-    font-family: $captions-font-family, $sans-fallback-fonts;
+    font-family: var(--captions-font-family), var(--sans-fallback-fonts);
 }
 
 pre, code, pre code, pre code span {
-    font-family: $mono-font-family, monospace;
+    font-family: var(--mono-font-family), monospace;
 }
 
 /* TEXT WRAP */

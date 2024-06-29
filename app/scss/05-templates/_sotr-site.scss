@@ -9,4 +9,11 @@
     --accent-color-gradient-start: var(--blue-gradient-start);
     --accent-color-gradient-end: var(--blue-gradient-end);
     --accent-gradient: var(--blue-gradient);
+
+    --sans-serif-font-family: 'Work Sans';
+    --serif-font-family: 'Lora';
+    --mono-font-family: 'Anonymous Pro';
+    --display-font-family: var(--sans-serif-font-family);
+    --body-text-font-family: var(--sans-serif-font-family);
+    --captions-font-family: var(--sans-serif-font-family);
 }
