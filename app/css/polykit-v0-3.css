@@ -1157,6 +1157,7 @@ p code {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 1.5rem;
 }
 
 /* 03-MOLECULES */
