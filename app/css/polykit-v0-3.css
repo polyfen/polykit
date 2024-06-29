@@ -418,77 +418,77 @@ html {
   --dark-mode-text: var(--white-80pct);
 }
 
-html :has(body.light-mode), body.light-mode {
+html :has(body.light-mode), .light-mode {
   background: var(--light-mode-background);
 }
 
-html :has(body.dark-mode), body.dark-mode {
+html :has(body.dark-mode), .dark-mode {
   background: var(--dark-mode-background);
 }
 
-html :has(body.light-mode), body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode h4, body.light-mode h5, body.light-mode h6 {
+html :has(body.light-mode), .light-mode h1, .light-mode h2, .light-mode h3, .light-mode h4, .light-mode h5, .light-mode h6 {
   color: black;
 }
 
-html :has(body.dark-mode), body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
+html :has(body.dark-mode), .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6 {
   color: white;
 }
 
-body.light-mode p, body.light-mode li, body.light-mode pre code, body.light-mode div {
+.light-mode p, .light-mode li, .light-mode pre code, .light-mode div {
   color: var(--light-mode-text);
 }
 
-body.dark-mode p, body.dark-mode li, body.dark-mode pre code, body.dark-mode div {
+.dark-mode p, .dark-mode li, .dark-mode pre code, .dark-mode div {
   color: var(--dark-mode-text);
 }
 
-body.light-mode hr {
+.light-mode hr {
   border-color: rgba(0, 0, 0, 0.04);
 }
 
-body.dark-mode hr {
+.dark-mode hr {
   border-color: hsla(233, 14%, 24%, 0.42);
 }
 
-body.light-mode a:not(.button) {
+.light-mode a:not(.button) {
   color: var(--light-mode-text);
 }
 
-body.dark-mode a:not(.button) {
+.dark-mode a:not(.button) {
   color: var(--dark-mode-text);
 }
 
-body.light-mode a:not(.button):hover {
+.light-mode a:not(.button):hover {
   color: black;
 }
 
-body.dark-mode a:not(.button):hover {
+.dark-mode a:not(.button):hover {
   color: white;
 }
 
-body.light-mode small {
+.light-mode small {
   color: black;
 }
 
-body.dark-mode small {
+.dark-mode small {
   color: white;
 }
 
-body.light-mode pre, body.dark-mode pre {
+.light-mode pre, .dark-mode pre {
   background: var(--light-mode-text);
   border: 1px solid rgba(255, 255, 255, 0.231372549);
 }
 
-body.light-mode pre code, body.dark-mode pre code {
+.light-mode pre code, .dark-mode pre code {
   color: white;
 }
 
-body.light-mode p code {
+.light-mode p code {
   background: var(--light-mode-text);
   color: white;
 }
 
-body.dark-mode p code {
+.dark-mode p code {
   background: var(--off-black);
   color: var(--butterscotch);
 }
