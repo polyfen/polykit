@@ -1595,6 +1595,7 @@ body.docs-theme aside {
     top: 0px;
     right: unset;
     padding-bottom: 0;
+    grid-area: header;
   }
 }
 body.docs-theme aside h2 {
