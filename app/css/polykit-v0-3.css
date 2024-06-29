@@ -1614,6 +1614,9 @@ body.docs-theme .preview {
   background: rgba(29, 39, 44, 0.0431372549);
   text-align: center;
 }
+body.docs-theme .preview figure image {
+  margin: 0 auto;
+}
 
 /* 06-PAGES */
 /* PLAYGROUND */
