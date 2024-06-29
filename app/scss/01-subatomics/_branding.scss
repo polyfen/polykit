@@ -16,13 +16,12 @@
   --accent-color-h: var(--blue-h);
   --accent-color-s: var(--blue-s);
   --accent-color-l: var(--blue-l);
+  --accent-color-l-800: 20%;
+  --accent-color-l-900: 10%;
   --accent-color: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l));
-  --accent-color-800: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l) - 30);
-  --accent-color-900: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l) - 40);
+  --accent-color-800: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l-800));
+  --accent-color-900: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l-900));
   --accent-color-50pct: hsla(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.5);
-  --accent-color-gradient-start: var(--blue-gradient-start);
-  --accent-color-gradient-end: var(--blue-gradient-end);
-  --accent-gradient: var(--blue-gradient);
 }
 
 /*///////////// SUBATOMICS/BRANDING end /////////////*/
