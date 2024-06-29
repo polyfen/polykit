@@ -156,7 +156,10 @@
 
       /* Teal */
       :root {
-         --teal: #07bc9d;
+         --teal-h: 170;
+         --teal-s: 93%;
+         --teal-l: 38%;
+         --teal: hsl(var(--teal-h), var(--teal-s), var(--teal-l));
          --teal-100: hsl(var(--teal-h), var(--teal-s), calc(var(--teal-l) + 40));
          --teal-200: hsl(var(--teal-h), var(--teal-s), calc(var(--teal-l) + 30));
          --teal-300: hsl(var(--teal-h), var(--teal-s), calc(var(--teal-l) + 20));
