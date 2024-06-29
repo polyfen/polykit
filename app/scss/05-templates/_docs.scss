@@ -45,9 +45,10 @@ body.docs-theme {
         text-decoration: none;
     }
 
-    main {
-        padding-top: 20px;
-        margin-inline: 20px;
+    @media (min-width: 768px) {
+        main {
+            width: clamp(350px, 760px, 61vw);
+        }
     }
 
     .cover {

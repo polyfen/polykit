@@ -1551,9 +1551,10 @@ body.docs-theme ul.table-of-contents ul {
 body.docs-theme .table-of-contents a {
   text-decoration: none;
 }
-body.docs-theme main {
-  padding-top: 20px;
-  margin-inline: 20px;
+@media (min-width: 768px) {
+  body.docs-theme main {
+    width: clamp(350px, 760px, 61vw);
+  }
 }
 body.docs-theme .cover {
   display: flex;
