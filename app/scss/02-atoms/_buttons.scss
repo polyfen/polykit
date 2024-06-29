@@ -22,7 +22,7 @@ button, .button {
     padding: 1rem 1.4rem;
     border: none;
     border-radius: 900px;
-    background-color: $accent-color;
+    background-color: var(--accent-color);
     color: hsl(0, 0%, 100%);
     letter-spacing: 0.5px;
     text-decoration: none;
@@ -31,15 +31,15 @@ button, .button {
     }
 
 .secondary-button {
-    border: 3px solid $accent-color;
-    background-color: $accent-color-900;
+    border: 3px solid var(--accent-color);
+    background-color: var(--accent-color-900);
     background-image: none !important;
 }
 
 .cta-button {
-    box-shadow: 0 0 4px $accent-color;
+    box-shadow: 0 0 4px var(--accent-color);
     animation: gradient 7s infinite;
-    background-image: linear-gradient(45deg, $accent-color-gradient-start, $accent-color-gradient-end);
+    background-image: var(--accent-color-gradient);
     background-size: 200% 200%;
 }
 
@@ -65,15 +65,15 @@ button i.icon {
 /* :hover */
 
 button:hover, a.button:hover, input.button:hover {
-    box-shadow: 0 0 4px 4px $accent-color, inset 0 0 0 2px $slate-950;
+    box-shadow: 0 0 4px 4px var(--accent-color), inset 0 0 0 2px $slate-950;
     text-decoration: none;
     transition: 0s;
 }
 
 button.secondary-button:hover, a.button.secondary-button:hover, input.button.secondary-button:hover {
     background-image: none !important;
-    box-shadow: 0 0 10px $accent-color;
-    background-color: $accent-color;
+    box-shadow: 0 0 10px var(--accent-color);
+    background-color: var(--accent-color);
 }
 
 /* data-button-icon */
