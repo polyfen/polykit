@@ -1691,6 +1691,8 @@ body.docs-theme main img {
   --accent-color-gradient-start: var(--blue-gradient-start);
   --accent-color-gradient-end: var(--blue-gradient-end);
   --accent-gradient: var(--blue-gradient);
+  --light-mode-background: #EDF0F7;
+  --dark-mode-background: var(--slate-950);
 }
 
 .sotr-site {
@@ -1711,6 +1713,7 @@ body.docs-theme main img {
   --body-text-font-family: var(--sans-serif-font-family);
   --captions-font-family: var(--sans-serif-font-family);
   --light-mode-background: #ecf0f3;
+  --light-mode-background: #EDF0F7;
   --dark-mode-background: var(--slate-950);
 }
 
