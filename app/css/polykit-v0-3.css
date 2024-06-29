@@ -1721,7 +1721,7 @@ body.docs-theme main img {
   --dark-mode-background: var(--slate-950);
 }
 
-.polyfen-site {
+.polyatlas-site {
   --accent-color-h: var(--teal-h);
   --accent-color-s: var(--teal-s);
   --accent-color-l: var(--teal-l);
