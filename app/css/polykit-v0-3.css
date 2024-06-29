@@ -1652,7 +1652,7 @@ body.docs-theme .preview {
   justify-content: center;
   align-content: center;
   align-items: center;
-  min-height: 320px;
+  min-height: 240px;
 }
 body.docs-theme .preview figure img {
   margin: 0 auto;
