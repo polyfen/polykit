@@ -884,6 +884,10 @@ ul {
   list-style: none; /* Remove default bullets */
 }
 
+main ul {
+  margin-bottom: 2rem;
+}
+
 main ul li::before {
   content: "•"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: var(--accent-color); /* Change the color */
