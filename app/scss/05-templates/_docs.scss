@@ -5,16 +5,7 @@ body.docs-theme {
     } */
 
     aside {
-        position: fixed;
         display: none;
-        flex-direction: column;
-        gap: 20px;
-        padding: 20px;
-        width: 240px;
-        height: 100vh;
-        top: 12px;
-        right: 0px;
-        z-index: 350;
     }
 
     @media (min-width: 768px) {
@@ -40,19 +31,6 @@ body.docs-theme {
         padding-bottom: 80px;
         padding-left: 0;
         margin-top: 16px;
-    }
-
-    ul.table-of-contents li {
-        margin-bottom: 8px;
-    }
-
-    ul.table-of-contents li a {
-        font-size: 1rem;
-        font-weight: 500;
-        text-decoration: none;
-        letter-spacing: 0 !important;
-        font-family: var(--primary-caption-font);
-        text-transform: none !important;
     }
 
     main {
