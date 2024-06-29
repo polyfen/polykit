@@ -706,7 +706,7 @@ ul {
   list-style: none; /* Remove default bullets */
 }
 
-ul li::before {
+main ul li::before {
   content: "•"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: hsl(208, 100%, 53%); /* Change the color */
   font-weight: bold; /* If you want it to be bold */
@@ -1541,6 +1541,9 @@ body.docs-theme ul.table-of-contents {
   padding-bottom: 80px;
   padding-left: 0;
   margin-top: 16px;
+}
+body.docs-theme ul.table-of-contents li {
+  line-height: 1;
 }
 body.docs-theme main {
   padding-top: 20px;
