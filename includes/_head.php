@@ -1,5 +1,5 @@
 <!-- Global CSS -->
-<link rel="stylesheet" href="app/css/polykit-v0-2.css" type="text/css">
+<link rel="stylesheet" href="app/css/polykit-v0-3.css" type="text/css">
 <link rel="stylesheet" href="app/css/custom-styles-pk.css" type="text/css">
 
 <!-- Scripts -->
