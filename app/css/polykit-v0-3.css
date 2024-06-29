@@ -324,6 +324,32 @@ html {
   --indigo-gradient: linear-gradient(45deg, var(--indigo-gradient-start), var(--indigo-gradient-end));
 }
 
+/* Teal */
+:root {
+  --teal: #07bc9d;
+  --teal-100: hsl(var(--teal-h), var(--teal-s), calc(var(--teal-l) + 40));
+  --teal-200: hsl(var(--teal-h), var(--teal-s), calc(var(--teal-l) + 30));
+  --teal-300: hsl(var(--teal-h), var(--teal-s), calc(var(--teal-l) + 20));
+  --teal-400: hsl(var(--teal-h), var(--teal-s), calc(var(--teal-l) + 10));
+  --teal-500: var(--teal);
+  --teal-600: hsl(var(--teal-h), var(--teal-s), calc(var(--teal-l) - 10));
+  --teal-700: hsl(var(--teal-h), var(--teal-s), calc(var(--teal-l) - 20));
+  --teal-800: hsl(var(--teal-h), var(--teal-s), calc(var(--teal-l) - 30));
+  --teal-900: hsl(var(--teal-h), var(--teal-s), calc(var(--teal-l) - 40));
+  --teal-90pct: hsla(var(--teal-h), var(--teal-s), var(--teal-l), 0.9);
+  --teal-80pct: hsla(var(--teal-h), var(--teal-s), var(--teal-l), 0.8);
+  --teal-70pct: hsla(var(--teal-h), var(--teal-s), var(--teal-l), 0.7);
+  --teal-60pct: hsla(var(--teal-h), var(--teal-s), var(--teal-l), 0.6);
+  --teal-50pct: hsla(var(--teal-h), var(--teal-s), var(--teal-l), 0.5);
+  --teal-40pct: hsla(var(--teal-h), var(--teal-s), var(--teal-l), 0.4);
+  --teal-30pct: hsla(var(--teal-h), var(--teal-s), var(--teal-l), 0.3);
+  --teal-20pct: hsla(var(--teal-h), var(--teal-s), var(--teal-l), 0.2);
+  --teal-10pct: hsla(var(--teal-h), var(--teal-s), var(--teal-l), 0.1);
+  --teal-gradient-start: hsl(calc(var(--teal-h) + 20), var(--teal-s), var(--teal-l));
+  --teal-gradient-end: hsl(calc(var(--teal-h) - 20), var(--teal-s), var(--teal-l));
+  --teal-gradient: linear-gradient(45deg, var(--teal-gradient-start), var(--teal-gradient-end));
+}
+
 /* Butterscotch */
 :root {
   --butterscotch-h: 39;
