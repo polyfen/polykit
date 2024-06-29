@@ -1628,7 +1628,7 @@ body.docs-theme .preview {
   background: rgba(29, 39, 44, 0.0431372549);
   text-align: center;
 }
-body.docs-theme .preview figure image {
+body.docs-theme .preview figure img {
   margin: 0 auto;
 }
 
