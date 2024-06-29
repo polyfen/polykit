@@ -93,4 +93,5 @@ div.components-demo {
     --accent-color-h: var(--raspberry-h);
     --accent-color-s: var(--raspberry-s);
     --accent-color-l: var(--raspberry-l);
+    --accent-color: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l));
   }
