@@ -12,20 +12,29 @@
 
 /*///////////// SUBATOMICS/BRANDING start /////////////*/
 
-$accent-color-h: $blue-h;
-$accent-color-s: $blue-s;
-$accent-color-l: $blue-l;
-
 :root {
+  --accent-color-h: $blue-h;
+  --accent-color-s: $blue-s;
+  --accent-color-l: $blue-l;
+  --accent-color: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l));
+  --accent-color-800: hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) - 30));
+  --accent-color-900: hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) - 40));
+  --accent-color-50pct: hsla(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.5);
+  --accent-color-gradient-start: var(--blue-gradient-start);
+  --accent-color-gradient-end: var(--blue-gradient-end);
+  --accent-gradient: var(--blue-gradient);
+}
 
-  --accent-color: hsl($accent-color-h, $accent-color-s, $accent-color-l);
-  --accent-color-800: hsl($accent-color-h, $accent-color-s, $accent-color-l - 30);
-  --accent-color-900: hsl($accent-color-h, $accent-color-s, $accent-color-l - 40);
-  --accent-color-50pct: hsl($accent-color-h, $accent-color-s, $accent-color-l, 0.5);
-  --accent-color-gradient-start: $blue-gradient-start;
-  --accent-color-gradient-end: $blue-gradient-end;
-  --accent-gradient: $blue-gradient;
+body.indigo-accent{
+--accent-color-h: $indigo-h;
+--accent-color-s: $indigo-s;
+--accent-color-l: $indigo-l;
+}
 
+body.raspberry-accent{
+  --accent-color-h: $raspberry-h;
+  --accent-color-s: $raspberry-s;
+  --accent-color-l: $raspberry-l;
 }
 
 /*///////////// SUBATOMICS/BRANDING end /////////////*/

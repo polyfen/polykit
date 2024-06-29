@@ -170,6 +170,33 @@
     $butterscotch-gradient-end: hsl($butterscotch-h - 20, $butterscotch-s, $butterscotch-l);
     $butterscotch-gradient: linear-gradient(45deg, $butterscotch-gradient-start, $butterscotch-gradient-end); 
     
+    /* Raspberry */
+    $raspberry: #F60B43;
+    $raspberry-h: 345;
+    $raspberry-s: 100%;
+    $raspberry-l: 47%;
+    $raspberry: hsl($raspberry-h, $raspberry-s, $raspberry-l);
+    $raspberry-100: hsl($raspberry-h, $raspberry-s, $raspberry-l + 40);
+    $raspberry-200: hsl($raspberry-h, $raspberry-s, $raspberry-l + 30);
+    $raspberry-300: hsl($raspberry-h, $raspberry-s, $raspberry-l + 20);
+    $raspberry-400: hsl($raspberry-h, $raspberry-s, $raspberry-l + 10);
+    $raspberry-500: $raspberry;
+    $raspberry-600: hsl($raspberry-h, $raspberry-s, $raspberry-l - 10);
+    $raspberry-700: hsl($raspberry-h, $raspberry-s, $raspberry-l - 20);
+    $raspberry-800: hsl($raspberry-h, $raspberry-s, $raspberry-l - 30);
+    $raspberry-900: hsl($raspberry-h, $raspberry-s, $raspberry-l - 40);
+    $raspberry-90pct: hsla($raspberry-h, $raspberry-s, $raspberry-l, 0.9);
+    $raspberry-80pct: hsla($raspberry-h, $raspberry-s, $raspberry-l, 0.8);
+    $raspberry-70pct: hsla($raspberry-h, $raspberry-s, $raspberry-l, 0.7);
+    $raspberry-60pct: hsla($raspberry-h, $raspberry-s, $raspberry-l, 0.6);
+    $raspberry-50pct: hsla($raspberry-h, $raspberry-s, $raspberry-l, 0.5);
+    $raspberry-40pct: hsla($raspberry-h, $raspberry-s, $raspberry-l, 0.4);
+    $raspberry-30pct: hsla($raspberry-h, $raspberry-s, $raspberry-l, 0.3);
+    $raspberry-20pct: hsla($raspberry-h, $raspberry-s, $raspberry-l, 0.2);
+    $raspberry-10pct: hsla($raspberry-h, $raspberry-s, $raspberry-l, 0.1);
+    $raspberry-gradient-start: hsl($raspberry-h + 20, $raspberry-s, $raspberry-l);
+    $raspberry-gradient-end: hsl($raspberry-h - 20, $raspberry-s, $raspberry-l);
+    $raspberry-gradient: linear-gradient(45deg, $raspberry-gradient-start, $raspberry-gradient-end);
 
 
     
