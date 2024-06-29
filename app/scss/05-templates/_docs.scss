@@ -4,6 +4,25 @@ body.docs-theme {
         color: inherit;
     } */
 
+    .main-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: start;
+        justify-items: center;
+        grid-template-areas:
+            'header'
+            'main';
+    }
+
+    @media (min-width: 768px) {
+        .main-wrapper {
+            justify-items: unset;
+            grid-template-columns: minmax(290px, 400px) 1fr;
+            grid-template-rows: auto;
+            grid-template-areas: 'header main';
+        }
+    }
+
     aside {
         display: none;
     }
