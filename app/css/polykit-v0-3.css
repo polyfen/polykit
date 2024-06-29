@@ -1659,6 +1659,9 @@ body.docs-theme .preview figure img {
 body.docs-theme main img, body.docs-theme iframe {
   margin-bottom: 2rem;
 }
+body.docs-theme main img {
+  display: inline-block;
+}
 
 /* 06-PAGES */
 /* PLAYGROUND */
