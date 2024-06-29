@@ -113,6 +113,12 @@ body.docs-theme {
         min-height: 240px;
     }
 
+    .preview {
+        .heading-1, .heading-2, .heading-3, .heading-4, .heading-5, .heading-6 {
+            margin-bottom: 0;
+        }
+    }
+
     .preview figure img {
         margin: 0 auto;
     }

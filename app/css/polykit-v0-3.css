@@ -1654,6 +1654,9 @@ body.docs-theme .preview {
   align-items: center;
   min-height: 240px;
 }
+body.docs-theme .preview .heading-1, body.docs-theme .preview .heading-2, body.docs-theme .preview .heading-3, body.docs-theme .preview .heading-4, body.docs-theme .preview .heading-5, body.docs-theme .preview .heading-6 {
+  margin-bottom: 0;
+}
 body.docs-theme .preview figure img {
   margin: 0 auto;
 }
