@@ -763,6 +763,12 @@ button, a.button, input.button {
   font-weight: 700;
 }
 
+blockquote p {
+  font-style: italic;
+  text-align: left;
+  letter-spacing: -0.25px;
+}
+
 /* MARGINS */
 .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
   margin-bottom: 2.5rem;
