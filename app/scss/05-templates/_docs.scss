@@ -91,6 +91,14 @@ body.docs-theme {
             grid-template-rows: auto;
             gap: 0px;
         }
+        .cover img:first-of-type {
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+        }
+        .cover h1 {
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+        }
     }
 
     .preview {

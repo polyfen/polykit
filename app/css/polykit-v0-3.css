@@ -1595,6 +1595,14 @@ body.docs-theme .cover {
     grid-template-rows: auto;
     gap: 0px;
   }
+  body.docs-theme .cover img:first-of-type {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  body.docs-theme .cover h1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
 }
 body.docs-theme .preview {
   margin-bottom: 2rem;
