@@ -51,24 +51,21 @@ body.dark-mode hr {
     border-color: hsl(233deg 14% 24% / 42%);;
 }
 
-/*
-body.light-mode a {
+body.light-mode a:not(.button) {
     color: $light-mode-text;
 }
 
-body.dark-mode a {
+body.dark-mode a:not(.button) {
     color: $dark-mode-text;
 }
 
-body.light-mode a:hover {
+body.light-mode a:not(.button):hover {
     color: black;
 }
 
-body.dark-mode a:hover {
+body.dark-mode a:not(.button):hover {
     color: white;
 }
-
-*/
 
 body.light-mode small {
     color: black;

@@ -399,24 +399,22 @@ body.dark-mode hr {
   border-color: hsla(233, 14%, 24%, 0.42);
 }
 
-/*
-body.light-mode a {
-    color: $light-mode-text;
+body.light-mode a:not(.button) {
+  color: var(--black-80pct);
 }
 
-body.dark-mode a {
-    color: $dark-mode-text;
+body.dark-mode a:not(.button) {
+  color: var(--white-80pct);
 }
 
-body.light-mode a:hover {
-    color: black;
+body.light-mode a:not(.button):hover {
+  color: black;
 }
 
-body.dark-mode a:hover {
-    color: white;
+body.dark-mode a:not(.button):hover {
+  color: white;
 }
 
-*/
 body.light-mode small {
   color: black;
 }
