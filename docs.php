@@ -102,10 +102,9 @@
                 </ul>
             </aside>
 
-            <main class="container-900">
+            <main>
 
-                <h1>
-                    Documentation</h1>
+                <h1>Documentation</h1>
 
                 <h2 class="heading-1" id="section_subatomics">Subatomics</h2>
 
