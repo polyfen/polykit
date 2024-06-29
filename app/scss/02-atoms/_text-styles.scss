@@ -203,8 +203,13 @@ h5, .heading-5, h1.heading-5, h2.heading-5, h3.heading-5, h4.heading-5, h5.headi
     font-weight: 600;
 }
 
-p, p a, li, p strong, p span, li strong, th, td {
+
+p, p a, li, p span, th, td {
     font-weight: 400;
+}
+
+strong, b {
+    font: 600;
 }
 
 pre, code, pre code {
