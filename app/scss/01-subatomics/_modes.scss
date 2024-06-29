@@ -1,30 +1,32 @@
 /* --------------------------------------------------------- */
 /* 
-  __  __  ____  _____  ______  _____ 
+    __  __  ____  _____  ______  _____ 
  |  \/  |/ __ \|  __ \|  ____|/ ____|
  | \  / | |  | | |  | | |__  | (___  
  | |\/| | |  | | |  | |  __|  \___ \ 
  | |  | | |__| | |__| | |____ ____) |
  |_|  |_|\____/|_____/|______|_____/ 
-                                     
+                                                                         
 */
 /* --------------------------------------------------------- */
 
 /*///////////// SUBATOMICS/MODES start /////////////*/
 
 
-$light-mode-background: var(--slate-050);
-$light-mode-text: var(--black-80pct);
-
-$dark-mode-background: var(--slate-950);
-$dark-mode-text: var(--white-80pct);
+:root {
+    --light-mode-background: var(--slate-050);
+    --light-mode-text: var(--black-80pct);
+    
+    --dark-mode-background: var(--slate-950);
+    --dark-mode-text: var(--white-80pct);
+}
 
 html :has(body.light-mode), body.light-mode {
-    background: $light-mode-background;
+    background: var(--light-mode-background);
 }
 
 html :has(body.dark-mode), body.dark-mode {
-    background: $dark-mode-background;
+    background: var(--dark-mode-background);
 }
 
 html :has(body.light-mode), body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode h4, body.light-mode h5, body.light-mode h6 {
@@ -36,11 +38,11 @@ html :has(body.dark-mode), body.dark-mode h1, body.dark-mode h2, body.dark-mode 
 }
 
 body.light-mode p, body.light-mode li, body.light-mode pre code, body.light-mode div {
-    color: $light-mode-text;
+    color: var(--light-mode-text);
 }
 
 body.dark-mode p, body.dark-mode li, body.dark-mode pre code, body.dark-mode div {
-    color: $dark-mode-text;
+    color: var(--dark-mode-text);
 }
 
 body.light-mode hr {
@@ -48,15 +50,15 @@ body.light-mode hr {
 }
 
 body.dark-mode hr {
-    border-color: hsl(233deg 14% 24% / 42%);;
+    border-color: hsl(233deg 14% 24% / 42%);
 }
 
 body.light-mode a:not(.button) {
-    color: $light-mode-text;
+    color: var(--light-mode-text);
 }
 
 body.dark-mode a:not(.button) {
-    color: $dark-mode-text;
+    color: var(--dark-mode-text);
 }
 
 body.light-mode a:not(.button):hover {
@@ -76,7 +78,7 @@ body.dark-mode small {
 }
 
 body.light-mode pre, body.dark-mode pre {
-    background: $light-mode-text;
+    background: var(--light-mode-text);
     border: 1px solid #ffffff3b;
 }
 
@@ -85,7 +87,7 @@ body.light-mode pre code, body.dark-mode pre code {
 }
 
 body.light-mode p code {
-    background: $light-mode-text;
+    background: var(--light-mode-text);
     color: white;
 }
 
