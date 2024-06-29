@@ -1587,6 +1587,15 @@ body.docs-theme .cover {
   flex-direction: column;
   gap: 40px;
 }
+@media (min-width: 768px) {
+  body.docs-theme .cover {
+    display: grid;
+    align-items: end;
+    grid-template-columns: auto 220px;
+    grid-template-rows: auto;
+    gap: 0px;
+  }
+}
 body.docs-theme .preview {
   margin-bottom: 2rem;
   padding: 24px;

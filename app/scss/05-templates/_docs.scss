@@ -83,6 +83,16 @@ body.docs-theme {
         gap: 40px;
     }
 
+    @media (min-width: 768px) {
+        .cover {
+            display: grid;
+            align-items: end;
+            grid-template-columns: auto 220px;
+            grid-template-rows: auto;
+            gap: 0px;
+        }
+    }
+
     .preview {
         margin-bottom: 2rem;
         padding: 24px;
