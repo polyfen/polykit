@@ -1139,6 +1139,26 @@ p code {
 }
 
 /* --------------------------------------------------------- */
+.color-swatch-wrapper {
+  font-family: Anonymous, monospace;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  flex-basis: 310px;
+  flex-grow: 1;
+}
+
+.color-swatch {
+  width: 140px;
+  height: 140px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* 03-MOLECULES */
 /* --------------------------------------------------------- */
 /* 
