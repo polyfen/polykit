@@ -3,8 +3,8 @@
     --accent-color-s: var(--indigo-s);
     --accent-color-l: var(--indigo-l);
     --accent-color: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l));
-    --accent-color-800: hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) - 30));
-    --accent-color-900: hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) - 40));
+    --accent-color-800: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l) - 30);
+    --accent-color-900: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l) - 40);
     --accent-color-50pct: hsla(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.5);
     --accent-color-gradient-start: var(--blue-gradient-start);
     --accent-color-gradient-end: var(--blue-gradient-end);
