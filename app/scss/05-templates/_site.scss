@@ -20,12 +20,12 @@ body.site header {
 
 .type-demo-margin {
     width: 100%;
-    background: $blue-10pct;
+    background: var(--blue-10pct);
 }
 
 .type-demo-padding {
     width: 100%;
-    background: $blue-10pct;
+    background: var(--blue-10pct);
 }
 
 
@@ -213,262 +213,94 @@ body.site div.color-swatch {
 
 
 div.color-swatch.blue-100 {
-    background: $blue-100;
+    background: var(--blue-100);
 }
 
 div.color-swatch.blue-200 {
-    background: $blue-200;
+    background: var(--blue-200);
 }
 
 div.color-swatch.blue-300 {
-    background: $blue-300;
+    background: var(--blue-300);
 }
 
 div.color-swatch.blue-400 {
-    background: $blue-400;
+    background: var(--blue-400);
 }
 
 div.color-swatch.blue-500 {
-    background: $blue-500;
+    background: var(--blue-500);
 }
 
 div.color-swatch.blue-600 {
-    background: $blue-600;
+    background: var(--blue-600);
 }
 
 div.color-swatch.blue-700 {
-    background: $blue-700;
+    background: var(--blue-700);
 }
 
 div.color-swatch.blue-800 {
-    background: $blue-800;
+    background: var(--blue-800);
 }
 
 div.color-swatch.blue-900 {
-    background: $blue-900;
+    background: var(--blue-900);
 }
 
 div.color-swatch.blue-90pct {
-    background: $blue-90pct;
+    background: var(--blue-90pct);
 }
 
 div.color-swatch.blue-80pct {
-    background: $blue-80pct;
+    background: var(--blue-80pct);
 }
 
 div.color-swatch.blue-70pct {
-    background: $blue-70pct;
+    background: var(--blue-70pct);
 }
 
 div.color-swatch.blue-60pct {
-    background: $blue-60pct;
+    background: var(--blue-60pct);
 }
 
 div.color-swatch.blue-50pct {
-    background: $blue-50pct;
+    background: var(--blue-50pct);
 }
 
 div.color-swatch.blue-40pct {
-    background: $blue-40pct;
+    background: var(--blue-40pct);
 }
 
 div.color-swatch.blue-30pct {
-    background: $blue-30pct;
+    background: var(--blue-30pct);
 }
 
 div.color-swatch.blue-20pct {
-    background: $blue-20pct;
+    background: var(--blue-20pct);
 }
 
 div.color-swatch.blue-10pct {
-    background: $blue-10pct;
+    background: var(--blue-10pct);
 }
 
 div.color-swatch.blue-gradient-start {
-    background: $blue-gradient-start;
+    background: var(--blue-gradient-start);
 }
 
 div.color-swatch.blue-gradient-end {
-    background: $blue-gradient-end;
+    background: var(--blue-gradient-end);
 }
 
 div.color-swatch.blue-gradient {
-    background-image: linear-gradient(45deg, $blue-gradient-start, $blue-gradient-end);
-}
-
-div.color-swatch.indigo-100 {
-    background: $indigo-100;
-}
-
-div.color-swatch.indigo-200 {
-    background: $indigo-200;
-}
-
-div.color-swatch.indigo-300 {
-    background: $indigo-300;
-}
-
-div.color-swatch.indigo-400 {
-    background: $indigo-400;
-}
-
-div.color-swatch.indigo-500 {
-    background: $indigo-500;
-}
-
-div.color-swatch.indigo-600 {
-    background: $indigo-600;
-}
-
-div.color-swatch.indigo-700 {
-    background: $indigo-700;
-}
-
-div.color-swatch.indigo-800 {
-    background: $indigo-800;
-}
-
-div.color-swatch.indigo-900 {
-    background: $indigo-900;
-}
-
-div.color-swatch.indigo-90pct {
-    background: $indigo-90pct;
-}
-
-div.color-swatch.indigo-80pct {
-    background: $indigo-80pct;
-}
-
-div.color-swatch.indigo-70pct {
-    background: $indigo-70pct;
-}
-
-div.color-swatch.indigo-60pct {
-    background: $indigo-60pct;
-}
-
-div.color-swatch.indigo-50pct {
-    background: $indigo-50pct;
-}
-
-div.color-swatch.indigo-40pct {
-    background: $indigo-40pct;
-}
-
-div.color-swatch.indigo-30pct {
-    background: $indigo-30pct;
-}
-
-div.color-swatch.indigo-20pct {
-    background: $indigo-20pct;
-}
-
-div.color-swatch.indigo-10pct {
-    background: $indigo-10pct;
-}
-
-div.color-swatch.indigo-gradient-start {
-    background: $indigo-gradient-start;
-}
-
-div.color-swatch.indigo-gradient-end {
-    background: $indigo-gradient-end;
-}
-
-div.color-swatch.indigo-gradient {
-    background-image: linear-gradient(45deg, $indigo-gradient-start, $indigo-gradient-end);
-}
-
-div.color-swatch.butterscotch-100 {
-    background: $butterscotch-100;
-}
-
-div.color-swatch.butterscotch-200 {
-    background: $butterscotch-200;
-}
-
-div.color-swatch.butterscotch-300 {
-    background: $butterscotch-300;
-}
-
-div.color-swatch.butterscotch-400 {
-    background: $butterscotch-400;
-}
-
-div.color-swatch.butterscotch-500 {
-    background: $butterscotch-500;
-}
-
-div.color-swatch.butterscotch-600 {
-    background: $butterscotch-600;
-}
-
-div.color-swatch.butterscotch-700 {
-    background: $butterscotch-700;
-}
-
-div.color-swatch.butterscotch-800 {
-    background: $butterscotch-800;
-}
-
-div.color-swatch.butterscotch-900 {
-    background: $butterscotch-900;
-}
-
-div.color-swatch.butterscotch-90pct {
-    background: $butterscotch-90pct;
-}
-
-div.color-swatch.butterscotch-80pct {
-    background: $butterscotch-80pct;
-}
-
-div.color-swatch.butterscotch-70pct {
-    background: $butterscotch-70pct;
-}
-
-div.color-swatch.butterscotch-60pct {
-    background: $butterscotch-60pct;
-}
-
-div.color-swatch.butterscotch-50pct {
-    background: $butterscotch-50pct;
-}
-
-div.color-swatch.butterscotch-40pct {
-    background: $butterscotch-40pct;
-}
-
-div.color-swatch.butterscotch-30pct {
-    background: $butterscotch-30pct;
-}
-
-div.color-swatch.butterscotch-20pct {
-    background: $butterscotch-20pct;
-}
-
-div.color-swatch.butterscotch-10pct {
-    background: $butterscotch-10pct;
-}
-
-div.color-swatch.butterscotch-gradient-start {
-    background: $butterscotch-gradient-start;
-}
-
-div.color-swatch.butterscotch-gradient-end {
-    background: $butterscotch-gradient-end;
-}
-
-div.color-swatch.butterscotch-gradient {
-    background-image: linear-gradient(45deg, $butterscotch-gradient-start, $butterscotch-gradient-end);
+    background-image: var(--blue-gradient);
 }
 
 
 div.components-demo {
     display: flex;
     padding: 2rem;
-    background-color: $black;
+    background-color: black;
     border: 1px solid #ffffff3b; 
 }
 

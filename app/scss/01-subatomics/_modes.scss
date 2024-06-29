@@ -13,11 +13,11 @@
 /*///////////// SUBATOMICS/MODES start /////////////*/
 
 
-$light-mode-background: $slate-050;
-$light-mode-text: $black-80pct;
+$light-mode-background: var(--slate-050);
+$light-mode-text: var(--black-80pct);
 
-$dark-mode-background: $slate-950;
-$dark-mode-text: $white-80pct;
+$dark-mode-background: var(--slate-950);
+$dark-mode-text: var(--white-80pct);
 
 html :has(body.light-mode), body.light-mode {
     background: $light-mode-background;
@@ -28,11 +28,11 @@ html :has(body.dark-mode), body.dark-mode {
 }
 
 html :has(body.light-mode), body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode h4, body.light-mode h5, body.light-mode h6 {
-    color: $black;
+    color: black;
 }
 
 html :has(body.dark-mode), body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
-    color: $white;
+    color: white;
 }
 
 body.light-mode p, body.light-mode li, body.light-mode pre code, body.light-mode div {
@@ -60,19 +60,19 @@ body.dark-mode a {
 }
 
 body.light-mode a:hover {
-    color: $black;
+    color: black;
 }
 
 body.dark-mode a:hover {
-    color: $white;
+    color: white;
 }
 
 body.light-mode small {
-    color: $black;
+    color: black;
 }
 
 body.dark-mode small {
-    color: $white;
+    color: white;
 }
 
 body.light-mode pre, body.dark-mode pre {
@@ -81,17 +81,17 @@ body.light-mode pre, body.dark-mode pre {
 }
 
 body.light-mode pre code, body.dark-mode pre code {
-    color: $white;
+    color: white;
 }
 
 body.light-mode p code {
     background: $light-mode-text;
-    color: $white;
+    color: white;
 }
 
 body.dark-mode p code {
-    background: $off-black;
-    color: $butterscotch;
+    background: var(--off-black);
+    color: var(--butterscotch);
 }
 
 /*///////////// SUBATOMICS/MODES end /////////////*/

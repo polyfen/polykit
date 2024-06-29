@@ -65,7 +65,7 @@ button i.icon {
 /* :hover */
 
 button:hover, a.button:hover, input.button:hover {
-    box-shadow: 0 0 4px 4px var(--accent-color), inset 0 0 0 2px $slate-950;
+    box-shadow: 0 0 4px 4px var(--accent-color), inset 0 0 0 2px var(--slate-950);
     text-decoration: none;
     transition: 0s;
 }

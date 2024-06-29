@@ -275,12 +275,12 @@ p a:hover, li a:hover, small a:hover, a:hover small {
 
 ::-moz-selection {
     background: var(--accent-color);
-    color: $white;
+    color: white;
 }
 
 ::selection {
     background: var(--accent-color);
-    color: $white;
+    color: white;
 }
 
 

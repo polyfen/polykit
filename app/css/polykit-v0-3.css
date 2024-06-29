@@ -160,7 +160,7 @@ html {
 /* --------------------------------------------------------- */
 /* --------------------------------------------------------- */
 /*
-   _____ ____  _      ____  _____   _____ 
+    _____ ____  _      ____  _____   _____ 
   / ____/ __ \| |    / __ \|  __ \ / ____|
  | |   | |  | | |   | |  | | |__) | (___  
  | |   | |  | | |   | |  | |  _  / \___ \ 
@@ -172,34 +172,188 @@ html {
 /*///////////// SUBATOMICS/COLORS start /////////////*/
 /* LIGHTNESS */
 /* Black */
-/* #000000 */
-/* #1C1C1C */
+:root {
+  --black: hsl(0, 0%, 0%); /* #000000 */
+  --off-black: hsl(0, 0%, 11%); /* #1C1C1C */
+  --black-90pct: hsla(0, 0%, 0%, 0.9);
+  --black-80pct: hsla(0, 0%, 0%, 0.8);
+  --black-70pct: hsla(0, 0%, 0%, 0.7);
+  --black-60pct: hsla(0, 0%, 0%, 0.6);
+  --black-50pct: hsla(0, 0%, 0%, 0.5);
+  --black-40pct: hsla(0, 0%, 0%, 0.4);
+  --black-30pct: hsla(0, 0%, 0%, 0.3);
+  --black-20pct: hsla(0, 0%, 0%, 0.2);
+  --black-10pct: hsla(0, 0%, 0%, 0.1);
+}
+
 /* Gray */
-/* #7B7B7C */
-/* #4C4C4C */
+:root {
+  --gray: hsl(240, 0%, 48%); /* #7B7B7C */
+  --off-gray: hsl(0, 0%, 30%); /* #4C4C4C */
+}
+
 /* White */
-/* #FFFFFF */
-/* #F9FAFB */
+:root {
+  --white: hsl(0, 0%, 100%); /* #FFFFFF */
+  --off-white: hsl(210, 20%, 98%); /* #F9FAFB */
+  --white-90pct: hsla(0, 0%, 100%, 0.9);
+  --white-80pct: hsla(0, 0%, 100%, 0.8);
+  --white-70pct: hsla(0, 0%, 100%, 0.7);
+  --white-60pct: hsla(0, 0%, 100%, 0.6);
+  --white-50pct: hsla(0, 0%, 100%, 0.5);
+  --white-40pct: hsla(0, 0%, 100%, 0.4);
+  --white-30pct: hsla(0, 0%, 100%, 0.3);
+  --white-20pct: hsla(0, 0%, 100%, 0.2);
+  --white-10pct: hsla(0, 0%, 100%, 0.1);
+}
+
 /* Slate */
-/* #EDEFFB */
-/* #D6D8E4 */
-/* #BFC1CE */
-/* #A8AAB7 */
-/* #9193A1 */
-/* #7A7C8A */
-/* #626473 */
-/* #4B4D5D */
-/* #343646 */
-/* #1D1F30 */
-/* #060819 */
+:root {
+  --slate-050: hsl(231, 64%, 96%); /* #EDEFFB */
+  --slate-100: hsl(210, 11%, 85%); /* #D6D8E4 */
+  --slate-200: hsl(218, 7%, 76%); /* #BFC1CE */
+  --slate-300: hsl(224, 7%, 68%); /* #A8AAB7 */
+  --slate-400: hsl(233, 8%, 60%); /* #9193A1 */
+  --slate-500: hsl(226, 5%, 50%); /* #7A7C8A */
+  --slate-600: hsl(233, 8%, 42%); /* #626473 */
+  --slate-700: hsl(228, 9%, 32%); /* #4B4D5D */
+  --slate-800: hsl(233, 14%, 24%); /* #343646 */
+  --slate-900: hsl(233, 24%, 15%); /* #1D1F30 */
+  --slate-950: hsl(234, 61%, 6%); /* #060819 */
+  --slate-050-90pct: hsla(231, 64%, 96%, 0.9);
+  --slate-050-80pct: hsla(231, 64%, 96%, 0.8);
+  --slate-050-70pct: hsla(231, 64%, 96%, 0.7);
+  --slate-050-60pct: hsla(231, 64%, 96%, 0.6);
+  --slate-050-50pct: hsla(231, 64%, 96%, 0.5);
+  --slate-050-40pct: hsla(231, 64%, 96%, 0.4);
+  --slate-050-30pct: hsla(231, 64%, 96%, 0.3);
+  --slate-050-20pct: hsla(231, 64%, 96%, 0.2);
+  --slate-050-10pct: hsla(231, 64%, 96%, 0.1);
+  --slate-950-90pct: hsla(234, 61%, 6%, 0.9);
+  --slate-950-80pct: hsla(234, 61%, 6%, 0.8);
+  --slate-950-70pct: hsla(234, 61%, 6%, 0.7);
+  --slate-950-60pct: hsla(234, 61%, 6%, 0.6);
+  --slate-950-50pct: hsla(234, 61%, 6%, 0.5);
+  --slate-950-40pct: hsla(234, 61%, 6%, 0.4);
+  --slate-950-30pct: hsla(234, 61%, 6%, 0.3);
+  --slate-950-20pct: hsla(234, 61%, 6%, 0.2);
+  --slate-950-10pct: hsla(234, 61%, 6%, 0.1);
+}
+
 /* --------------------------------------------------------- */
 /* HUES */
+:root {
+  --indigo: hsl(259, 93%, 59%);
+  --teal: #02BCAA;
+  --butterscotch: hsl(39, 100%, 50%);
+  --coral: #F75D78;
+  --gold: #CFA36D;
+  --wine: #331E33;
+}
+
 /* Blue */
-/* #108EFF */
+:root {
+  --blue-h: 208;
+  --blue-s: 100%;
+  --blue-l: 53%;
+  --blue: hsl(var(--blue-h), var(--blue-s), var(--blue-l));
+  --blue-100: hsl(var(--blue-h), var(--blue-s), calc(var(--blue-l) + 40));
+  --blue-200: hsl(var(--blue-h), var(--blue-s), calc(var(--blue-l) + 30));
+  --blue-300: hsl(var(--blue-h), var(--blue-s), calc(var(--blue-l) + 20));
+  --blue-400: hsl(var(--blue-h), var(--blue-s), calc(var(--blue-l) + 10));
+  --blue-500: var(--blue);
+  --blue-600: hsl(var(--blue-h), var(--blue-s), calc(var(--blue-l) - 10));
+  --blue-700: hsl(var(--blue-h), var(--blue-s), calc(var(--blue-l) - 20));
+  --blue-800: hsl(var(--blue-h), var(--blue-s), calc(var(--blue-l) - 30));
+  --blue-900: hsl(var(--blue-h), var(--blue-s), calc(var(--blue-l) - 40));
+  --blue-90pct: hsla(var(--blue-h), var(--blue-s), var(--blue-l), 0.9);
+  --blue-80pct: hsla(var(--blue-h), var(--blue-s), var(--blue-l), 0.8);
+  --blue-70pct: hsla(var(--blue-h), var(--blue-s), var(--blue-l), 0.7);
+  --blue-60pct: hsla(var(--blue-h), var(--blue-s), var(--blue-l), 0.6);
+  --blue-50pct: hsla(var(--blue-h), var(--blue-s), var(--blue-l), 0.5);
+  --blue-40pct: hsla(var(--blue-h), var(--blue-s), var(--blue-l), 0.4);
+  --blue-30pct: hsla(var(--blue-h), var(--blue-s), var(--blue-l), 0.3);
+  --blue-20pct: hsla(var(--blue-h), var(--blue-s), var(--blue-l), 0.2);
+  --blue-10pct: hsla(var(--blue-h), var(--blue-s), var(--blue-l), 0.1);
+  --blue-gradient-start: hsl(calc(var(--blue-h) + 20), var(--blue-s), var(--blue-l));
+  --blue-gradient-end: hsl(calc(var(--blue-h) - 20), var(--blue-s), var(--blue-l));
+  --blue-gradient: linear-gradient(45deg, var(--blue-gradient-start), var(--blue-gradient-end));
+}
+
 /* Indigo */
-/* #7537F8 */
+:root {
+  --indigo-h: 259;
+  --indigo-s: 100%;
+  --indigo-l: 59%;
+  --indigo: hsl(var(--indigo-h), var(--indigo-s), var(--indigo-l));
+  --indigo-100: hsl(var(--indigo-h), var(--indigo-s), calc(var(--indigo-l) + 40));
+  --indigo-200: hsl(var(--indigo-h), var(--indigo-s), calc(var(--indigo-l) + 30));
+  --indigo-300: hsl(var(--indigo-h), var(--indigo-s), calc(var(--indigo-l) + 20));
+  --indigo-400: hsl(var(--indigo-h), var(--indigo-s), calc(var(--indigo-l) + 10));
+  --indigo-500: var(--indigo);
+  --indigo-600: hsl(var(--indigo-h), var(--indigo-s), calc(var(--indigo-l) - 10));
+  --indigo-700: hsl(var(--indigo-h), var(--indigo-s), calc(var(--indigo-l) - 20));
+  --indigo-800: hsl(var(--indigo-h), var(--indigo-s), calc(var(--indigo-l) - 30));
+  --indigo-900: hsl(var(--indigo-h), var(--indigo-s), calc(var(--indigo-l) - 40));
+  --indigo-90pct: hsla(var(--indigo-h), var(--indigo-s), var(--indigo-l), 0.9);
+  --indigo-80pct: hsla(var(--indigo-h), var(--indigo-s), var(--indigo-l), 0.8);
+  --indigo-70pct: hsla(var(--indigo-h), var(--indigo-s), var(--indigo-l), 0.7);
+  --indigo-60pct: hsla(var(--indigo-h), var(--indigo-s), var(--indigo-l), 0.6);
+  --indigo-50pct: hsla(var(--indigo-h), var(--indigo-s), var(--indigo-l), 0.5);
+  --indigo-40pct: hsla(var(--indigo-h), var(--indigo-s), var(--indigo-l), 0.4);
+  --indigo-30pct: hsla(var(--indigo-h), var(--indigo-s), var(--indigo-l), 0.3);
+  --indigo-20pct: hsla(var(--indigo-h), var(--indigo-s), var(--indigo-l), 0.2);
+  --indigo-10pct: hsla(var(--indigo-h), var(--indigo-s), var(--indigo-l), 0.1);
+  --indigo-gradient-start: hsl(calc(var(--indigo-h) + 20), var(--indigo-s), var(--indigo-l));
+  --indigo-gradient-end: hsl(calc(var(--indigo-h) - 20), var(--indigo-s), var(--indigo-l));
+  --indigo-gradient: linear-gradient(45deg, var(--indigo-gradient-start), var(--indigo-gradient-end));
+}
+
 /* Butterscotch */
-/* #FFA502 */
+:root {
+  --butterscotch-h: 39;
+  --butterscotch-s: 100%;
+  --butterscotch-l: 50%;
+  --butterscotch: hsl(var(--butterscotch-h), var(--butterscotch-s), var(--butterscotch-l));
+  --butterscotch-100: hsl(var(--butterscotch-h), var(--butterscotch-s), calc(var(--butterscotch-l) + 40));
+  --butterscotch-200: hsl(var(--butterscotch-h), var(--butterscotch-s), calc(var(--butterscotch-l) + 30));
+  --butterscotch-300: hsl(var(--butterscotch-h), var(--butterscotch-s), calc(var(--butterscotch-l) + 20));
+  --butterscotch-400: hsl(var(--butterscotch-h), var(--butterscotch-s), calc(var(--butterscotch-l) + 10));
+  --butterscotch-500: var(--butterscotch);
+  --butterscotch-600: hsl(var(--butterscotch-h), var(--butterscotch-s), calc(var(--butterscotch-l) - 10));
+  --butterscotch-700: hsl(var(--butterscotch-h), var(--butterscotch-s), calc(var(--butterscotch-l) - 20));
+  --butterscotch-800: hsl(var(--butterscotch-h), var(--butterscotch-s), calc(var(--butterscotch-l) - 30));
+  --butterscotch-900: hsl(var(--butterscotch-h), var(--butterscotch-s), calc(var(--butterscotch-l) - 40));
+  --butterscotch-90pct: hsla(var(--butterscotch-h), var(--butterscotch-s), var(--butterscotch-l), 0.9);
+  --butterscotch-80pct: hsla(var(--butterscotch-h), var(--butterscotch-s), var(--butterscotch-l), 0.8);
+  --butterscotch-70pct: hsla(var(--butterscotch-h), var(--butterscotch-s), var(--butterscotch-l), 0.7);
+  --butterscotch-60pct: hsla(var(--butterscotch-h), var(--butterscotch-s), var(--butterscotch-l), 0.6);
+  --butterscotch-50pct: hsla(var(--butterscotch-h), var(--butterscotch-s), var(--butterscotch-l), 0.5);
+  --butterscotch-40pct: hsla(var(--butterscotch-h), var(--butterscotch-s), var(--butterscotch-l), 0.4);
+  --butterscotch-30pct: hsla(var(--butterscotch-h), var(--butterscotch-s), var(--butterscotch-l), 0.3);
+  --butterscotch-20pct: hsla(var(--butterscotch-h), var(--butterscotch-s), var(--butterscotch-l), 0.2);
+  --butterscotch-10pct: hsla(var(--butterscotch-h), var(--butterscotch-s), var(--butterscotch-l), 0.1);
+  --butterscotch-gradient-start: hsl(calc(var(--butterscotch-h) + 20), var(--butterscotch-s), var(--butterscotch-l));
+  --butterscotch-gradient-end: hsl(calc(var(--butterscotch-h) - 20), var(--butterscotch-s), var(--butterscotch-l));
+  --butterscotch-gradient: linear-gradient(45deg, var(--butterscotch-gradient-start), var(--butterscotch-gradient-end));
+}
+
+/* Raspberry */
+:root {
+  --raspberry: #F60B43;
+  --raspberry-h: 345;
+  --raspberry-s: 100%;
+  --raspberry-l: 47%;
+  --raspberry: hsl(var(--raspberry-h), var(--raspberry-s), var(--raspberry-l));
+  --raspberry-100: hsl(var(--raspberry-h), var(--raspberry-s), calc(var(--raspberry-l) + 40));
+  --raspberry-200: hsl(var(--raspberry-h), var(--raspberry-s), calc(var(--raspberry-l) + 30));
+  --raspberry-20pct: hsla(var(--raspberry-h), var(--raspberry-s), var(--raspberry-l), 0.2);
+  --raspberry-10pct: hsla(var(--raspberry-h), var(--raspberry-s), var(--raspberry-l), 0.1);
+  --raspberry-gradient-start: hsl(calc(var(--raspberry-h) + 20), var(--raspberry-s), var(--raspberry-l));
+  --raspberry-gradient-end: hsl(calc(var(--raspberry-h) - 20), var(--raspberry-s), var(--raspberry-l));
+  --raspberry-gradient: linear-gradient(45deg, var(--raspberry-gradient-start), var(--raspberry-gradient-end));
+}
+
 /*///////////// SUBATOMICS/COLOR end /////////////*/
 /* --------------------------------------------------------- */
 /* --------------------------------------------------------- */
@@ -215,27 +369,27 @@ html {
 /* --------------------------------------------------------- */
 /*///////////// SUBATOMICS/MODES start /////////////*/
 html :has(body.light-mode), body.light-mode {
-  background: hsl(231, 64%, 96%);
+  background: var(--slate-050);
 }
 
 html :has(body.dark-mode), body.dark-mode {
-  background: hsl(234, 61%, 6%);
+  background: var(--slate-950);
 }
 
 html :has(body.light-mode), body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode h4, body.light-mode h5, body.light-mode h6 {
-  color: hsl(0, 0%, 0%);
+  color: black;
 }
 
 html :has(body.dark-mode), body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
-  color: hsl(0, 0%, 100%);
+  color: white;
 }
 
 body.light-mode p, body.light-mode li, body.light-mode pre code, body.light-mode div {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: var(--black-80pct);
 }
 
 body.dark-mode p, body.dark-mode li, body.dark-mode pre code, body.dark-mode div {
-  color: hsla(0, 0%, 100%, 0.8);
+  color: var(--white-80pct);
 }
 
 body.light-mode hr {
@@ -247,46 +401,46 @@ body.dark-mode hr {
 }
 
 body.light-mode a {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: var(--black-80pct);
 }
 
 body.dark-mode a {
-  color: hsla(0, 0%, 100%, 0.8);
+  color: var(--white-80pct);
 }
 
 body.light-mode a:hover {
-  color: hsl(0, 0%, 0%);
+  color: black;
 }
 
 body.dark-mode a:hover {
-  color: hsl(0, 0%, 100%);
+  color: white;
 }
 
 body.light-mode small {
-  color: hsl(0, 0%, 0%);
+  color: black;
 }
 
 body.dark-mode small {
-  color: hsl(0, 0%, 100%);
+  color: white;
 }
 
 body.light-mode pre, body.dark-mode pre {
-  background: hsla(0, 0%, 0%, 0.8);
+  background: var(--black-80pct);
   border: 1px solid rgba(255, 255, 255, 0.231372549);
 }
 
 body.light-mode pre code, body.dark-mode pre code {
-  color: hsl(0, 0%, 100%);
+  color: white;
 }
 
 body.light-mode p code {
-  background: hsla(0, 0%, 0%, 0.8);
-  color: hsl(0, 0%, 100%);
+  background: var(--black-80pct);
+  color: white;
 }
 
 body.dark-mode p code {
-  background: hsl(0, 0%, 11%);
-  color: hsl(39, 100%, 50%);
+  background: var(--off-black);
+  color: var(--butterscotch);
 }
 
 /*///////////// SUBATOMICS/MODES end /////////////*/
@@ -303,13 +457,28 @@ body.dark-mode p code {
 /* --------------------------------------------------------- */
 /*///////////// SUBATOMICS/BRANDING start /////////////*/
 :root {
-  --accent-color: hsl($accent-color-h, $accent-color-s, $accent-color-l);
-  --accent-color-800: hsl($accent-color-h, $accent-color-s, $accent-color-l - 30);
-  --accent-color-900: hsl($accent-color-h, $accent-color-s, $accent-color-l - 40);
-  --accent-color-50pct: hsl($accent-color-h, $accent-color-s, $accent-color-l, 0.5);
-  --accent-color-gradient-start: $blue-gradient-start;
-  --accent-color-gradient-end: $blue-gradient-end;
-  --accent-gradient: $blue-gradient;
+  --accent-color-h: var(--blue-h);
+  --accent-color-s: var(--blue-s);
+  --accent-color-l: var(--blue-l);
+  --accent-color: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l));
+  --accent-color-800: hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) - 30));
+  --accent-color-900: hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) - 40));
+  --accent-color-50pct: hsla(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.5);
+  --accent-color-gradient-start: var(--blue-gradient-start);
+  --accent-color-gradient-end: var(--blue-gradient-end);
+  --accent-gradient: var(--blue-gradient);
+}
+
+body.indigo-accent {
+  --accent-color-h: var(--indigo-h);
+  --accent-color-s: var(--indigo-s);
+  --accent-color-l: var(--indigo-l);
+}
+
+body.raspberry-accent {
+  --accent-color-h: var(--raspberry-h);
+  --accent-color-s: var(--raspberry-s);
+  --accent-color-l: var(--raspberry-l);
 }
 
 /*///////////// SUBATOMICS/BRANDING end /////////////*/
@@ -643,12 +812,12 @@ p a:hover, li a:hover, small a:hover, a:hover small {
 /* HIGHLIGHTED TEXT */
 ::-moz-selection {
   background: var(--accent-color);
-  color: hsl(0, 0%, 100%);
+  color: white;
 }
 
 ::selection {
   background: var(--accent-color);
-  color: hsl(0, 0%, 100%);
+  color: white;
 }
 
 /* UTILITY CLASSES */
@@ -805,7 +974,7 @@ button i.icon {
 
 /* :hover */
 button:hover, a.button:hover, input.button:hover {
-  box-shadow: 0 0 4px 4px var(--accent-color), inset 0 0 0 2px hsl(234, 61%, 6%);
+  box-shadow: 0 0 4px 4px var(--accent-color), inset 0 0 0 2px var(--slate-950);
   text-decoration: none;
   transition: 0s;
 }
@@ -976,11 +1145,6 @@ nav a {
   font-weight: 600;
 }
 
-/*
- nav a:hover {
-    text-decoration: underline $accent-color solid 2px;
-    text-underline-offset: 5px;
-} */
 nav :where(a:hover) {
   text-decoration: underline var(--accent-color) solid 2px;
   text-underline-offset: 5px;
@@ -1048,12 +1212,12 @@ body.site header {
 
 .type-demo-margin {
   width: 100%;
-  background: hsla(208, 100%, 53%, 0.1);
+  background: var(--blue-10pct);
 }
 
 .type-demo-padding {
   width: 100%;
-  background: hsla(208, 100%, 53%, 0.1);
+  background: var(--blue-10pct);
 }
 
 /* TITLE-1 */
@@ -1226,261 +1390,93 @@ body.site div.color-swatch {
 }
 
 div.color-swatch.blue-100 {
-  background: hsl(208, 100%, 93%);
+  background: var(--blue-100);
 }
 
 div.color-swatch.blue-200 {
-  background: hsl(208, 100%, 83%);
+  background: var(--blue-200);
 }
 
 div.color-swatch.blue-300 {
-  background: hsl(208, 100%, 73%);
+  background: var(--blue-300);
 }
 
 div.color-swatch.blue-400 {
-  background: hsl(208, 100%, 63%);
+  background: var(--blue-400);
 }
 
 div.color-swatch.blue-500 {
-  background: hsl(208, 100%, 53%);
+  background: var(--blue-500);
 }
 
 div.color-swatch.blue-600 {
-  background: hsl(208, 100%, 43%);
+  background: var(--blue-600);
 }
 
 div.color-swatch.blue-700 {
-  background: hsl(208, 100%, 33%);
+  background: var(--blue-700);
 }
 
 div.color-swatch.blue-800 {
-  background: hsl(208, 100%, 23%);
+  background: var(--blue-800);
 }
 
 div.color-swatch.blue-900 {
-  background: hsl(208, 100%, 13%);
+  background: var(--blue-900);
 }
 
 div.color-swatch.blue-90pct {
-  background: hsla(208, 100%, 53%, 0.9);
+  background: var(--blue-90pct);
 }
 
 div.color-swatch.blue-80pct {
-  background: hsla(208, 100%, 53%, 0.8);
+  background: var(--blue-80pct);
 }
 
 div.color-swatch.blue-70pct {
-  background: hsla(208, 100%, 53%, 0.7);
+  background: var(--blue-70pct);
 }
 
 div.color-swatch.blue-60pct {
-  background: hsla(208, 100%, 53%, 0.6);
+  background: var(--blue-60pct);
 }
 
 div.color-swatch.blue-50pct {
-  background: hsla(208, 100%, 53%, 0.5);
+  background: var(--blue-50pct);
 }
 
 div.color-swatch.blue-40pct {
-  background: hsla(208, 100%, 53%, 0.4);
+  background: var(--blue-40pct);
 }
 
 div.color-swatch.blue-30pct {
-  background: hsla(208, 100%, 53%, 0.3);
+  background: var(--blue-30pct);
 }
 
 div.color-swatch.blue-20pct {
-  background: hsla(208, 100%, 53%, 0.2);
+  background: var(--blue-20pct);
 }
 
 div.color-swatch.blue-10pct {
-  background: hsla(208, 100%, 53%, 0.1);
+  background: var(--blue-10pct);
 }
 
 div.color-swatch.blue-gradient-start {
-  background: hsl(228, 100%, 53%);
+  background: var(--blue-gradient-start);
 }
 
 div.color-swatch.blue-gradient-end {
-  background: hsl(188, 100%, 53%);
+  background: var(--blue-gradient-end);
 }
 
 div.color-swatch.blue-gradient {
-  background-image: linear-gradient(45deg, hsl(228, 100%, 53%), hsl(188, 100%, 53%));
-}
-
-div.color-swatch.indigo-100 {
-  background: hsl(259, 100%, 99%);
-}
-
-div.color-swatch.indigo-200 {
-  background: hsl(259, 100%, 89%);
-}
-
-div.color-swatch.indigo-300 {
-  background: hsl(259, 100%, 79%);
-}
-
-div.color-swatch.indigo-400 {
-  background: hsl(259, 100%, 69%);
-}
-
-div.color-swatch.indigo-500 {
-  background: hsl(259, 100%, 59%);
-}
-
-div.color-swatch.indigo-600 {
-  background: hsl(259, 100%, 49%);
-}
-
-div.color-swatch.indigo-700 {
-  background: hsl(259, 100%, 39%);
-}
-
-div.color-swatch.indigo-800 {
-  background: hsl(259, 100%, 29%);
-}
-
-div.color-swatch.indigo-900 {
-  background: hsl(259, 100%, 19%);
-}
-
-div.color-swatch.indigo-90pct {
-  background: hsla(259, 100%, 59%, 0.9);
-}
-
-div.color-swatch.indigo-80pct {
-  background: hsla(259, 100%, 59%, 0.8);
-}
-
-div.color-swatch.indigo-70pct {
-  background: hsla(259, 100%, 59%, 0.7);
-}
-
-div.color-swatch.indigo-60pct {
-  background: hsla(259, 100%, 59%, 0.6);
-}
-
-div.color-swatch.indigo-50pct {
-  background: hsla(259, 100%, 59%, 0.5);
-}
-
-div.color-swatch.indigo-40pct {
-  background: hsla(259, 100%, 59%, 0.4);
-}
-
-div.color-swatch.indigo-30pct {
-  background: hsla(259, 100%, 59%, 0.3);
-}
-
-div.color-swatch.indigo-20pct {
-  background: hsla(259, 100%, 59%, 0.2);
-}
-
-div.color-swatch.indigo-10pct {
-  background: hsla(259, 100%, 59%, 0.1);
-}
-
-div.color-swatch.indigo-gradient-start {
-  background: hsl(279, 100%, 59%);
-}
-
-div.color-swatch.indigo-gradient-end {
-  background: hsl(239, 100%, 59%);
-}
-
-div.color-swatch.indigo-gradient {
-  background-image: linear-gradient(45deg, hsl(279, 100%, 59%), hsl(239, 100%, 59%));
-}
-
-div.color-swatch.butterscotch-100 {
-  background: hsl(39, 100%, 90%);
-}
-
-div.color-swatch.butterscotch-200 {
-  background: hsl(39, 100%, 80%);
-}
-
-div.color-swatch.butterscotch-300 {
-  background: hsl(39, 100%, 70%);
-}
-
-div.color-swatch.butterscotch-400 {
-  background: hsl(39, 100%, 60%);
-}
-
-div.color-swatch.butterscotch-500 {
-  background: hsl(39, 100%, 50%);
-}
-
-div.color-swatch.butterscotch-600 {
-  background: hsl(39, 100%, 40%);
-}
-
-div.color-swatch.butterscotch-700 {
-  background: hsl(39, 100%, 30%);
-}
-
-div.color-swatch.butterscotch-800 {
-  background: hsl(39, 100%, 20%);
-}
-
-div.color-swatch.butterscotch-900 {
-  background: hsl(39, 100%, 10%);
-}
-
-div.color-swatch.butterscotch-90pct {
-  background: hsla(39, 100%, 50%, 0.9);
-}
-
-div.color-swatch.butterscotch-80pct {
-  background: hsla(39, 100%, 50%, 0.8);
-}
-
-div.color-swatch.butterscotch-70pct {
-  background: hsla(39, 100%, 50%, 0.7);
-}
-
-div.color-swatch.butterscotch-60pct {
-  background: hsla(39, 100%, 50%, 0.6);
-}
-
-div.color-swatch.butterscotch-50pct {
-  background: hsla(39, 100%, 50%, 0.5);
-}
-
-div.color-swatch.butterscotch-40pct {
-  background: hsla(39, 100%, 50%, 0.4);
-}
-
-div.color-swatch.butterscotch-30pct {
-  background: hsla(39, 100%, 50%, 0.3);
-}
-
-div.color-swatch.butterscotch-20pct {
-  background: hsla(39, 100%, 50%, 0.2);
-}
-
-div.color-swatch.butterscotch-10pct {
-  background: hsla(39, 100%, 50%, 0.1);
-}
-
-div.color-swatch.butterscotch-gradient-start {
-  background: hsl(59, 100%, 50%);
-}
-
-div.color-swatch.butterscotch-gradient-end {
-  background: hsl(19, 100%, 50%);
-}
-
-div.color-swatch.butterscotch-gradient {
-  background-image: linear-gradient(45deg, hsl(59, 100%, 50%), hsl(19, 100%, 50%));
+  background-image: var(--blue-gradient);
 }
 
 div.components-demo {
   display: flex;
   padding: 2rem;
-  background-color: hsl(0, 0%, 0%);
+  background-color: black;
   border: 1px solid rgba(255, 255, 255, 0.231372549);
 }
 

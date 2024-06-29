@@ -13,9 +13,9 @@
 /*///////////// SUBATOMICS/BRANDING start /////////////*/
 
 :root {
-  --accent-color-h: $blue-h;
-  --accent-color-s: $blue-s;
-  --accent-color-l: $blue-l;
+  --accent-color-h: var(--blue-h);
+  --accent-color-s: var(--blue-s);
+  --accent-color-l: var(--blue-l);
   --accent-color: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l));
   --accent-color-800: hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) - 30));
   --accent-color-900: hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) - 40));
@@ -25,16 +25,16 @@
   --accent-gradient: var(--blue-gradient);
 }
 
-body.indigo-accent{
---accent-color-h: $indigo-h;
---accent-color-s: $indigo-s;
---accent-color-l: $indigo-l;
+body.indigo-accent {
+  --accent-color-h: var(--indigo-h);
+  --accent-color-s: var(--indigo-s);
+  --accent-color-l: var(--indigo-l);
 }
 
-body.raspberry-accent{
-  --accent-color-h: $raspberry-h;
-  --accent-color-s: $raspberry-s;
-  --accent-color-l: $raspberry-l;
+body.raspberry-accent {
+  --accent-color-h: var(--raspberry-h);
+  --accent-color-s: var(--raspberry-s);
+  --accent-color-l: var(--raspberry-l);
 }
 
 /*///////////// SUBATOMICS/BRANDING end /////////////*/
