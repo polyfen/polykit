@@ -302,6 +302,16 @@ body.dark-mode p code {
 */
 /* --------------------------------------------------------- */
 /*///////////// SUBATOMICS/BRANDING start /////////////*/
+:root {
+  --accent-color: hsl($accent-color-h, $accent-color-s, $accent-color-l);
+  --accent-color-800: hsl($accent-color-h, $accent-color-s, $accent-color-l - 30);
+  --accent-color-900: hsl($accent-color-h, $accent-color-s, $accent-color-l - 40);
+  --accent-color-50pct: hsl($accent-color-h, $accent-color-s, $accent-color-l, 0.5);
+  --accent-color-gradient-start: $blue-gradient-start;
+  --accent-color-gradient-end: $blue-gradient-end;
+  --accent-gradient: $blue-gradient;
+}
+
 /*///////////// SUBATOMICS/BRANDING end /////////////*/
 /* --------------------------------------------------------- */
 /* 02-ATOMS */
@@ -620,24 +630,24 @@ a {
 }
 
 p a, li a, small a, a small {
-  text-decoration: underline hsla(208, 100%, 53%, 0.5) dotted 2px;
+  text-decoration: underline var(--accent-color-50pct) dotted 2px;
   text-underline-offset: 5px;
 }
 
 p a:hover, li a:hover, small a:hover, a:hover small {
-  text-decoration: underline hsl(208, 100%, 53%) solid 2px;
+  text-decoration: underline var(--accent-color) solid 2px;
   text-underline-offset: 5px;
   opacity: 1;
 }
 
 /* HIGHLIGHTED TEXT */
 ::-moz-selection {
-  background: hsl(208, 100%, 53%);
+  background: var(--accent-color);
   color: hsl(0, 0%, 100%);
 }
 
 ::selection {
-  background: hsl(208, 100%, 53%);
+  background: var(--accent-color);
   color: hsl(0, 0%, 100%);
 }
 
@@ -708,7 +718,7 @@ ul {
 
 main ul li::before {
   content: "•"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: hsl(208, 100%, 53%); /* Change the color */
+  color: var(--accent-color); /* Change the color */
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1.2em; /* Also needed for space (tweak if needed) */
@@ -754,7 +764,7 @@ button, .button {
   padding: 1rem 1.4rem;
   border: none;
   border-radius: 900px;
-  background-color: hsl(208, 100%, 53%);
+  background-color: var(--accent-color);
   color: hsl(0, 0%, 100%);
   letter-spacing: 0.5px;
   text-decoration: none;
@@ -763,15 +773,15 @@ button, .button {
 }
 
 .secondary-button {
-  border: 3px solid hsl(208, 100%, 53%);
-  background-color: hsl(208, 100%, 13%);
+  border: 3px solid var(--accent-color);
+  background-color: var(--accent-color-900);
   background-image: none !important;
 }
 
 .cta-button {
-  box-shadow: 0 0 4px hsl(208, 100%, 53%);
+  box-shadow: 0 0 4px var(--accent-color);
   animation: gradient 7s infinite;
-  background-image: linear-gradient(45deg, hsl(228, 100%, 53%), hsl(188, 100%, 53%));
+  background-image: var(--accent-color-gradient);
   background-size: 200% 200%;
 }
 
@@ -795,15 +805,15 @@ button i.icon {
 
 /* :hover */
 button:hover, a.button:hover, input.button:hover {
-  box-shadow: 0 0 4px 4px hsl(208, 100%, 53%), inset 0 0 0 2px hsl(234, 61%, 6%);
+  box-shadow: 0 0 4px 4px var(--accent-color), inset 0 0 0 2px hsl(234, 61%, 6%);
   text-decoration: none;
   transition: 0s;
 }
 
 button.secondary-button:hover, a.button.secondary-button:hover, input.button.secondary-button:hover {
   background-image: none !important;
-  box-shadow: 0 0 10px hsl(208, 100%, 53%);
-  background-color: hsl(208, 100%, 53%);
+  box-shadow: 0 0 10px var(--accent-color);
+  background-color: var(--accent-color);
 }
 
 /* data-button-icon */
@@ -972,7 +982,7 @@ nav a {
     text-underline-offset: 5px;
 } */
 nav :where(a:hover) {
-  text-decoration: underline hsl(208, 100%, 53%) solid 2px;
+  text-decoration: underline var(--accent-color) solid 2px;
   text-underline-offset: 5px;
 }
 
@@ -1023,7 +1033,7 @@ body:has(.hellobar) {
 */
 /* --------------------------------------------------------- */
 body.site h2 strong {
-  background-image: linear-gradient(45deg, hsl(228, 100%, 53%), hsl(188, 100%, 53%));
+  background-image: var(--accent-gradient);
   padding: 0 0.25rem;
 }
 
@@ -1642,11 +1652,11 @@ div.components-demo {
   margin: 0;
   width: 90px;
   border-radius: 8px 8px 0 0;
-  background-color: hsl(208, 100%, 23%);
+  background-color: var(--accent-color-800);
 }
 
 .tabs .tab-button.active {
-  background-color: hsl(208, 100%, 53%);
+  background-color: var(--accent-color);
 }
 
 .tab-panel {
@@ -1660,7 +1670,7 @@ div.components-demo {
 
 .tab-button:hover {
   box-shadow: none;
-  background-color: hsl(208, 100%, 53%);
+  background-color: var(--accent-color);
 }
 
 /* --------------------------------------------------------- */

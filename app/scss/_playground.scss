@@ -63,10 +63,10 @@ div.components-demo {
     margin: 0;
     width: 90px;
     border-radius: 8px 8px 0 0;
-    background-color: $accent-color-800;
+    background-color: var(--accent-color-800);
 }
 .tabs .tab-button.active {
-    background-color: $accent-color;
+    background-color: var(--accent-color);
 }
 .tab-panel {
     display: none;
@@ -79,5 +79,5 @@ div.components-demo {
 
 .tab-button:hover {
     box-shadow: none;
-    background-color: $accent-color;
+    background-color: var(--accent-color);
 }
