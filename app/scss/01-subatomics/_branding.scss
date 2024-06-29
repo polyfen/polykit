@@ -29,12 +29,22 @@ body.indigo-accent {
   --accent-color-h: var(--indigo-h);
   --accent-color-s: var(--indigo-s);
   --accent-color-l: var(--indigo-l);
+
+  --accent-color: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l));
+  --accent-color-800: hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) - 30));
+  --accent-color-900: hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) - 40));
+  --accent-color-50pct: hsla(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.5);
 }
 
 body.raspberry-accent {
   --accent-color-h: var(--raspberry-h);
   --accent-color-s: var(--raspberry-s);
   --accent-color-l: var(--raspberry-l);
+
+  --accent-color: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l));
+  --accent-color-800: hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) - 30));
+  --accent-color-900: hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) - 40));
+  --accent-color-50pct: hsla(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.5);
 }
 
 /*///////////// SUBATOMICS/BRANDING end /////////////*/
