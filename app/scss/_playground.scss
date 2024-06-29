@@ -81,3 +81,16 @@ div.components-demo {
     box-shadow: none;
     background-color: var(--accent-color);
 }
+
+
+.indigo-accent {
+    --accent-color-h: var(--indigo-h);
+    --accent-color-s: var(--indigo-s);
+    --accent-color-l: var(--indigo-l);
+  }
+  
+  .raspberry-accent {
+    --accent-color-h: var(--raspberry-h);
+    --accent-color-s: var(--raspberry-s);
+    --accent-color-l: var(--raspberry-l);
+  }
