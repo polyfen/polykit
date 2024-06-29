@@ -1647,6 +1647,10 @@ body.docs-theme .preview {
   padding: 24px;
   background: rgba(29, 39, 44, 0.0431372549);
   text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 body.docs-theme .preview figure img {
   margin: 0 auto;

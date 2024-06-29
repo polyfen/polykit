@@ -106,6 +106,10 @@ body.docs-theme {
         padding: 24px;
         background: #1d272c0b;
         text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
     }
 
     .preview figure img {
