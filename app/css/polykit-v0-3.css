@@ -472,7 +472,7 @@ body.dark-mode p code {
   --accent-gradient: var(--blue-gradient);
 }
 
-body.indigo-accent {
+.indigo-accent {
   --accent-color-h: var(--indigo-h);
   --accent-color-s: var(--indigo-s);
   --accent-color-l: var(--indigo-l);
@@ -482,7 +482,7 @@ body.indigo-accent {
   --accent-color-50pct: hsla(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.5);
 }
 
-body.raspberry-accent {
+.raspberry-accent {
   --accent-color-h: var(--raspberry-h);
   --accent-color-s: var(--raspberry-s);
   --accent-color-l: var(--raspberry-l);
