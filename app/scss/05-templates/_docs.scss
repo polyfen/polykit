@@ -36,6 +36,10 @@ body.docs-theme {
     ul.table-of-contents li {
         line-height: 1;
     }
+    
+    .table-of-contents a {
+        text-decoration: none;
+    }
 
     main {
         padding-top: 20px;
