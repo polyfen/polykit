@@ -1,2 +1,2 @@
-import './navbar.js';
-import './tab-panels.js';
+import 'js/navbar.js';
+import 'js/tab-panels.js';
