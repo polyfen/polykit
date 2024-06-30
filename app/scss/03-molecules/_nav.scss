@@ -4,6 +4,7 @@
 */
 /* --------------------------------------------------------- */
 
+
 @media (min-width: 768px) {
     .nav-buttons {
         display: none;
@@ -19,6 +20,24 @@
         border-radius: 200px;
         text-align: right;
     }
+}
+
+.nav-links.position-fixed, .nav-buttons {
+    position: fixed;
+    background: #ecf0f37d;
+    backdrop-filter: blur(10px);
+    z-index: 90;
+    border: 1px solid #4f4f581f;
+}
+
+@media (min-width: 768px) {
+    .nav-links.position-fixed {
+        top: 20px;
+    }
+}
+
+nav div {
+    text-align: right;
 }
 
 /* --------------------------------------------------------- */
