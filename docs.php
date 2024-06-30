@@ -64,6 +64,7 @@
         <!-- End Google Tag Manager (noscript) -->
 
         <?php include 'includes/_hellobar.php'; ?>
+        <?php include 'includes/_nav.php'; ?>
 
         <div class="main-wrapper">
             <aside>
@@ -184,5 +185,6 @@
         </div>
 
     </body>
-
+<!-- Scripts -->
+<script defer src="app/js/polykit-v0-3.js"></script>
 </html>

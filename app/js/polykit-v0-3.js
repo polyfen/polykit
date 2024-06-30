@@ -15,30 +15,32 @@ navCloser.addEventListener('click', () => {
 
 document.addEventListener("DOMContentLoaded", function () {
     let nav = document.querySelector(".nav-links");
-    let buttons = document.querySelector(".nav-buttons");
-    let body = document.querySelector("body");
+    if (nav) {
+        let buttons = document.querySelector(".nav-buttons");
+        let body = document.querySelector("body");
+        
+        window.addEventListener("scroll", function () {
+            let scroll = window.scrollY;
     
-    window.addEventListener("scroll", function () {
-        let scroll = window.scrollY;
-
-        if (window.innerWidth > 768) {
-            if (scroll >= 60) {
-                nav.classList.add("position-fixed");
-            } else {
-                nav.classList.remove("position-fixed");
+            if (window.innerWidth > 768) {
+                if (scroll >= 60) {
+                    nav.classList.add("position-fixed");
+                } else {
+                    nav.classList.remove("position-fixed");
+                }
             }
-        }
-
-        if (scroll >= 60) {
-            buttons.style.top = '18px';
-        } else {
-            if (body.classList.contains("landing-page")) {
+    
+            if (scroll >= 60) {
                 buttons.style.top = '18px';
             } else {
-                buttons.style.top = '120px';
+                if (body.classList.contains("landing-page")) {
+                    buttons.style.top = '18px';
+                } else {
+                    buttons.style.top = '120px';
+                }
             }
-        }
-    });
+        });
+    }
 });
 
 /* end position fixed on nav */

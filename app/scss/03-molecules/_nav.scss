@@ -4,6 +4,9 @@
 */
 /* --------------------------------------------------------- */
 
+nav div {
+    text-align: right;
+}
 
 @media (min-width: 768px) {
     .nav-buttons {
@@ -34,10 +37,6 @@
     .nav-links.position-fixed {
         top: 20px;
     }
-}
-
-nav div {
-    text-align: right;
 }
 
 /* --------------------------------------------------------- */

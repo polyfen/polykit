@@ -1205,6 +1205,10 @@ p code {
 
 */
 /* --------------------------------------------------------- */
+nav div {
+  text-align: right;
+}
+
 @media (min-width: 768px) {
   .nav-buttons {
     display: none;
@@ -1219,6 +1223,19 @@ p code {
     padding: 15px 28px;
     border-radius: 200px;
     text-align: right;
+  }
+}
+.nav-links.position-fixed, .nav-buttons {
+  position: fixed;
+  background: rgba(236, 240, 243, 0.4901960784);
+  backdrop-filter: blur(10px);
+  z-index: 90;
+  border: 1px solid rgba(79, 79, 88, 0.1215686275);
+}
+
+@media (min-width: 768px) {
+  .nav-links.position-fixed {
+    top: 20px;
   }
 }
 /* --------------------------------------------------------- */
