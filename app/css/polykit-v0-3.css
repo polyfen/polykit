@@ -1328,9 +1328,6 @@ nav a.current-page {
   background: var(--accent-color-800);
   border-bottom: 8px solid var(--accent-color);
   color: white;
-}
-
-.hellobar .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
