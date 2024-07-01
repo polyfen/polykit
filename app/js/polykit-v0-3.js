@@ -61,5 +61,4 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
-
 /* End Current Page */
