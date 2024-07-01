@@ -1,7 +1,7 @@
 <nav>
     <div class="nav-links">
         <a href="/">Home</a>
-        <a href="/docs.php">Docs</a>
+        <a href="/docs">Docs</a>
     </div>
     <div class="nav-buttons">
         <button aria-label="Open/Close navbar" class="nav-hamburger">
