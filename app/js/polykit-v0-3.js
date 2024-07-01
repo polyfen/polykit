@@ -11,6 +11,12 @@ navCloser.addEventListener('click', () => {
     nav.classList.remove('open-nav')
 })
 
+const hellobar = document.querySelector('.hellobar');
+const hellobarHeight = hellobar.offsetHeight;
+if (!nav.classList.contains("fixed-position") && !nav.classList.contains("open-nav")) {
+    nav.style.top = `${hellobarHeight + 20}px`;
+}
+
 /* Agrega el .position-fixed al nav */
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -35,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 if (body.classList.contains("landing-page")) {
                     nav.style.top = '20px';
                 } else {
-                    nav.style.top = '120px';
+                    nav.style.top = `${hellobarHeight + 20}px`;
                 }
             }
         });
@@ -57,10 +63,3 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 /* End Current Page */
-
-
-const hellobar = document.querySelector('.hellobar');
-const hellobarHeight = hellobar.offsetHeight;
-if (!nav.classList.contains("fixed-position") && !nav.classList.contains("open-nav")) {
-    nav.style.top = `${hellobarHeight + 20}px`;
-}
