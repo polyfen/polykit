@@ -1296,6 +1296,8 @@ nav.open-nav {
 
 nav.position-fixed {
   top: 20px;
+  padding: 16px 28px;
+  border-radius: 200px;
 }
 
 @media (min-width: 768px) {
@@ -1303,8 +1305,9 @@ nav.position-fixed {
     display: none;
   }
   .nav-links {
-    display: inline-block;
+    display: flex;
     background: none;
+    gap: 12px;
   }
   nav {
     display: flex;
