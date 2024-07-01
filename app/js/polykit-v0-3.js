@@ -53,10 +53,10 @@ document.addEventListener("DOMContentLoaded", function () {
 /* Current Page */
 
 document.addEventListener("DOMContentLoaded", function () {
-    let currentPage = window.location.pathname;
+    let currentPage = window.location.href;
     let nav = document.querySelectorAll('header nav a');
     nav.forEach(function(link) {
-        if (link.getAttribute('href').includes(currentPage)) {
+        if (link.getAttribute('href') === currentPage) {
             link.classList.add('current-page');
         }
     });
