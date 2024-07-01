@@ -85,9 +85,7 @@
                 <hr>
 
                 <?php include 'includes/content/home/_atomic-design.php'; ?>
-                <hr>
 
-                <?php include 'includes/content/home/_wordpress-themes.php'; ?>
                 </div>
             </div>
 
@@ -96,6 +94,9 @@
         </main>
 
         <?php include 'includes/_footer.php'; ?>
+
+    <!-- Scripts -->
+    <script defer src="app/js/polykit-v0-3.js"></script>
         
     </body>
 </html>
