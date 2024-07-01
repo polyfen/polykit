@@ -4,8 +4,49 @@
 */
 /* --------------------------------------------------------- */
 
-nav div {
-    text-align: right;
+.nav-buttons {
+    padding: 7px 8px;
+    border-radius: 12px;
+    right: 15px;
+    top: 100px;
+}
+
+.nav-buttons, .nav-links.position-fixed {
+    position: fixed;
+    backdrop-filter: blur(10px);
+    z-index: 90;
+    border: 1px solid;
+}
+
+@media (max-width: 768px) {
+    .nav-links.open-nav {
+        display: grid !important;
+        z-index: 90;
+    }
+    .nav-links.open-nav+.nav-buttons {
+        border: none;
+        z-index: 92;
+    }
+}
+
+.nav-buttons button {
+    all: unset;
+}
+
+.nav-buttons button, .nav-buttons button:hover {
+    box-shadow: none;
+}
+
+.nav-hamburger {
+    display: flex;
+}
+
+.nav-close {
+    display: none !important;
+}
+
+.nav-links {
+    display: none;
 }
 
 @media (min-width: 768px) {
@@ -13,30 +54,28 @@ nav div {
         display: none;
     }
     .nav-links {
-        position: absolute;
-        right: 8px;
-        top: 70px;
-        padding-block: 10px;
-        display: flex;
-        gap: 15px;
-        padding: 15px 28px;
-        border-radius: 200px;
-        text-align: right;
+            display: none;
+            position: fixed;
+            backdrop-filter: blur(10px);
+            top: 0;
+            right: 0px;
+            padding-top: 100px;
+            padding-bottom: 100vh;
+            width: 100%;
+            z-index: 50;
+            text-align: left;
+            background-color: #000000b8;
     }
 }
 
-.nav-links.position-fixed, .nav-buttons {
-    position: fixed;
-    background: #ecf0f37d;
-    backdrop-filter: blur(10px);
-    z-index: 90;
-    border: 1px solid #4f4f581f;
-}
+
 
 @media (min-width: 768px) {
     .nav-links.position-fixed {
         top: 20px;
     }
 }
+
+
 
 /* --------------------------------------------------------- */

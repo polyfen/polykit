@@ -210,7 +210,7 @@ html {
 /* White */
 :root {
   --white: hsl(0, 0%, 100%); /* #FFFFFF */
-  --off-white: hsl(210, 20%, 98%); /* #F9FAFB */
+  --off-white: hsl(222, 38%, 95%); /* #EDF0F7 */
   --white-90pct: hsla(0, 0%, 100%, 0.9);
   --white-80pct: hsla(0, 0%, 100%, 0.8);
   --white-70pct: hsla(0, 0%, 100%, 0.7);
@@ -412,7 +412,7 @@ html {
 /* --------------------------------------------------------- */
 /*///////////// SUBATOMICS/MODES start /////////////*/
 :root {
-  --light-mode-background: var(--slate-050);
+  --light-mode-background: var(--off-white);
   --light-mode-text: var(--black-80pct);
   --dark-mode-background: var(--slate-950);
   --dark-mode-text: var(--white-80pct);
@@ -424,6 +424,16 @@ html :has(body.light-mode), .light-mode {
 
 html :has(body.dark-mode), .dark-mode {
   background: var(--dark-mode-background);
+}
+
+body.light-mode .nav-buttons, body.light-mode .nav-links.position-fixed {
+  background: var(--light-mode-background);
+  border-color: var(--black-20pct);
+}
+
+body.dark-mode .nav-buttons, body.dark-mode .nav-links.position-fixed {
+  background: var(--dark-mode-background);
+  border-color: var(--white-20pct);
 }
 
 html :has(body.light-mode), .light-mode h1, .light-mode h2, .light-mode h3, .light-mode h4, .light-mode h5, .light-mode h6 {
@@ -1205,8 +1215,48 @@ p code {
 
 */
 /* --------------------------------------------------------- */
-nav div {
-  text-align: right;
+.nav-buttons {
+  padding: 7px 8px;
+  border-radius: 12px;
+  right: 15px;
+  top: 100px;
+}
+
+.nav-buttons, .nav-links.position-fixed {
+  position: fixed;
+  backdrop-filter: blur(10px);
+  z-index: 90;
+  border: 1px solid;
+}
+
+@media (max-width: 768px) {
+  .nav-links.open-nav {
+    display: grid !important;
+    z-index: 90;
+  }
+  .nav-links.open-nav + .nav-buttons {
+    border: none;
+    z-index: 92;
+  }
+}
+.nav-buttons button {
+  all: unset;
+}
+
+.nav-buttons button, .nav-buttons button:hover {
+  box-shadow: none;
+}
+
+.nav-hamburger {
+  display: flex;
+}
+
+.nav-close {
+  display: none !important;
+}
+
+.nav-links {
+  display: none;
 }
 
 @media (min-width: 768px) {
@@ -1214,25 +1264,19 @@ nav div {
     display: none;
   }
   .nav-links {
-    position: absolute;
-    right: 8px;
-    top: 70px;
-    padding-block: 10px;
-    display: flex;
-    gap: 15px;
-    padding: 15px 28px;
-    border-radius: 200px;
-    text-align: right;
+    display: none;
+    position: fixed;
+    backdrop-filter: blur(10px);
+    top: 0;
+    right: 0px;
+    padding-top: 100px;
+    padding-bottom: 100vh;
+    width: 100%;
+    z-index: 50;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.7215686275);
   }
 }
-.nav-links.position-fixed, .nav-buttons {
-  position: fixed;
-  background: rgba(236, 240, 243, 0.4901960784);
-  backdrop-filter: blur(10px);
-  z-index: 90;
-  border: 1px solid rgba(79, 79, 88, 0.1215686275);
-}
-
 @media (min-width: 768px) {
   .nav-links.position-fixed {
     top: 20px;

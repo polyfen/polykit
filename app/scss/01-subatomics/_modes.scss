@@ -14,7 +14,7 @@
 
 
 :root {
-    --light-mode-background: var(--slate-050);
+    --light-mode-background: var(--off-white);
     --light-mode-text: var(--black-80pct);
     
     --dark-mode-background: var(--slate-950);
@@ -27,6 +27,16 @@ html :has(body.light-mode), .light-mode {
 
 html :has(body.dark-mode), .dark-mode {
     background: var(--dark-mode-background);
+}
+
+body.light-mode .nav-buttons, body.light-mode .nav-links.position-fixed {
+    background: var(--light-mode-background);
+    border-color: var(--black-20pct);
+}
+
+body.dark-mode .nav-buttons, body.dark-mode .nav-links.position-fixed {
+    background: var(--dark-mode-background);
+    border-color: var(--white-20pct);
 }
 
 html :has(body.light-mode), .light-mode h1, .light-mode h2, .light-mode h3, .light-mode h4, .light-mode h5, .light-mode h6 {
