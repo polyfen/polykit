@@ -211,6 +211,7 @@ html {
 :root {
   --white: hsl(0, 0%, 100%); /* #FFFFFF */
   --off-white: hsl(222, 38%, 95%); /* #EDF0F7 */
+  --off-white-70pct: hsl(222, 38%, 95%, 0.7); /* #EDF0F7 */
   --white-90pct: hsla(0, 0%, 100%, 0.9);
   --white-80pct: hsla(0, 0%, 100%, 0.8);
   --white-70pct: hsla(0, 0%, 100%, 0.7);
@@ -413,8 +414,10 @@ html {
 /*///////////// SUBATOMICS/MODES start /////////////*/
 :root {
   --light-mode-background: var(--off-white);
+  --light-mode-background-70pct: var(--off-white-70pct);
   --light-mode-text: var(--black-80pct);
   --dark-mode-background: var(--slate-950);
+  --dark-mode-background-70pct: var(--slate-950-70pct);
   --dark-mode-text: var(--white-80pct);
 }
 
@@ -428,32 +431,24 @@ html :has(body.dark-mode), .dark-mode {
 
 @media screen and (max-width: 767px) {
   body.light-mode nav {
-    background: var(--light-mode-background);
+    background: var(--light-mode-background-70pct);
     border-color: var(--black-20pct);
   }
   body.dark-mode nav {
-    background: var(--dark-mode-background);
+    background: var(--dark-mode-background-70pct);
     border-color: var(--white-20pct);
   }
 }
 @media screen and (min-width: 768px) {
   body.light-mode nav.position-fixed {
-    background: var(--light-mode-background);
+    background: var(--light-mode-background-70pct);
     border-color: var(--black-20pct);
   }
   body.dark-mode nav.position-fixed {
-    background: var(--dark-mode-background);
+    background: var(--dark-mode-background-70pct);
     border-color: var(--white-20pct);
   }
 }
-body.dark-mode .open-nav {
-  background-color: var(--dark-mode-background);
-}
-
-body.light-mode .open-nav {
-  background-color: var(--light-mode-background);
-}
-
 html :has(body.light-mode), .light-mode h1, .light-mode h2, .light-mode h3, .light-mode h4, .light-mode h5, .light-mode h6 {
   color: black;
 }
