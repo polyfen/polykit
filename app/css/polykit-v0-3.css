@@ -442,11 +442,11 @@ html :has(body.dark-mode), .dark-mode {
 @media screen and (min-width: 768px) {
   body.light-mode nav.position-fixed {
     background: var(--light-mode-background-70pct);
-    border-color: var(--black-20pct);
+    border: 1px solid var(--black-20pct);
   }
   body.dark-mode nav.position-fixed {
     background: var(--dark-mode-background-70pct);
-    border-color: var(--white-20pct);
+    border: 1px solid var(--white-20pct);
   }
 }
 html :has(body.light-mode), .light-mode h1, .light-mode h2, .light-mode h3, .light-mode h4, .light-mode h5, .light-mode h6 {
@@ -1231,7 +1231,6 @@ p code {
 nav {
   z-index: 100;
   backdrop-filter: blur(10px);
-  border: 1px solid;
   position: fixed;
   padding: 7px 8px;
   border-radius: 12px;

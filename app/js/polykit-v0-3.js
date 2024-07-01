@@ -14,7 +14,7 @@ navCloser.addEventListener('click', () => {
 /* Agrega el .position-fixed al nav */
 
 document.addEventListener("DOMContentLoaded", function () {
-    let nav = document.querySelector(".nav-links");
+    let nav = document.querySelector('nav');
     if (nav) {
         let buttons = document.querySelector(".nav-buttons");
         let body = document.querySelector("body");
