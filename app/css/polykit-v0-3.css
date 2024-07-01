@@ -924,10 +924,108 @@ p a:hover, li a:hover, small a:hover, a:hover small {
 
 */
 /* --------------------------------------------------------- */
-[data-before] {
+/* hashtag for help channel */
+.slack-logo {
+  width: 20px;
+  height: auto;
+  margin-right: 2px;
+}
+
+/* data icons => data-icon | data-emoji<⚓> | data-marker | data-before<span||a> */
+/* li icons for team-wiki */
+[data-icon=clockify] {
+  list-style-image: url(../imgs/icons/bullets/clockify.svg);
+}
+
+[data-icon=slack] {
+  list-style-image: url(../imgs/icons/bullets/slack.svg);
+}
+
+[data-icon=drive] {
+  list-style-image: url(../imgs/icons/bullets/drive.svg);
+}
+
+[data-icon=figma] {
+  list-style-image: url(../imgs/icons/bullets/figma.svg);
+}
+
+[data-icon=github] {
+  list-style-image: url(../imgs/icons/bullets/github.svg);
+}
+
+[data-icon=namecheap] {
+  list-style-image: url(../imgs/icons/bullets/namecheap.svg);
+}
+
+[data-icon=freshbooks] {
+  list-style-image: url(../imgs/icons/bullets/freshbooks.svg);
+}
+
+[data-icon=asana] {
+  list-style-image: url(../imgs/icons/bullets/asana.svg);
+}
+
+[data-icon=wise] {
+  list-style-image: url(../imgs/icons/bullets/wise.svg);
+}
+
+[data-icon="1password"] {
+  list-style-image: url(../imgs/icons/bullets/1password.svg);
+}
+
+/* data-types para poner EMOJIS en elementos (<span> || <a>)::before */
+[data-emoji=anchor]::before {
+  content: "⚓";
+  display: inline-block;
   text-decoration: none;
 }
 
+[data-emoji=link]::before {
+  content: "🔗";
+  display: inline-block;
+  text-decoration: none;
+}
+
+[data-emoji=megaphone]::before {
+  content: "📣";
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* bullets markers for -"4.2 channels" on /teamwiki */
+/* li{list-style-type:"🌴" == li:market{content:"🌴" */
+/*general*/
+.wiki-team_messaging-general li:nth-of-type(1)::marker {
+  content: "📣";
+}
+
+.wiki-team_messaging-general li:nth-of-type(2)::marker {
+  content: "🙋";
+}
+
+.wiki-team_messaging-general li:nth-of-type(3)::marker {
+  content: "🌴";
+}
+
+.wiki-team_messaging-general li:nth-of-type(4)::marker {
+  content: "👨‍💻";
+}
+
+.wiki-team_messaging-general li:nth-of-type(5)::marker {
+  content: "🚀";
+}
+
+/*education*/
+.wiki-team_messaging-education li:nth-of-type(1)::marker {
+  content: "🎨";
+}
+
+.wiki-team_messaging-education li:nth-of-type(2)::marker {
+  content: "📐";
+}
+
+/* DATA-BEFORE*/
+/* data-types para poner .SVG::before a elementos (<span> || <a>) */
 [data-before]::before {
   content: "";
   display: inline-block;
@@ -940,15 +1038,91 @@ p a:hover, li a:hover, small a:hover, a:hover small {
   background-repeat: no-repeat;
 }
 
-[data-before=file-code]::before {
-  background-image: url(imgs/icons/file-code-fill.svg);
+[data-before=plfn]::before {
+  background-image: url(../imgs/icons/brand-icons/polyfen-icon.svg);
 }
 
-[data-emoji=link]::before {
-  content: "🔗";
-  display: inline-block;
+[data-before=plkt]::before {
+  background-image: url(../imgs/icons/brand-icons/polykit-icon.svg);
+}
+
+[data-before=plqr]::before {
+  background-image: url(../imgs/icons/brand-icons/polyqwerty-icon.svg);
+}
+
+[data-before=plat]::before {
+  background-image: url(../imgs/icons/brand-icons/polyatlas-icon.svg);
+}
+
+[data-before=plck]::before {
+  background-image: url(../imgs/icons/brand-icons/polycookies-icon.svg);
+}
+
+/* others */
+[data-before=github]::before {
+  background-image: url(../imgs/icons/bullets/github.svg);
+}
+
+[data-before=slack]::before {
+  background-image: url(../imgs/icons/bullets/slack.svg);
+}
+
+[data-before=wise]::before {
+  background-image: url(../imgs/icons/bullets/wise.svg);
+}
+
+[data-before=drive]::before {
+  background-image: url(../imgs/icons/bullets/drive.svg);
+}
+
+[data-before=bh]::before {
+  background-image: url(../imgs/icons/BH.svg);
+}
+
+/* data-types para poner .SVG 'as a ::marker' en los <li> */
+/* DATA-MARKER !!! */
+ul:has(li[data-marker]) {
+  list-style: none;
+}
+
+li[data-marker] {
+  position: relative;
+}
+
+[data-marker]::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -30px;
+  height: 25px;
+  width: 27px;
   text-decoration: none;
-  margin-right: 8px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+[data-marker=plfn]::before {
+  background-image: url(../imgs/icons/brand-icons/polyfen-icon.svg);
+}
+
+[data-marker=plat]::before {
+  background-image: url(../imgs/icons/brand-icons/polyatlas-icon.svg);
+}
+
+[data-marker=plqr]::before {
+  background-image: url(../imgs/icons/brand-icons/polyqwerty-icon.svg);
+}
+
+[data-marker=plck]::before {
+  background-image: url(../imgs/icons/brand-icons/polycookies-icon.svg);
+}
+
+[data-marker=plkt]::before {
+  background-image: url(../imgs/icons/brand-icons/polykit-icon.svg);
+}
+
+[data-marker=plpr]::before {
+  background-image: url(../imgs/icons/brand-icons/polypress-icon.svg);
 }
 
 /* --------------------------------------------------------- */
