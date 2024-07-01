@@ -1323,7 +1323,7 @@ nav a.current-page {
 /* 04-ORGANISMS */
 .hellobar {
   margin-top: 0;
-  padding: 12px 15px 14px;
+  padding: 12px 15px 12px;
   text-align: center;
   background: var(--accent-color-800);
   border-bottom: 8px solid var(--accent-color);
@@ -1335,6 +1335,19 @@ nav a.current-page {
   align-items: center;
   justify-content: center;
   gap: 8px;
+}
+
+.hellobar-container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.hellobar .button {
+  margin: 0;
 }
 
 body:has(.hellobar) {
