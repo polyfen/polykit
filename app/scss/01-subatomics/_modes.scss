@@ -29,14 +29,37 @@ html :has(body.dark-mode), .dark-mode {
     background: var(--dark-mode-background);
 }
 
-body.light-mode .nav-buttons, body.light-mode .nav-links.position-fixed {
-    background: var(--light-mode-background);
-    border-color: var(--black-20pct);
+@media screen and (max-width: 767px) {
+    body.light-mode nav {
+        background: var(--light-mode-background);
+        border-color: var(--black-20pct);
+    }
+
+    body.dark-mode nav {
+        background: var(--dark-mode-background);
+        border-color: var(--white-20pct);
+    }
 }
 
-body.dark-mode .nav-buttons, body.dark-mode .nav-links.position-fixed {
-    background: var(--dark-mode-background);
-    border-color: var(--white-20pct);
+@media screen and (min-width: 768px) {
+
+    body.light-mode nav.position-fixed {
+        background: var(--light-mode-background);
+        border-color: var(--black-20pct);
+    }
+
+    body.dark-mode nav.position-fixed {
+        background: var(--dark-mode-background);
+        border-color: var(--white-20pct);
+    }
+}
+
+body.dark-mode .open-nav {
+    background-color: var(--dark-mode-background);
+}
+
+body.light-mode .open-nav {
+    background-color: var(--light-mode-background);
 }
 
 html :has(body.light-mode), .light-mode h1, .light-mode h2, .light-mode h3, .light-mode h4, .light-mode h5, .light-mode h6 {

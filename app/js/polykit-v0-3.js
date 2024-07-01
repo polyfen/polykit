@@ -2,13 +2,13 @@
 
 const navOpener = document.querySelector('.nav-hamburger')
 const navCloser = document.querySelector('.nav-close')
-const navLinks = document.querySelector('.nav-links')
+const nav = document.querySelector('nav')
 
 navOpener.addEventListener('click', () => {
-    navLinks.classList.add('open-nav')
+    nav.classList.add('open-nav')
 })
 navCloser.addEventListener('click', () => {
-    navLinks.classList.remove('open-nav')
+    nav.classList.remove('open-nav')
 })
 
 /* Agrega el .position-fixed al nav */

@@ -426,14 +426,32 @@ html :has(body.dark-mode), .dark-mode {
   background: var(--dark-mode-background);
 }
 
-body.light-mode .nav-buttons, body.light-mode .nav-links.position-fixed {
-  background: var(--light-mode-background);
-  border-color: var(--black-20pct);
+@media screen and (max-width: 767px) {
+  body.light-mode nav {
+    background: var(--light-mode-background);
+    border-color: var(--black-20pct);
+  }
+  body.dark-mode nav {
+    background: var(--dark-mode-background);
+    border-color: var(--white-20pct);
+  }
+}
+@media screen and (min-width: 768px) {
+  body.light-mode nav.position-fixed {
+    background: var(--light-mode-background);
+    border-color: var(--black-20pct);
+  }
+  body.dark-mode nav.position-fixed {
+    background: var(--dark-mode-background);
+    border-color: var(--white-20pct);
+  }
+}
+body.dark-mode .open-nav {
+  background-color: var(--dark-mode-background);
 }
 
-body.dark-mode .nav-buttons, body.dark-mode .nav-links.position-fixed {
-  background: var(--dark-mode-background);
-  border-color: var(--white-20pct);
+body.light-mode .open-nav {
+  background-color: var(--light-mode-background);
 }
 
 html :has(body.light-mode), .light-mode h1, .light-mode h2, .light-mode h3, .light-mode h4, .light-mode h5, .light-mode h6 {
@@ -1212,38 +1230,38 @@ p code {
 /* 03-MOLECULES */
 /* --------------------------------------------------------- */
 /* 
-
+    Nav Styles
 */
 /* --------------------------------------------------------- */
-.nav-buttons {
+nav {
+  z-index: 100;
+  backdrop-filter: blur(10px);
+  border: 1px solid;
+  position: fixed;
   padding: 7px 8px;
   border-radius: 12px;
   right: 15px;
   top: 100px;
 }
 
-.nav-buttons, .nav-links.position-fixed {
+nav.open-nav {
   position: fixed;
-  backdrop-filter: blur(10px);
-  z-index: 90;
-  border: 1px solid;
+  top: 0;
+  right: 0px;
+  padding-top: 100px;
+  padding-bottom: 100vh;
+  width: 100%;
+  border: none;
+  border-radius: 0;
 }
 
-@media (max-width: 768px) {
-  .nav-links.open-nav {
-    display: grid !important;
-    z-index: 90;
-  }
-  .nav-links.open-nav + .nav-buttons {
-    border: none;
-    z-index: 92;
-  }
+.nav-links {
+  display: none;
+  text-align: left;
 }
+
 .nav-buttons button {
   all: unset;
-}
-
-.nav-buttons button, .nav-buttons button:hover {
   box-shadow: none;
 }
 
@@ -1255,8 +1273,30 @@ p code {
   display: none !important;
 }
 
-.nav-links {
+.open-nav .nav-hamburger {
   display: none;
+}
+.open-nav .nav-close {
+  display: block !important;
+  position: fixed;
+  top: 32px;
+  right: 32px;
+}
+.open-nav .nav-links {
+  display: grid !important;
+  z-index: 90;
+  font-size: 2.5rem;
+}
+.open-nav .nav-links a {
+  margin: 8px 16px;
+}
+.open-nav .nav-buttons {
+  border: none;
+  top: 20px;
+}
+
+nav.position-fixed {
+  top: 20px;
 }
 
 @media (min-width: 768px) {
@@ -1264,22 +1304,13 @@ p code {
     display: none;
   }
   .nav-links {
-    display: none;
-    position: fixed;
-    backdrop-filter: blur(10px);
-    top: 0;
-    right: 0px;
-    padding-top: 100px;
-    padding-bottom: 100vh;
-    width: 100%;
-    z-index: 50;
-    text-align: left;
-    background-color: rgba(0, 0, 0, 0.7215686275);
+    display: inline-block;
+    background: none;
   }
-}
-@media (min-width: 768px) {
-  .nav-links.position-fixed {
-    top: 20px;
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 /* --------------------------------------------------------- */
