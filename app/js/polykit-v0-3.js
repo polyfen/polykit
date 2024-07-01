@@ -55,11 +55,11 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
     let currentPage = window.location.pathname;
     let nav = document.querySelectorAll('header nav a');
-    nav.forEach(link => {
-        if (link.getAttribute('href') === currentPage) {
+    nav.forEach(function(link) {
+        if (link.getAttribute('href').includes(currentPage)) {
             link.classList.add('current-page');
         }
-    })
+    });
 });
 
 /* End Current Page */
