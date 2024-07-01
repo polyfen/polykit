@@ -36,11 +36,11 @@ button, .button {
 }
 
 .light-mode .secondary-button {
-    color: black;
+    color: black !important;
 }
 
 .dark-mode .secondary-button {
-    color: white;
+    color: white !important;
 }
 
 .cta-button {

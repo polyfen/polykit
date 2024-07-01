@@ -1215,6 +1215,14 @@ button, .button {
   background: none !important;
 }
 
+.light-mode .secondary-button {
+  color: black !important;
+}
+
+.dark-mode .secondary-button {
+  color: white !important;
+}
+
 .cta-button {
   box-shadow: 0 0 4px var(--accent-color);
   animation: gradient 7s infinite;
