@@ -16,7 +16,6 @@ navCloser.addEventListener('click', () => {
 document.addEventListener("DOMContentLoaded", function () {
     let nav = document.querySelector('nav');
     if (nav) {
-        let buttons = document.querySelector(".nav-buttons");
         let body = document.querySelector("body");
         
         window.addEventListener("scroll", function () {
@@ -31,12 +30,12 @@ document.addEventListener("DOMContentLoaded", function () {
             }
     
             if (scroll >= 60) {
-                buttons.style.top = '18px';
+                nav.style.top = '20px';
             } else {
                 if (body.classList.contains("landing-page")) {
-                    buttons.style.top = '18px';
+                    nav.style.top = '20px';
                 } else {
-                    buttons.style.top = '120px';
+                    nav.style.top = '120px';
                 }
             }
         });
@@ -58,3 +57,10 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 /* End Current Page */
+
+
+const hellobar = document.querySelector('.hellobar');
+const hellobarHeight = hellobar.offsetHeight;
+if (!nav.classList.contains("fixed-position") && !nav.classList.contains("open-nav")) {
+    nav.style.top = `${hellobarHeight + 20}px`;
+}
