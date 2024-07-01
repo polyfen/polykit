@@ -56,7 +56,7 @@
 
     </head>
 
-    <body class="dark-mode docs-theme">
+    <body class="dark-mode docs-theme polykit-site">
 
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5ZXG85V7" height="0" width="0"

@@ -64,7 +64,7 @@
 
     </head>
 
-    <body class="dark-mode site home">
+    <body class="dark-mode polykit-site home">
 
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5ZXG85V7"

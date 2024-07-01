@@ -4,18 +4,13 @@
 */
 /* --------------------------------------------------------- */
 
-body.site h2 strong {
-    background-image: var(--accent-gradient);
-    padding: 0 0.25rem;
+.polykit-site {
+    --dark-mode-background: var(--blue-900);
 }
 
-body.site header {
-    padding: 2rem;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-between;
-    align-items: flex-start;
+.polykit-site{
+    background: url('../../imgs/site/grid-pattern.png') no-repeat top center, #0B0E28;
+    background-size: unset;
 }
 
 .type-demo-margin {
@@ -132,171 +127,6 @@ main.demo {
     padding-top: 7rem;
 }
 
-/* Temporary fix for responsive styles */
-
-@media (max-width: 768px) {
-    body.site nav, body.site aside {
-        display: none;
-    }
-}
-
-
-body.site div.two-col {
-    display: flex;
-    gap: 40px;
-}
-
-@media (max-width: 768px) {
-    body.site div.two-col {
-        flex-direction: column;
-    }
-}
-
-
-body.site aside {
-    padding-left: 2rem;
-    position: fixed;
-}
-
-body.site aside ul {
-    padding-left: 0;
-}
-
-body.site aside ul ul {
-    padding-left: 1.5rem;
-}
-
-body.site aside {
-    float: left;
-}
-
-body.site aside ul li::before {
-    display: none;
-}
-
-body.site aside ul li a {
-    border-bottom: none;
-    font-size: 1rem;
-    line-height: 0;
-}
-
-body.site aside ul ul {
-    opacity: 0.6;
-    padding-left: 1.25rem;
-}
-
-body.site div.color-wrapper {
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-    flex-wrap: wrap;
-}
-
-body.site div.color-swatches-container {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-body.site div.color-swatches-container div {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
-
-body.site div.color-swatch {
-    height: 120px;
-    width: 80px;
-    display: block;
-    border-radius: 4px;
-}
-
-
-div.color-swatch.blue-100 {
-    background: var(--blue-100);
-}
-
-div.color-swatch.blue-200 {
-    background: var(--blue-200);
-}
-
-div.color-swatch.blue-300 {
-    background: var(--blue-300);
-}
-
-div.color-swatch.blue-400 {
-    background: var(--blue-400);
-}
-
-div.color-swatch.blue-500 {
-    background: var(--blue-500);
-}
-
-div.color-swatch.blue-600 {
-    background: var(--blue-600);
-}
-
-div.color-swatch.blue-700 {
-    background: var(--blue-700);
-}
-
-div.color-swatch.blue-800 {
-    background: var(--blue-800);
-}
-
-div.color-swatch.blue-900 {
-    background: var(--blue-900);
-}
-
-div.color-swatch.blue-90pct {
-    background: var(--blue-90pct);
-}
-
-div.color-swatch.blue-80pct {
-    background: var(--blue-80pct);
-}
-
-div.color-swatch.blue-70pct {
-    background: var(--blue-70pct);
-}
-
-div.color-swatch.blue-60pct {
-    background: var(--blue-60pct);
-}
-
-div.color-swatch.blue-50pct {
-    background: var(--blue-50pct);
-}
-
-div.color-swatch.blue-40pct {
-    background: var(--blue-40pct);
-}
-
-div.color-swatch.blue-30pct {
-    background: var(--blue-30pct);
-}
-
-div.color-swatch.blue-20pct {
-    background: var(--blue-20pct);
-}
-
-div.color-swatch.blue-10pct {
-    background: var(--blue-10pct);
-}
-
-div.color-swatch.blue-gradient-start {
-    background: var(--blue-gradient-start);
-}
-
-div.color-swatch.blue-gradient-end {
-    background: var(--blue-gradient-end);
-}
-
-div.color-swatch.blue-gradient {
-    background-image: var(--blue-gradient);
-}
-
-
 div.components-demo {
     display: flex;
     padding: 2rem;
@@ -321,26 +151,11 @@ div.mailchimp-form-container div.mc-field-group label, div.mailchimp-form-contai
     margin: 0 auto;
 }
 
-html :has(body.site) , body.site {
-    background: #0e112a;
-}
-
 /* --------------------------------------------------------- */
 
 
-body.site header div {
-        position: absolute;
-        left: calc(50vw - 80px);
-}
-
-
-body.site.home h1 {
+.home h1 {
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
-}
-
-body.site {
-    background: url('../../imgs/site/grid-pattern.png') no-repeat top center, #0B0E28;
-    background-size: unset;
 }
