@@ -1792,6 +1792,7 @@ body.docs-theme .preview figure img {
 }
 body.docs-theme main img, body.docs-theme iframe {
   margin-bottom: 2rem;
+  max-width: 100%;
 }
 body.docs-theme main img {
   display: inline-block;
