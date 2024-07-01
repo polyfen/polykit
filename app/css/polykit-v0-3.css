@@ -1212,15 +1212,8 @@ button, .button {
 
 .secondary-button {
   border: 3px solid var(--accent-color);
+  color: var(--accent-color);
   background: none !important;
-}
-
-.light-mode .secondary-button {
-  color: black !important;
-}
-
-.dark-mode .secondary-button {
-  color: white !important;
 }
 
 .cta-button {
