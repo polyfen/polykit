@@ -73,11 +73,11 @@ html :has(body.dark-mode), .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mo
 }
 
 .light-mode hr {
-    border-color: rgba(0, 0, 0, 0.04);
+    border-color: var(--black-20pct);
 }
 
 .dark-mode hr {
-    border-color: hsl(233deg 14% 24% / 42%);
+    border-color: var(--white-20pct);
 }
 
 .light-mode a:not(.button) {
