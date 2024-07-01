@@ -34,12 +34,12 @@ html :has(body.dark-mode), .dark-mode {
 @media screen and (max-width: 767px) {
     body.light-mode nav {
         background: var(--light-mode-background-70pct);
-        border-color: var(--black-20pct);
+        border: 1px solid var(--black-20pct);
     }
 
     body.dark-mode nav {
         background: var(--dark-mode-background-70pct);
-        border-color: var(--white-20pct);
+        border: 1px solid var(--white-20pct);
     }
 }
 
