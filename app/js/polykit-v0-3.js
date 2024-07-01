@@ -3,6 +3,7 @@
 const navOpener = document.querySelector('.nav-hamburger')
 const navCloser = document.querySelector('.nav-close')
 const nav = document.querySelector('nav')
+const navLinks = document.querySelector('.nav-links')
 
 navOpener.addEventListener('click', () => {
     nav.classList.add('open-nav')
@@ -53,13 +54,13 @@ document.addEventListener("DOMContentLoaded", function () {
 /* Current Page */
 
 document.addEventListener("DOMContentLoaded", function () {
-    let currentPage = window.location.href;
-    let navLinks = document.querySelectorAll('header nav a');
+    let currentPage = window.location.pathname;
+    let navLinks = document.querySelectorAll('nav a');
     navLinks.forEach(link => {
         if (link.getAttribute('href') === currentPage) {
             link.classList.add('current-page');
         }
-    });
+    })
 });
 
 /* End Current Page */
