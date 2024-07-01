@@ -1747,7 +1747,7 @@ body.docs-theme .table-of-contents a {
 body.docs-theme main {
   grid-area: main;
   margin-inline: unset;
-  width: clamp(100% - 32px, 760px, 61vw);
+  width: 800px;
   padding: 80px 0;
 }
 body.docs-theme .cover {

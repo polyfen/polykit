@@ -69,9 +69,9 @@ body.docs-theme {
     main {
         grid-area: main;
         margin-inline: unset;
-        width: clamp(calc(100% - 32px), 760px, 61vw);
+        width: clamp(359px, 800px, 900px);
         padding: 80px 0;
-}
+    }
 
     .cover {
         display: flex;
