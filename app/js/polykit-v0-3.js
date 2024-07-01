@@ -54,8 +54,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
     let currentPage = window.location.pathname;
-    let navLinks = document.querySelectorAll('header nav a');
-    navLinks.forEach(link => {
+    let nav = document.querySelectorAll('header nav a');
+    nav.forEach(link => {
         if (link.getAttribute('href') === currentPage) {
             link.classList.add('current-page');
         }

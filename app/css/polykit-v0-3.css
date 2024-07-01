@@ -1315,6 +1315,10 @@ nav.position-fixed {
     justify-content: space-between;
   }
 }
+nav a.current-page {
+  opacity: 0.5;
+}
+
 /* --------------------------------------------------------- */
 /* 04-ORGANISMS */
 .hellobar {
