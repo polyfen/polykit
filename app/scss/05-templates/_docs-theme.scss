@@ -72,13 +72,8 @@ body.docs-theme {
         padding-right: 10px; 
         padding-top: 80px;
         padding-inline: 16px;
-    }
-
-    @media (min-width: 768px) {
-        main {
-            width: clamp(350px, 760px, 61vw);
-        }
-    }
+        width: clamp(350px, 760px, 61vw);
+}
 
     .cover {
         display: flex;

@@ -1750,11 +1750,7 @@ body.docs-theme main {
   padding-right: 10px;
   padding-top: 80px;
   padding-inline: 16px;
-}
-@media (min-width: 768px) {
-  body.docs-theme main {
-    width: clamp(350px, 760px, 61vw);
-  }
+  width: clamp(350px, 760px, 61vw);
 }
 body.docs-theme .cover {
   display: flex;
