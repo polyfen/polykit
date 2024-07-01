@@ -1281,6 +1281,7 @@ nav.open-nav {
   display: grid !important;
   z-index: 90;
   font-size: 2.5rem;
+  font-weight: 600;
 }
 .open-nav .nav-links a {
   margin: 8px 16px;
