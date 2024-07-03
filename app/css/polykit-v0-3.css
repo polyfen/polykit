@@ -1440,6 +1440,12 @@ p code {
   position: relative;
 }
 
+.featured-card .card-header {
+  background-image: linear-gradient(45deg, #722FFF, #4b00ae, #d12b94, #722FFF, #4b00ae);
+  background-size: 200% 200%;
+  animation: gradient 12s infinite;
+}
+
 .card-header h3 {
   margin-bottom: 0;
   font-weight: 700;
