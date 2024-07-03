@@ -29,6 +29,10 @@ main ul li::before {
     content: "➜";
 }
 
+ul.checkmark-bullet li::before {
+    content: "✓";
+}
+
 .spaced-list li {
     margin-bottom: 1.2rem;
 }
