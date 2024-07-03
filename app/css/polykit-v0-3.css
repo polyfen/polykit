@@ -1827,6 +1827,14 @@ body.docs-theme main img {
   display: inline-block;
 }
 
+li.wp-block-post::before {
+  content: "";
+}
+
+div.wp-site-blocks nav {
+  display: none;
+}
+
 .polyfen-site {
   --accent-color-h: 259;
   --accent-color-s: 100%;
