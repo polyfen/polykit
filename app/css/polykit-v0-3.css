@@ -1440,6 +1440,20 @@ p code {
   position: relative;
 }
 
+.card-header h3 {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.card-header h4 {
+  font-weight: 400;
+  display: inline;
+}
+
+.card-header small.caption {
+  opacity: 0.6;
+}
+
 .card-body {
   display: flex;
   flex-direction: column;
