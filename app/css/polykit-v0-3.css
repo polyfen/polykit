@@ -651,7 +651,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--display-font-family), var(--sans-fallback-fonts);
 }
 
-p, p a, li, li a, p strong, p span, li strong, th, td {
+p, li, p strong, p span, li strong, th, td {
   font-family: var(--body-text-font-family), var(--serif-fallback-fonts);
 }
 
