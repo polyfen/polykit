@@ -1476,6 +1476,14 @@ p code {
   margin-bottom: 0.35rem;
 }
 
+.card-label {
+  position: absolute;
+  inset: 12px 12px auto auto;
+  padding: 6px 16px 4px;
+  background: rgba(6, 9, 36, 0.41);
+  border-radius: 4px;
+}
+
 /* --------------------------------------------------------- */
 /* 
     Nav Styles
