@@ -1171,6 +1171,10 @@ main ul li::before {
   content: "➜";
 }
 
+ul.checkmark-bullet li::before {
+  content: "✓";
+}
+
 .spaced-list li {
   margin-bottom: 1.2rem;
 }
@@ -1417,6 +1421,41 @@ p code {
 }
 
 /* 03-MOLECULES */
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(116, 55, 248, 0.3137254902);
+  background: #120e32;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  flex: 1;
+  width: 300px;
+  margin-inline: auto;
+}
+
+.card-header {
+  background: #391E81;
+  padding: 16px;
+  border-radius: 6px 6px 0 0;
+  position: relative;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding-block: 24px 16px;
+  padding-inline: 16px;
+}
+
+.card li {
+  font-family: var(--captions-font-family);
+  text-wrap: balance;
+  font-size: 1rem;
+  margin-bottom: 0.35rem;
+}
+
 /* --------------------------------------------------------- */
 /* 
     Nav Styles
