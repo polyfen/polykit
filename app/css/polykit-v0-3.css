@@ -1831,10 +1831,6 @@ li.wp-block-post::before {
   content: "";
 }
 
-div.wp-site-blocks header nav {
-  display: none;
-}
-
 .polyfen-site {
   --accent-color-h: 259;
   --accent-color-s: 100%;
