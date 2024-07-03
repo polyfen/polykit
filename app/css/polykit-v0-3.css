@@ -1831,7 +1831,7 @@ li.wp-block-post::before {
   content: "";
 }
 
-div.wp-site-blocks nav {
+div.wp-site-blocks header nav {
   display: none;
 }
 
