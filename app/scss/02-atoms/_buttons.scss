@@ -38,13 +38,13 @@ button:hover, a.button:hover, input.button:hover {
 
 .dark-mode {
     button:hover, a.button:hover, input.button:hover {
-        box-shadow: 0 0 8px 0px var(--accent-color), 0 8px 4px -4px black;
+        box-shadow: 0 0 8px 0px var(--accent-color), 0 8px 4px -4px rgba(0, 0, 0, 0.4);
     }
 }
 
 .light-mode {
     button:hover, a.button:hover, input.button:hover {
-        box-shadow: 0 0 8px 0px var(--accent-color), 0 8px 4px -4px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 0 8px 0px var(--accent-color), 0 8px 4px -4px rgba(0, 0, 0, 0.2);
     }
 }
 
