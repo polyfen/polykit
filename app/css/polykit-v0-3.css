@@ -1223,7 +1223,7 @@ button, .button {
   max-width: 100%;
   margin: 1rem auto;
   padding: 1rem 1.4rem;
-  border: 3px solid var(--accent-color);
+  border: none;
   border-radius: 900px;
   background-color: var(--accent-color);
   color: hsl(0, 0%, 100%);
@@ -1277,10 +1277,9 @@ button i.icon {
 
 /* :hover */
 button:hover, a.button:hover, input.button:hover {
-  box-shadow: 0 0 10px var(--accent-color);
+  box-shadow: 0 0 10px 2px var(--accent-color);
   text-decoration: none;
   transition: 0s;
-  border: 3px solid var(--accent-color-900);
 }
 
 button.secondary-button:hover, a.button.secondary-button:hover, input.button.secondary-button:hover {
