@@ -553,9 +553,11 @@ html :has(body.dark-mode), .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mo
   --accent-color-h: var(--blue-h);
   --accent-color-s: var(--blue-s);
   --accent-color-l: var(--blue-l);
+  --accent-color-l-100: 90%;
   --accent-color-l-800: 20%;
   --accent-color-l-900: 10%;
   --accent-color: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l));
+  --accent-color-100: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l-100));
   --accent-color-800: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l-800));
   --accent-color-900: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l-900));
   --accent-color-50pct: hsla(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.5);
@@ -1233,8 +1235,15 @@ button, .button {
 
 .secondary-button {
   border: 3px solid var(--accent-color);
-  color: var(--accent-color);
-  background: none !important;
+}
+
+.dark-mode .secondary-button {
+  background: var(--accent-color-900);
+}
+
+.light-mode .secondary-button {
+  color: black;
+  background: var(--accent-color-100);
 }
 
 .cta-button {

@@ -32,8 +32,15 @@ button, .button {
 
 .secondary-button {
     border: 3px solid var(--accent-color);
-    color: var(--accent-color);
-    background: none !important;
+}
+
+.dark-mode .secondary-button {
+    background: var(--accent-color-900);
+}
+
+.light-mode .secondary-button {
+    color: black;
+    background: var(--accent-color-100);
 }
 
 .cta-button {
