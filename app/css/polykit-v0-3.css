@@ -1278,15 +1278,22 @@ button i.icon {
 
 /* :hover */
 button:hover, a.button:hover, input.button:hover {
-  box-shadow: 0 0 8px 0px var(--accent-color), 0 10px 4px black;
   text-decoration: none;
   transition: 0s;
   background-color: var(--accent-color);
 }
 
+.dark-mode button:hover, .dark-mode a.button:hover, .dark-mode input.button:hover {
+  box-shadow: 0 0 8px 0px var(--accent-color), 0 8px 4px -4px black;
+}
+
+.light-mode button:hover, .light-mode a.button:hover, .light-mode input.button:hover {
+  box-shadow: 0 0 8px 0px var(--accent-color), 0 8px 4px -4px rgba(0, 0, 0, 0.4);
+}
+
 button.secondary-button:hover, a.button.secondary-button:hover, input.button.secondary-button:hover {
   background-image: none !important;
-  box-shadow: 0 0 8px 0px var(--accent-color), 0 10px 4px black;
+  box-shadow: 0 0 8px 0px var(--accent-color);
   background-color: var(--accent-color);
 }
 
