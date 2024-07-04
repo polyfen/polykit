@@ -1805,13 +1805,18 @@ nav a.current-page {
 
 .hellobar-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-content: center;
   align-items: center;
   justify-content: center;
   gap: 12px;
 }
 
+@media screen and (min-width: 768px) {
+  .hellobar-container {
+    flex-direction: column;
+  }
+}
 .hellobar .button {
   margin: 0;
 }
