@@ -14,7 +14,7 @@ navCloser.addEventListener('click', () => {
 
 const hellobar = document.querySelector('.hellobar');
 const hellobarHeight = hellobar.offsetHeight;
-if (!headerNav.classList.contains("fixed-position") && !nav.classList.contains("open-nav")) {
+if (!headerNav.classList.contains("fixed-position") && !headerNav.classList.contains("open-nav")) {
     headerNav.style.top = `${hellobarHeight + 20}px`;
 }
 
