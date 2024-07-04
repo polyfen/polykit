@@ -1155,6 +1155,7 @@ li[data-marker] {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 16px;
 }
 
 /* --------------------------------------------------------- */
