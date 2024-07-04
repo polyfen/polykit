@@ -1317,6 +1317,20 @@ button.secondary-button:hover, a.button.secondary-button:hover, input.button.sec
   background-position: center center;
 }
 
+[data-button-icon=book-a-call]::before {
+  background-image: url(../../imgs/icons/phone.svg);
+  width: 16px;
+  height: 16px;
+  opacity: 0.8;
+}
+
+[data-button-icon=start-a-chat]::before {
+  background-image: url(../../imgs/icons/chat.svg);
+  width: 18px;
+  height: 15px;
+  opacity: 0.6;
+}
+
 [data-button-icon=phone]::before {
   background-image: url(../../imgs/icons/phone-call.svg);
   filter: none;
