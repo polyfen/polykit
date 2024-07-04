@@ -1145,6 +1145,18 @@ li[data-marker] {
   background-image: url(../imgs/icons/brand-icons/polypress-icon.svg);
 }
 
+.icon-container {
+  width: 70px;
+  height: 70px;
+  background-color: #120E32;
+  border: 1px solid rgba(116, 55, 248, 0.3137254902);
+  border-radius: 6px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* --------------------------------------------------------- */
 /* 
 

@@ -207,3 +207,15 @@ li[data-marker] {
 [data-marker="plpr"]::before {
     background-image: url(../imgs/icons/brand-icons/polypress-icon.svg);
 }
+
+.icon-container {
+    width: 70px;
+    height: 70px;
+    background-color: #120E32;
+    border: 1px solid #7437f850;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
