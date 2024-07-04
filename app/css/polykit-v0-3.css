@@ -1242,8 +1242,8 @@ button, .button {
 }
 
 .light-mode .secondary-button {
-  color: black;
-  background: var(--accent-color-100);
+  color: var(--accent-color);
+  background: none;
 }
 
 .cta-button {
