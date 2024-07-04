@@ -560,6 +560,7 @@ html :has(body.dark-mode), .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mo
   --accent-color-100: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l-100));
   --accent-color-800: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l-800));
   --accent-color-900: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l-900));
+  --accent-color-90pct: hsla(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.9);
   --accent-color-50pct: hsla(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.5);
 }
 
@@ -1225,7 +1226,7 @@ button, .button {
   padding: 1rem 1.4rem;
   border: none;
   border-radius: 900px;
-  background-color: var(--accent-color);
+  background-color: var(--accent-color-90pct);
   color: hsl(0, 0%, 100%);
   letter-spacing: 0.5px;
   text-decoration: none;
@@ -1277,14 +1278,15 @@ button i.icon {
 
 /* :hover */
 button:hover, a.button:hover, input.button:hover {
-  box-shadow: 0 0 10px 2px var(--accent-color);
+  box-shadow: 0 0 8px 0px var(--accent-color), 0 10px 4px black;
   text-decoration: none;
   transition: 0s;
+  background-color: var(--accent-color);
 }
 
 button.secondary-button:hover, a.button.secondary-button:hover, input.button.secondary-button:hover {
   background-image: none !important;
-  box-shadow: 0 0 10px var(--accent-color);
+  box-shadow: 0 0 8px 0px var(--accent-color), 0 10px 4px black;
   background-color: var(--accent-color);
 }
 
@@ -1949,6 +1951,7 @@ li.wp-block-post::before {
   --accent-color-800: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l-800));
   --accent-color-900: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l-900));
   --accent-color-50pct: hsla(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.5);
+  --accent-color-90pct: hsla(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.9);
   --light-mode-background: #EDF0F7;
   --dark-mode-background: #07091F;
 }
