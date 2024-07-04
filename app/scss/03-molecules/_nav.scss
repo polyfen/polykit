@@ -4,9 +4,7 @@
 */
 /* --------------------------------------------------------- */
 
-header {
-     
-     nav {
+nav.header-nav {
           z-index: 100;
           backdrop-filter: blur(10px);
           position: fixed;
@@ -91,7 +89,7 @@ header {
           gap: 12px;
 
      }
-     nav {
+     nav.header-nav {
           display: flex;
           flex-direction: row;
           justify-content: space-between;
@@ -101,6 +99,4 @@ header {
      nav a.current-page {
           opacity: 0.5;
      }
-}
-
 /* --------------------------------------------------------- */

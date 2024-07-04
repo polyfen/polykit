@@ -1510,7 +1510,7 @@ p code {
     Nav Styles
 */
 /* --------------------------------------------------------- */
-header nav {
+nav.header-nav {
   z-index: 100;
   backdrop-filter: blur(10px);
   position: fixed;
@@ -1519,7 +1519,8 @@ header nav {
   right: 15px;
   top: 20px;
 }
-header nav.open-nav {
+
+nav.open-nav {
   position: fixed;
   top: 0 !important;
   right: 0px;
@@ -1529,66 +1530,74 @@ header nav.open-nav {
   border: none !important;
   border-radius: 0;
 }
-header .nav-links {
+
+.nav-links {
   display: none;
   text-align: left;
 }
-header .nav-buttons {
+
+.nav-buttons {
   display: flex;
 }
-header .nav-buttons button {
+
+.nav-buttons button {
   all: unset;
   box-shadow: none;
 }
-header .nav-hamburger {
+
+.nav-hamburger {
   display: flex;
 }
-header .nav-close {
+
+.nav-close {
   display: none !important;
 }
-header .open-nav .nav-hamburger {
+
+.open-nav .nav-hamburger {
   display: none;
 }
-header .open-nav .nav-close {
+.open-nav .nav-close {
   display: block !important;
   position: fixed;
   top: 32px;
   right: 32px;
 }
-header .open-nav .nav-links {
+.open-nav .nav-links {
   display: grid !important;
   z-index: 90;
   font-size: 2.5rem;
   font-weight: 600;
 }
-header .open-nav .nav-links a {
+.open-nav .nav-links a {
   margin: 8px 16px;
 }
-header .open-nav .nav-buttons {
+.open-nav .nav-buttons {
   border: none;
   top: 20px;
 }
-header nav.position-fixed {
+
+nav.position-fixed {
   top: 20px;
   padding: 16px 28px;
   border-radius: 200px;
 }
+
 @media (min-width: 768px) {
-  header .nav-buttons {
+  .nav-buttons {
     display: none;
   }
-  header .nav-links {
+  .nav-links {
     display: flex;
     background: none;
     gap: 12px;
   }
-  header nav {
+  nav.header-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 }
-header nav a.current-page {
+nav a.current-page {
   opacity: 0.5;
 }
 
