@@ -1710,6 +1710,43 @@ nav a.current-page {
   margin-bottom: 1rem;
 }
 
+.accordions-container {
+  padding-top: 2rem;
+}
+
+.accordion {
+  border-bottom: 1px solid rgba(116, 55, 248, 0.3137254902);
+  margin-bottom: 32px;
+}
+
+.acc-button {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  align-items: center;
+  transition: 0.4s;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.3019607843);
+}
+
+.faqs h3.heading-4 {
+  margin-bottom: 0;
+  display: flex;
+  gap: 5px;
+}
+
+.faqs .accordion h3 span {
+  color: #7537F8;
+}
+
+.acc-button:after {
+  content: "+";
+  float: right;
+  margin-left: auto;
+  font-size: 2rem;
+}
+
 /* 04-ORGANISMS */
 .hellobar {
   margin-top: 0;
