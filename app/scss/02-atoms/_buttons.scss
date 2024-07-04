@@ -28,7 +28,25 @@ button, .button {
     text-decoration: none;
     cursor: pointer;
     transition: 0s;
+}
+
+button:hover, a.button:hover, input.button:hover {
+    text-decoration: none;
+    transition: 0s;
+    background-color: var(--accent-color);
+}
+
+.dark-mode {
+    button:hover, a.button:hover, input.button:hover {
+        box-shadow: 0 0 8px 0px var(--accent-color), 0 8px 4px -4px black;
     }
+}
+
+.light-mode {
+    button:hover, a.button:hover, input.button:hover {
+        box-shadow: 0 0 8px 0px var(--accent-color), 0 8px 4px -4px rgba(0, 0, 0, 0.4);
+    }
+}
 
 .secondary-button {
     border: 3px solid var(--accent-color);
@@ -75,23 +93,7 @@ button i.icon {
 
 /* :hover */
 
-button:hover, a.button:hover, input.button:hover {
-    text-decoration: none;
-    transition: 0s;
-    background-color: var(--accent-color);
-}
 
-.dark-mode {
-    button:hover, a.button:hover, input.button:hover {
-        box-shadow: 0 0 8px 0px var(--accent-color), 0 8px 4px -4px black;
-    }
-}
-
-.light-mode {
-    button:hover, a.button:hover, input.button:hover {
-        box-shadow: 0 0 8px 0px var(--accent-color), 0 8px 4px -4px rgba(0, 0, 0, 0.4);
-    }
-}
 
 button.secondary-button:hover, a.button.secondary-button:hover, input.button.secondary-button:hover {
     background-image: none !important;

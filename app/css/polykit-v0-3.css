@@ -562,6 +562,9 @@ html :has(body.dark-mode), .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mo
   --accent-color-900: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l-900));
   --accent-color-90pct: hsla(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.9);
   --accent-color-50pct: hsla(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.5);
+  --accent-gradient-start: hsl(228,var(--accent-color-s), var(--accent-color-l));
+  --accent-gradient-end: hsl(188,var(--accent-color-s), var(--accent-color-l));
+  --accent-color-gradient: linear-gradient(45deg, var(--accent-gradient-start), var(--accent-gradient-end));
 }
 
 /*///////////// SUBATOMICS/BRANDING end /////////////*/
@@ -1234,6 +1237,20 @@ button, .button {
   transition: 0s;
 }
 
+button:hover, a.button:hover, input.button:hover {
+  text-decoration: none;
+  transition: 0s;
+  background-color: var(--accent-color);
+}
+
+.dark-mode button:hover, .dark-mode a.button:hover, .dark-mode input.button:hover {
+  box-shadow: 0 0 8px 0px var(--accent-color), 0 8px 4px -4px black;
+}
+
+.light-mode button:hover, .light-mode a.button:hover, .light-mode input.button:hover {
+  box-shadow: 0 0 8px 0px var(--accent-color), 0 8px 4px -4px rgba(0, 0, 0, 0.4);
+}
+
 .secondary-button {
   border: 3px solid var(--accent-color);
 }
@@ -1277,20 +1294,6 @@ button i.icon {
 }
 
 /* :hover */
-button:hover, a.button:hover, input.button:hover {
-  text-decoration: none;
-  transition: 0s;
-  background-color: var(--accent-color);
-}
-
-.dark-mode button:hover, .dark-mode a.button:hover, .dark-mode input.button:hover {
-  box-shadow: 0 0 8px 0px var(--accent-color), 0 8px 4px -4px black;
-}
-
-.light-mode button:hover, .light-mode a.button:hover, .light-mode input.button:hover {
-  box-shadow: 0 0 8px 0px var(--accent-color), 0 8px 4px -4px rgba(0, 0, 0, 0.4);
-}
-
 button.secondary-button:hover, a.button.secondary-button:hover, input.button.secondary-button:hover {
   background-image: none !important;
   box-shadow: 0 0 8px 0px var(--accent-color);
