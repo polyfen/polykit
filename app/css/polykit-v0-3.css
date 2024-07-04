@@ -97,6 +97,10 @@ li > h6 {
 */
 /* --------------------------------------------------------- */
 /*///////////// SUBATOMICS/GENERAL start /////////////*/
+html {
+  scroll-behavior: smooth;
+}
+
 .d-none {
   display: none !important;
 }
