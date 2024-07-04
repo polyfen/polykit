@@ -1246,6 +1246,10 @@ button, .button {
   background: none;
 }
 
+.light-mode .secondary-button:hover {
+  color: white;
+}
+
 .cta-button {
   box-shadow: 0 0 4px var(--accent-color);
   animation: gradient 7s infinite;
@@ -1273,7 +1277,7 @@ button i.icon {
 
 /* :hover */
 button:hover, a.button:hover, input.button:hover {
-  box-shadow: 0 0 4px 4px var(--accent-color), inset 0 0 0 2px var(--slate-950);
+  box-shadow: 0 0 10px var(--accent-color);
   text-decoration: none;
   transition: 0s;
 }
