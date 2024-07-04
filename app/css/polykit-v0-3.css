@@ -1498,6 +1498,12 @@ form input, form textarea {
   font-size: 1rem;
 }
 
+form input, form textarea {
+  background: #120e32;
+  color: #fff;
+  border: 1px solid rgba(116, 55, 248, 0.3137254902);
+}
+
 /*///////////// ATOMS/INPUTS end /////////////*/
 /* --------------------------------------------------------- */
 hr {
