@@ -18,6 +18,8 @@ if (!headerNav.classList.contains("fixed-position") && !headerNav.classList.cont
     headerNav.style.top = `${hellobarHeight + 20}px`;
 }
 
+headerNav.style.visibility = 'visible';
+
 /* Agrega el .position-fixed al nav */
 
 document.addEventListener("DOMContentLoaded", function () {

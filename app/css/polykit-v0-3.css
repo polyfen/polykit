@@ -1518,6 +1518,7 @@ nav.header-nav {
   border-radius: 12px;
   right: 15px;
   top: 20px;
+  visibility: hidden;
 }
 
 nav.open-nav {
