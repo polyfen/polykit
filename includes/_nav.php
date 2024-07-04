@@ -1,4 +1,4 @@
-<nav>
+<nav class="header-nav">
     <div class="nav-links">
         <a href="/">Home</a>
         <a href="/docs">Docs</a>
