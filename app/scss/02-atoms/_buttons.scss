@@ -66,10 +66,14 @@ button:hover, a.button:hover, input.button:hover {
 }
 
 .cta-button {
-    box-shadow: 0 0 4px var(--accent-color);
     animation: gradient 7s infinite;
     background-image: var(--accent-color-gradient);
     background-size: 200% 200%;
+    opacity: 0.9;
+}
+
+.cta-button:hover {
+    opacity: 1;
 }
 
 button i.icon {

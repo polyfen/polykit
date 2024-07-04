@@ -1269,10 +1269,14 @@ button:hover, a.button:hover, input.button:hover {
 }
 
 .cta-button {
-  box-shadow: 0 0 4px var(--accent-color);
   animation: gradient 7s infinite;
   background-image: var(--accent-color-gradient);
   background-size: 200% 200%;
+  opacity: 0.9;
+}
+
+.cta-button:hover {
+  opacity: 1;
 }
 
 button i.icon {
@@ -1962,8 +1966,8 @@ li.wp-block-post::before {
   --accent-color-900: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l-900));
   --accent-color-50pct: hsla(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.5);
   --accent-color-90pct: hsla(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.9);
-  --accent-gradient-start: hsl(279,var(--accent-color-s), var(--accent-color-l));
-  --accent-gradient-end: hsl(239,var(--accent-color-s), var(--accent-color-l));
+  --accent-gradient-start: hsl(calc(var(--accent-color-h) + 20), var(--accent-color-s), var(--accent-color-l));
+  --accent-gradient-end: hsl(calc(var(--accent-color-h) - 20), var(--accent-color-s), var(--accent-color-l));
   --accent-color-gradient: linear-gradient(45deg, var(--accent-gradient-start), var(--accent-gradient-end));
   --light-mode-background: #EDF0F7;
   --dark-mode-background: #07091F;
