@@ -1331,6 +1331,19 @@ button.secondary-button:hover, a.button.secondary-button:hover, input.button.sec
   opacity: 0.6;
 }
 
+[data-button-icon=schedule-call]::before {
+  background-image: url(../../imgs/icons/phone-call.svg);
+  filter: var(--filter-indigo);
+  margin-block: -8px;
+}
+
+[data-button-icon=coins]::before {
+  background-image: url(../../imgs/icons/coins.svg);
+  filter: invert(18%) sepia(85%) saturate(3760%) hue-rotate(256deg) brightness(102%) contrast(94%);
+  margin-block: -8px;
+  height: 22px;
+}
+
 [data-button-icon=phone]::before {
   background-image: url(../../imgs/icons/phone-call.svg);
   filter: none;
