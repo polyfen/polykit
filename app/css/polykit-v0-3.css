@@ -450,21 +450,21 @@ html :has(body.dark-mode), .dark-mode {
 }
 
 @media screen and (max-width: 767px) {
-  body.light-mode header nav {
+  body.light-mode nav.header-nav {
     background: var(--light-mode-background-70pct);
     border: 1px solid var(--black-20pct);
   }
-  body.dark-mode header nav {
+  body.dark-mode nav.header-nav {
     background: var(--dark-mode-background-70pct);
     border: 1px solid var(--white-20pct);
   }
 }
 @media screen and (min-width: 768px) {
-  body.light-mode header nav.position-fixed {
+  body.light-mode nav.header-nav.position-fixed {
     background: var(--light-mode-background-70pct);
     border: 1px solid var(--black-20pct);
   }
-  body.dark-mode header nav.position-fixed {
+  body.dark-mode nav.header-nav.position-fixed {
     background: var(--dark-mode-background-70pct);
     border: 1px solid var(--white-20pct);
   }
@@ -1576,7 +1576,7 @@ nav.open-nav {
   top: 20px;
 }
 
-nav.position-fixed {
+nav.header-nav.position-fixed {
   top: 20px;
   padding: 16px 28px;
   border-radius: 200px;
