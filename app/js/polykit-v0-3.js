@@ -2,7 +2,7 @@
 
 const navOpener = document.querySelector('.nav-hamburger')
 const navCloser = document.querySelector('.nav-close')
-const nav = document.querySelector('header nav')
+const nav = document.querySelector('nav')
 const navLinks = document.querySelector('.nav-links')
 
 navOpener.addEventListener('click', () => {
