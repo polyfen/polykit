@@ -1814,7 +1814,7 @@ nav a.current-page {
 
 @media screen and (min-width: 768px) {
   .hellobar-container {
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 .hellobar .button {
