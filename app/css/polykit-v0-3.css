@@ -1707,11 +1707,15 @@ nav.open-nav {
 
 nav.header-nav.position-fixed {
   top: 20px;
-  padding: 16px 28px;
-  border-radius: 200px;
   backdrop-filter: blur(10px);
 }
 
+@media (min-width: 768px) {
+  nav.header-nav.position-fixed {
+    padding: 16px 28px;
+    border-radius: 200px;
+  }
+}
 @media (min-width: 768px) {
   .nav-buttons {
     display: none;
