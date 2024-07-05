@@ -1637,7 +1637,6 @@ p code {
 /* --------------------------------------------------------- */
 nav.header-nav {
   z-index: 100;
-  backdrop-filter: blur(10px);
   position: fixed;
   padding: 7px 8px;
   border-radius: 12px;
@@ -1658,6 +1657,7 @@ nav.open-nav {
   width: 100%;
   border: none !important;
   border-radius: 0;
+  backdrop-filter: blur(10px);
 }
 
 .nav-links {
@@ -1709,6 +1709,7 @@ nav.header-nav.position-fixed {
   top: 20px;
   padding: 16px 28px;
   border-radius: 200px;
+  backdrop-filter: blur(10px);
 }
 
 @media (min-width: 768px) {
