@@ -32,7 +32,3 @@
 .hellobar .button {
     margin: 0;
 }
-
-body:has(.hellobar) {
-    border-top: none;
-}

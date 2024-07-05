@@ -17,6 +17,14 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  border-top: 12px solid var(--accent-color);
+}
+
+body:has(.hellobar) {
+  border-top: none;
+}
+
 .d-none {
     display: none !important;
   }
