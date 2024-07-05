@@ -1643,6 +1643,9 @@ nav.header-nav {
   border-radius: 12px;
   right: 15px;
   top: 20px;
+}
+
+body:has(.hellobar) nav.header-nav {
   visibility: hidden;
 }
 
