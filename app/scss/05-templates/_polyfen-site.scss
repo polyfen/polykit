@@ -18,3 +18,7 @@
     --light-mode-background: #EDF0F7;
     --dark-mode-background: #07091F;
 }
+
+.cta-button {
+    background-image: linear-gradient(45deg, var(--accent-gradient-start), #892bd1, var(--accent-gradient-end));
+}
