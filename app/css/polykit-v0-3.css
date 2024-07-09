@@ -1925,7 +1925,7 @@ nav a.current-page {
 /* 04-ORGANISMS */
 .hellobar {
   margin-top: 0;
-  padding: 12px 15px 12px;
+  padding: 8px 15px;
   text-align: center;
   background: var(--accent-color-800);
   border-bottom: 8px solid var(--accent-color);
