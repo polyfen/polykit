@@ -1485,7 +1485,7 @@ button.secondary-button:hover, a.button.secondary-button:hover, input.button.sec
 /* data-button-arrow-down */
 [data-button-arrow-up]::before,
 [data-button-arrow-up]::after, [data-button-arrow-down]::before,
-[data-button-arrow-dow]::after {
+[data-button-arrow-down]::after {
   content: url(/imgs/icons/arrow-up-fill.svg);
   display: inline-block;
   opacity: 0.8;
@@ -1495,7 +1495,7 @@ button.secondary-button:hover, a.button.secondary-button:hover, input.button.sec
 }
 
 [data-button-arrow-down]::before,
-[data-button-arrow-dow]::after {
+[data-button-arrow-down]::after {
   content: url(/imgs/icons/arrow-down-fill.svg);
   animation: moveArrow-down 1s ease-out infinite;
 }
