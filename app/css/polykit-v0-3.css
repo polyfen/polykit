@@ -1482,8 +1482,10 @@ button.secondary-button:hover, a.button.secondary-button:hover, input.button.sec
   }
 }
 /* data-button-arrow-up */
+/* data-button-arrow-down */
 [data-button-arrow-up]::before,
-[data-button-arrow-up]::after {
+[data-button-arrow-up]::after, [data-button-arrow-down]::before,
+[data-button-arrow-dow]::after {
   content: url(/imgs/icons/arrow-up-fill.svg);
   display: inline-block;
   opacity: 0.8;
@@ -1492,16 +1494,23 @@ button.secondary-button:hover, a.button.secondary-button:hover, input.button.sec
   width: 9px;
 }
 
-[data-button-arrow-up]::before {
+[data-button-arrow-down]::before,
+[data-button-arrow-dow]::after {
+  content: url(/imgs/icons/arrow-down-fill.svg);
+  animation: moveArrow-down 1s ease-out infinite;
+}
+
+[data-button-arrow-up]::before, [data-button-arrow-down]::before {
   margin-right: 10px;
 }
 
-[data-button-arrow-up]::after {
+[data-button-arrow-up]::after, [data-button-arrow-down]::after {
   margin-left: 10px;
 }
 
 [data-button-arrow-up]:hover::before,
-[data-button-arrow-up]:hover::after {
+[data-button-arrow-up]:hover::after, [data-button-arrow-down]:hover::before,
+[data-button-arrow-down]:hover::after {
   opacity: 1;
 }
 
@@ -1514,6 +1523,17 @@ button.secondary-button:hover, a.button.secondary-button:hover, input.button.sec
   }
   100% {
     transform: translatey(-5px);
+  }
+}
+@keyframes moveArrow-down {
+  0% {
+    transform: translatey(-5px);
+  }
+  70% {
+    transform: translatey(0px);
+  }
+  100% {
+    transform: translatey(0px);
   }
 }
 /* TOGGLE BUTTON */
