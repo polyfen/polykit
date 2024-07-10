@@ -2408,6 +2408,7 @@ li.wp-block-post::before {
   --accent-color-800: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l-800));
   --accent-color-900: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l-900));
   --accent-color-50pct: hsla(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.5);
+  --accent-color-90pct: hsla(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.9);
   --sans-serif-font-family: "Work Sans";
   --serif-font-family: "Lora";
   --mono-font-family: "Anonymous Pro";
