@@ -2419,6 +2419,9 @@ li.wp-block-post::before {
   --light-mode-background: #EDF0F7;
   --dark-mode-background: var(--slate-950);
 }
+.sotr-site button, .sotr-site .button {
+  border-radius: 2px;
+}
 
 /* 06-PAGES */
 /* PLAYGROUND */
