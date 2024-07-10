@@ -221,7 +221,11 @@ small, h1.caption, h2.caption, h3.caption, h4.caption, h5.caption, h6.caption {
 }
 
 button, a.button, input.button {
-    font-weight: 700;
+    font-weight: 800;
+}
+
+button.secondary-button, a.secondary-button, input.secondary-button {
+    font-weight: 500;
 }
 
 blockquote p {

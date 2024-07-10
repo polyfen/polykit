@@ -1,18 +1,22 @@
 <section>
-    <h3 id="section_buttons" class="heading-2">Buttons <small><a href="/app/scss/02-atoms/_buttons.scss" target="_blank" data-before="file-code">SCSS</a></small></h3>
+    <div class="heading-with-links">
+        <h3 id="section_buttons" class="heading-2">Buttons</h3>
+        <small><a href="/app/scss/02-atoms/_buttons.scss" target="_blank" data-before="file-code">Scss</a></small>
+        <small><a href="https://www.figma.com/design/ljE12vilrDMg0r9vJfQLBz/Polykit-%7C-Design-System?node-id=410-1322&t=biAeKniir59Z7HPU-1" target="_blank" data-before="file-code">Figma</a></small>
+    </div>
     <h4 class="heading-3">Hierarchy</h4>
     <div class="components-demo">
         <div>
-            <small>primary-button</small>
+            <small>cta-button</small>
+            <button class="cta-button">Download Now</button>
+        </div>
+        <div>
+            <small class="opacity-50">(primary-button)</small>
             <button class="">Download Now</button>
         </div>
         <div>
             <small>secondary-button</small>
             <button class="secondary-button">Download Now</button>
-        </div>
-        <div>
-            <small>cta-button</small>
-            <button class="cta-button">Download Now</button>
         </div>
     </div>
     <section class="tab-container">
