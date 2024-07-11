@@ -2424,7 +2424,6 @@ li.wp-block-post::before {
   --body-text-font-family: var(--sans-serif-font-family);
   --captions-font-family: var(--sans-serif-font-family);
   --light-mode-background: #ffffff;
-  --light-mode-background: #EDF0F7;
   --dark-mode-background: var(--slate-950);
 }
 .sotr-site button, .sotr-site .button {
