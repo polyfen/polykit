@@ -2428,7 +2428,7 @@ li.wp-block-post::before {
   --dark-mode-background: var(--slate-950);
 }
 .sotr-site button, .sotr-site .button {
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 /* 06-PAGES */
