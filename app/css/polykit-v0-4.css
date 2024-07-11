@@ -2423,12 +2423,12 @@ li.wp-block-post::before {
   --display-font-family: var(--sans-serif-font-family);
   --body-text-font-family: var(--sans-serif-font-family);
   --captions-font-family: var(--sans-serif-font-family);
-  --light-mode-background: #ecf0f3;
+  --light-mode-background: #ffffff;
   --light-mode-background: #EDF0F7;
   --dark-mode-background: var(--slate-950);
 }
 .sotr-site button, .sotr-site .button {
-  border-radius: 16px;
+  border-radius: 8px;
 }
 
 /* 06-PAGES */
