@@ -324,8 +324,12 @@ p a:hover, li a:hover, small a:hover, a:hover small, .link:hover {
     font-style: italic;
 }
 
-.bold {
+.font-weight-bold {
     font-weight: 700;
+}
+
+.font-weight-regular {
+    font-weight: 400;
 }
 
 /*///////////// BASE/_TYPOGRAPHY end /////////////*/
