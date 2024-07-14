@@ -24,8 +24,11 @@
     button, .button {    
         border-radius: 2px 8px 2px 8px;
     }
+    button.large-button, .button.large-button {    
+        border-radius: 4px 12px 4px 12px;
+    }
     
     button:hover, .button:hover {
-        box-shadow: 0 0 0 4px var(--accent-color-50pct), 0 8px 4px -4px rgba(0, 0, 0, 0.2) !important;
+        box-shadow: 0 0 0 4px black !important;
     }
 }
