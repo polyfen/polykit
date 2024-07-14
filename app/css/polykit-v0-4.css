@@ -2431,10 +2431,7 @@ li.wp-block-post::before {
   --dark-mode-background: var(--slate-950);
 }
 .sotr-site button, .sotr-site .button {
-  border-radius: 2px 8px 2px 8px;
-}
-.sotr-site button.large-button, .sotr-site .button.large-button {
-  border-radius: 4px 12px 4px 12px;
+  border-radius: 4px;
 }
 .sotr-site button:hover, .sotr-site .button:hover {
   box-shadow: 0 0 0 4px black !important;

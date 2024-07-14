@@ -22,10 +22,7 @@
     --dark-mode-background: var(--slate-950);
 
     button, .button {    
-        border-radius: 2px 8px 2px 8px;
-    }
-    button.large-button, .button.large-button {    
-        border-radius: 4px 12px 4px 12px;
+        border-radius: 4px;
     }
     
     button:hover, .button:hover {
