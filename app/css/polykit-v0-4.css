@@ -2433,7 +2433,7 @@ li.wp-block-post::before {
 .sotr-site button, .sotr-site .button {
   border-radius: 2px 8px 2px 8px;
 }
-.sotr-site .light-mode button:hover, .sotr-site .light-mode a.button:hover, .sotr-site .light-mode input.button:hover {
+.sotr-site .light-mode button:hover, .sotr-site .light-mode .button:hover {
   box-shadow: 0 0 4px 2px var(--accent-color-50pct), 0 8px 4px -4px rgba(0, 0, 0, 0.2);
 }
 
