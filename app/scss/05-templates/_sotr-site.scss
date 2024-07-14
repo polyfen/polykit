@@ -27,7 +27,7 @@
 
     .light-mode {
         button:hover, .button:hover {
-            box-shadow: 0 0 4px 2px var(--accent-color-50pct), 0 8px 4px -4px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 4px 2px var(--accent-color-50pct), 0 8px 4px -4px rgba(0, 0, 0, 0.2) !important;
         }
     }
 }
