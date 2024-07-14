@@ -21,7 +21,13 @@
     --light-mode-background: #ffffff;
     --dark-mode-background: var(--slate-950);
 
-    button, .button {
-        border-radius: 8px;
+    button, .button {    
+        border-radius: 2px 8px 2px 8px;
+    }
+
+    .light-mode {
+        button:hover, a.button:hover, input.button:hover {
+            box-shadow: 0 0 4px 2px var(--accent-color-50pct), 0 8px 4px -4px rgba(0, 0, 0, 0.2);
+        }
     }
 }

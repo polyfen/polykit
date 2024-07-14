@@ -2431,7 +2431,10 @@ li.wp-block-post::before {
   --dark-mode-background: var(--slate-950);
 }
 .sotr-site button, .sotr-site .button {
-  border-radius: 8px;
+  border-radius: 2px 8px 2px 8px;
+}
+.sotr-site .light-mode button:hover, .sotr-site .light-mode a.button:hover, .sotr-site .light-mode input.button:hover {
+  box-shadow: 0 0 4px 2px var(--accent-color-50pct), 0 8px 4px -4px rgba(0, 0, 0, 0.2);
 }
 
 /* 06-PAGES */
