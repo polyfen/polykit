@@ -2372,6 +2372,15 @@ li.wp-block-post::before {
   content: "";
 }
 
+.pagination {
+  margin-bottom: 2rem;
+}
+
+.pagination .nav-links {
+  display: flex;
+  justify-content: center;
+}
+
 .polyfen-site {
   --accent-color-h: 259;
   --accent-color-s: 100%;
