@@ -160,6 +160,14 @@ body {
   width: 100%;
 }
 
+.opacity-40pct {
+  opacity: 0.4;
+}
+
+.opacity-30pct {
+  opacity: 0.3;
+}
+
 .opacity-50pct {
   opacity: 0.5;
 }
