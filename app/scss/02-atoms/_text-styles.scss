@@ -76,6 +76,12 @@ p, p a, li, p strong, p span, li strong {
     letter-spacing: -0.4px;
 }
 
+.title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
+    font-size: 2.25rem;
+    line-height: 110%;
+    letter-spacing: -0.4px;
+}
+
 h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
     font-size: 2rem;
     line-height: 110%;
@@ -139,6 +145,9 @@ small.mini, a.mini, .mini {
     .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
         font-size: 3.25rem;
     }
+    .title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
+        font-size: 3rem;
+    }
     h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
         font-size: 2.75rem;
     }
@@ -162,6 +171,9 @@ small.mini, a.mini, .mini {
         font-size: 5.25rem;
         letter-spacing: -0.8px;
     }
+    .title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
+        font-size: 4.25rem;
+    }
     h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
         font-size: 3.25rem;   
         letter-spacing: -0.4px;
@@ -175,11 +187,19 @@ small.mini, a.mini, .mini {
     .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
         font-size: 7.75rem;
     }
+    .title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
+        font-size: 5rem;
+    }
 }
 
 /* FONT-WEIGHTS */
 
 .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+    font-weight: 800;
+}
+
+
+.title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
     font-weight: 800;
 }
 
@@ -241,6 +261,10 @@ blockquote p {
 }
 
 h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+    margin-bottom: 2.5rem;
+}
+
+.title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
     margin-bottom: 2.5rem;
 }
 
