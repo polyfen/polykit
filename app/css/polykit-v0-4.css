@@ -2513,6 +2513,21 @@ li.wp-block-post::before {
   font-weight: 700;
   font-variation-settings: "wght" 700;
 }
+.sotr-site .title-1, .sotr-site h1.title-1, .sotr-site h2.title-1, .sotr-site h3.title-1, .sotr-site h4.title-1, .sotr-site h5.title-1, .sotr-site h6.title-1 {
+  letter-spacing: 1px;
+}
+.sotr-site .title-2, .sotr-site h1.title-2, .sotr-site h2.title-2, .sotr-site h3.title-2, .sotr-site h4.title-2, .sotr-site h5.title-2, .sotr-site h6.title-2 {
+  letter-spacing: 1px;
+}
+.sotr-site h1, .sotr-site .heading-1, .sotr-site h1.heading-1, .sotr-site h2.heading-1, .sotr-site h3.heading-1, .sotr-site h4.heading-1, .sotr-site h5.heading-1, .sotr-site h6.heading-1 {
+  letter-spacing: 1px;
+}
+.sotr-site h2, .sotr-site .heading-2, .sotr-site h1.heading-2, .sotr-site h2.heading-2, .sotr-site h3.heading-2, .sotr-site h4.heading-2, .sotr-site h5.heading-2, .sotr-site h6.heading-2 {
+  letter-spacing: 1px;
+}
+.sotr-site h3, .sotr-site .heading-3, .sotr-site h1.heading-3, .sotr-site h2.heading-3, .sotr-site h3.heading-3, .sotr-site h4.heading-3, .sotr-site h5.heading-3, .sotr-site h6.heading-3 {
+  letter-spacing: 1px;
+}
 
 /* 06-PAGES */
 /* PLAYGROUND */
