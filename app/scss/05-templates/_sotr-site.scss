@@ -28,4 +28,20 @@
     button:hover, .button:hover {
         box-shadow: 0 0 0 4px black !important;
     }
+
+    .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+        font-weight: 700;
+        font-variation-settings: "wght" 700;
+    }
+    
+    
+    .title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
+        font-weight: 700;
+        font-variation-settings: "wght" 700;
+    }
+    
+    h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+        font-weight: 700;
+        font-variation-settings: "wght" 700;
+    }
 }
