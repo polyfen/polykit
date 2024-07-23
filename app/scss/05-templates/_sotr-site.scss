@@ -69,4 +69,8 @@
         border-width: 0.5px;
         border-style: solid;
     }
+
+    main ul li::before {
+        content: "⁕";
+    }
 }

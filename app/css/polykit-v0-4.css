@@ -2532,6 +2532,9 @@ li.wp-block-post::before {
   border-width: 0.5px;
   border-style: solid;
 }
+.sotr-site main ul li::before {
+  content: "⁕";
+}
 
 /* 06-PAGES */
 /* PLAYGROUND */
