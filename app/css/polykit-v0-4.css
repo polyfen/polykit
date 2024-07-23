@@ -2498,9 +2498,6 @@ li.wp-block-post::before {
 .sotr-site button, .sotr-site .button {
   border-radius: 4px;
 }
-.sotr-site button:hover, .sotr-site .button:hover {
-  box-shadow: 0 0 0 4px black !important;
-}
 .sotr-site .title-1, .sotr-site h1.title-1, .sotr-site h2.title-1, .sotr-site h3.title-1, .sotr-site h4.title-1, .sotr-site h5.title-1, .sotr-site h6.title-1 {
   font-weight: 700;
   font-variation-settings: "wght" 700;
