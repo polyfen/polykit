@@ -2498,6 +2498,11 @@ li.wp-block-post::before {
 .sotr-site button, .sotr-site .button {
   border-radius: 4px;
 }
+.sotr-site button.secondary-button, .sotr-site a.secondary-button, .sotr-site input.secondary-button {
+  border-width: 2px;
+  font-weight: 700;
+  font-variation-settings: "wght" 700;
+}
 .sotr-site .title-1, .sotr-site h1.title-1, .sotr-site h2.title-1, .sotr-site h3.title-1, .sotr-site h4.title-1, .sotr-site h5.title-1, .sotr-site h6.title-1 {
   font-weight: 700;
   font-variation-settings: "wght" 700;

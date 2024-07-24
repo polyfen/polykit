@@ -25,6 +25,12 @@
         border-radius: 4px;
     }
 
+    button.secondary-button, a.secondary-button, input.secondary-button {
+        border-width: 2px;
+        font-weight: 700;
+        font-variation-settings: "wght" 700;
+    }
+
     .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
         font-weight: 700;
         font-variation-settings: "wght" 700;
