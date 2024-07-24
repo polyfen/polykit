@@ -1104,7 +1104,7 @@ p a:hover, li a:hover, small a:hover, a:hover small, .link:hover {
 }
 
 .align-right {
-  text-align: left;
+  text-align: right;
 }
 
 .uppercase {
