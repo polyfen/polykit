@@ -2532,6 +2532,10 @@ li.wp-block-post::before {
 .sotr-site main ul li::before {
   content: "⁕";
 }
+.sotr-site a:not(.button) {
+  color: var(--accent-color);
+  text-decoration: none;
+}
 
 /* 06-PAGES */
 /* PLAYGROUND */

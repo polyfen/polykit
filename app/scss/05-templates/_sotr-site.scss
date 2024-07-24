@@ -69,4 +69,9 @@
     main ul li::before {
         content: "⁕";
     }
+
+    a:not(.button) {
+        color: var(--accent-color);
+        text-decoration: none;
+    }
 }
