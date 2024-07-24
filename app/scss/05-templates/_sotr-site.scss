@@ -31,6 +31,14 @@
         font-variation-settings: "wght" 700;
     }
 
+    .light-mode button:hover, .light-mode a.button:hover, .light-mode input.button:hover {
+        box-shadow: 0 0 6px 0px var(--accent-color), 0 8px 4px -4px rgba(0, 0, 0, 0.2);
+    }
+
+    button.secondary-button:hover, a.button.secondary-button:hover, input.button.secondary-button:hover {
+        box-shadow: 0 0 6px 0px var(--accent-color);
+    }
+
     .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
         font-weight: 700;
         font-variation-settings: "wght" 700;

@@ -2503,6 +2503,12 @@ li.wp-block-post::before {
   font-weight: 700;
   font-variation-settings: "wght" 700;
 }
+.sotr-site .light-mode button:hover, .sotr-site .light-mode a.button:hover, .sotr-site .light-mode input.button:hover {
+  box-shadow: 0 0 6px 0px var(--accent-color), 0 8px 4px -4px rgba(0, 0, 0, 0.2);
+}
+.sotr-site button.secondary-button:hover, .sotr-site a.button.secondary-button:hover, .sotr-site input.button.secondary-button:hover {
+  box-shadow: 0 0 6px 0px var(--accent-color);
+}
 .sotr-site .title-1, .sotr-site h1.title-1, .sotr-site h2.title-1, .sotr-site h3.title-1, .sotr-site h4.title-1, .sotr-site h5.title-1, .sotr-site h6.title-1 {
   font-weight: 700;
   font-variation-settings: "wght" 700;
