@@ -2534,7 +2534,6 @@ li.wp-block-post::before {
 }
 .sotr-site a:not(.button) {
   color: var(--accent-color);
-  text-decoration: none;
 }
 
 /* 06-PAGES */
