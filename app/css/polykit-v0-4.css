@@ -1773,7 +1773,7 @@ p code {
   display: flex;
   flex-direction: column;
   border: 1px solid rgba(116, 55, 248, 0.3137254902);
-  background: #120e32;
+  background: rgba(18, 14, 50, 0.4705882353);
   border-radius: 6px;
   margin-bottom: 16px;
   flex: 1;
