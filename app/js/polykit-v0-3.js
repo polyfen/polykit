@@ -70,18 +70,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /* FADE-IN TRANSITION [start] */
 
-const observer = new IntersectionObserver(entries => {
-    entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-            observer.unobserve(entry.target); // Stop observing the element after it becomes visible
-        }
+document.addEventListener("DOMContentLoaded", function () {
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target); // Stop observing the element after it becomes visible
+            }
+        });
     });
-});
 
-const fadeinElements = document.querySelectorAll('.fade-in');
-fadeinElements.forEach((el) => {
-    observer.observe(el); // Start observing the element
+    const fadeinElements = document.querySelectorAll('.fade-in');
+    fadeinElements.forEach((el) => {
+        observer.observe(el); // Start observing the element
+    });
 });
 
 /* FADE-IN TRANSITION [end] */
