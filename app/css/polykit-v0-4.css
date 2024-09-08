@@ -466,6 +466,7 @@ html {
   --indigo-600: hsl(var(--indigo-h), var(--indigo-s), calc(var(--indigo-l) - 10));
   --indigo-700: hsl(var(--indigo-h), var(--indigo-s), calc(var(--indigo-l) - 20));
   --indigo-800: hsl(var(--indigo-h), var(--indigo-s), calc(var(--indigo-l) - 30));
+  --indigo-850: hsl(var(--indigo-h), var(--indigo-s), calc(var(--indigo-l) - 35));
   --indigo-900: hsl(var(--indigo-h), var(--indigo-s), calc(var(--indigo-l) - 40));
   --indigo-90pct: hsla(var(--indigo-h), var(--indigo-s), var(--indigo-l), 0.9);
   --indigo-80pct: hsla(var(--indigo-h), var(--indigo-s), var(--indigo-l), 0.8);
@@ -691,10 +692,12 @@ html :has(body.dark-mode), .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mo
   --accent-color-l: var(--blue-l);
   --accent-color-l-100: 90%;
   --accent-color-l-800: 20%;
+  --accent-color-l-850: 24%;
   --accent-color-l-900: 10%;
   --accent-color: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l));
   --accent-color-100: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l-100));
   --accent-color-800: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l-800));
+  --accent-color-850: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l-850));
   --accent-color-900: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l-900));
   --accent-color-90pct: hsla(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.9);
   --accent-color-50pct: hsla(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.5);
@@ -2033,7 +2036,7 @@ nav a.current-page {
   margin-top: 0;
   padding: 8px 15px;
   text-align: center;
-  background: var(--accent-color-800);
+  background: var(--accent-color-850);
   border-bottom: 6px solid var(--accent-color);
   color: white;
   display: flex;
