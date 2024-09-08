@@ -705,6 +705,18 @@ html :has(body.dark-mode), .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mo
 
 /*///////////// SUBATOMICS/BRANDING end /////////////*/
 /* --------------------------------------------------------- */
+.fade-in {
+  opacity: 0;
+  transform: translateY(75px);
+  transition: opacity 0.65s, transform 0.65s;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition-timing-function: ease-out;
+}
+
 /* 02-ATOMS */
 /* --------------------------------------------------------- */
 /* 
