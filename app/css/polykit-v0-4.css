@@ -2496,7 +2496,7 @@ li.wp-block-post::before {
 }
 
 .cta-button {
-  background-image: linear-gradient(45deg, var(--accent-gradient-end), var(--accent-gradient-start), #cd258f, var(--accent-gradient-end), var(--accent-gradient-start));
+  background-image: var(--accent-color-gradient);
 }
 
 .polyatlas-site {
