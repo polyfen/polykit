@@ -2045,6 +2045,8 @@ nav a.current-page {
   align-items: center;
   justify-content: center;
   gap: 8px;
+  position: relative;
+  z-index: 900;
 }
 
 .hellobar-container {
@@ -2347,7 +2349,11 @@ div.mailchimp-form-container div.mc-field-group label, div.mailchimp-form-contai
   margin-right: auto;
 }
 
-
+body.docs-theme {
+  /*   * {
+      color: inherit;
+  } */
+}
 body.docs-theme .main-wrapper {
   width: 100%;
   padding: 0 16px;
