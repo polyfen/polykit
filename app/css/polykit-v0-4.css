@@ -2502,7 +2502,7 @@ li.wp-block-post::before {
 .polyfen-site .cta-button {
   background-image: var(--accent-color-gradient);
 }
-.polyfen-site .dark-mode hr {
+.polyfen-site hr {
   border-color: var(--accent-color-30pct);
 }
 
