@@ -20,12 +20,19 @@
 
     --light-mode-background: #EDF0F7;
     --dark-mode-background: #07091F;
-}
 
-.cta-button {
-    background-image: var(--accent-color-gradient);
-}
+    .cta-button {
+        background-image: var(--accent-color-gradient);
+    }
+    
+    .dark-mode hr {
+        border-color: var(--accent-color-30pct);
+    }
 
-.dark-mode hr {
-    border-color: var(--accent-color-30pct);
+    @media screen and (min-width: 768px) {
+        body.dark-mode nav.header-nav.position-fixed {
+            border-color: var(--accent-color-30pct);
+        }
+    }
+
 }
