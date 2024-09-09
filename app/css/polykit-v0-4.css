@@ -2519,7 +2519,7 @@ li.wp-block-post::before {
   background-image: var(--accent-color-gradient);
 }
 .polyfen-site hr {
-  border-color: var(--accent-color-30pct);
+  border-color: rgba(0, 0, 0, 0);
 }
 
 @media screen and (min-width: 768px) {
