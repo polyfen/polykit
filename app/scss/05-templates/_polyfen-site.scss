@@ -29,10 +29,10 @@
         border-color: var(--accent-color-30pct);
     }
 
-    @media screen and (min-width: 768px) {
-        body.dark-mode nav.header-nav.position-fixed {
-            border-color: var(--accent-color-30pct);
-        }
-    }
+}
 
+@media screen and (min-width: 768px) {
+    body.polyfen-site nav.header-nav.position-fixed {
+        border-color: var(--accent-color-30pct);
+    }
 }
