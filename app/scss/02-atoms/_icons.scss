@@ -211,8 +211,7 @@ li[data-marker] {
 .icon-container {
     width: 70px;
     height: 70px;
-    background-color: #120E32;
-    border: 1px solid #7437f850;
+    background-image: var(--accent-color-gradient);
     border-radius: 6px;
     margin-bottom: 25px;
     display: flex;
