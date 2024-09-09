@@ -385,6 +385,7 @@ html {
   --off-white: hsl(222, 38%, 95%); /* #EDF0F7 */
   --off-white-70pct: hsl(222, 38%, 95%, 0.7); /* #EDF0F7 */
   --white-90pct: hsla(0, 0%, 100%, 0.9);
+  --white-85pct: hsla(0, 0%, 100%, 0.85);
   --white-80pct: hsla(0, 0%, 100%, 0.8);
   --white-70pct: hsla(0, 0%, 100%, 0.7);
   --white-60pct: hsla(0, 0%, 100%, 0.6);
@@ -591,7 +592,7 @@ html {
   --light-mode-text: var(--black-80pct);
   --dark-mode-background: var(--slate-950);
   --dark-mode-background-70pct: var(--slate-950-70pct);
-  --dark-mode-text: var(--white-80pct);
+  --dark-mode-text: var(--white-85pct);
 }
 
 html :has(body.light-mode), .light-mode {
