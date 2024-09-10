@@ -2198,7 +2198,7 @@ div#cookies-modal button#accept-cookies-button:hover {
 
 button#accept-cookies-button:before {
   content: "";
-  display: inline-block;
+  display: none;
   position: relative;
   width: 20px;
   height: 20px;
@@ -2225,6 +2225,9 @@ div#cookies-title small {
     justify-content: space-between;
     bottom: 20px;
     width: 300px;
+  }
+  button#accept-cookies-button:before {
+    display: inline-block;
   }
 }
 /* END Cookies-modal */

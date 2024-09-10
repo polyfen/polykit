@@ -86,7 +86,7 @@ div#cookies-modal button#accept-cookies-button:hover {
 
 button#accept-cookies-button:before {
     content: "";
-    display: inline-block;
+    display: none;
     position: relative;
     width: 20px;
     height: 20px;
