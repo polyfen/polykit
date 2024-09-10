@@ -743,6 +743,10 @@ html :has(body.dark-mode), .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mo
   transition-timing-function: ease-out;
 }
 
+.margin-bottom-auto {
+  margin-bottom: auto;
+}
+
 /* 02-ATOMS */
 /* --------------------------------------------------------- */
 /* 
