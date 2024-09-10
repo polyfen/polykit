@@ -2060,6 +2060,7 @@ nav a.current-page {
   padding: 8px 15px;
   text-align: center;
   background: var(--accent-color-850);
+  background-image: radial-gradient(at top, var(--accent-color-30pct) 0%, transparent 60%);
   border-bottom: 2px solid var(--accent-color-50pct);
   color: white;
   display: flex;
