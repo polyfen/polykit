@@ -1402,7 +1402,7 @@ main ul {
 }
 
 main ul li::before {
-  content: "•"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  content: "◆"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: var(--accent-color); /* Change the color */
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
