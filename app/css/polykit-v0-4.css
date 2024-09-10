@@ -1166,12 +1166,49 @@ p a:hover, li a:hover, small a:hover, a:hover small, .link:hover {
   font-style: italic;
 }
 
-.font-weight-bold {
-  font-weight: 700;
+.font-weight-100 {
+  font-weight: 100 !important;
+  font-variation-settings: "wght" 100 !important;
 }
 
-.font-weight-regular {
-  font-weight: 400;
+.font-weight-200 {
+  font-weight: 200 !important;
+  font-variation-settings: "wght" 200 !important;
+}
+
+.font-weight-300 {
+  font-weight: 300 !important;
+  font-variation-settings: "wght" 300 !important;
+}
+
+.font-weight-400 {
+  font-weight: 400 !important;
+  font-variation-settings: "wght" 400 !important;
+}
+
+.font-weight-500 {
+  font-weight: 500 !important;
+  font-variation-settings: "wght" 500 !important;
+}
+
+.font-weight-600 {
+  font-weight: 600 !important;
+  font-variation-settings: "wght" 600 !important;
+}
+
+.font-weight-700 {
+  font-weight: 700 !important;
+  font-variation-settings: "wght" 700 !important;
+}
+
+.font-weight-800 {
+  font-weight: 800 !important;
+  font-variation-settings: "wght" 800 !important;
+}
+
+.font-weight-900 {
+  font-weight: 900 !important;
+  font-variation-settings: "wght" 900 !important;
 }
 
 /*///////////// BASE/_TYPOGRAPHY end /////////////*/
