@@ -1891,10 +1891,6 @@ p code {
   display: inline;
 }
 
-.card-header small.caption {
-  opacity: 0.6;
-}
-
 .card-body {
   display: flex;
   flex-direction: column;
