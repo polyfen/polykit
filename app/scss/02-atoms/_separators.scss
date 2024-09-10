@@ -1,13 +1,19 @@
 /* --------------------------------------------------------- */
 
 hr {
-    margin-block: 6rem;
+    margin-block: 3rem;
     border-width: 1px;
     border-style: dashed;
     width: calc(100% - 2rem);
     max-width: 640px;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (min-width: 900px) {
+    hr {
+        margin-block: 6rem;
+    }
 }
 
 .secondary-separator {
