@@ -179,10 +179,12 @@ button.secondary-button:hover, a.button.secondary-button:hover, input.button.sec
 @keyframes moveArrow {
     0% {
         transform: translateX(0);
+        opacity: 0;
     }
 
     70% {
         transform: translateX(10px);
+        opacity: 1;
     }
 
     100% {
