@@ -47,7 +47,7 @@ div#cookies-modal button {
     border: 2px solid #7437f850;
     border-radius: 4px;
     letter-spacing: 0;
-    color: #ffffff59;
+    color: hsla(0, 0%, 100%, 0.85);
     border-width: 2px;
     height: 28px;
     text-transform: uppercase;
@@ -104,8 +104,9 @@ button#accept-cookies-button:hover:before {
 }
 
 div#cookies-title small {
-    color: #ffffff82;
+    color: hsla(0, 0%, 100%, 0.85);
     font-weight: 500;
+    font-variation-settings: "wght" 500;
 }
 
 @media (min-width: 768px) {
@@ -114,6 +115,10 @@ div#cookies-title small {
         justify-content: space-between;
         bottom: 20px;
         width: 300px;
+    }
+
+    button#accept-cookies-button:before {
+        display: inline-block;
     }
 
 }

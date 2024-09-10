@@ -2216,8 +2216,9 @@ button#accept-cookies-button:hover:before {
 }
 
 div#cookies-title small {
-  color: rgba(255, 255, 255, 0.5098039216);
+  color: hsla(0, 0%, 100%, 0.85);
   font-weight: 500;
+  font-variation-settings: "wght" 500;
 }
 
 @media (min-width: 768px) {
