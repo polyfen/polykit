@@ -2008,6 +2008,10 @@ nav a.current-page {
   margin-bottom: 1rem;
 }
 
+.icon-value-prop p {
+  margin-bottom: 0;
+}
+
 .accordions-container {
   padding-top: 2rem;
 }
