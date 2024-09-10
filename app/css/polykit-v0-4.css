@@ -2070,7 +2070,7 @@ nav a.current-page {
   justify-content: center;
   gap: 8px;
   position: relative;
-  z-index: 900;
+  z-index: 100;
 }
 
 .hellobar-container {
@@ -2096,6 +2096,11 @@ nav a.current-page {
 
 */
 /* --------------------------------------------------------- */
+header {
+  position: relative;
+  z-index: 500;
+}
+
 header .logo {
   display: block;
   margin: 20px 0 0 20px;
