@@ -1670,7 +1670,7 @@ button.secondary-button:hover, a.button.secondary-button:hover, input.button.sec
   width: 333px;
   height: 50px;
   margin-inline: auto;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .toggle-container button {
