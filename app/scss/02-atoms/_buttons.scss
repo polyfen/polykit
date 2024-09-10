@@ -229,10 +229,12 @@ button.secondary-button:hover, a.button.secondary-button:hover, input.button.sec
 @keyframes moveArrow-up {
     0% {
         transform: translatey(0px);
+        opacity: 0;
     }
 
     70% {
         transform: translatey(-5px);
+        opacity: 1;
     }
 
     100% {
@@ -243,10 +245,12 @@ button.secondary-button:hover, a.button.secondary-button:hover, input.button.sec
 @keyframes moveArrow-down {
     0% {
         transform: translatey(-5px);
+        opacity: 0;
     }
 
     70% {
         transform: translatey(0px);
+        opacity: 1;
     }
 
     100% {
