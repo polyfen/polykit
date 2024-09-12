@@ -575,14 +575,6 @@ html :has(body.dark-mode), .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mo
   color: var(--dark-mode-text);
 }
 
-.light-mode hr {
-  border-color: var(--black-20pct);
-}
-
-.dark-mode hr {
-  border-color: var(--white-20pct);
-}
-
 .light-mode a:not(.button) {
   color: var(--light-mode-text);
 }
@@ -1245,43 +1237,43 @@ p a:hover, li a:hover, small a:hover, a:hover small, .link:hover {
 /* data icons => data-icon | data-emoji<⚓> | data-marker | data-before<span||a> */
 /* li icons for team-wiki */
 [data-icon=clockify] {
-  list-style-image: url(../imgs/icons/bullets/clockify.svg);
+  list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/clockify.svg);
 }
 
 [data-icon=slack] {
-  list-style-image: url(../imgs/icons/bullets/slack.svg);
+  list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/slack.svg);
 }
 
 [data-icon=drive] {
-  list-style-image: url(../imgs/icons/bullets/drive.svg);
+  list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/drive.svg);
 }
 
 [data-icon=figma] {
-  list-style-image: url(../imgs/icons/bullets/figma.svg);
+  list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/figma.svg);
 }
 
 [data-icon=github] {
-  list-style-image: url(../imgs/icons/bullets/github.svg);
+  list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/github.svg);
 }
 
 [data-icon=namecheap] {
-  list-style-image: url(../imgs/icons/bullets/namecheap.svg);
+  list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/namecheap.svg);
 }
 
 [data-icon=freshbooks] {
-  list-style-image: url(../imgs/icons/bullets/freshbooks.svg);
+  list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/freshbooks.svg);
 }
 
 [data-icon=asana] {
-  list-style-image: url(../imgs/icons/bullets/asana.svg);
+  list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/asana.svg);
 }
 
 [data-icon=wise] {
-  list-style-image: url(../imgs/icons/bullets/wise.svg);
+  list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/wise.svg);
 }
 
 [data-icon="1password"] {
-  list-style-image: url(../imgs/icons/bullets/1password.svg);
+  list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/1password.svg);
 }
 
 /* data-types para poner EMOJIS en elementos (<span> || <a>)::before */
@@ -1350,44 +1342,44 @@ p a:hover, li a:hover, small a:hover, a:hover small, .link:hover {
 }
 
 [data-before=plfn]::before {
-  background-image: url(../imgs/icons/brand-icons/polyfen-icon.svg);
+  background-image: url(https://thepolyfengroup.com/imgs/icons/brand-icons/polyfen-icon.svg);
 }
 
 [data-before=plkt]::before {
-  background-image: url(../imgs/icons/brand-icons/polykit-icon.svg);
+  background-image: url(https://thepolyfengroup.com/imgs/icons/brand-icons/polykit-icon.svg);
 }
 
 [data-before=plqr]::before {
-  background-image: url(../imgs/icons/brand-icons/polyqwerty-icon.svg);
+  background-image: url(https://thepolyfengroup.com/imgs/icons/brand-icons/polyqwerty-icon.svg);
 }
 
 [data-before=plat]::before {
-  background-image: url(../imgs/icons/brand-icons/polyatlas-icon.svg);
+  background-image: url(https://thepolyfengroup.com/imgs/icons/brand-icons/polyatlas-icon.svg);
 }
 
 [data-before=plck]::before {
-  background-image: url(../imgs/icons/brand-icons/polycookies-icon.svg);
+  background-image: url(https://thepolyfengroup.com/imgs/icons/brand-icons/polycookies-icon.svg);
 }
 
 /* others */
 [data-before=github]::before {
-  background-image: url(../imgs/icons/bullets/github.svg);
+  background-image: url(https://thepolyfengroup.com/imgs/icons/bullets/github.svg);
 }
 
 [data-before=slack]::before {
-  background-image: url(../imgs/icons/bullets/slack.svg);
+  background-image: url(https://thepolyfengroup.com/imgs/icons/bullets/slack.svg);
 }
 
 [data-before=wise]::before {
-  background-image: url(../imgs/icons/bullets/wise.svg);
+  background-image: url(https://thepolyfengroup.com/imgs/icons/bullets/wise.svg);
 }
 
 [data-before=drive]::before {
-  background-image: url(../imgs/icons/bullets/drive.svg);
+  background-image: url(https://thepolyfengroup.com/imgs/icons/bullets/drive.svg);
 }
 
 [data-before=bh]::before {
-  background-image: url(../imgs/icons/BH.svg);
+  background-image: url(https://thepolyfengroup.com/imgs/icons/BH.svg);
 }
 
 /* data-types para poner .SVG 'as a ::marker' en los <li> */
@@ -1413,27 +1405,27 @@ li[data-marker] {
 }
 
 [data-marker=plfn]::before {
-  background-image: url(../imgs/icons/brand-icons/polyfen-icon.svg);
+  background-image: url(https://thepolyfengroup.com/imgs/icons/brand-icons/polyfen-icon.svg);
 }
 
 [data-marker=plat]::before {
-  background-image: url(../imgs/icons/brand-icons/polyatlas-icon.svg);
+  background-image: url(https://thepolyfengroup.com/imgs/icons/brand-icons/polyatlas-icon.svg);
 }
 
 [data-marker=plqr]::before {
-  background-image: url(../imgs/icons/brand-icons/polyqwerty-icon.svg);
+  background-image: url(https://thepolyfengroup.com/imgs/icons/brand-icons/polyqwerty-icon.svg);
 }
 
 [data-marker=plck]::before {
-  background-image: url(../imgs/icons/brand-icons/polycookies-icon.svg);
+  background-image: url(https://thepolyfengroup.com/imgs/icons/brand-icons/polycookies-icon.svg);
 }
 
 [data-marker=plkt]::before {
-  background-image: url(../imgs/icons/brand-icons/polykit-icon.svg);
+  background-image: url(https://thepolyfengroup.com/imgs/icons/brand-icons/polykit-icon.svg);
 }
 
 [data-marker=plpr]::before {
-  background-image: url(../imgs/icons/brand-icons/polypress-icon.svg);
+  background-image: url(https://thepolyfengroup.com/imgs/icons/brand-icons/polypress-icon.svg);
 }
 
 .icon-container {
@@ -1818,6 +1810,7 @@ hr {
   max-width: 640px;
   margin-left: auto;
   margin-right: auto;
+  border-color: var(--accent-color-30pct);
 }
 
 @media (min-width: 900px) {
