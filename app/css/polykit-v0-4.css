@@ -1236,6 +1236,10 @@ p a:hover, li a:hover, small a:hover, a:hover small, .link:hover {
 
 /* data icons => data-icon | data-emoji<⚓> | data-marker | data-before<span||a> */
 /* li icons for team-wiki */
+li[data-icon]:before {
+  display: none;
+}
+
 [data-icon=clockify] {
   list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/clockify.svg);
 }
@@ -1298,6 +1302,10 @@ p a:hover, li a:hover, small a:hover, a:hover small, .link:hover {
 /* bullets markers for -"4.2 channels" on /teamwiki */
 /* li{list-style-type:"🌴" == li:market{content:"🌴" */
 /*general*/
+.emoji-marker li::before {
+  display: none;
+}
+
 .wiki-team_messaging-general li:nth-of-type(1)::marker {
   content: "📣";
 }
