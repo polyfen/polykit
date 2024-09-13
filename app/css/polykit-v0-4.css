@@ -1404,7 +1404,6 @@ li[data-marker] {
   content: "";
   position: absolute;
   top: 5px;
-  left: -30px;
   height: 25px;
   width: 27px;
   text-decoration: none;
