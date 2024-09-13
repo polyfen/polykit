@@ -66,6 +66,38 @@ li[data-icon]:before{
     list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/trello.svg);
 }
 
+[data-icon="google"] {
+    list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/google.svg);
+}
+
+[data-icon="admin"] {
+    list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/admin.svg);
+}
+
+[data-icon="gmail"] {
+    list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/gmail.svg);
+}
+
+[data-icon="meet"] {
+    list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/meet.svg);
+}
+
+[data-icon="calendar"] {
+    list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/calendar.svg);
+}
+
+[data-icon="docs"] {
+    list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/docs.svg);
+}
+
+[data-icon="sheets"] {
+    list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/sheets.svg);
+}
+
+[data-icon="slides"] {
+    list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/slides.svg);
+}
+
 /* data-types para poner EMOJIS en elementos (<span> || <a>)::before */
 
 [data-emoji="anchor"]::before {
