@@ -1813,9 +1813,16 @@ hr {
   border-color: var(--accent-color-30pct);
 }
 
+.half-separator {
+  margin-block: 1.5rem;
+}
+
 @media (min-width: 900px) {
   hr {
     margin-block: 6rem;
+  }
+  .half-separator {
+    margin-block: 3rem;
   }
 }
 .secondary-separator {
