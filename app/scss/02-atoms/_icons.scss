@@ -46,20 +46,24 @@ li[data-icon]:before{
     list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/namecheap.svg);
 }
 
-[data-icon="freshbooks"] {
-    list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/freshbooks.svg);
-}
-
-[data-icon="asana"] {
-    list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/asana.svg);
-}
-
-[data-icon="wise"] {
-    list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/wise.svg);
-}
-
 [data-icon="1password"] {
     list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/1password.svg);
+}
+
+[data-icon="atlassian"] {
+    list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/atlassian.svg);
+}
+
+[data-icon="jira"] {
+    list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/jira.svg);
+}
+
+[data-icon="confluence"] {
+    list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/confluence.svg);
+}
+
+[data-icon="trello"] {
+    list-style-image: url(https://thepolyfengroup.com/imgs/icons/bullets/trello.svg);
 }
 
 /* data-types para poner EMOJIS en elementos (<span> || <a>)::before */
