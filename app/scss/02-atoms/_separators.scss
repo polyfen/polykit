@@ -15,12 +15,19 @@ hr {
     margin-block: 1.5rem;
 }
 
+.quarter-separator {
+    margin-block: 1rem;
+}
+
 @media (min-width: 900px) {
     hr {
         margin-block: 6rem;
     }
     .half-separator {
         margin-block: 3rem;
+    }
+    .quarter-separator {
+        margin-block: 1.5rem;
     }
 }
 
