@@ -237,6 +237,10 @@ html {
   padding-bottom: 4rem !important;
 }
 
+.gap-05 {
+  gap: 8px !important;
+}
+
 .gap-1 {
   gap: 16px !important;
 }
