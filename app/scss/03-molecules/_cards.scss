@@ -11,8 +11,15 @@
 }
 
 .card-with-padding {
-    padding-inline: 24px;
-    padding-block: 24px 32px;
+    padding-inline: 16px;
+    padding-block: 16px 24px;
+}
+
+@media (min-width: 1024px) {
+    .card-with-padding {
+        padding-inline: 24px;
+        padding-block: 24px 32px;
+    }
 }
 
 .card-header {
