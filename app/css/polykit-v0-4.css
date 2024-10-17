@@ -1781,13 +1781,16 @@ button.secondary-button:hover, a.button.secondary-button:hover, input.button.sec
   background-size: 105%;
   background-repeat: no-repeat;
   background-position: center center;
-  filter: grayscale(100%);
 }
 
-.photo-icon-button:hover::before {
-  filter: grayscale(0%);
+@media (min-width: 769px) {
+  .photo-icon-button::before {
+    filter: grayscale(100%);
+  }
+  .photo-icon-button:hover::before {
+    filter: grayscale(0%);
+  }
 }
-
 /* TOGGLE BUTTON */
 .toggle-container {
   position: relative;
