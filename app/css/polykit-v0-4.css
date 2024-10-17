@@ -1783,14 +1783,6 @@ button.secondary-button:hover, a.button.secondary-button:hover, input.button.sec
   background-position: center center;
 }
 
-@media (min-width: 769px) {
-  .photo-icon-button::before {
-    filter: grayscale(100%);
-  }
-  .photo-icon-button:hover::before {
-    filter: grayscale(0%);
-  }
-}
 /* TOGGLE BUTTON */
 .toggle-container {
   position: relative;
