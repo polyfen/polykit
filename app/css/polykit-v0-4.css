@@ -2016,7 +2016,7 @@ p code {
   border-radius: 4px;
 }
 
-.card p {
+.card p, .card p a {
   font-family: var(--captions-font-family), var(--sans-fallback-fonts);
 }
 
