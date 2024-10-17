@@ -1954,7 +1954,7 @@ p code {
   border: 1px solid rgba(116, 55, 248, 0.3137254902);
   background: rgba(18, 14, 50, 0.4705882353);
   border-radius: 6px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   flex: 1;
   width: 300px;
   margin-inline: auto;
