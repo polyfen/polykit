@@ -1769,6 +1769,17 @@ button.secondary-button:hover, a.button.secondary-button:hover, input.button.sec
     transform: translatey(0px);
   }
 }
+.photo-icon-button::before {
+  content: "";
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url(../../imgs/icons/camera.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
 /* TOGGLE BUTTON */
 .toggle-container {
   position: relative;
