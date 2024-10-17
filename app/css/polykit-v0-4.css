@@ -1778,9 +1778,14 @@ button.secondary-button:hover, a.button.secondary-button:hover, input.button.sec
   margin-right: 10px;
   border: 1px solid black;
   background-image: url(../../imgs/icons/camera.svg);
+  background-size: 105%;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: contain;
+  filter: grayscale(100%);
+}
+
+.photo-icon-button:hover::before {
+  filter: grayscale(0%);
 }
 
 /* TOGGLE BUTTON */
