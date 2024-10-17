@@ -263,6 +263,8 @@ button.secondary-button:hover, a.button.secondary-button:hover, input.button.sec
     display: inline-block;
     width: 32px;
     height: 32px;
+    border-radius: 32px;
+    margin-right: 10px;
     border: 1px solid black;
     background-image: url(../../imgs/icons/camera.svg);
     background-repeat: no-repeat;
